@@ -32,11 +32,6 @@ sections:
           - projects
     design:
       view: showcase
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
   - block: collection
     content:
       title: Selected Projects
@@ -46,11 +41,6 @@ sections:
           - projects
     design:
       view: card
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
   - block: collection
     content:
       title: Selected Projects
@@ -60,11 +50,6 @@ sections:
           - projects
     design:
       view: masonry
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
   - block: collection
     content:
       title: Selected Projects
@@ -74,9 +59,4 @@ sections:
           - projects
     design:
       view: compact
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
 ---
