@@ -1,5 +1,7 @@
 .section-header-block {
-  @apply flex items-center justify-center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #677E76;
   padding: 0.4rem 0;
 }
