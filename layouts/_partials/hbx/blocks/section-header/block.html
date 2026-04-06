@@ -2,7 +2,7 @@
 {{ $title := $block.content.title | default "" }}
 
 {{ if $title }}
-<div class="section-header-block">
-  <h1 class="section-header-title">{{ $title }}</h1>
+<div style="display: flex; align-items: center; justify-content: center; background-color: #677E76; padding: 0.4rem 0;">
+  <h1 style="font-size: 3.5rem; color: #F2F2F2; margin: 0;">{{ $title }}</h1>
 </div>
 {{ end }}
