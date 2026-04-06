@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Lee-Ann Vidal Covas, PhD"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -41,8 +41,16 @@ hugoblox:
       secondary: ""
       neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
+    colors_light: {
+      primary: "#677E76",
+      secondary: "#97B8AA",
+      neutral: "#657B83" 
+      }
+    colors_dark: {
+      primary: "#97B8AA",
+      secondary: "#C0D8CF",
+      neutral: "#657B83"
+      }
     # Optional: Semantic surface color overrides
     surfaces:
       background: ""
@@ -60,7 +68,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+    pack: "geometric"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
