@@ -4,8 +4,8 @@ date: 2024-09-06
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
-  - me
   - danny-erker
+  - me
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
@@ -69,6 +69,6 @@ featured: true
 draft: false
 ---
 
-## Optional Extended Content
+<!-- ## Optional Extended Content
 
-Add any Markdown below the frontmatter for additional context, figures, or discussion that goes beyond the abstract.
+Add any Markdown below the frontmatter for additional context, figures, or discussion that goes beyond the abstract. -->
