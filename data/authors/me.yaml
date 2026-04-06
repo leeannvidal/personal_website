@@ -6,7 +6,7 @@ name:
   given: Lee-Ann
   family: Vidal Covas
   alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  pronunciation: "[li.'aŋ bi.'ðal 'ko.βas]"  # Example: Wáng Wěi
   pronouns: she/her
 postnominals:
   - PhD
@@ -79,10 +79,10 @@ experience:
     start: 2022
     end: 2023
     summary: |
-      − Produced high-quality annotated speech datasets to support ML model training.
-      − Labeled conversational audio (engagement, energy, pace), boosting model calibration.
-      − Evaluated pre-trained models & provided actionable feedback, boosting accuracy.
-      − Suggested workflow improvements, reducing annotation turnaround time.
+      - Produced high-quality annotated speech datasets to support ML model training.
+      - Labeled conversational audio (engagement, energy, pace), boosting model calibration.
+      - Evaluated pre-trained models & provided actionable feedback, boosting accuracy.
+      - Suggested workflow improvements, reducing annotation turnaround time.
     button:
       text: View portfolio
       url: /
@@ -90,7 +90,7 @@ experience:
   - role: Doctoral Researcher | Project & Lab Manager
     org: Boston University
     start: 2018
-    end: 2015
+    end: 2025
     summary: |
       − Trained 10+ student researchers and developed reusable R & Praat workflows that automated dataset updates, reduced manual processing, and improved data quality & workflow consistency across multiple speech datasets.
       − Led all aspects of a multi-year research project on covariation & salience in linguistic contact; developed annotation guidelines to label the data for 12 properties and built reproducible R pipelines to clean & analyze 20k+ data points with mixed-effects modeling, resulting in 1 monograph, 1 paper, and 8 presentations.
@@ -130,7 +130,7 @@ experience:
       − Copyedited client scripts for clarity & brand consistency before production.
       − Streamlined content delivery, cut turnaround time & boosted client retention.
       − Served as main client contact, building relationships & resolving issues promptly.
-      
+
 skills:
   - name: Technical Skills
     items:
