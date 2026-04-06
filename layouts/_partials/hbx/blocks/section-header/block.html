@@ -1,0 +1,8 @@
+{{ $block := . }}
+{{ $title := $block.content.title | default "" }}
+
+{{ if $title }}
+<div class="section-header-block">
+  <h1 class="section-header-title">{{ $title }}</h1>
+</div>
+{{ end }}
