@@ -2,95 +2,156 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Lee-Ann Vidal Covas, PhD
+  given: Lee-Ann
+  family: Vidal Covas
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: she/her
 postnominals:
   - PhD
-  - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: 
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Linguist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
+  # Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
+  # has been published in top conferences like NeurIPS and ICML, with over
+  # 10,000 citations. Alex is passionate about pushing the boundaries of AI
+  # while ensuring ethical development.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name:
+    url:
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:vidall@bu.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+  # - icon: brands/x
+  #   url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/leeannvidal
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: http://www.linkedin.com/in/leeannvidalcovas
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4xNbYVJQKBV_RDqBnDRr8IvBbRfCKEMuHK1HYfzSPLZuiZCJ0hTOlw7P4h48XZMwghiUOSJXIWnGPD98cTFdcbAWZTQy6wbH5ARtHo&user=-lgXRboAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0007-6360-7220
+  # - icon: cv
+  # icon_pack: ai
+  # link: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
+  - Multilingualism
+  - Language & Dialect Contact
+  - Sociolinguistics
+  - Language Variation & Change
+  # - Large Language Models
+  # - Computer Vision
+  # - Reinforcement Learning
   - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Linguistics
+    institution: Boston University
+    start: 
+    end: 2025
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Dissertation Title: Covariation & Salience in Linguistic Contact: A Sociophonetic Study of Liquid Variation in Spanish in Boston
     button:
       text: Download dissertation
-      url: /resume.pdf
+      url: https://hdl.handle.net/2144/51243
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MA Linguistics
+    institution: Boston University
+    start: 
+    end: 2021
+  - degree: MA in Hispanic Studies & Linguistics
+    institution: Louisiana State University
+    start: 
+    end: 2013
+    summary: |
+      Thesis Title: El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico
+  - degree: BA in Hispanic Studies & Literatures
+    institution: Louisiana State University
+    start: 
+    end: 2011
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Data Annotator | Machine Learning Annotation
+    org: Cogito Corporation
+    start: 2022
+    end: 2023
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      − Produced high-quality annotated speech datasets to support ML model training.
+      − Labeled conversational audio (engagement, energy, pace), boosting model calibration.
+      − Evaluated pre-trained models & provided actionable feedback, boosting accuracy.
+      − Suggested workflow improvements, reducing annotation turnaround time.
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Doctoral Researcher | Project & Lab Manager
+    org: Boston University
+    start: 2018
+    end: 2015
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      − Trained 10+ student researchers and developed reusable R & Praat workflows that automated dataset updates, reduced manual processing, and improved data quality & workflow consistency across multiple speech datasets.
+      − Led all aspects of a multi-year research project on covariation & salience in linguistic contact; developed annotation guidelines to label the data for 12 properties and built reproducible R pipelines to clean & analyze 20k+ data points with mixed-effects modeling, resulting in 1 monograph, 1 paper, and 8 presentations.
+      − Developed and implemented an online experimental study on word order preference in Spanish; recruited participants via Prolific, hosted the study in Qualtrics, wrote design documents & guidelines, and analyzed results using linear & logistic mixed-effects models in R, resulting in 1 paper & 2 presentations.
+      − Co-organized conference (~1,000 participants), successfully transitioning the international event to virtual format during COVID-19. Oversaw talk selection & programming. Supported publication of proceedings.
+  - role: Secondary Spanish & Technology Educator
+    org: Academy of the Sacred Heart
+    start: 2017
+    end: 2018
+    summary: |
+      − Designed & delivered a middle school digital literacy curriculum, training students in productivity tools, safe online practices, & collaborative workflows.
+      # − Developed & implemented a technology curriculum for middle school students, teaching digital literacy, coding basics, and responsible online behavior.
+  - role: Secondary Spanish & Technology Educator
+    org: St. Joseph’s Academy
+    start: 2014
+    end: 2017
+    summary: |
+      − Automated assessments by coding self-grading grammar quizzes, improving feedback speed & freeing class time for project-based learning.
+      − Implemented onboarding workshops for 250+ incoming high school students per year, guiding digital setup & proficiency in Microsoft Office & school platforms.
+      − Leveraged instructional technology to streamline lesson delivery, enhance student engagement, & modernize evaluation processes.
+      − Planned & led multiple international immersion programs for 40+ students, ensuring safety, cultural exchange, & logistical coordination.
+      − Organized statewide Spanish conferences with 200+ participants annually, raising interest in Spanish learning across Louisiana schools.
+      − Moderated extracurricular programs, expanding student engagement opportunities & leading teams to national-level competitions.
+  - role: Graduate Researcher | Project Manager | Spanish Instructor
+    org: Louisiana State University
+    start: 2012
+    end: 2013
+    summary: |
+      − Conducted sociolinguistic fieldwork in Puerto Rico & Louisiana, collecting & analyzing speech data to investigate variable subject pronoun use in Puerto Rican Spanish; resulting in 1 paper \& 8 presentations.
+      − Developed and taught multiple courses in Spanish; designed curricula, lecture notes, assignments, and assessments for >500 enrolled students.
+  - role: Administrative Coordinator | Office & Production Manager
+    org: Communications on Hold
+    start: 2007
+    end: 2017
+    summary: |
+      − Oversaw daily office operations ensuring efficient workflows & project delivery.
+      − Managed billing, AP/AR, & QuickBooks reporting, improving financial accuracy.
+      − Copyedited client scripts for clarity & brand consistency before production.
+      − Streamlined content delivery, cut turnaround time & boosted client retention.
+      − Served as main client contact, building relationships & resolving issues promptly.
+      # − Managed day-to-day operations of a small business, overseeing scheduling, client communication, and project coordination.
+      # − Coordinated production workflows for custom audio content, ensuring timely delivery and high-quality output for clients.
+      # − Implemented organizational systems that improved efficiency and communication across departments.
 
 skills:
   - name: Technical Skills
     items:
+      - label: R
+        level: 5
+      - label: Praat
+        level: 5
+      - label: LaTeX
+        level: 5
       - label: Python
+        level: 2
+      - label: Git/GitHub
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
   - name: Research & Communication
     items:
       - label: Academic Writing
@@ -105,8 +166,15 @@ languages:
     level: 5
     label: Native
   - name: Spanish
-    level: 4
-    label: Fluent
+    level: 5
+    label: Native
+  - name: Brazilian Portuguese
+    level: 2
+    label: Beginner
+  - name: Indonesian, Wichita, West Greenlandic, Yagua, Zulu
+    level: 
+    label: Fieldwork
+
 
 awards:
   - title: Best Paper Award
