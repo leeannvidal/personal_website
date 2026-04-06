@@ -1,0 +1,19 @@
+/* Sticky section header */
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #677E76;
+}
+
+.section-heading h1 {
+  font-size: 3.5rem;
+  color: #F2F2F2;
+  margin: 0;
+}
