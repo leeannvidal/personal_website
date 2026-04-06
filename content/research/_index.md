@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Research'
 date: 
 type: landing
 
@@ -7,5 +7,5 @@ type: landing
 sections:
   - block: section-header
     content:
-      title: Research
+      title: 'Research'
 ---
