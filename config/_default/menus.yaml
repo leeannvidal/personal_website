@@ -25,3 +25,9 @@ main:
   - name: Courses
     url: courses/
     weight: 40
+  - name: Academic CV
+    url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
+    weight: 70
+  - name: Resume
+    url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf
+    weight: 70
