@@ -43,7 +43,7 @@ image:
 #     icon: document
 
 # External link (clicking project card opens this URL)
-external_link: "https://blogs.bu.edu/danerker/research/spanish-in-boston-project/"
+# external_link: "https://blogs.bu.edu/danerker/research/spanish-in-boston-project/"
 
 # # Shorthand link fields
 # url_code: ""

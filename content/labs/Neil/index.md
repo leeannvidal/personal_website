@@ -33,7 +33,7 @@ image:
 #     icon: document
 
 # External link (clicking project card opens this URL)
-external_link: "https://sites.bu.edu/sulalab/research/"
+# external_link: "https://sites.bu.edu/sulalab/research/"
 
 # # Shorthand link fields
 # url_code: ""
