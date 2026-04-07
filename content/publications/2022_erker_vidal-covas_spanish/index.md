@@ -51,7 +51,7 @@ tags:
 #   - name: PDF
 #     url: 
 
-External link (opens this URL instead of the publication page)
+# External link (opens this URL instead of the publication page)
 url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_sp_erker_vidal-covas_21_sept.pdf"
 # url_code: ""
 # url_dataset: ""
