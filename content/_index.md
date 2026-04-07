@@ -16,6 +16,9 @@ sections:
       subtitle: ''
       text: '<div style="display: flex; align-items: center; justify-content: center; padding: 0.4rem 0;"><h1 style="font-size: 2rem; color: #677E76; margin: 0;">¡Bienvenid@!</h1></div>'
     design:
+      background:
+        gradient_mesh:
+          enable: true
       # background:
         # color: '#677E76'
         # text_color_light: true
@@ -25,7 +28,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      text: 'Hola'
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
@@ -39,7 +42,6 @@ sections:
       background:
         gradient_mesh:
           enable: true
-
       # Name heading sizing to accommodate long or short names
       name:
         size: sm # Options: xs, sm, md, lg (default), xl

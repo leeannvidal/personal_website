@@ -1,6 +1,6 @@
 ---
-# title: "¿Va primero el verbo? OR ¿El sujeto va primero?: Subject-verb order in Latin American Spanish"
-title: "<em>¿Va primero el verbo?</em> OR <em>¿El sujeto va primero?</em>: Subject-verb order in Latin American Spanish"
+title: "¿Va primero el verbo? OR ¿El sujeto va primero?: Subject-verb order in Latin American Spanish"
+# title: "<em>¿Va primero el verbo?</em> OR <em>¿El sujeto va primero?</em>: Subject-verb order in Latin American Spanish"
 date: 2023-07-01
 
 # Authors (reference data/authors/*.yaml slugs)
@@ -12,7 +12,7 @@ authors:
 publication_types: ["paper-conference"]
 
 # Publication venue
-publication: "*Proceedings of the Linguistic Society of America,* 8(1). 5542."
+publication: "*Proceedings of the Linguistic Society of America,* 8(1). 5542"
 publication_short: #"PLSA"
 
 # Abstract

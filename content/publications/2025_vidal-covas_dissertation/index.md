@@ -1,6 +1,6 @@
 ---
 title: "Covariation & salience in linguistic contact: a sociophonetic study of liquid variation in Boston Spanish"
-date: 2025
+date: 2025-09-21
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -11,7 +11,7 @@ authors:
 publication_types: ["thesis"]
 
 # Publication venue
-publication: "Doctoral Dissertation, Boston University."
+publication: "Doctoral Dissertation, Boston University"
 publication_short: ""
 
 # Abstract
@@ -31,7 +31,7 @@ summary: >
   A sociolinguistic variationist dissertation examining covariation across five Spanish variables in Boston's Puerto Rican and Dominican community, showing that low-salience features converge with English norms while high-salience features remain sites of social and stylistic agency shaped by a salience continuum.
 
 # DOI
-doi: ""
+doi: "https://hdl.handle.net/2144/51243"
 
 # Tags
 tags:
@@ -48,10 +48,10 @@ tags:
 #   caption: ""
 #   focal_point: Smart
 
-# Links
-links:
-  - name: PDF
-    url: https://hdl.handle.net/2144/51243
+# # Links
+# links:
+#   - name: PDF
+#     url: https://hdl.handle.net/2144/51243
 
 # External link (opens this URL instead of the publication page)
 url_pdf: ""

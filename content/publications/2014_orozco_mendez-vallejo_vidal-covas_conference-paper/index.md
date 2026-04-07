@@ -13,7 +13,7 @@ authors:
 publication_types: ["paper-conference"]
 
 # Publication venue
-publication: "*Actas del XVII Congreso Internacional de la Asociación de Lingüística y Filología de la América Latina,* João Pessoa, Paraíba, Brazil, July 14th-18th."
+publication: "*Actas del XVII Congreso Internacional de la Asociación de Lingüística y Filología de la América Latina,* João Pessoa, Paraíba, Brazil, July 14th-18th"
 publication_short: ""
 
 # Abstract

@@ -15,7 +15,7 @@ editors:
 publication_types: ["report-edited-volume"] 
 
 # Publication venue
-publication: "*Observatorio Studies,* 80, pp. 1- 29. "
+publication: "*Observatorio Studies,* 80, pp. 1- 29"
 publication_short: ""
 
 # Abstract

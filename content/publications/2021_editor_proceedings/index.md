@@ -1,5 +1,5 @@
 ---
-title: "Proceedings of the 45th Annual Boston University Conference on Language Development"
+title: "(Eds.) Proceedings of the 45th Annual Boston University Conference on Language Development"
 date: 2021-05-01
 
 # Editors (this is an edited volume)
@@ -12,7 +12,7 @@ Authors:
 publication_types: ["book"]
 
 # Publication venue
-publication: "Eds. Dionne, D. & Vidal-Covas, L.A. Somerville, MA: Cascadilla Press."
+publication: "Somerville, MA: Cascadilla Press"
 publication_short: ""
 
 # Abstract
