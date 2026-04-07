@@ -163,15 +163,15 @@ languages:
     label: Native
   - name: Brazilian Portuguese
     level: 2
-    label: Beginner
+    label: Basic
   - name: Indonesian, Wichita, West Greenlandic, Yagua, Zulu
     level: 
     label: Fieldwork
 
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy

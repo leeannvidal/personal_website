@@ -17,6 +17,21 @@ sections:
       columns: '1'
       css_style: 'padding-top: 0; padding-bottom: 0;' 
   - block: collection
+    id: projects
+    content:
+      title: Projects
+      text:
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+  - block: collection
     id: papers
     content:
       title: Featured Publications
@@ -38,12 +53,25 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: labs
     content:
-      title: Recent & Upcoming Talks
+      title: "Labs"
+      subtitle: "These are labs I've been a part of or contributed to"
+      text:
       filters:
         folders:
-          - events
+        - research/labs 
+    #   count: 3
     design:
-      view: card
+      view: "card"
+      columns: "2"
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
 ---
