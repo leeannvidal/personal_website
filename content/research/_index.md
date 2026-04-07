@@ -71,8 +71,30 @@ sections:
           - labs
     #   count: 3
     design:
-      view: "card"
-      columns: "2"
+      view: card
+      columns: 2
+  - block: collection
+    content:
+      title: Labs
+      text:
+      filters:
+        folders:
+          - labs
+    #   count: 3
+    design:
+      view: masonry
+      columns: 2
+  - block: collection
+    content:
+      title: Labs
+      text:
+      filters:
+        folders:
+          - labs
+    #   count: 3
+    design:
+      view: article-grid
+      columns: 2
   # - block: collection
   #   id: talks
   #   content:

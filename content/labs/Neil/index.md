@@ -16,7 +16,7 @@ tags:
 
 # Featured image
 image:
-  filename: content/research/labs/Neil/SULa_Lab_Logo.png
+  filename: SULa_Lab_Logo.png
   caption: "SULa Lab Logo"
   focal_point: Smart
 
