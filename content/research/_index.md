@@ -68,7 +68,7 @@ sections:
       text:
       filters:
         folders:
-          - research/labs
+          - labs
     #   count: 3
     design:
       view: "card"
