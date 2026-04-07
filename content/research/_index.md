@@ -16,6 +16,9 @@ sections:
         text_color_light: true
       columns: '1'
       css_style: 'padding-top: 0; padding-bottom: 0;' 
+  ## ──────────────────────────────── ##
+  ###########   PROJECTS   ###########    
+  ## ──────────────────────────────── ##
   - block: collection
     id: projects
     content:
@@ -27,10 +30,13 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 4
       show_date: false
       show_read_time: false
       show_read_more: false
+  ## ──────────────────────────────── ##
+  ###########   PUBLICATIONS   ###########    
+  ## ──────────────────────────────── ##
   - block: collection
     id: papers
     content:
@@ -52,6 +58,9 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  ## ──────────────────────────────── ##
+  ###########   LABS     ###########    
+  ## ──────────────────────────────── ##
   - block: collection
     id: labs
     content:
@@ -60,7 +69,7 @@ sections:
       text:
       filters:
         folders:
-        - research/labs 
+          - research/labs
     #   count: 3
     design:
       view: "card"
