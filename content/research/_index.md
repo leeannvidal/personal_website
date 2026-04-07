@@ -64,8 +64,7 @@ sections:
   - block: collection
     id: labs
     content:
-      title: "Labs"
-      subtitle: "These are labs I've been a part of or contributed to"
+      title: Labs
       text:
       filters:
         folders:
