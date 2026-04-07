@@ -1,8 +1,9 @@
 # Display name
 name:
-  first: Daniel
+  display: Daniel G. Erker
+  given: Daniel
   middle: G.
-  last: Erker
+  family: Erker
   suffix: PhD
   pronouns: he/him
 

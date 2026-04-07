@@ -1,6 +1,6 @@
 ---
 title: "What we say when we say nothing at all: Clues to contact-induced language change in Spanish conversational pause-fillers"
-date: 2022
+date: 2022-09-20
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -12,7 +12,7 @@ editors:
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: ["article-edited_volume"]
+publication_types: ["report-edited-volume"] 
 
 # Publication venue
 publication: "*Observatorio Studies,* 80, pp. 1- 29. "
@@ -44,20 +44,20 @@ tags:
 #   caption: "Architecture diagram"
 #   focal_point: Smart
 
-# Links
-links:
-  - name: PDF
-    url: paper.pdf
+# # Links
+# links:
+#   - name: PDF
+#     url: 
 
 # External link (opens this URL instead of the publication page)
 url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_en_erker_vidal-covas_sept_20.pdf"
-url_code: ""
-url_dataset: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
+# url_code: ""
+# url_dataset: ""
+# url_poster: ""
+# url_project: ""
+# url_slides: ""
+# url_source: ""
+# url_video: ""
 
 # Pin to top of listings
 featured: true

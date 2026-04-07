@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Lee-Ann Vidal Covas, PhD
+  display: Lee-Ann Vidal Covas
   given: Lee-Ann
   family: Vidal Covas
   alternate: ''  # Example: 王伟
@@ -11,7 +11,7 @@ name:
 postnominals:
   - PhD
 status:
-  icon: "☕️"
+  icon: "🦥"
 role: 
 bio: |
   Linguist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.

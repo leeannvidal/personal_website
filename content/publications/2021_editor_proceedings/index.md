@@ -1,9 +1,9 @@
 ---
 title: "Proceedings of the 45th Annual Boston University Conference on Language Development"
-date: 2021
+date: 2021-05-01
 
 # Editors (this is an edited volume)
-editors:
+Authors:
   - danielle-dionne
   - me
 
@@ -12,7 +12,7 @@ editors:
 publication_types: ["book"]
 
 # Publication venue
-publication: "Somerville, MA: Cascadilla Press."
+publication: "Eds. Dionne, D. & Vidal-Covas, L.A. Somerville, MA: Cascadilla Press."
 publication_short: ""
 
 # Abstract
@@ -59,4 +59,5 @@ featured: false
 # Draft
 draft: false
 ---
-
+> [!NOTE] 
+> Danielle Dionne and Lee-Ann Vidal-Covas served as **editors** of this two-volume set.

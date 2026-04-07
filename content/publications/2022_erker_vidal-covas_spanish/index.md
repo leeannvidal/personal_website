@@ -1,6 +1,6 @@
 ---
 title: "Qué decimos cuando no decimos nada: Claves del cambio lingüístico inducido por contacto en las pausas llenas del español conversacional"
-date: 2022
+date: 2022-09-21
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -12,7 +12,7 @@ editors:
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: ["article-edited_volume"]
+publication_types: ["report-edited-volume"]
 
 # Publication venue
 publication: "*Estudios del Observatorio,* 80, pp. 1- 31. "
@@ -37,7 +37,7 @@ tags:
   - pausas llenas
   - español de los EE. UU
   - bilingüismo
-  - cambio y contacto lingüístico
+  - cambio {y} contacto lingüístico
 
 
 # Featured image
@@ -46,20 +46,20 @@ tags:
 #   caption: "Architecture diagram"
 #   focal_point: Smart
 
-# Links
+# # Links
 # links:
 #   - name: PDF
-#     url: paper.pdf
+#     url: 
 
-# External link (opens this URL instead of the publication page)
+External link (opens this URL instead of the publication page)
 url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_sp_erker_vidal-covas_21_sept.pdf"
-url_code: ""
-url_dataset: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
+# url_code: ""
+# url_dataset: ""
+# url_poster: ""
+# url_project: ""
+# url_slides: ""
+# url_source: ""
+# url_video: ""
 
 # Pin to top of listings
 featured: false
@@ -67,3 +67,7 @@ featured: false
 # Draft
 draft: false
 ---
+
+> [!NOTE] 
+> Esta es una traducción, ofrecida por el Observatorio, del original inglés remitido por los autores.
+> This is a translation, provided by the Observatorio, of the English original submitted by the authors.

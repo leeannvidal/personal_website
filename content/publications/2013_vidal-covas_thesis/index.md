@@ -1,6 +1,6 @@
 ---
 title: "El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico"
-date: 2013
+date: 2013-12-20
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -44,21 +44,19 @@ links:
     url: Vidal-Covas_2013_El_uso_variable_de_los_pronombres_sujetos_en_el_castellano_puertorriqueño_hablado_en_Luisiana_y_Puerto_Rico.pdf
 
 # External link (opens this URL instead of the publication page)
-url_pdf: "https://digitalcommons.lsu.edu/cgi/viewcontent.cgi?article=4875&context=gradschool_theses"
-url_code: ""
-url_dataset: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
+# url_pdf: "https://digitalcommons.lsu.edu/cgi/viewcontent.cgi?article=4875&context=gradschool_theses"
+# url_code: ""
+# url_dataset: ""
+# url_poster: ""
+# url_project: ""
+# url_slides: ""
+# url_source: ""
+# url_video: ""
 
 # Pin to top of listings
-featured: true
+featured: false
 
 # Draft
 draft: false
 ---
-
-## Optional Extended Content
 

@@ -1,6 +1,7 @@
 ---
-title: "*¿Va primero el verbo?* OR *¿El sujeto va primero?*: Subject-verb order in Latin American Spanish"
-date: 2023
+# title: "¿Va primero el verbo? OR ¿El sujeto va primero?: Subject-verb order in Latin American Spanish"
+title: "<em>¿Va primero el verbo?</em> OR <em>¿El sujeto va primero?</em>: Subject-verb order in Latin American Spanish"
+date: 2023-07-01
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -45,7 +46,7 @@ tags:
 # Links
 links:
   - name: PDF
-    url: https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/5542
+    url: Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pdf
 
 # External link (opens this URL instead of the publication page)
 url_pdf: ""
