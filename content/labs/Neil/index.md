@@ -18,7 +18,7 @@ tags:
 image:
   filename: SULa_Lab_Logo.png
   caption: "SULa Lab Logo"
-  focal_point: Smart
+  # focal_point: Smart
 
 # # Links displayed as buttons
 # links:
