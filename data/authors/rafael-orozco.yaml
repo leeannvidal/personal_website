@@ -1,0 +1,48 @@
+# Display name
+title: Dr. Rafael Orozco
+
+# Role/position
+role: Professor of Linguistics and Spanish & Chair of the Department of World Languages, Literatures &  Cultures at Louisiana State University
+
+# Short bio (supports Markdown)
+bio: |
+  Rafael Orozco is Professor of Linguistics and Spanish and Chair of the Department of World Languages, Literatures & Cultures at Louisiana State University. His research focuses on sociolinguistics, Colombian and Caribbean Spanish, Spanish in the United States, language contact, forensic linguistics, and multilingualism.
+
+# Organization(s)
+organizations:
+  - name: Louisiana State University, Department of World Languages, Literatures &  Cultures
+    url: https://www.lsu.edu/hss/wllc/
+
+# Social/contact links
+links:
+  - icon: at-symbol
+    link: mailto:rafael.orozco@nyu.edu
+  - icon: globe-americas
+    link: https://faculty.lsu.edu/orozco/index.php
+
+# Education (optional)
+education:
+  - course: PhD in Linguistics
+    institution: New York University
+    year: 2004
+  - course: MPhil in Linguistics
+    institution: New York University
+    year: 2003
+  - course: MA in Linguistics
+    institution: New York University
+    year: 1996
+  - course: MA in Teaching English as a Second Languag
+    institution: West Chester University of Pennsylvania
+    year: 1991
+  - course: B.S.Ed. in English and Spanish
+    institution: Universidad del Atlántico (Barranquilla, Colombia)
+    year: 1988
+
+# Interests (optional)
+interests:
+  - Sociolinguistics
+  - Colombian and Caribbean Spanish
+  - Spanish in the United States
+  - Language Contact
+  - Forensic Linguistics
+  - Multilingualism

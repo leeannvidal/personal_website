@@ -1,0 +1,51 @@
+# Display name
+title: Danielle Dionne, PhD
+
+# Role/position
+role: Senior Learning Scientist
+
+# Short bio (supports Markdown)
+bio: |
+  Senior Learning Scientist at Duolingo, where she also writes for the [Duolingo Blog](https://blog.duolingo.com/author/danielle/). Received her PhD in Linguistics from Boston University, where she specialized in sociolinguistics and language variation. 
+# Her dissertation examined contextual frequency and morphosyntactic variation in Spanish subject pronouns using an exemplar-theoretic variationist framework. Also conducts research in computational linguistics and Bayesian pragmatics.
+
+# Organization(s)
+organizations:
+  - name: Duolingo
+    url: https://blog.duolingo.com/author/danielle/
+
+# Social/contact links
+links:
+  - icon: at-symbol
+    link: mailto:ddionne@bu.edu
+  # - icon: brands/twitter
+  #   link: https://twitter.com/DanielleMDionne
+  - icon: brands/linkedin
+    link: https://linkedin.com/in/dionnedanielle
+  - icon: globe-americas
+    link: https://danielle-dionne.weebly.com
+
+# Education (optional)
+education:
+  - course: PhD in Linguistics
+    institution: Boston University
+    year: 2025
+  - course: MA in Linguistics
+    institution: Boston University
+    year: 2021
+  - course: MA in Linguistics
+    institution: Florida Atlantic University
+    year: 2017
+  - course: BA in English Education (Magna Cum Laude)
+    institution: Florida Atlantic University
+    year: 2015
+  - course: AA (Magna Cum Laude)
+    institution: Palm Beach State College
+    year: 2013
+
+# Interests (optional)
+interests:
+  - Sociolinguistics
+  - Language Variation
+  - Computational Linguistics
+  - Bayesian Pragmatics

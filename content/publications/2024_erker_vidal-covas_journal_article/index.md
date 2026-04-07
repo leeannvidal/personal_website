@@ -12,15 +12,16 @@ authors:
 publication_types: ["article-journal"]
 
 # Publication venue
-publication: "*Studies in Hispanic and Lusophone Linguistics*"
-publication_short: "SHLL"
+publication: "*Studies in Hispanic and Lusophone Linguistics 17(2), 223-249"
+publication_short: ""
 
 # Abstract
 abstract: >
   This paper examines variation in six features of Spanish, testing the hypothesis that outcomes of language and dialect contact are shaped by the di ering social meaning of linguistic variables. Two of the study’s variables are strongly associated with aspects of identity and style. Four others are poorer signals of social meaning, despite constituting sites of crosslinguistic and/or dialectal di erence. In the speech of life-long residents of the contact setting (Boston, MA), the weak features have converged with English grammatical norms. In contrast, the strong features show persistence of dialectal and crosslinguistic di erences, suggesting that socially weaker variables are more susceptible to recon guration by bilingual optimization strategies. The e ect of contact on strong variables, by comparison, is to amplify their already powerful links to ideologies of personal and group style. While strong variables are not immune to contact-induced change, modi cation in their use is primarily social, rather than cognitive, in nature.
 
 # Summary (for listing cards)
-summary: "A novel approach combining Y and Z for state-of-the-art results."
+summary: >
+  A study of six Spanish variables in Boston's bilingual community, finding that socially "weak" features converge toward English norms while socially "strong" features tied to identity and style persist — suggesting social meaning is a key driver of contact-induced change.
 
 # DOI
 doi: "10.1515/shll-2024-2010/html"

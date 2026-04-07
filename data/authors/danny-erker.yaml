@@ -1,5 +1,12 @@
 # Display name
-title: Dr. Daniel G. Erker
+name:
+  first: Daniel
+  middle: G.
+  last: Erker
+  suffix: PhD
+  pronouns: he/him
+
+# title: Dr. Daniel G. Erker
 
 # Role/position
 role: Associate Professor
@@ -14,10 +21,29 @@ organizations:
     url: https://www.bu.edu/linguistics/profile/daniel-erker/
 
 # Social/contact links
-social:
+links:
   - icon: at-symbol
     link: mailto:danerker@bu.edu
   - icon: globe-americas
     link: dannyerker.com
   # - icon: academicons/google-scholar
   #   link: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com/citations%3Fuser%3Dg1hFhYMAAAAJ%26hl%3Den&ved=2ahUKEwjC08Du39mTAxVnU0EAHZoUAxoQFnoECAcQAQ&usg=AOvVaw0FvmXwM77SmwX0Ghv8fDH_
+
+# Education (optional)
+education:
+  - degree: PhD in Linguistics
+    institution: New York University
+    year: 2012
+  - degree: MA in Linguistics
+    institution: The Graduate Center, City University of New York
+    year: 2005
+  - degree: BA in Spanish & English Literatures
+    institution: Marquette University
+    year: 2001
+
+# Interests (optional)
+interests:
+  - Sociolinguistics
+  - Language Variation & Change
+  - Spanish in the United States
+  - Language Contact
