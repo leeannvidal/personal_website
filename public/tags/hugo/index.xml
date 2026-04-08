@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | Lee-Ann Vidal Covas</title><link>http://localhost/tags/hugo/</link><atom:link href="http://localhost/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>http://localhost/media/logo_hu_92efb5ca1b41baf3.png</url><title>Hugo</title><link>http://localhost/tags/hugo/</link></image><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>http://localhost/post/data-visualization/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost/post/data-visualization/</guid><description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | Lee-Ann Vidal Covas</title><link>https://www.leeannvc.com/tags/hugo/</link><atom:link href="https://www.leeannvc.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://www.leeannvc.com/media/logo_hu_92efb5ca1b41baf3.png</url><title>Hugo</title><link>https://www.leeannvc.com/tags/hugo/</link></image><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://www.leeannvc.com/unused_examples_pro/post/data-visualization/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/unused_examples_pro/post/data-visualization/</guid><description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id="charts"&gt;Charts&lt;/h2&gt;
 &lt;p&gt;Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener"&gt;Plotly&lt;/a&gt; format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-248735196" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-438579162" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -20,7 +20,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-248735196', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-438579162', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -146,7 +146,7 @@ Crash --&gt; [*]
 &lt;/tbody&gt;
 &lt;caption class="table-caption"&gt;Table 1: My results&lt;/caption&gt;
 &lt;/table&gt;
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>http://localhost/post/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost/post/teach-courses/</guid><description>&lt;p&gt;&lt;a href="https://hugoblox.com" target="_blank" rel="noopener"&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>https://www.leeannvc.com/unused_examples_pro/post/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/unused_examples_pro/post/teach-courses/</guid><description>&lt;p&gt;&lt;a href="https://hugoblox.com" target="_blank" rel="noopener"&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
 &lt;h2 id="video"&gt;Video&lt;/h2&gt;
@@ -170,7 +170,7 @@ Crash --&gt; [*]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Try it out:&lt;/p&gt;
 &lt;audio controls &gt;
-&lt;source src="http://localhost/post/teach-courses/ambient-piano.mp3" type="audio/mpeg"&gt;
+&lt;source src="https://www.leeannvc.com/unused_examples_pro/post/teach-courses/ambient-piano.mp3" type="audio/mpeg"&gt;
 &lt;/audio&gt;
 &lt;h2 id="test-students"&gt;Test students&lt;/h2&gt;
 &lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;

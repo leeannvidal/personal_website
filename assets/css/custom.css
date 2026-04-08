@@ -1,0 +1,47 @@
+/* ─── Custom fonts ──────────────────────────────────────────────────────────
+   Montserrat (headings), Merriweather (body), Space Mono (code)
+   ─────────────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+code, pre, kbd, samp {
+  font-family: 'Space Mono', ui-monospace, monospace;
+}
+
+/* ─── Surface overrides ─────────────────────────────────────────────────────
+   Light mode: background #F2F2F2, text #5B5B5B, header/footer #C0D8CF
+   Dark mode:  background #5B5B5B, text #F2F2F2, header/footer #677E76
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* Light mode */
+:root,
+.light {
+  --background: #F2F2F2;
+  --foreground: #5B5B5B;
+  --header-bg: #C0D8CF;
+  --header-fg: #5F5F5F;
+  --footer-bg: #C0D8CF;
+  --footer-fg: #677E76;
+}
+
+/* Dark mode */
+.dark {
+  --background: #5B5B5B;
+  --foreground: #F2F2F2;
+  --header-bg: #677E76;
+  --header-fg: #C0D8CF;
+  --footer-bg: #677E76;
+  --footer-fg: #C0D8CF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
