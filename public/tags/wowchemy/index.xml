@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wowchemy | Academic CV Pro Hugo Theme</title><link>https://example.com/tags/wowchemy/</link><atom:link href="https://example.com/tags/wowchemy/index.xml" rel="self" type="application/rss+xml"/><description>Wowchemy</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/logo_hu_92efb5ca1b41baf3.png</url><title>Wowchemy</title><link>https://example.com/tags/wowchemy/</link></image><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://example.com/post/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/post/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wowchemy | Lee-Ann Vidal Covas</title><link>http://localhost/tags/wowchemy/</link><atom:link href="http://localhost/tags/wowchemy/index.xml" rel="self" type="application/rss+xml"/><description>Wowchemy</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>http://localhost/media/logo_hu_92efb5ca1b41baf3.png</url><title>Wowchemy</title><link>http://localhost/tags/wowchemy/</link></image><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>http://localhost/post/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost/post/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -53,13 +53,13 @@
 &lt;p&gt;&lt;a href="https://docs.hugoblox.com/getting-started/customize/" target="_blank" rel="noopener"&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
 &lt;h2 id="license"&gt;License&lt;/h2&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener"&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href="https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md" target="_blank" rel="noopener"&gt;MIT&lt;/a&gt; license.&lt;/p&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://example.com/post/data-visualization/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/post/data-visualization/</guid><description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href="https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md" target="_blank" rel="noopener"&gt;MIT&lt;/a&gt; license.&lt;/p&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>http://localhost/post/data-visualization/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost/post/data-visualization/</guid><description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id="charts"&gt;Charts&lt;/h2&gt;
 &lt;p&gt;Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener"&gt;Plotly&lt;/a&gt; format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-953861247" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-248735196" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -75,7 +75,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-953861247', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-248735196', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -201,7 +201,7 @@ Crash --&gt; [*]
 &lt;/tbody&gt;
 &lt;caption class="table-caption"&gt;Table 1: My results&lt;/caption&gt;
 &lt;/table&gt;
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>✅ Manage your projects</title><link>https://example.com/post/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://example.com/post/project-management/</guid><description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>✅ Manage your projects</title><link>http://localhost/post/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>http://localhost/post/project-management/</guid><description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id="ideation"&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
 &lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
