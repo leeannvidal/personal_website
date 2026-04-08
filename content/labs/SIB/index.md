@@ -20,7 +20,7 @@ tags:
   - Filled Pauses
   - Word Order
   - Liquids
-  - Coda /s/
+  - Coda-s
   - Variationist Sociolinguistics
   - NSF-funded
 
