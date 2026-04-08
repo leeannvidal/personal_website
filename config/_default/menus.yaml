@@ -10,27 +10,33 @@ main:
   - name: Research
     url: /research/
     weight: 15
-  # - name: Papers
-  #   url: /#papers
-  #   weight: 11
-  # - name: Talks
-  #   url: /#talks
-  #   weight: 12
-  # - name: News
-  #   url: /#news
-  #   weight: 13
   - name: Experience
     url: experience/
     weight: 20
-  # - name: Projects
-  #   url: projects/
-  #   weight: 30
-  # - name: Courses
-  #   url: courses/
-  #   weight: 40
   - name: Academic CV
     url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
     weight: 70
   - name: Resume
     url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf
     weight: 70
+
+
+
+  # - name: Bio
+  #   url: /
+  #   weight: 10
+  # - name: Research
+  #   url: /publication
+  #   weight: 11
+  # - name: Talks
+  #   url: /event
+  #   weight: 12
+  # - name: Experience
+  #   url: experience/
+  #   weight: 20
+  # - name: Projects
+  #   url: projects/
+  #   weight: 30
+  # - name: Uses
+  #   url: uses/
+  #   weight: 40

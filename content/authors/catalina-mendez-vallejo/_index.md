@@ -1,0 +1,61 @@
+---
+# Display name
+title: Catalina Méndez Vallejo
+
+# Role/position/tagline
+role: Senior Lecturer and Acting Co-Director of Spanish Language Program
+
+# Organizations/Affiliations to show in About widget
+organizations:
+  - name: Princeton University
+    url: https://spo.princeton.edu/people/catalina-mendez-vallejo
+
+# Short bio (displayed in user profile at end of posts)
+bio: Senior Lecturer in Spanish and Portuguese and Acting Co-Director of the Spanish Language Program at Princeton University. Specializes in syntax, with research on the Focalizing Ser structure, prosody in requests, Spanish word order, sociolinguistic variation in future tenses, and discourse markers. 
+# Received a dual PhD in Linguistics and Hispanic Linguistics from Indiana University (2009). Currently developing *Voces de Princeton*, a corpus of spoken interviews with the Spanish-speaking Princeton community.
+
+# Interests to show in About widget
+interests:
+  - Syntax and Information Structure
+  - Syntax-Prosody Interface
+  - Sociolinguistics
+  - Morpho-syntactic Variation
+  - Hispanic Linguistics
+  - Dialectology
+  - Language Change
+
+# Education to show in About widget
+education:
+  - course: Dual PhD in Linguistics and Hispanic Linguistics
+    institution: Indiana University, Bloomington
+    year: 2009
+  - course: MA in Hispanic Linguistics
+    institution: Indiana University, Bloomington
+    year: 2006
+  - course: MA in Linguistics
+    institution: Indiana University, Bloomington
+    year: 2005
+  - course: MA in Semiological Studies
+    institution: Universidad Industrial de Santander, Colombia
+    year: 2002
+  - course: BA in Language Teaching
+    institution: Universidad Industrial de Santander, Colombia
+    year: 1999
+
+# Social/Academic Networking
+links:
+  - icon: envelope
+    link: mailto:dvallejo@princeton.edu
+  # - icon: globe-americas
+  #   link: https://dvallejo.scholar.princeton.edu/bio
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
+# Author's website URL
+website: "https://dvallejo.scholar.princeton.edu/bio"
+
+# # User groups
+# user_groups:
+#   - Postdoctoral Researchers
+---
