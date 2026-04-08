@@ -27,7 +27,7 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: me
+      username: admin
       text: 'Hola'
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -50,6 +50,11 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: resume-biography-2
+    content:
+      title: ¡Bienvenid@!
+      # Note: `username` refers to the user's folder name in `content/authors/`
+      username: admin
   - block: markdown
     content:
       title: '📚 My Research'
