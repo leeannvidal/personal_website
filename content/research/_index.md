@@ -1,6 +1,6 @@
 ---
 title: 'Research'
-date: 
+date: ''
 type: landing
 
 # Page sections
@@ -37,52 +37,44 @@ sections:
   ## ──────────────────────────────── ##
   ###########   PUBLICATIONS   ###########    
   ## ──────────────────────────────── ##
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: card
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: list
-  ## ──────────────────────────────── ##
-  ###########   LABS     ###########    
-  ## ──────────────────────────────── ##
-  - block: collection
-    id: labs
-    content:
-      title: Labs
-      text:
-      filters:
-        folders:
-          - labs
-    #   count: 3
-    design:
-      view: card
-      columns: 2
-      show_date: false
-      show_read_time: false
-      show_read_more: false
   # - block: collection
-  #   id: talks
+  #   id: papers
   #   content:
-  #     title: Recent & Upcoming Talks
+  #     title: Featured Publications
   #     filters:
   #       folders:
-  #         - events
+  #         - publications
+  #       featured_only: true
   #   design:
   #     view: card
+  #     columns: 2
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - publications
+  #       exclude_featured: false
+  #   design:
+  #     view: list
+  # ## ──────────────────────────────── ##
+  # ###########   LABS     ###########    
+  # ## ──────────────────────────────── ##
+  # - block: collection
+  #   id: labs
+  #   content:
+  #     title: Labs
+  #     text:
+  #     filters:
+  #       folders:
+  #         - labs
+  #   #   count: 3
+  #   design:
+  #     view: card
+  #     columns: 2
+  #     show_date: false
+  #     show_read_time: false
+  #     show_read_more: false
+
 ---
