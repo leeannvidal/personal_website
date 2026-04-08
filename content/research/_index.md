@@ -28,7 +28,7 @@ sections:
         folders:
           - projects
     design:
-      view: card
+      view: article-grid
       fill_image: false
       columns: 4
       show_date: false
@@ -57,7 +57,7 @@ sections:
           - publications
         exclude_featured: false
     design:
-      view: compact
+      view: citation
   ## ──────────────────────────────── ##
   ###########   LABS     ###########    
   ## ──────────────────────────────── ##
@@ -71,7 +71,7 @@ sections:
           - labs
     #   count: 3
     design:
-      view: card
+      view: article-grid
       columns: 2
       show_date: false
       show_read_time: false

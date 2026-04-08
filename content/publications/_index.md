@@ -16,7 +16,7 @@ sections:
       columns: '1'
       css_style: 'padding-top: 0; padding-bottom: 0;'
 # View.
-view: compact
+view: citation
 
 # # Optional header image (relative to `static/media/` folder).
 # banner:
