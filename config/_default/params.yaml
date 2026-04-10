@@ -12,43 +12,6 @@
 #   color: emerald
   # font: serif
 hugoblox:
-#   mode: system
-#   theme:
-#     light:
-#       colors:
-#         primary: '#677E76'
-#         secondary: '#97B8AA'
-#         neutral: '#657B83'
-#       surfaces:
-#         background: '#F2F2F2'
-#         foreground: '#45534E'
-#       header:
-#         background: '#C0D8CF'
-#         foreground: '#54635E'
-#       footer:
-#         background: '#C0D8CF'
-#         foreground: '#54635E'
-#     dark:
-#       colors:
-#         primary: '#97B8AA'
-#         secondary: '#C0D8CF'
-#         neutral: '#657B83'
-#       surfaces:
-#         background: '#54635E'
-#         foreground: '#F2F2F2'
-#       header:
-#         background: '#677E76'
-#         foreground: '#C0D8CF'
-#       footer:
-#         background: '#677E76'
-#         foreground: '#C0D8CF'
-  # typography:
-  #   pack: "modern"
-  #   families:
-  #     heading: "Montserrat"  # Override just heading
-  #     body: "Poppins"                # Keep body from pack
-  #     code: "Space Code"           # Override code font
-
  # ────────────────────────────────────────────────────────────────────────────
   # THEME
   # Color and visual design system
@@ -57,26 +20,26 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    # pack: "default"
-    pack: custom_theme
+    pack: "default"
+    # pack: "custom_theme"
     # Optional: Override theme pack colors
     colors:
-      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
+      primary: "#677E76"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#97B8AA"
       neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
-    # Optional: Semantic surface color overrides
+    # Optional: Semantic surface color overrides    
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#F2F2F2"
+      foreground: "#45534E"
       header:
-        background: ""
-        foreground: ""
+        background: "#C0D8CF"
+        foreground: "#54635E"
       footer:
-        background: ""
-        foreground: ""
+        background: "#C0D8CF"
+        foreground: "#54635E"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
