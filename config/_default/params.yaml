@@ -4,13 +4,42 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-appearance:
-  # mode: system
+# appearance:
+#   # mode: system
+#   theme:
+#     mode: system
+#     pack: custom_theme
+#   # color: emerald
+#   # font: serif
+hugoblox:
   theme:
-    mode: system
-    pack: custom_theme
-  # color: emerald
-  # font: serif
+    custom_theme:
+      light:
+        primary: '#677E76'
+        secondary: '#97B8AA'
+        accent: '#657B83'
+        background: '#F2F2F2'
+        text: '#45534E'
+        header-background: '#C0D8CF'
+        header-text: '#54635E'
+        footer-background: '#C0D8CF'
+        footer-text: '#54635E'
+      dark:
+        primary: '#97B8AA'
+        secondary: '#C0D8CF'
+        accent: '#657B83'
+        background: '#54635E'
+        text: '#F2F2F2'
+        header-background: '#677E76'
+        header-text: '#C0D8CF'
+        footer-background: '#677E76'
+        footer-text: '#C0D8CF'
+  typography:
+    pack: "modern"
+    families:
+      heading: "Montserrat"  # Override just heading
+      body: "Merriweather"                # Keep body from pack
+      code: "Space Code"           # Override code font
 
 # SEO
 marketing:
