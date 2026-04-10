@@ -284,3 +284,8 @@ languages:
 #     summary: |
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
+  I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.
+        
+  If you’re coming from academia, you might want to explore my Research and Teaching/Training pages, where I share my work on language variation and classroom experience.
+        
+  If you’re from industry or tech, take a look at my Portfolio and Coding Corner to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
