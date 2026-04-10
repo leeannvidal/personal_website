@@ -11,7 +11,8 @@
 #     pack: custom_theme
 #   # color: emerald
 #   # font: serif
-hugoblox:
+appearance:
+  mode: system
   theme:
     colors-light:
       primary: '#677E76'
