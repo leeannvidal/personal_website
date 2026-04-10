@@ -34,6 +34,7 @@ header:
     blox: "navbar"  # navbar | navbar-simple | minimal
     show_search: true
     show_theme_chooser: true
+    theme_picker: true
     logo:
       text: "Lee-Ann Vidal Covas, PhD"
 
