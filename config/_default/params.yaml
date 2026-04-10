@@ -46,7 +46,7 @@ appearance:
     pack: "geometric"
     families:
       heading: "Montserrat"  # Override just heading
-      body: "Merriweather"                # Keep body from pack
+      body: "Poppins"                # Keep body from pack
       code: "Space Code"           # Override code font
 
 # SEO
