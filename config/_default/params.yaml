@@ -7,7 +7,7 @@
 appearance:
   mode: system
   color: emerald
-  font: serif
+  # font: serif
 
 # SEO
 marketing:
@@ -68,4 +68,4 @@ hugoblox:
     frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
     permissions_policy: ""
   typography:
-    pack: "modern"
+    pack: "geometric"
