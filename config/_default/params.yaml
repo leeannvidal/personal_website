@@ -3,49 +3,52 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
-appearance:
-  mode: system
-  color: custom_theme
-  font: serif
+# # Appearance
+# appearance:
+#   # mode: system
+#   # color: 
+#   font: serif
 
 # hugoblox:
-#  # ────────────────────────────────────────────────────────────────────────────
-#   # THEME
-#   # Color and visual design system
-#   # ────────────────────────────────────────────────────────────────────────────
-#   theme:
-#     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-#     mode: system
-#     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-#     # pack: "default"
-#     pack: "custom_theme"
-#     # Optional: Override theme pack colors
-#     # colors:
-#     #   primary: "#677E76"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-#     #   secondary: "#97B8AA"
-#     #   neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
-#     # # Optional: Mode-specific color overrides
-#     # colors_light: {}
-#     # colors_dark: {}
-#     # # Optional: Semantic surface color overrides    
-#     # surfaces:
-#     #   background: "#F2F2F2"
-#     #   foreground: "#45534E"
-#     #   header:
-#     #     background: "#C0D8CF"
-#     #     foreground: "#54635E"
-#     #   footer:
-#     #     background: "#C0D8CF"
-#     #     foreground: "#54635E"
+  schema: "2.0"
+ # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # Color and visual design system
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    # Mode: 'light', 'dark', or 'system' (follows OS preference)
+    mode: system
+    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
+    # pack: "default"
+    pack: "default"
+    # Optional: Override theme pack colors
+    colors:
+      primary: "#677E76"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#97B8AA"
+      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+    # Optional: Mode-specific color overrides
+    colors_light: {}
+    colors_dark: {}
+    # Optional: Semantic surface color overrides    
+    surfaces:
+      background: "#F2F2F2"
+      foreground: "#45534E"
+      header:
+        background: "#C0D8CF"
+        foreground: "#54635E"
+      footer:
+        background: "#C0D8CF"
+        foreground: "#54635E"
 
-#   # ────────────────────────────────────────────────────────────────────────────
-#   # TYPOGRAPHY
-#   # Font and text sizing
-#   # ────────────────────────────────────────────────────────────────────────────
-#   typography:
-#     # Theme pack: name from data/fonts/
-#     pack: "geometric"
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # Font and text sizing
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
+    font: "sans"
+    # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
+    size: "md"
 
 # SEO
 marketing:
