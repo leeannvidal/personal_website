@@ -9,7 +9,9 @@ private: "github.com/HugoBlox/all-access/blox-all-access"
 
 imports:
   - path: github.com/HugoBlox/kit/modules/integrations/netlify
+    version: v0.0.0-20260102210655-66cba27dc652
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+    version: v0.3.1
   - path: github.com/HugoBlox/all-access/blox-all-access
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
