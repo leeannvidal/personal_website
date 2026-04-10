@@ -10,7 +10,7 @@ appearance:
 #     mode: system
 #     pack: custom_theme
   color: emerald
-#   # font: serif
+  font: serif
 # hugoblox:
 #   mode: system
 #   theme:
@@ -42,12 +42,12 @@ appearance:
 #       footer:
 #         background: '#677E76'
 #         foreground: '#C0D8CF'
-  typography:
-    pack: "geometric"
-    families:
-      heading: "Montserrat"  # Override just heading
-      body: "Poppins"                # Keep body from pack
-      code: "Space Code"           # Override code font
+  # typography:
+  #   pack: "geometric"
+  #   families:
+  #     heading: "Montserrat"  # Override just heading
+  #     body: "Poppins"                # Keep body from pack
+  #     code: "Space Code"           # Override code font
 
 # SEO
 marketing:
