@@ -6,7 +6,10 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  theme:
+    mode: system
+    pack: "custom_theme"
+  # color: emerald
   # font: serif
 
 # SEO

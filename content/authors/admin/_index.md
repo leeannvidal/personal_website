@@ -178,26 +178,26 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-  - name: Technical Skills
-    items:
-      - label: R
-        level: 5
-      - label: Praat
-        level: 5
-      - label: LaTeX
-        level: 5
-      - label: Python
-        level: 2
-      - label: Git/GitHub
-        level: 5
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+  # - name: Technical Skills
+  #   items:
+  #     - label: R
+  #       level: 5
+  #     - label: Praat
+  #       level: 5
+  #     - label: LaTeX
+  #       level: 5
+  #     - label: Python
+  #       level: 2
+  #     - label: Git/GitHub
+  #       level: 5
+  # - name: Research & Communication
+  #   items:
+  #     - label: Academic Writing
+  #       level: 5
+  #     - label: Conference Presentations
+  #       level: 4
+  #     - label: Grant Proposals
+  #       level: 4
 
     # items:
     #   - name: Python
