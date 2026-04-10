@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: custom
+  color: LA
   font: serif
 
 # SEO
@@ -67,6 +67,3 @@ hugoblox:
       report_only: false
     frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
     permissions_policy: ""
-  theme:
-    mode: system
-    package: custom_theme
