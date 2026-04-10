@@ -43,7 +43,7 @@ appearance:
 #         background: '#677E76'
 #         foreground: '#C0D8CF'
   typography:
-    pack: "modern"
+    pack: "geometric"
     families:
       heading: "Montserrat"  # Override just heading
       body: "Merriweather"                # Keep body from pack
