@@ -8,7 +8,7 @@ appearance:
   # mode: system
   theme:
     mode: system
-    pack: "custom_theme"
+    pack: custom_theme
   # color: emerald
   # font: serif
 
