@@ -4,14 +4,14 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-appearance:
-  mode: system
-  # theme:
-#     mode: system
-#     pack: custom_theme
-  color: emerald
-  font: serif
-# hugoblox:
+# appearance:
+#   mode: system
+#   # theme:
+# #     mode: system
+# #     pack: custom_theme
+#   color: emerald
+  # font: serif
+hugoblox:
 #   mode: system
 #   theme:
 #     light:
@@ -43,11 +43,48 @@ appearance:
 #         background: '#677E76'
 #         foreground: '#C0D8CF'
   # typography:
-  #   pack: "geometric"
+  #   pack: "modern"
   #   families:
   #     heading: "Montserrat"  # Override just heading
   #     body: "Poppins"                # Keep body from pack
   #     code: "Space Code"           # Override code font
+
+ # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # Color and visual design system
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    # Mode: 'light', 'dark', or 'system' (follows OS preference)
+    mode: system
+    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
+    # pack: "default"
+    pack: "custom_theme"
+    # Optional: Override theme pack colors
+    colors:
+      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: ""
+      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+    # Optional: Mode-specific color overrides
+    colors_light: {}
+    colors_dark: {}
+    # Optional: Semantic surface color overrides
+    surfaces:
+      background: ""
+      foreground: ""
+      header:
+        background: ""
+        foreground: ""
+      footer:
+        background: ""
+        foreground: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # Font and text sizing
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    # Theme pack: name from data/fonts/
+    pack: "geometric"
 
 # SEO
 marketing:
