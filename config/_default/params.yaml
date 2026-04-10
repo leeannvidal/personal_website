@@ -11,29 +11,37 @@
 #     pack: custom_theme
 #   # color: emerald
 #   # font: serif
-appearance:
+hugoblox:
   mode: system
   theme:
-    colors-light:
-      primary: '#677E76'
-      secondary: '#97B8AA'
-      accent: '#657B83'
-      background: '#F2F2F2'
-      text: '#45534E'
-      header-background: '#C0D8CF'
-      header-text: '#54635E'
-      footer-background: '#C0D8CF'
-      footer-text: '#54635E'
-    colors-dark:
-      primary: '#97B8AA'
-      secondary: '#C0D8CF'
-      accent: '#657B83'
-      background: '#54635E'
-      text: '#F2F2F2'
-      header-background: '#677E76'
-      header-text: '#C0D8CF'
-      footer-background: '#677E76'
-      footer-text: '#C0D8CF'
+    light:
+      colors:
+        primary: '#677E76'
+        secondary: '#97B8AA'
+        neutral: '#657B83'
+      surfaces:
+        background: '#F2F2F2'
+        foreground: '#45534E'
+      header:
+        background: '#C0D8CF'
+        foreground: '#54635E'
+      footer:
+        background: '#C0D8CF'
+        foreground: '#54635E'
+    dark:
+      colors:
+        primary: '#97B8AA'
+        secondary: '#C0D8CF'
+        neutral: '#657B83'
+      surfaces:
+        background: '#54635E'
+        foreground: '#F2F2F2'
+      header:
+        background: '#677E76'
+        foreground: '#C0D8CF'
+      footer:
+        background: '#677E76'
+        foreground: '#C0D8CF'
   typography:
     pack: "modern"
     families:
