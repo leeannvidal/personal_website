@@ -4,11 +4,17 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # # Appearance
-appearance:
-  mode: system
-  color: emerald
-  font: serif
+# appearance:
+#   mode: system
+#   color: emerald
+#   font: serif
 
+hugoblox:
+  typography:
+    pack: "custom-fonts"  # Name of font pack defined in data/fonts/ (e.g., "custom-fonts")
+  theme:
+    mode: system
+    pack: "custom-theme"       # Name of theme pack defined in data/themes/ (e.g., "default")
 # hugoblox:
 #   schema: "2.0"
 #  # ────────────────────────────────────────────────────────────────────────────
