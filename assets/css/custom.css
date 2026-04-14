@@ -2,12 +2,12 @@
   --color-primary-500: #677E76;
   --color-secondary-500: #97B8AA;
   --color-neutral-500: #657B83;
-  --hb-color-background: #F2F2F2;
-  --hb-color-foreground: #5B5B5B;
-  --hb-color-header-bg: #C0D8CF;
-  --hb-color-header-fg: #5F5F5F;
-  --hb-color-footer-bg: #C0D8CF;
-  --hb-color-footer-fg: #677E76;
+  --color-background: #F2F2F2;
+  --color-foreground: #5B5B5B;
+  --color-header-bg: #C0D8CF;
+  --color-header-fg: #5F5F5F;
+  --color-footer-bg: #C0D8CF;
+  --color-footer-fg: #677E76;
 }
 
 .dark {
