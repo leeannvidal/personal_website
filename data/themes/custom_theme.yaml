@@ -1,11 +1,11 @@
 hugoblox:
   meta:
-    format: hugoblox-theme@1
-    name: Marine
-    vendor: hugoblox
-    version: 1.0.0
+    format: 
+    name: LA
+    vendor: 
+    version: 
     license: MIT
-    description: Deep ocean blues with teal accents
+    description:  Based on LA's Wix Website
   type: dual
   dark:
     colors:
@@ -35,8 +35,6 @@ hugoblox:
       footer:
         background: "#C0D8CF"
         foreground: "#54635E"
-
-
 # hugoblox:
 #   meta:
 #     format: 
