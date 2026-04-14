@@ -90,8 +90,9 @@ hugoblox:
     # Feature toggles
     search: false
     theme_toggle: true
-    theme_picker: false
+    theme_picker: true
     language_switcher: true
+    show_logo: true
     # Call-to-action button
     cta:
       enable: false
