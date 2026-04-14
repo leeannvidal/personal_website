@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: custom-theme
-  theme_night: 
+  theme_day: LA
+  theme_night: LA
   font: rose
   # font: 'custom-fonts-2'
   font_size: L
