@@ -1,100 +1,50 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# # Appearance
-# appearance:
-#   mode: system
-#   color: emerald
-#   font: serif
+# Appearance
 
-hugoblox:
-  typography:
-    pack: "custom-fonts"  # Name of font pack defined in data/fonts/ (e.g., "custom-fonts")
-  theme:
-    mode: system
-    pack: "custom-theme"       # Name of theme pack defined in data/themes/ (e.g., "default")
-  security:
-    csp:
-      policy: ""
-      report_only: false
-    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
-    permissions_policy: ""
-# hugoblox:
-#   schema: "2.0"
-#  # ────────────────────────────────────────────────────────────────────────────
-#   # THEME
-#   # Color and visual design system
-#   # ────────────────────────────────────────────────────────────────────────────
-#   theme:
-#     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-#     mode: system
-#     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-#     # pack: "default"
-#     pack: "default"
-#     # Optional: Override theme pack colors
-#     colors:
-#       primary: "#677E76"                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-#       secondary: "#97B8AA"
-#       neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
-#     # Optional: Mode-specific color overrides
-#     colors_light: {}
-#     colors_dark: {}
-#     # Optional: Semantic surface color overrides    
-#     surfaces:
-#       background: "#F2F2F2"
-#       foreground: "#45534E"
-#       header:
-#         background: "#C0D8CF"
-#         foreground: "#54635E"
-#       footer:
-#         background: "#C0D8CF"
-#         foreground: "#54635E"
-
-#   # ────────────────────────────────────────────────────────────────────────────
-#   # TYPOGRAPHY
-#   # Font and text sizing
-#   # ────────────────────────────────────────────────────────────────────────────
-#   typography:
-#     # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-#     font: "sans"
-#     # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
-#     size: "md"
+appearance:
+  theme_day: custom-theme
+  theme_night: 
+  font: rose
+  # font: 'custom-fonts-2'
+  font_size: L
 
 # SEO
+
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: '' # Site meta description for search engines and social sharing
-    twitter: '' # Twitter/X handle for Twitter Cards (without @)
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
   verification:
     google: ''
     baidu: ''
 
 # Site header
+
 header:
   navbar:
     enable: true
-    blox: "navbar"  # navbar | navbar-simple | minimal
-    show_search: true
-    show_theme_chooser: true
-    theme_picker: true
-    logo:
-      text: "Lee-Ann Vidal Covas, PhD"
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: false
+    highlight_active_link: true
 
 # Site footer
+
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Lee-Ann Vidal Covas. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -102,22 +52,63 @@ footer:
       allow_commercial: false
 
 # Localization
+
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+  address_format: en-us
 
 # Site features
+
 features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
   math:
     enable: false
   privacy_pack:
     enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: square
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: ''
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
 
-# # Security
-# hugoblox:
-#   security:
-#     csp:
-#       policy: ""
-#       report_only: false
-#     frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
-#     permissions_policy: ""
+# Extensions
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Citation style
+
+publications:
+  date_format: January 2006
+  citation_style: apa
