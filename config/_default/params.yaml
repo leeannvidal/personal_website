@@ -15,6 +15,12 @@ hugoblox:
   theme:
     mode: system
     pack: "custom-theme"       # Name of theme pack defined in data/themes/ (e.g., "default")
+  security:
+    csp:
+      policy: ""
+      report_only: false
+    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
+    permissions_policy: ""
 # hugoblox:
 #   schema: "2.0"
 #  # ────────────────────────────────────────────────────────────────────────────
@@ -107,11 +113,11 @@ features:
   privacy_pack:
     enable: false
 
-# Security
-hugoblox:
-  security:
-    csp:
-      policy: ""
-      report_only: false
-    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
-    permissions_policy: ""
+# # Security
+# hugoblox:
+#   security:
+#     csp:
+#       policy: ""
+#       report_only: false
+#     frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
+#     permissions_policy: ""
