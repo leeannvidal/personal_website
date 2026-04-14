@@ -88,11 +88,10 @@ hugoblox:
     # Menu alignment
     align: center                       # left | center | right
     # Feature toggles
-    search: false
+    search: true
     theme_toggle: true
     theme_picker: true
     language_switcher: true
-    show_logo: true
     # Call-to-action button
     cta:
       enable: false
