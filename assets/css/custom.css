@@ -96,29 +96,7 @@ body {
   color: var(--foreground);
 } */
 
-.navbar-brand {
-    color: var(--hb-color-header-fg);
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
-    --tw-font-weight: var(--font-weight-semibold);
-    font-weight:var(--font-weight-semibold)
-}
-
 #site-header.header {
-    background-color: var(--hb-color-header-bg);
-    color: var(--hb-color-header-fg);
-    padding-block: calc(var(--spacing) * 3);
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a), 0 1px 2px -1px var(--tw-shadow-color, #0000001a);
-    box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)
-}
-
-.nav-link {
-    color: var(--hb-color-header-fg);
-    padding: calc(var(--spacing) * 3);
-    --tw-font-weight: var(--font-weight-semibold);
-    font-weight: var(--font-weight-semibold);
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
-    display:block
+    background-color: #C0D8CF;
+    color: #5F5F5F
 }
