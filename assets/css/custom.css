@@ -1,0 +1,41 @@
+:root {
+  --color-primary-500: #677E76;
+  --color-secondary-500: #97B8AA;
+  --color-neutral-500: #657B83;
+}
+
+.dark {
+  --color-primary-500: #97B8AA;
+  --color-secondary-500: #C0D8CF;
+  --color-neutral-500: #657B83;
+}
+
+body {
+  background-color: #F2F2F2;
+  color: #5B5B5B;
+}
+
+.dark body {
+  background-color: #5B5B5B;
+  color: #F2F2F2;
+}
+
+header {
+  background-color: #C0D8CF;
+  color: #5F5F5F;
+}
+
+footer {
+  background-color: #C0D8CF;
+  color: #677E76;
+}
+
+.dark header {
+  background-color: #677E76;
+  color: #C0D8CF;
+}
+
+.dark footer {
+  background-color: #677E76;
+  color: #C0D8CF;
+}
