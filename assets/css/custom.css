@@ -80,7 +80,7 @@ background-color: #C0D8CF;
 color: #5F5F5F;
 }
 
-#site-footer {
+.site-footer {
 background-color: #C0D8CF;
 color: #5F5F5F;
 }
@@ -90,6 +90,6 @@ body {
   color: #5B5B5B;
 }
 
-.powered-by a {
+/* .powered-by a {
   @apply underline text-primary-600 hover:text-primary-800 dark:text-primary-300 dark:hover:text-primary-200;
-}
+} */
