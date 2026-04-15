@@ -1,3 +1,24 @@
+ /* /* ─── Custom fonts ──────────────────────────────────────────────────────────
+   Montserrat (headings), Merriweather (body), Space Mono (code)
+   ─────────────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+code, pre, kbd, samp {
+  font-family: 'Space Mono', ui-monospace, monospace;
+}
+
+ /* /* ─── Custom colors ──────────────────────────────────────────────────────────
+   Check navbar.css to look at things to chage for the navbar
+   ─────────────────────────────────────────────────────────────────────────── */
+
 :root {
   /* PRIMARY: #677E76 */
   --color-primary-50: 243 247 246;
@@ -37,9 +58,29 @@
   --color-neutral-800: 46 59 63;
   --color-neutral-900: 33 42 45;
   --color-neutral-950: 20 25 27;
+
+    /* Make blue behave like the primary  (do the same for slate, zinc, gray later for the text, but use the desired color) */
+  --color-blue-50: var(--color-primary-50);
+  --color-blue-100: var(--color-primary-100);
+  --color-blue-200: var(--color-primary-200);
+  --color-blue-300: var(--color-primary-300);
+  --color-blue-400: var(--color-primary-400);
+  --color-blue-500: var(--color-primary-500);
+  --color-blue-600: var(--color-primary-600);
+  --color-blue-700: var(--color-primary-700);
+  --color-blue-800: var(--color-primary-800);
+  --color-blue-900: var(--color-primary-900);
+  --color-blue-950: var(--color-primary-950);
+
+
 }
 
 #site-header.header {
 background-color: #C0D8CF;
 color: #5F5F5F;
+}
+
+body {
+  background-color: #F2F2F2;
+  color: #5B5B5B;
 }
