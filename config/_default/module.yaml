@@ -7,9 +7,38 @@
 noVendor: "github.com/HugoBlox/hugo-blox-builder/**"
 private: "github.com/HugoBlox/all-access/blox-all-access"
 
+# imports:
+#   - path: github.com/HugoBlox/kit/modules/integrations/netlify
+#     version: v0.0.0-20260102210655-66cba27dc652
+#   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+#     version: v0.3.1
+#   - path: github.com/HugoBlox/all-access/blox-all-access
+
+# # Install any Hugo Blox within the `hugo-blox/blox/` folder
+# mounts:
+#   - source: hugo-blox/blox/community
+#     target: layouts/partials/blox/community/
+#     includeFiles: '**.html'
+#   - source: hugo-blox/blox/all-access
+#     target: layouts/partials/blox/
+#     includeFiles: '**.html'
+#   - source: hugo-blox/blox
+#     target: assets/dist/community/blox/
+#     includeFiles: '**.css'
+#   - source: layouts
+#     target: layouts
+#   - source: assets
+#     target: assets
+############################
+## HUGO MODULES
+## Install or uninstall themes and plugins here.
+## Docs: https://gohugo.io/hugo-modules/
+############################
+
 imports:
   - path: github.com/HugoBlox/kit/modules/integrations/netlify
-    version: v0.0.0-20260102210655-66cba27dc652
+  - path: github.com/HugoBlox/kit/modules/blox
+  - path: github.com/HugoBlox/kit/modules/slides
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
     version: v0.3.1
   - path: github.com/HugoBlox/all-access/blox-all-access
@@ -17,14 +46,17 @@ imports:
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
   - source: hugo-blox/blox/community
-    target: layouts/partials/blox/community/
-    includeFiles: '**.html'
+    target: layouts/_partials/blox/community/
+    files:
+      - '**.html'
   - source: hugo-blox/blox/all-access
-    target: layouts/partials/blox/
-    includeFiles: '**.html'
+    target: layouts/_partials/blox/
+    files:
+      - '**.html'
   - source: hugo-blox/blox
     target: assets/dist/community/blox/
-    includeFiles: '**.css'
+    files:
+      - '**.css'
   - source: layouts
     target: layouts
   - source: assets
