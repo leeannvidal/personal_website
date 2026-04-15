@@ -1,102 +1,40 @@
-/* :root {
-  --color-primary-500: #677E76;
-  --color-secondary-500: #97B8AA;
-  --color-neutral-500: #657B83;
-  --color-background: #F2F2F2;
-  --color-foreground: #5B5B5B;
-  --color-header-bg: #C0D8CF;
-  --color-header-fg: #5F5F5F;
-  --color-footer-bg: #C0D8CF;
-  --color-footer-fg: #677E76;
-}
+:root {
+  /* PRIMARY: #677E76 */
+  --color-primary-50: 243 247 246;
+  --color-primary-100: 228 236 234;
+  --color-primary-200: 203 217 213;
+  --color-primary-300: 170 194 187;
+  --color-primary-400: 133 166 156;
+  --color-primary-500: 103 126 118; /* base */
+  --color-primary-600: 86 105 98;
+  --color-primary-700: 67 82 76;
+  --color-primary-800: 50 62 57;
+  --color-primary-900: 36 45 41;
+  --color-primary-950: 22 27 25;
 
-.dark {
-  --color-primary-500: #97B8AA;
-  --color-secondary-500: #C0D8CF;
-  --color-neutral-500: #657B83;
-}
+  /* SECONDARY: #97B8AA */
+  --color-secondary-50: 245 249 247;
+  --color-secondary-100: 232 241 238;
+  --color-secondary-200: 206 225 218;
+  --color-secondary-300: 173 201 191;
+  --color-secondary-400: 134 174 159;
+  --color-secondary-500: 151 184 170; /* base */
+  --color-secondary-600: 108 139 124;
+  --color-secondary-700: 83 107 96;
+  --color-secondary-800: 61 79 71;
+  --color-secondary-900: 43 57 51;
+  --color-secondary-950: 25 34 30;
 
-body {
-  background-color: #F2F2F2;
-  color: #5B5B5B;
-}
-
-.dark body {
-  background-color: #5B5B5B;
-  color: #F2F2F2;
-}
-
-header {
-  background-color: #C0D8CF;
-  color: #5F5F5F;
-}
-
-footer {
-  background-color: #C0D8CF;
-  color: #677E76;
-}
-
-.dark header {
-  background-color: #677E76;
-  color: #C0D8CF;
-}
-
-.dark footer {
-  background-color: #677E76;
-  color: #C0D8CF;
-} */
- /* /* ─── Custom fonts ──────────────────────────────────────────────────────────
-   Montserrat (headings), Merriweather (body), Space Mono (code)
-   ─────────────────────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-body {
-  font-family: 'Merriweather', Georgia, serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', system-ui, sans-serif;
-}
-
-code, pre, kbd, samp {
-  font-family: 'Space Mono', ui-monospace, monospace;
-}
-
-/* ─── Surface overrides ─────────────────────────────────────────────────────
-   Light mode: background #F2F2F2, text #5B5B5B, header/footer #C0D8CF
-   Dark mode:  background #5B5B5B, text #F2F2F2, header/footer #677E76
-   ─────────────────────────────────────────────────────────────────────────── */
-
-/* Light mode */
-:root,
-.light {
-  --color-primary-500: #677E76;
-  --color-secondary-500: #97B8AA;
-  --color-neutral-500: #657B83;
-  --color-background: #F2F2F2;
-  --color-foreground: #5B5B5B;
-  --color-header-bg: #C0D8CF;
-  --color-header-fg: #5F5F5F;
-  --color-footer-bg: #C0D8CF;
-  --color-footer-fg: #677E76;
-}
-
-/* Dark mode */
-.dark {
-  --background: #5B5B5B;
-  --foreground: #F2F2F2;
-  --header-bg: #677E76;
-  --header-fg: #C0D8CF;
-  --footer-bg: #677E76;
-  --footer-fg: #C0D8CF;
-}
-
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-} */
-
-#site-header.header {
-    background-color: #C0D8CF;
-    color: #5F5F5F;
+  /* NEUTRAL: #657B83 */
+  --color-neutral-50: 245 248 249;
+  --color-neutral-100: 232 237 239;
+  --color-neutral-200: 207 218 221;
+  --color-neutral-300: 174 192 197;
+  --color-neutral-400: 135 160 167;
+  --color-neutral-500: 101 123 131; /* base */
+  --color-neutral-600: 80 100 107;
+  --color-neutral-700: 62 78 83;
+  --color-neutral-800: 46 59 63;
+  --color-neutral-900: 33 42 45;
+  --color-neutral-950: 20 25 27;
 }
