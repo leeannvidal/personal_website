@@ -6,9 +6,9 @@
 # # Appearance
 appearance:
   mode: system
-  # theme_day: custom
+  theme: custom
   # theme_night: custom
-  color: emerald
+  # color: custom
   font: serif
 
 # SEO
