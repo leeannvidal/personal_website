@@ -24,37 +24,42 @@ sections:
   #       # text_color_light: true
   #     columns: '1'
   #     css_style: 'padding-top: 0; padding-bottom: 0;'
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: 'Hola'
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
-      background:
-        gradient_mesh:
-          enable: true
-      # Name heading sizing to accommodate long or short names
-      name:
-        size: sm # Options: xs, sm, md, lg (default), xl
+  # - block: resume-biography-3
+  #   content:
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+  #     text: 'Hola'
+  #     # Show a call-to-action button under your biography? (optional)
+  #     button:
+  #       text: Download CV
+  #       url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
+  #     headings:
+  #       about: ''
+  #       education: ''
+  #       interests: ''
+  #   design:
+  #     # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+  #     background:
+  #       gradient_mesh:
+  #         enable: true
+  #     # Name heading sizing to accommodate long or short names
+  #     name:
+  #       size: sm # Options: xs, sm, md, lg (default), xl
 
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+  #     # Avatar customization
+  #     avatar:
+  #       size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+  #       shape: circle # Options: circle (default), square, rounded
   - block: resume-biography-2
     content:
       title: ¡Bienvenid@!
       # Note: `username` refers to the user's folder name in `content/authors/`
       username: admin
+      design:
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      background:
+        gradient_mesh:
+          enable: true
   # - block: collection
   #   id: news
   #   content:
