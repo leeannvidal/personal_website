@@ -34,30 +34,30 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
-  ## ──────────────────────────────── ##
-  ###########   PUBLICATIONS   ###########    
-  ## ──────────────────────────────── ##
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publications
-  #       featured_only: true
-  #   design:
-  #     view: card
-  #     columns: 2
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ''
-  #     filters:
-  #       folders:
-  #         - publications
-  #       exclude_featured: false
-  #   design:
-  #     view: list
+  # ──────────────────────────────── ##
+  ##########   PUBLICATIONS   ###########    
+  # ──────────────────────────────── ##
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: card
+      columns: 2
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: list
   # ## ──────────────────────────────── ##
   # ###########   LABS     ###########    
   # ## ──────────────────────────────── ##
