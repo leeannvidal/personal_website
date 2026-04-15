@@ -10,56 +10,58 @@ type: landing
 #   spacing: '6rem'
 
 sections:
-  # - block: markdown
-  #   content:
-  #     title: ''
-  #     subtitle: ''
-  #     text: '<div style="display: flex; align-items: center; justify-content: center; padding: 0.4rem 0;"><h1 style="font-size: 2rem; color: #677E76; margin: 0;">¡Bienvenid@!</h1></div>'
-  #   design:
-  #     background:
-  #       gradient_mesh:
-  #         enable: true
-  #     # background:
-  #       # color: '#677E76'
-  #       # text_color_light: true
-  #     columns: '1'
-  #     css_style: 'padding-top: 0; padding-bottom: 0;'
-  # - block: resume-biography-3
-  #   content:
-  #     # Choose a user profile to display (a folder name within `content/authors/`)
-  #     username: admin
-  #     text: 'Hola'
-  #     # Show a call-to-action button under your biography? (optional)
-  #     button:
-  #       text: Download CV
-  #       url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
-  #     headings:
-  #       about: ''
-  #       education: ''
-  #       interests: ''
-  #   design:
-  #     # Use the new Gradient Mesh which automatically adapts to the selected theme colors
-  #     background:
-  #       gradient_mesh:
-  #         enable: true
-  #     # Name heading sizing to accommodate long or short names
-  #     name:
-  #       size: sm # Options: xs, sm, md, lg (default), xl
-
-  #     # Avatar customization
-  #     avatar:
-  #       size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-  #       shape: circle # Options: circle (default), square, rounded
-  - block: resume-biography-2
+  - block: markdown
     content:
-      title: ¡Bienvenid@!
-      # Note: `username` refers to the user's folder name in `content/authors/`
-      username: admin
-      design:
+      title: ''
+      subtitle: ''
+      text: '<div style="display: flex; align-items: center; justify-content: center; padding: 0.4rem 0;"><h1 style="font-size: 2rem; color: #677E76; margin: 0;">¡Bienvenid@!</h1></div>'
+    design:
+      background:
+        gradient_mesh:
+          enable: true
+      # background:
+        # color: '#677E76'
+        # text_color_light: true
+      columns: '1'
+      css_style: 'padding-top: 0; padding-bottom: 0;'
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: me
+      text: 'Hola'
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
+    design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
           enable: true
+      # Name heading sizing to accommodate long or short names
+      name:
+        size: sm # Options: xs, sm, md, lg (default), xl
+
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
+  - block: markdown
+    content:
+      title: '📚 My Research'
+      subtitle: ''
+      text: |-
+        I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.
+        
+        If you’re coming from academia, you might want to explore my Research and Teaching/Training pages, where I share my work on language variation and classroom experience.
+        
+        If you’re from industry or tech, take a look at my Portfolio and Coding Corner to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
+    design:
+      columns: '1'
   # - block: collection
   #   id: news
   #   content:

@@ -1,26 +1,12 @@
 hugoblox:
   meta:
-    format: hugoblox-theme@1
-    name:  custom-theme
+    format: 
+    name: LA
     vendor: 
     version: 
     license: MIT
-    description:  Based on LA's Wix Website
+    description: Based on LA's Wix Website
   type: dual
-  dark:
-    colors:
-      primary: "#97B8AA"
-      secondary: "#C0D8CF"
-      neutral: "#657B83"
-    surfaces:
-      background: "#54635e"
-      foreground: "#F2F2F2"
-      header:
-        background: "#677E76"
-        foreground: "#C0D8CF"
-      footer:
-        background: "#677E76"
-        foreground: "#C0D8CF"
   light:
     colors:
       primary: "#677E76"
@@ -28,47 +14,24 @@ hugoblox:
       neutral: "#657B83"
     surfaces:
       background: "#F2F2F2"
-      foreground: "#45534e"
+      foreground: "#5B5B5B"
       header:
         background: "#C0D8CF"
-        foreground: "#54635e"
+        foreground: "#5F5F5F"
       footer:
         background: "#C0D8CF"
-        foreground: "#54635E"
-# hugoblox:
-#   meta:
-#     format: 
-#     name: LA
-#     vendor: 
-#     version: 
-#     license: MIT
-#     description: Based on LA's Wix Website
-#   type: dual
-#   light:
-#     colors:
-#       primary: "#677E76"
-#       secondary: "#97B8AA"
-#       neutral: "#657B83"
-#     surfaces:
-#       background: "#F2F2F2"
-#       foreground: "#5B5B5B"
-#       header:
-#         background: "#C0D8CF"
-#         foreground: "#5F5F5F"
-#       footer:
-#         background: "#C0D8CF"
-#         foreground: "#677E76"
-#   dark:
-#     colors:
-#       primary: "#97B8AA"
-#       secondary: "#C0D8CF"
-#       neutral: "#657B83"
-#     surfaces:
-#       background: "#5B5B5B"
-#       foreground: "#F2F2F2"
-#       header:
-#         background: "#677E76"
-#         foreground: "#C0D8CF"
-#       footer:
-#         background: "#677E76"
-#         foreground: "#C0D8CF"
+        foreground: "#677E76"
+  dark:
+    colors:
+      primary: "#97B8AA"
+      secondary: "#C0D8CF"
+      neutral: "#657B83"
+    surfaces:
+      background: "#5B5B5B"
+      foreground: "#F2F2F2"
+      header:
+        background: "#677E76"
+        foreground: "#C0D8CF"
+      footer:
+        background: "#677E76"
+        foreground: "#C0D8CF"

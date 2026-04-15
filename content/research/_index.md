@@ -1,6 +1,6 @@
 ---
 title: 'Research'
-date: ''
+date: 
 type: landing
 
 # Page sections
@@ -28,15 +28,15 @@ sections:
         folders:
           - projects
     design:
-      view: card
+      view: article-grid
       fill_image: false
       columns: 4
       show_date: false
       show_read_time: false
       show_read_more: false
-  # ──────────────────────────────── ##
-  ##########   PUBLICATIONS   ###########    
-  # ──────────────────────────────── ##
+  ## ──────────────────────────────── ##
+  ###########   PUBLICATIONS   ###########    
+  ## ──────────────────────────────── ##
   - block: collection
     id: papers
     content:
@@ -46,7 +46,7 @@ sections:
           - publications
         featured_only: true
     design:
-      view: card
+      view: article-grid
       columns: 2
   - block: collection
     content:
@@ -57,7 +57,7 @@ sections:
           - publications
         exclude_featured: false
     design:
-      view: list
+      view: citation
   ## ──────────────────────────────── ##
   ###########   LABS     ###########    
   ## ──────────────────────────────── ##
@@ -71,10 +71,18 @@ sections:
           - labs
     #   count: 3
     design:
-      view: card
+      view: article-grid
       columns: 2
       show_date: false
       show_read_time: false
       show_read_more: false
-
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
 ---
