@@ -85,7 +85,11 @@ body {
   color: #5B5B5B;
 }
 
-.text-blue-50 { color: rgb(var(--color-primary-50)) !important; }
+.powered-by a {
+  @apply underline text-primary-600 hover:text-primary-800 dark:text-primary-300 dark:hover:text-primary-200;
+}
+
+/* .text-blue-50 { color: rgb(var(--color-primary-50)) !important; }
 .text-blue-100 { color: rgb(var(--color-primary-100)) !important; }
 .text-blue-200 { color: rgb(var(--color-primary-200)) !important; }
 .text-blue-300 { color: rgb(var(--color-primary-300)) !important; }
@@ -101,4 +105,4 @@ body {
 .hover\:text-blue-800:hover { color: rgb(var(--color-primary-800)) !important; }
 
 .dark .dark\:text-blue-300 { color: rgb(var(--color-primary-300)) !important; }
-.dark .dark\:hover\:text-blue-200:hover { color: rgb(var(--color-primary-200)) !important; }
+.dark .dark\:hover\:text-blue-200:hover { color: rgb(var(--color-primary-200)) !important; } */
