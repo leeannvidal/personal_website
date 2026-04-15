@@ -58,23 +58,23 @@ sections:
         exclude_featured: false
     design:
       view: list
-  # ## ──────────────────────────────── ##
-  # ###########   LABS     ###########    
-  # ## ──────────────────────────────── ##
-  # - block: collection
-  #   id: labs
-  #   content:
-  #     title: Labs
-  #     text:
-  #     filters:
-  #       folders:
-  #         - labs
-  #   #   count: 3
-  #   design:
-  #     view: card
-  #     columns: 2
-  #     show_date: false
-  #     show_read_time: false
-  #     show_read_more: false
+  ## ──────────────────────────────── ##
+  ###########   LABS     ###########    
+  ## ──────────────────────────────── ##
+  - block: collection
+    id: labs
+    content:
+      title: Labs
+      text:
+      filters:
+        folders:
+          - labs
+    #   count: 3
+    design:
+      view: card
+      columns: 2
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 
 ---
