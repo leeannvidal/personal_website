@@ -51,7 +51,8 @@ interests:
 education:
   - degree: PhD Linguistics
     institution: Boston University
-    institution_logo: brands/BU_seal
+    # institution_logo: brands/BU_seal
+    icon: brands/BU
     start: 
     end: 2025
     summary: |
