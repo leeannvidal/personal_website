@@ -1,6 +1,7 @@
 ---
 title: Labs
 type: landing
+show_date: false
 
 sections:
   - block: collection

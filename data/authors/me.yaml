@@ -63,7 +63,7 @@ education:
       icon: hero/arrow-down-tray
   - degree: MA Linguistics
     institution: Boston University
-    icon: brands/BU_seal
+    icon: brands/BU
     start: 
     end: 2021
   - degree: MA in Hispanic Studies & Linguistics
@@ -175,9 +175,9 @@ languages:
   - name: Brazilian Portuguese
     level: 2
     label: Basic
-  - name: Indonesian, Wichita, West Greenlandic, Yagua, Zulu
-    level: 
-    label: Fieldwork
+  # - name: Indonesian, Wichita, West Greenlandic, Yagua, Zulu
+  #   level: 
+  #   label: Fieldwork
 
 
 # awards:
