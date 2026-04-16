@@ -28,6 +28,9 @@ links:
 # Pin to top of listings
 featured: true
 
+# Add status of project to top right of porfolio card
+status: "Active"
+
 # Draft
 draft: false
 ---

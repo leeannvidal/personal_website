@@ -21,12 +21,16 @@ tags:
 # Links displayed as buttons
 links:
   - name: "📄 Paper — PLSA (2023)"
+    icon: 📄
     url: /publications/2023_vidal-covas_conference-paper/
   - name: "📂 Replication Packet"
     url: "https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf"
 
 # Pin to top of listings
 featured: true
+
+# Add status of project to top right of porfolio card
+status: "Published"
 
 # Draft
 draft: false

@@ -19,26 +19,25 @@ sections:
   ## ──────────────────────────────── ##
   ###########   PROJECTS   ###########    
   ## ──────────────────────────────── ##
-  - block: collection
-    id: projects
-    content:
-      title: Projects
-      text:
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 4
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+  # - block: collection
+  #   id: projects
+  #   content:
+  #     title: Projects
+  #     text:
+  #     filters:
+  #       folders:
+  #         - projects
+  #   design:
+  #     view: article-grid
+  #     fill_image: false
+  #     columns: 4
+  #     show_date: false
+  #     show_read_time: false
+  #     show_read_more: false
   - block: portfolio
     id: portfolio
     content:
       title: "Projects"
-      subtitle: "A selection of recent projects"
       count: 4
       filters:
         folders:
