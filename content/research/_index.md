@@ -131,6 +131,20 @@ sections:
     design:
       columns: 2
       fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
+  - block: collection
+    content:
+      title: Talks
+      text:
+      filters:
+        folders:
+          - presentations
+    #   count: 3
+    design:
+      view: article-grid
+      columns: 2
+      # show_date: false
+      show_read_time: false
+      show_read_more: false
   ## ──────────────────────────────── ##
   ###########   LABS     ###########    
   ## ──────────────────────────────── ##
