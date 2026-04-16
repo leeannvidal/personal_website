@@ -90,6 +90,8 @@ experience:
       icon: hero/arrow-down-tray
   - role: Doctoral Researcher | Project & Lab Manager
     org: Boston University
+    company_url: ''
+    company_logo: BU_Logo.png
     start: 2018
     end: 2025
     summary: |
