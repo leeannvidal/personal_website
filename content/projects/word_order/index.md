@@ -11,6 +11,7 @@ tags:
   - Information Structure
   - Latin American Spanish
   - Spanish
+  - Covariation
 
 # Featured image
 # image:
@@ -20,10 +21,11 @@ tags:
 
 # Links displayed as buttons
 links:
-  - name: "📄 Paper — PLSA (2023)"
+  - name: "Paper — PLSA (2023)"
     icon: 📄
     url: /publications/2023_vidal-covas_conference-paper/
-  - name: "📂 Replication Packet"
+  - name: "Replication Packet"
+    icon: 📂
     url: "https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf"
 
 # Pin to top of listings

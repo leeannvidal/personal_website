@@ -12,6 +12,8 @@ tags:
   - Covariation
   - Salience
   - Spanish
+  - Morphosyntax
+  - Phonetics
 
 # Featured image
 # image:
@@ -21,13 +23,17 @@ tags:
 
 # Links displayed as buttons
 links:
-  - name: "📘 Dissertation (2025)"
+  - name: "Dissertation (2025)"
+    icon: 📘
     url: /publications/2025_vidal-covas_dissertation/
-  - name: "📄 Paper — SHLL (2024)"
+  - name: "Paper — SHLL (2024)"
+    icon: 📄
     url: /publications/2024_erker_vidal-covas_journal_article/
-  - name: "🧾 Coding Manual (Liquids)"
+  - name: "Coding Manual (Liquids)"
+    icon: 🧾
     url: "https://leeannvidal.github.io/documents/Portfolio/Vidal_Covas_Liquids_Coding_Manual.pdf"
-  - name: "💾 Analysis Repo (GitHub)"
+  - name: "Analysis Repo (GitHub)"
+    icon: 💾
     url: https://github.com/leeannvidal/dissertation_data_analysis
 
 # Pin to top of listings

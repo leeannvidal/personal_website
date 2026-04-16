@@ -11,6 +11,7 @@ tags:
   - Language Contact
   - Spanish
   - Bilingualism
+  - Covariation
 
 # Featured image
 # image:
@@ -20,9 +21,11 @@ tags:
 
 # Links displayed as buttons
 links:
-  - name: "📄 Paper — English (2022)"
+  - name: "Paper — English (2022)"
+    icon: 📄
     url: /publications/2022_erker_vidal-covas_english/
-  - name: "📄 Artículo — Español (2022)"
+  - name: "Artículo — Español (2022)"
+    icon: 📄
     url: /publications/2022_erker_vidal-covas_spanish/
 
 # Pin to top of listings

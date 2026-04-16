@@ -11,6 +11,7 @@ tags:
   - Subject Pronouns
   - Puerto Rican Spanish
   - Spanish
+  - Covariation
 
 # Featured image
 # image:
@@ -20,9 +21,11 @@ tags:
 
 # Links displayed as buttons
 links:
-  - name: "📘 Master's Thesis (2013)"
+  - name: "Master's Thesis (2013)"
+    icon: 📘
     url: /publications/2013_vidal-covas_thesis/
-  - name: "📄 Paper — ALFAL (2014)"
+  - name: "Paper — ALFAL (2014)"
+    icon: 📄
     url: /publications/2014_orozco_mendez-vallejo_vidal-covas_conference-paper/
 
 # Pin to top of listings
