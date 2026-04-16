@@ -95,7 +95,7 @@ work:
     date_start: 2018
     date_end: 2025
     summary: |2-
-      - Trained 10+ student researchers and developed reusable R & Praat workflows that automated dataset updates, reduced manual processing, and improved data quality & workflow consistency across multiple speech datasets.
+      - YES Trained 10+ student researchers and developed reusable R & Praat workflows that automated dataset updates, reduced manual processing, and improved data quality & workflow consistency across multiple speech datasets.
       - Led all aspects of a multi-year research project on covariation & salience in linguistic contact; developed annotation guidelines to label the data for 12 properties and built reproducible R pipelines to clean & analyze 20k+ data points with mixed-effects modeling, resulting in 1 monograph, 1 paper, and 8 presentations.
       - Developed and implemented an online experimental study on word order preference in Spanish; recruited participants via Prolific, hosted the study in Qualtrics, wrote design documents & guidelines, and analyzed results using linear & logistic mixed-effects models in R, resulting in 1 paper & 2 presentations.
       - Co-organized conference (~1,000 participants), successfully transitioning the international event to virtual format during COVID-19. Oversaw talk selection & programming. Supported publication of proceedings.
