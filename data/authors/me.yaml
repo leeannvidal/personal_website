@@ -51,6 +51,7 @@ interests:
 education:
   - degree: PhD Linguistics
     institution: Boston University
+    institution_logo: BU
     start: 
     end: 2025
     summary: |
@@ -88,7 +89,7 @@ experience:
       - Co-organized conference (~1,000 participants), successfully transitioning the international event to virtual format during COVID-19. Oversaw talk selection & programming. Supported publication of proceedings.
   - role: Data Annotator | Machine Learning Annotation
     org: Cogito Corporation
-    icon: cogito_logo
+    icon: "cogito_logo"
     start: 2022
     end: 2023
     summary: |
