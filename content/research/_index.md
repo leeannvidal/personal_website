@@ -131,9 +131,10 @@ sections:
     design:
       columns: 2
       fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
+      show_date: true
   - block: collection
     content:
-      title: Talks
+      title: "Talks"
       text:
       filters:
         folders:
