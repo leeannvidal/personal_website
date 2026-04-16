@@ -18,14 +18,14 @@ organizations:
 links:
   - icon: envelope
     link: mailto:dvallejo@princeton.edu
-  # - icon: globe-americas
-  #   link: https://dvallejo.scholar.princeton.edu/bio
+  - icon: globe-americas
+    link: https://dvallejo.scholar.princeton.edu/bio
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Author's website URL
-website: "https://dvallejo.scholar.princeton.edu/bio"
+# # Author's website URL
+# website: "https://dvallejo.scholar.princeton.edu/bio"
 
 # Education (optional)
 education:
