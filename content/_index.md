@@ -26,6 +26,7 @@ sections:
       css_style: 'padding-top: 0; padding-bottom: 0;'
   - block: resume-biography-3
     content:
+      title: 'Title'
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: 'Hola'
@@ -34,7 +35,7 @@ sections:
         text: Download CV
         url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
       headings:
-        about: ''
+        about: 'About Me'
         education: ''
         interests: ''
     design:
