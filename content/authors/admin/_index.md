@@ -91,7 +91,7 @@ work:
   - position: Doctoral Researcher | Project & Lab Manager
     company_name: Boston University
     company_url: ''
-    company_logo: ''
+    company_logo: BU_Logo
     date_start: 2018
     date_end: 2025
     summary: |2-
@@ -102,7 +102,7 @@ work:
   - position: Data Annotator | Machine Learning Annotation
     company_name: Cogito Corporation
     company_url: ''
-    company_logo: ''
+    company_logo: cogito_logo
     date_start: 2022
     date_end: 2023
     summary: |
@@ -113,7 +113,7 @@ work:
   - position: Secondary Spanish & Technology Educator
     company_name: Academy of the Sacred Heart
     company_url: ''
-    company_logo: ''
+    company_logo: ASH_Logo
     date_start: 2017
     date_end: 2018
     summary: |
@@ -121,7 +121,7 @@ work:
   - position: Secondary Spanish & Technology Educator
     company_name: St. Joseph’s Academy
     company_url: ''
-    company_logo: ''
+    company_logo: SJA_Logo
     date_start: 2014
     date_end: 2017
     summary: |
@@ -135,7 +135,7 @@ work:
   - position: Graduate Researcher | Project Manager | Spanish Instructor
     company_name: Louisiana State University
     company_url: ''
-    company_logo: ''
+    company_logo: LSU
     date_start: 2013
     date_end: 2014
     summary: |
