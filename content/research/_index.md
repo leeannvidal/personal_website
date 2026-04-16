@@ -86,6 +86,55 @@ sections:
     design:
       view: citation
   ## ──────────────────────────────── ##
+  ###########   PRESENTATIONS     ###########    
+  ## ──────────────────────────────── ##
+  - block: collection
+    # id: talks
+    content:
+        title: Previous & Recent Talks
+        filters:
+        folders:
+          - presentations
+    design:
+        columns: '2'
+        view: compact
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - events
+    design:
+      view: card
+  - block: portfolio
+    # id: portfolio
+    content:
+      title: "Talks"
+      count: 4
+      filters:
+        folders:
+          - presentations  # Or: research, portfolio, work, teaching, etc.
+      buttons:
+        - name: All
+          tag: '*'
+        # - name: Covariation
+        #   tag: Covariation
+        # - name: Morphosyntax
+        #   tag: Morphosyntax
+        # - name: Phonetics
+        #   tag: Phonetics
+      default_button_index: 0
+      archive:
+        # Auto-shown if more items exist than displayed
+        # Optionally customize:
+        # enable: false  # Explicitly hide
+        # link: "/work/"  # Custom URL
+        # text: "Browse All"  # Custom text
+    design:
+      columns: 2
+      fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
+  ## ──────────────────────────────── ##
   ###########   LABS     ###########    
   ## ──────────────────────────────── ##
   - block: collection
