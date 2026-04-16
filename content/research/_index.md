@@ -89,7 +89,6 @@ sections:
   ###########   PRESENTATIONS     ###########    
   ## ──────────────────────────────── ##
   - block: portfolio
-    # id: portfolio
     content:
       title: "Talks"
       show_date: true
@@ -119,12 +118,12 @@ sections:
       show_date: true
   - block: collection
     content:
-      title: "Talks"
+      title: Presentations
       text:
       filters:
         folders:
           - presentations
-    #   count: 3
+      count: 4
     design:
       view: article-grid
       columns: 2

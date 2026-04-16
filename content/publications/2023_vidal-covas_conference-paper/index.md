@@ -36,6 +36,7 @@ tags:
   - regional dialects
   - sociosyntax
   - Spanish language
+  - morphosyntax
 
 # Featured image
 # image:

@@ -8,7 +8,7 @@ location: "Online"
 
 # Talk start and end times (ISO 8601)
 date: "2021-01-06"
-# date_end: "2021-01-09T00:00:00Z"
+date_end: "2021-01-09"
 all_day: true
 
 # Abstract
@@ -40,7 +40,7 @@ image:
 
 # Links
 links:
-  - name: ""
+  - name: "Video"
     url: https://www.youtube.com/watch?v=O635uBqYKjQ
     icon: 🎥
 #   - name: Paper

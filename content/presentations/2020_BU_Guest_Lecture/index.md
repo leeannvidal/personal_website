@@ -39,7 +39,7 @@ image:
 
 # Links
 links:
-  - name: ""
+  - name: "Recorded Lecture"
     url: https://www.youtube.com/watch?v=TcwhBhFsgDA
     icon: video
 #   - name: Paper
