@@ -1,5 +1,5 @@
 ---
-title: "Filled Pauses and Language Contact in Boston Spanish"
+title: "Filled Pauses & Language Contact in Boston Spanish"
 
 # Summary for listing cards
 summary: "How bilingual experience reshapes the vowel quality of filled pauses (uh/ah vs. eh) in Boston Spanish speakers."

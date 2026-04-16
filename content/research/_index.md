@@ -49,6 +49,8 @@ sections:
           tag: Covariation
         - name: Morphosyntax
           tag: Morphosyntax
+        - name: Phonetics
+          tag: Phonetics
       default_button_index: 0
       archive:
         # Auto-shown if more items exist than displayed
