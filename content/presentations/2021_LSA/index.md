@@ -40,9 +40,9 @@ image:
 
 # Links
 links:
-  - name: Video Recording
+  - name: ""
     url: https://www.youtube.com/watch?v=O635uBqYKjQ
-    icon: video
+    icon: 🎥
 #   - name: Paper
 #     url: /publication/attention-paper/
 #     icon: document

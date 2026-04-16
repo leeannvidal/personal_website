@@ -88,21 +88,6 @@ sections:
   ## ──────────────────────────────── ##
   ###########   PRESENTATIONS     ###########    
   ## ──────────────────────────────── ##
-  - block: collection
-    id: talks
-    content:
-      title: Previous & Recent Talks
-      filters:
-        folders:
-          - presentations
-    buttons:
-        - name: All
-          tag: '*'
-        - name: Phonetics
-          tag: Phonetics
-    default_button_index: 0 
-    design:
-      view: card
   - block: portfolio
     # id: portfolio
     content:
