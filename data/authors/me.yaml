@@ -51,7 +51,7 @@ interests:
 education:
   - degree: PhD Linguistics
     institution: Boston University
-    institution_logo: BU
+    institution_logo: BU_seal
     start: 
     end: 2025
     summary: |
@@ -79,7 +79,7 @@ experience:
   - role: Doctoral Researcher | Project & Lab Manager
     org: Boston University
     company_url: ''
-    icon: 'brands/BU' #still need to fix this.
+    icon: brands/BU #still need to fix this.
     start: 2018
     end: 2025
     summary: |
@@ -89,7 +89,7 @@ experience:
       - Co-organized conference (~1,000 participants), successfully transitioning the international event to virtual format during COVID-19. Oversaw talk selection & programming. Supported publication of proceedings.
   - role: Data Annotator | Machine Learning Annotation
     org: Cogito Corporation
-    icon: brands/cogito_logo
+    icon: brands/cogito
     start: 2022
     end: 2023
     summary: |
@@ -103,13 +103,14 @@ experience:
       icon: hero/arrow-down-tray
   - role: Secondary Spanish & Technology Educator
     org: Academy of the Sacred Heart
-    icon: brands/ASH_Logo
+    icon: brands/ASH
     start: 2017
     end: 2018
     summary: |
       -  Developed & implemented a technology curriculum for middle school students, teaching digital literacy, typing basics, and responsible online behavior.
   - role: Secondary Spanish & Technology Educator
     org: St. Joseph’s Academy
+    icon: brands/SJA
     start: 2014
     end: 2017
     summary: |
@@ -121,6 +122,7 @@ experience:
       - Moderated extracurricular programs, expanding student engagement opportunities & leading teams to national-level competitions.
   - role: Graduate Researcher | Project Manager | Spanish Instructor
     org: Louisiana State University
+    icon: brands/LSU
     start: 2012
     end: 2013
     summary: |
