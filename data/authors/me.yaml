@@ -63,16 +63,19 @@ education:
       icon: hero/arrow-down-tray
   - degree: MA Linguistics
     institution: Boston University
+    icon: brands/BU_seal
     start: 
     end: 2021
   - degree: MA in Hispanic Studies & Linguistics
     institution: Louisiana State University
+    icon: brands/LSU
     start: 
     end: 2013
     summary: |
       Thesis Title: El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico
   - degree: BA in Hispanic Studies & Literatures
     institution: Louisiana State University
+    icon: brands/LSU
     start: 
     end: 2011
 
