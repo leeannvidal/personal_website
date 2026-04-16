@@ -102,7 +102,7 @@ work:
   - position: Data Annotator | Machine Learning Annotation
     company_name: Cogito Corporation
     company_url: ''
-    company_logo: cogito_logo
+    company_logo: "cogito_logo"
     date_start: 2022
     date_end: 2023
     summary: |
