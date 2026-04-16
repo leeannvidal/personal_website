@@ -34,7 +34,7 @@ tags:
 
 # Featured image
 image:
-  filename: fps_sp_eng.png
+  filename: fps-sp-eng.png
   caption: "Phonological FPs in Spanish and English"
 
 # Links

@@ -104,13 +104,14 @@ sections:
       title: Recent & Upcoming Talks
       filters:
         folders:
-          - events
+          - presentations
     design:
       view: card
   - block: portfolio
     # id: portfolio
     content:
       title: "Talks"
+      show_date: true
       count: 4
       filters:
         folders:
