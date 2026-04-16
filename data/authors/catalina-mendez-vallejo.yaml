@@ -16,7 +16,7 @@ organizations:
 
 # Social/contact links
 links:
-  - icon: envelope
+  - icon: at-symbol
     link: mailto:dvallejo@princeton.edu
   - icon: globe-americas
     link: https://dvallejo.scholar.princeton.edu/bio

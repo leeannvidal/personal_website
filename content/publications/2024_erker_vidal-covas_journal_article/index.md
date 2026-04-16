@@ -44,6 +44,9 @@ image:
 links:
   - name: PDF
     url: https://leeannvidal.github.io/documents/Publications/Erker_Vidal-Covas_2024_Bilingual_optimization_stylistic_practice_SHLL.pdf
+  - name: Open Access PDF
+    icon: academicons/open-access
+    url: https://leeannvidal.github.io/documents/Publications/Erker_Vidal-Covas_2024_Bilingual_optimization_stylistic_practice_SHLL.pdf
 #   - name: Code
 #     url: https://github.com/...
 #   - name: Slides
