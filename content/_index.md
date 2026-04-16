@@ -29,7 +29,11 @@ sections:
       title: 'Title'
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: 'Hola'
+      text: 'I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.
+  
+        If you’re coming from academia, you might want to explore my Research and Teaching/Training pages, where I share my work on language variation and classroom experience.
+        
+        If you’re from industry or tech, take a look at my Portfolio and Coding Corner to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.'
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
@@ -51,18 +55,18 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.
         
-        If you’re coming from academia, you might want to explore my Research and Teaching/Training pages, where I share my work on language variation and classroom experience.
+  #       If you’re coming from academia, you might want to explore my Research and Teaching/Training pages, where I share my work on language variation and classroom experience.
         
-        If you’re from industry or tech, take a look at my Portfolio and Coding Corner to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
-    design:
-      columns: '1'
+  #       If you’re from industry or tech, take a look at my Portfolio and Coding Corner to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
+  #   design:
+  #     columns: '1'
   # - block: resume-biography-2
   #   content:
   #     title: ¡Bienvenid@!
