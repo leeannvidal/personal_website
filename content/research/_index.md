@@ -89,22 +89,18 @@ sections:
   ###########   PRESENTATIONS     ###########    
   ## ──────────────────────────────── ##
   - block: collection
-    # id: talks
-    content:
-        title: Previous & Recent Talks
-        filters:
-        folders:
-          - presentations
-    design:
-        columns: '2'
-        view: compact
-  - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Previous & Recent Talks
       filters:
         folders:
           - presentations
+    buttons:
+        - name: All
+          tag: '*'
+        - name: Phonetics
+          tag: Phonetics
+    default_button_index: 0 
     design:
       view: card
   - block: portfolio
@@ -123,8 +119,8 @@ sections:
         #   tag: Covariation
         # - name: Morphosyntax
         #   tag: Morphosyntax
-        # - name: Phonetics
-        #   tag: Phonetics
+        - name: Phonetics
+          tag: Phonetics
       default_button_index: 0
       archive:
         # Auto-shown if more items exist than displayed
