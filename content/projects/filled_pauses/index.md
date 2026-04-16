@@ -27,7 +27,7 @@ links:
 
 # Pin to top of listings
 featured: true
-
+status: "Active"
 # Draft
 draft: false
 ---

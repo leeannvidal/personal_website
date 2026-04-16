@@ -45,11 +45,12 @@ tags:
 
 # Links
 links:
-  - name: PDF
+  - name: Open Access PDF
+    icon: academicons/open-access
     url: Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pdf
 
 # External link (opens this URL instead of the publication page)
-url_pdf: ""
+url_pdf: "Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""

@@ -7,7 +7,7 @@ summary: "How verb type and pragmatic context shape subject-verb order acceptabi
 # Tags for filtering
 tags:
   - Sociolinguistics
-  - Syntax
+  - Morphosyntax
   - Information Structure
   - Latin American Spanish
   - Spanish

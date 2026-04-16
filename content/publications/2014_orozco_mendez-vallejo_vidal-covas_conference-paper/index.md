@@ -42,7 +42,8 @@ tags:
 
 # Links
 links:
-  - name: PDF
+  - name: Open Access PDF
+    icon: academicons/open-access
     url: Orozco_Mendez-Vallejo_Vidal-Covas_2014_Los_efectos_condicionantes_del_verbo_en_el_uso_variable_de_los_pronombres_personales_de_sujeto.pdf
 
 # External link (opens this URL instead of the publication page)
