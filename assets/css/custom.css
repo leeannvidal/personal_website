@@ -47,18 +47,18 @@ code, pre, kbd, samp {
 
 
 .group {
-    background-color: initial;
+    background-color: #C0D8CF;
     border-radius:26px
 }
 
 #site-header.header {
-    background-color: initial;
+    background-color: #C0D8CF;
     box-shadow: none;
     padding:0
 }
 
 .dark #site-header.header {
-    background-color: initial;
+    background-color: #C0D8CF;
     box-shadow:none
 }
 
