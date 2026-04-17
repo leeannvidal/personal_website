@@ -72,54 +72,144 @@ sections:
   #     title: ¡Bienvenid@!
   #     # Note: `username` refers to the user's folder name in `content/authors/`
   #     username: admin
-  - block: markdown
-    content:
-      title: ''
-      subtitle: ''
-      text: |-
-        {{< tabs id="example2" titles="Practical Skills, Research Interests, Education, Languages" >}}
 
-        Project Management
-        Problem-solving
-        Strategic thinking
-        Stakeholder Communication
-        Interdisciplinary Collaboration
-        Long-term project & team management
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: |-
+        # {{< tabs id="example2" titles="Practical Skills, Research Interests, Education, Languages" >}}
 
-        Data Science
-        Experiment design
-        Statistical analysis
-        Data creation & cleaning
-        Data sampling, processing, & visualization
+      #   <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
 
+      #     <table style="border-collapse: collapse; flex: 1; min-width: 200px;">
+      #       <thead>
+      #         <tr><th style="background-color: #5B5B5B; color: white; padding: 0.5rem 1rem; text-align: left;">Project Management</th></tr>
+      #       </thead>
+      #       <tbody>
+      #         <tr><td style="padding: 0.3rem 1rem;">Problem-solving</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Strategic thinking</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Stakeholder Communication</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Interdisciplinary Collaboration</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Long-term project & team management</td></tr>
+      #       </tbody>
+      #     </table>
 
-        <!-- tab -->
+      #     <table style="border-collapse: collapse; flex: 1; min-width: 200px;">
+      #       <thead>
+      #         <tr><th style="background-color: #5B5B5B; color: white; padding: 0.5rem 1rem; text-align: left;">Data Science</th></tr>
+      #       </thead>
+      #       <tbody>
+      #         <tr><td style="padding: 0.3rem 1rem;">Experiment design</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Statistical analysis</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Data creation & cleaning</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Data sampling, processing, & visualization</td></tr>
+      #       </tbody>
+      #     </table>
 
-        Multilingualism
-        Language & dialect contact
-        Language variation & change
-        Sociolinguistics
+      #   </div>
 
-        <!-- tab -->
+      #   <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1rem;">
 
-        PhD in Linguistics, 2025
-        Boston University, USA
-        MA in Linguistics, 2021
-        Boston University, USA
-        MA in Hispanic Studies & Linguistics, 2013
-        Louisiana State University, USA
-        BA in Hispanic Studies & Literatures, 2011
-        Louisiana State University, USA
+      #     <table style="border-collapse: collapse; flex: 1; min-width: 200px;">
+      #       <thead>
+      #         <tr><th style="background-color: #5B5B5B; color: white; padding: 0.5rem 1rem; text-align: left;">Annotation</th></tr>
+      #       </thead>
+      #       <tbody>
+      #         <tr><td style="padding: 0.3rem 1rem;">Data labeling</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Guideline creation</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Data tagging automation</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Automated data extraction</td></tr>
+      #       </tbody>
+      #     </table>
 
-        <!-- tab -->
+      #     <table style="border-collapse: collapse; flex: 1; min-width: 200px;">
+      #       <thead>
+      #         <tr><th style="background-color: #5B5B5B; color: white; padding: 0.5rem 1rem; text-align: left;">Technology</th></tr>
+      #       </thead>
+      #       <tbody>
+      #         <tr><td style="padding: 0.3rem 1rem;">R</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Praat</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">LaTeX</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">Python</td></tr>
+      #         <tr><td style="padding: 0.3rem 1rem;">GitHub</td></tr>
+      #       </tbody>
+      #     </table>
 
-        English - Native
-        Spanish - Native
-        Brazilian Portuguese - Beginner
-        Indonesian, Wichita, West Greenlandic, Yagua, Zulu - Fieldwork
-        {{< /tabs >}}
-    design:
-      columns: '1'
+      #   </div>
+
+      #   <!-- tab -->
+
+      #   <table style="border-collapse: collapse; margin: 0 auto; background: transparent;">
+      #     <tr><td style="padding: 0.3rem 1rem;">Multilingualism</td></tr>
+      #     <tr><td style="padding: 0.3rem 1rem;">Language & dialect contact</td></tr>
+      #     <tr><td style="padding: 0.3rem 1rem;">Language variation & change</td></tr>
+      #     <tr><td style="padding: 0.3rem 1rem;">Sociolinguistics</td></tr>
+      #   </table>
+
+      #   <!-- tab -->
+
+      #   <table style="border-collapse: collapse; margin: 0 auto;">
+      #     <tr>
+      #       <td style="width: 2rem; vertical-align: middle; padding: 0.5rem 0.75rem 0.5rem 0;">
+      #         <i class="fas fa-graduation-cap" style="color: #85A197; font-size: 2rem;"></i>
+      #       </td>
+      #       <td style="padding: 0.5rem 0;">
+      #         <a href="https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_PhD_Diploma.pdf" target="_blank"><strong>PhD in Linguistics, 2025</strong></a><br>Boston University, USA
+      #       </td>
+      #     </tr>
+      #     <tr>
+      #       <td style="width: 2rem; vertical-align: middle; padding: 0.5rem 0.75rem 0.5rem 0;">
+      #         <i class="fas fa-graduation-cap" style="color: #85A197; font-size: 2rem;"></i>
+      #       </td>
+      #       <td style="padding: 0.5rem 0;">
+      #         <a href="https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_Masters_Diploma.pdf" target="_blank"><strong>MA in Linguistics, 2021</strong></a><br>Boston University, USA
+      #       </td>
+      #     </tr>
+      #     <tr>
+      #       <td style="width: 2rem; vertical-align: middle; padding: 0.5rem 0.75rem 0.5rem 0;">
+      #         <i class="fas fa-graduation-cap" style="color: #85A197; font-size: 2rem;"></i>
+      #       </td>
+      #       <td style="padding: 0.5rem 0;">
+      #         <a href="https://lsu.edu/hss/wllc/spanish/graduate/" target="_blank"><strong>MA in Hispanic Studies & Linguistics, 2013</strong></a><br>Louisiana State University, USA
+      #       </td>
+      #     </tr>
+      #     <tr>
+      #       <td style="width: 2rem; vertical-align: middle; padding: 0.5rem 0.75rem 0.5rem 0;">
+      #         <i class="fas fa-graduation-cap" style="color: #85A197; font-size: 2rem;"></i>
+      #       </td>
+      #       <td style="padding: 0.5rem 0;">
+      #         <a href="https://lsu.edu/hss/wllc/spanish/graduate/" target="_blank"><strong>BA in Hispanic Studies & Literatures, 2011</strong></a><br>Louisiana State University, USA
+      #       </td>
+      #     </tr>
+      #   </table>
+
+      #   <!-- tab -->
+
+      #   <table style="border-collapse: collapse; margin: 0 auto; background: transparent;">
+      #     <tr>
+      #       <td style="padding: 0.3rem 1.5rem 0.3rem 0;"><strong>English</strong></td>
+      #       <td style="padding: 0.3rem 0;">Native</td>
+      #     </tr>
+      #     <tr>
+      #       <td style="padding: 0.3rem 1.5rem 0.3rem 0;"><strong>Spanish</strong></td>
+      #       <td style="padding: 0.3rem 0;">Native</td>
+      #     </tr>
+      #     <tr>
+      #       <td style="padding: 0.3rem 1.5rem 0.3rem 0;"><strong>Brazilian Portuguese</strong></td>
+      #       <td style="padding: 0.3rem 0;">Beginner</td>
+      #     </tr>
+      #     <tr>
+      #       <td style="padding: 0.3rem 1.5rem 0.3rem 0;"><strong>Indonesian, Wichita, West Greenlandic, Yagua, Zulu</strong></td>
+      #       <td style="padding: 0.3rem 0;">Fieldwork</td>
+      #     </tr>
+      #   </table>
+      #   {{< /tabs >}}
+
+      #   <p style="text-align: center; color: #5B5B5B; font-size: 0.85rem; margin-top: 0.75rem;"><em>You can toggle between the tabs above to get a quick overview of my skills, interests, and education.</em></p>
+      # design:
+      # columns: '1'
+
   # - block: collection
   #   id: news
   #   content:
