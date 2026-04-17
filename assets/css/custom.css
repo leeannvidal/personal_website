@@ -1,3 +1,20 @@
+ /* /* ─── Custom fonts ──────────────────────────────────────────────────────────
+   Montserrat (headings), Merriweather (body), Space Mono (code)
+   ─────────────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+code, pre, kbd, samp {
+  font-family: 'Space Mono', ui-monospace, monospace;
+}
+
 /* Callout note color override
 .callout-note {
   background-color: rgba(103, 126, 118, 0.15) !important;
