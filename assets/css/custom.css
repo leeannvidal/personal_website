@@ -549,10 +549,10 @@ code, pre, kbd, samp {
         gap: .25rem;
         padding: 0;
         border-radius: 0;
-        background: 0 0;
+        background: #E4ECEA; /* secondary-100 or a light contrasting color */
         transition: transform .25s ease;
-        border: 0;
-        box-shadow: none;
+        border: 1.5px solid #97B8AA; /* your secondary base */
+        box-shadow: 0 8px 24px rgba(103, 126, 118, 0.10); /* subtle shadow with your primary */
         min-height: 0;
         position: relative;
         overflow:visible
