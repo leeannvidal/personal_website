@@ -173,7 +173,7 @@
     transform:translateY(-3px)scale(1.05)
 } */
 
-.collapsible-abstract-wrap {
+/* .collapsible-abstract-wrap {
     border-top:1px solid rgba(148, 163, 184, .32)
 }
 
@@ -215,7 +215,7 @@
 
 .collapsible-abstract summary::-webkit-details-marker {
     display:none
-}
+} */
 /* 
 .social-link__icon, .social-link > svg, .social-link > i {
     position: relative;
@@ -714,17 +714,17 @@
 }
 
 :root {
-    --bio-g1: 11 100% 97%;
-    --bio-g2: 32 100% 86%;
-    --bio-g3: 0 84% 81%;
-    --bio-g4:225 20% 45%
+  --bio-g1: 153 18% 92%;   /* secondary-100, a very light green */
+  --bio-g2: 153 18% 72%;   /* secondary base */
+  --bio-g3: 195 14% 45%;   /* neutral base */
+  --bio-g4: 153 8% 36%;    /* primary base */
 }
 
 .dark {
-    --bio-g1: 225 20% 20%;
-    --bio-g2: 225 19% 33%;
-    --bio-g3: 0 21% 52%;
-    --bio-g4:30 37% 69%
+  --bio-g1: 153 8% 18%;    /* darkened primary */
+  --bio-g2: 153 18% 28%;   /* darkened secondary */
+  --bio-g3: 195 14% 25%;   /* darkened neutral */
+  --bio-g4: 153 18% 42%;   /* slightly lighter than primary for contrast */
 }
 
 .hbx-bg-gradient {
