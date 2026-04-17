@@ -72,6 +72,54 @@ sections:
   #     title: ¡Bienvenid@!
   #     # Note: `username` refers to the user's folder name in `content/authors/`
   #     username: admin
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+        {{< tabs id="example2" titles="Practical Skills, Research Interests, Education, Languages" >}}
+
+        Project Management
+        Problem-solving
+        Strategic thinking
+        Stakeholder Communication
+        Interdisciplinary Collaboration
+        Long-term project & team management
+
+        Data Science
+        Experiment design
+        Statistical analysis
+        Data creation & cleaning
+        Data sampling, processing, & visualization
+
+
+        <!-- tab -->
+
+        Multilingualism
+        Language & dialect contact
+        Language variation & change
+        Sociolinguistics
+
+        <!-- tab -->
+
+        PhD in Linguistics, 2025
+        Boston University, USA
+        MA in Linguistics, 2021
+        Boston University, USA
+        MA in Hispanic Studies & Linguistics, 2013
+        Louisiana State University, USA
+        BA in Hispanic Studies & Literatures, 2011
+        Louisiana State University, USA
+
+        <!-- tab -->
+
+        English - Native
+        Spanish - Native
+        Brazilian Portuguese - Beginner
+        Indonesian, Wichita, West Greenlandic, Yagua, Zulu - Fieldwork
+        {{< /tabs >}}
+    design:
+      columns: '1'
   # - block: collection
   #   id: news
   #   content:
