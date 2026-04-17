@@ -1,4 +1,4 @@
-/* Callout note color override */
+/* Callout note color override
 .callout-note {
   background-color: rgba(103, 126, 118, 0.15) !important;
   border-color: #677E76 !important;
@@ -10,7 +10,7 @@
 
 /* Sticky section header */
 
-.section-heading {
+/* .section-heading {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,4 +26,4 @@
   font-size: 3.5rem;
   color: #F2F2F2;
   margin: 0;
-}
+} */ 
