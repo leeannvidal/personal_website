@@ -1,128 +1,214 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sociolinguistics | Lee-Ann Vidal Covas</title><link>https://www.leeannvc.com/tags/sociolinguistics/</link><atom:link href="https://www.leeannvc.com/tags/sociolinguistics/index.xml" rel="self" type="application/rss+xml"/><description>Sociolinguistics</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://www.leeannvc.com/media/logo_hu_92efb5ca1b41baf3.png</url><title>Sociolinguistics</title><link>https://www.leeannvc.com/tags/sociolinguistics/</link></image><item><title>Covariation &amp; salience in linguistic contact: a sociophonetic study of liquid variation in Boston Spanish</title><link>https://www.leeannvc.com/publications/2025_vidal-covas_dissertation/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/publications/2025_vidal-covas_dissertation/</guid><description/></item><item><title>Spanish in Boston Project</title><link>https://www.leeannvc.com/labs/sib/</link><pubDate>Thu, 01 Jan 1970 01:33:34 +0100</pubDate><guid>https://www.leeannvc.com/labs/sib/</guid><description/></item><item><title>Covariation &amp; Salience in Linguistic Contact</title><link>https://www.leeannvc.com/projects/covariation_salience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/projects/covariation_salience/</guid><description>&lt;p&gt;I investigate how the noticeability—or salience—of different linguistic features shapes how people use and adapt language in contexts of contact with other dialects and languages. Instead of analyzing features one by one, I look at how lower- and higher-salience features pattern together to understand when speakers converge toward another language, maintain their own patterns, or repurpose features as identity markers. This approach bridges morphosyntax, phonetics, and discourse, integrating reproducible annotation and quantitative modeling across multiple feature types.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sociolinguistics | Lee-Ann Vidal Covas, PhD</title>
+    <link>http://localhost:1313/tags/sociolinguistics/</link>
+      <atom:link href="http://localhost:1313/tags/sociolinguistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sociolinguistics</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_408c0977b7e48a52.png</url>
+      <title>Sociolinguistics</title>
+      <link>http://localhost:1313/tags/sociolinguistics/</link>
+    </image>
+    
+    <item>
+      <title>Covariation &amp; salience in linguistic contact: a sociophonetic study of liquid variation in Boston Spanish</title>
+      <link>http://localhost:1313/publications/2025_vidal-covas_dissertation/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/2025_vidal-covas_dissertation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Filled pauses as a site of language contact among Spanish-speaking Bostonians</title>
+      <link>http://localhost:1313/presentations/2021_lsa/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/2021_lsa/</guid>
+      <description>&lt;!-- 
+## Talk Details
+
+Add any additional context, extended abstract, or notes about the talk.
+Include references, acknowledgments, or related work. --&gt;</description>
+    </item>
+    
+    <item>
+      <title>English/Spanish Contrastive Phonology &amp; Filled Pauses</title>
+      <link>http://localhost:1313/presentations/2020_bu_guest_lecture/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/2020_bu_guest_lecture/</guid>
+      <description>&lt;!-- 
+## Talk Details
+
+Add any additional context, extended abstract, or notes about the talk.
+Include references, acknowledgments, or related work. --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spanish in Boston Project</title>
+      <link>http://localhost:1313/labs/sib/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:34 +0100</pubDate>
+      <guid>http://localhost:1313/labs/sib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Covariation &amp; Salience in Linguistic Contact</title>
+      <link>http://localhost:1313/projects/covariation_salience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/covariation_salience/</guid>
+      <description>&lt;p&gt;I investigate how the noticeability—or salience—of different linguistic features shapes how people use and adapt language in contexts of contact with other dialects and languages. Instead of analyzing features one by one, I look at how lower- and higher-salience features pattern together to understand when speakers converge toward another language, maintain their own patterns, or repurpose features as identity markers. This approach bridges morphosyntax, phonetics, and discourse, integrating reproducible annotation and quantitative modeling across multiple feature types.&lt;/p&gt;
 &lt;p&gt;Future work expands this framework by adding more higher-salience variables (e.g., intervocalic /d/ lenition, vowel lowering, prosodic &amp;ldquo;cantadito&amp;rdquo;) and by including new communities beyond Boston as well as additional national identity groups. By comparing both speech production and listener perception, I explore when bilingual speakers adapt for efficiency and when they preserve differences as a form of cultural expression.&lt;/p&gt;
-&lt;h2 id="dissertation-research"&gt;Dissertation Research&lt;/h2&gt;
+&lt;h2 id=&#34;dissertation-research&#34;&gt;Dissertation Research&lt;/h2&gt;
 &lt;p&gt;Conducted as part of the Spanish in Boston Project (NSF BCS-1423840), my dissertation examines how lower- and higher-salience features co-vary in the speech of Puerto Rican and Dominican Bostonians. Using mixed-methods analysis, I show that lower-salience features—like subject-pronoun expression, subject placement, and filled pauses—tend to align with English-compatible patterns, while higher-salience features—such as coda /s/ and liquids (/r, ɾ, l/)—remain socially meaningful resources. The results demonstrate that salience—social as much as perceptual—explains which variables shift together and which persist as identity markers.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;At a glance&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Scope&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Covariation across morphosyntax (pronouns, word order), discourse (filled pauses), and phonology (coda /s/, liquids)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Sociolinguistic interviews from the Spanish in Boston Corpus plus metalinguistic commentary&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Speakers&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Puerto Rican and Dominican speakers (N=22, ≈24,197 tokens)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Mixed-effects modeling in R&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Scope&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Covariation across morphosyntax (pronouns, word order), discourse (filled pauses), and phonology (coda /s/, liquids)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Sociolinguistic interviews from the Spanish in Boston Corpus plus metalinguistic commentary&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Speakers&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Puerto Rican and Dominican speakers (N=22, ≈24,197 tokens)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Mixed-effects modeling in R&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Key findings&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lower-salience features show modest, systematic convergence with English norms (bilingual optimization).&lt;/li&gt;
 &lt;li&gt;Higher-salience features remain stable &amp;amp; socially indexed, marking national identity distinctions.&lt;/li&gt;
 &lt;li&gt;Salience is continuous and ideologically mediated, structuring which variables shift together and which become identity markers.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Filled Pauses and Language Contact in Boston Spanish</title><link>https://www.leeannvc.com/projects/filled_pauses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/projects/filled_pauses/</guid><description>&lt;p&gt;When people speak, they often pause with short sounds like &lt;em&gt;uh&lt;/em&gt;, &lt;em&gt;ah&lt;/em&gt;, or &lt;em&gt;eh&lt;/em&gt; while planning what to say next. These filled pauses keep the conversational floor and help listeners follow along—yet they vary across languages. English speakers tend to say &lt;em&gt;uh/um&lt;/em&gt;, while Spanish speakers more often use &lt;em&gt;eh/em&lt;/em&gt;. This project investigates how bilingual Spanish speakers in Boston use these tiny hesitation sounds, revealing how everyday speech encodes patterns of language contact and sound change.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Filled Pauses &amp; Language Contact in Boston Spanish</title>
+      <link>http://localhost:1313/projects/filled_pauses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/filled_pauses/</guid>
+      <description>&lt;p&gt;When people speak, they often pause with short sounds like &lt;em&gt;uh&lt;/em&gt;, &lt;em&gt;ah&lt;/em&gt;, or &lt;em&gt;eh&lt;/em&gt; while planning what to say next. These filled pauses keep the conversational floor and help listeners follow along—yet they vary across languages. English speakers tend to say &lt;em&gt;uh/um&lt;/em&gt;, while Spanish speakers more often use &lt;em&gt;eh/em&lt;/em&gt;. This project investigates how bilingual Spanish speakers in Boston use these tiny hesitation sounds, revealing how everyday speech encodes patterns of language contact and sound change.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;At a glance&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Sociolinguistic interviews from the Spanish in Boston Corpus&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Speakers&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Spanish-speaking Bostonians (N=80, ≈6,364 tokens, 13 national origins)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Acoustic analysis in Praat and mixed-effects modeling in R&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Predictors&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Age of arrival, language use with interlocutors, and phonetic context&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Variable&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Vowel quality in filled pauses — fronted [e] (&lt;em&gt;eh&lt;/em&gt;) vs. centralized [a]/[ə] (&lt;em&gt;ah&lt;/em&gt;, &lt;em&gt;uh&lt;/em&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Sociolinguistic interviews from the Spanish in Boston Corpus&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Speakers&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Spanish-speaking Bostonians (N=80, ≈6,364 tokens, 13 national origins)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Acoustic analysis in Praat and mixed-effects modeling in R&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Predictors&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Age of arrival, language use with interlocutors, and phonetic context&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Variable&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Vowel quality in filled pauses — fronted [e] (&lt;em&gt;eh&lt;/em&gt;) vs. centralized [a]/[ə] (&lt;em&gt;ah&lt;/em&gt;, &lt;em&gt;uh&lt;/em&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Key findings&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Speakers with greater English exposure (earlier arrival, more bilingual networks) favor centralized pauses ([a], [ə]), while Spanish-dominant speakers prefer [e].&lt;/li&gt;
 &lt;li&gt;Phonetic context plays little role — the pattern is socially, not structurally, driven.&lt;/li&gt;
 &lt;li&gt;The shift is conservative: bilinguals reorder pause-filling norms rather than adopting English-like forms wholesale.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Subject Pronoun Expression in Puerto Rican Spanish</title><link>https://www.leeannvc.com/projects/subject_pronouns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/projects/subject_pronouns/</guid><description>&lt;p&gt;In Spanish, finite verbs can occur with or without an expressed subject pronoun — as in &lt;em&gt;yo hablo&lt;/em&gt; &amp;lsquo;I speak&amp;rsquo; vs. &lt;em&gt;hablo&lt;/em&gt; &amp;lsquo;(I) speak&amp;rsquo; — without altering the meaning. Drawing on sociolinguistic interviews from Puerto Rican speakers in Louisiana and Puerto Rico, I examine how grammatical and discourse constraints pattern this variation. Results reveal Caribbean-typical pronoun rates (~37%) and show that internal morphosyntactic factors, not English contact, drive pronoun use in this sample.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Subject Pronoun Expression in Puerto Rican Spanish</title>
+      <link>http://localhost:1313/projects/subject_pronouns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/subject_pronouns/</guid>
+      <description>&lt;p&gt;In Spanish, finite verbs can occur with or without an expressed subject pronoun — as in &lt;em&gt;yo hablo&lt;/em&gt; &amp;lsquo;I speak&amp;rsquo; vs. &lt;em&gt;hablo&lt;/em&gt; &amp;lsquo;(I) speak&amp;rsquo; — without altering the meaning. Drawing on sociolinguistic interviews from Puerto Rican speakers in Louisiana and Puerto Rico, I examine how grammatical and discourse constraints pattern this variation. Results reveal Caribbean-typical pronoun rates (~37%) and show that internal morphosyntactic factors, not English contact, drive pronoun use in this sample.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;At a glance&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Sociolinguistic interviews with 20 speakers (≈2,300 tokens); analyzed with Goldvarb&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Predictors&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Person/number, switch-reference, tense–mood–aspect, prior-subject realization, clause type, and verb semantics&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Conducted at Louisiana State University; later informed dissertation research expanding the same variable to new samples and contexts&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Sociolinguistic interviews with 20 speakers (≈2,300 tokens); analyzed with Goldvarb&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Predictors&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Person/number, switch-reference, tense–mood–aspect, prior-subject realization, clause type, and verb semantics&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Timeline&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Conducted at Louisiana State University; later informed dissertation research expanding the same variable to new samples and contexts&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Key findings&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Pronoun rates ≈ PR 37.8% vs. LA 37.0%.&lt;/li&gt;
 &lt;li&gt;1SG/3SG and switch-reference favor pronoun usage; plurals disfavor it.&lt;/li&gt;
 &lt;li&gt;Only location shows a clear social effect — routine English contact did not increase pronoun usage.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Word Order &amp; Information Structure in Latin American Spanish</title><link>https://www.leeannvc.com/projects/word_order/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.leeannvc.com/projects/word_order/</guid><description>&lt;p&gt;How do Spanish speakers judge Subject-Verb (SV) vs. Verb-Subject (VS) word orders—and how do verb type (unergative vs. unaccusative) and pragmatic condition (wide focus, subject-narrow focus, subject-given) shape those judgments? Using a controlled, online experiment, I test links between argument structure and information structure in four Latin American dialects.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Word Order &amp; Information Structure in Latin American Spanish</title>
+      <link>http://localhost:1313/projects/word_order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/word_order/</guid>
+      <description>&lt;p&gt;How do Spanish speakers judge Subject-Verb (SV) vs. Verb-Subject (VS) word orders—and how do verb type (unergative vs. unaccusative) and pragmatic condition (wide focus, subject-narrow focus, subject-given) shape those judgments? Using a controlled, online experiment, I test links between argument structure and information structure in four Latin American dialects.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;At a glance&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Online acceptability-judgment task (Likert 1–5), 2×3 (Verb Type × Pragmatic Condition)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Platform &amp;amp; Recruitment&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Qualtrics (survey), Prolific (recruitment)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Participants&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;N = 69 (Chile, Cuba, Mexico, Puerto Rico) → 1,656 ratings (SV/VS)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Online acceptability-judgment task (Likert 1–5), 2×3 (Verb Type × Pragmatic Condition)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Platform &amp;amp; Recruitment&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Qualtrics (survey), Prolific (recruitment)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Participants&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;N = 69 (Chile, Cuba, Mexico, Puerto Rico) → 1,656 ratings (SV/VS)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Key findings&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -130,4 +216,9 @@
 &lt;li&gt;Verb type and pragmatic condition jointly predict acceptability.&lt;/li&gt;
 &lt;li&gt;Region not predictive in these data.&lt;/li&gt;
 &lt;li&gt;Supports a link between argument structure &amp;amp; information structure (Unaccusative Hypothesis).&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
