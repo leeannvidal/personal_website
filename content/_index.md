@@ -67,11 +67,11 @@ sections:
   #       If you’re from industry or tech, take a look at my Portfolio and Coding Corner to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
   #   design:
   #     columns: '1'
-  - block: resume-biography-custom
-    content:
-      title: ¡Bienvenid@!
-      # Note: `username` refers to the user's folder name in `content/authors/`
-      username: me
+  # - block: resume-biography-custom
+  #   content:
+  #     title: ¡Bienvenid@!
+  #     # Note: `username` refers to the user's folder name in `content/authors/`
+  #     username: me
 
   # - block: markdown
   #   content:
