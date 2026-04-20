@@ -50,29 +50,30 @@ code, pre, kbd, samp {
   --color-secondary-950: 25 34 30;
 
   /* NEUTRAL: #85A197 */
-  /* --color-neutral-50: 246 249 248;
+  --color-neutral-50: 246 249 248;
   --color-neutral-100: 234 241 239;
   --color-neutral-200: 209 225 220;
   --color-neutral-300: 176 204 196;
-  --color-neutral-400: 144 182 171; */
-  /* --color-neutral-500: 133 161 151; base */
-  /* --color-neutral-600: 106 132 124;
+  --color-neutral-400: 144 182 171;
+  --color-neutral-500: 133 161 151; /* base */
+  --color-neutral-600: 106 132 124;
   --color-neutral-700: 82 103 96;
   --color-neutral-800: 60 75 70;
   --color-neutral-900: 42 52 48;
-  --color-neutral-950: 25 31 29; */
+  --color-neutral-950: 25 31 29;
 
-  --gradient-accent-1: 160 24% 93%;   /* secondary-100, a very light green */
-  --gradient-accent-2: 155 19% 66%;   /* secondary base */
-  --gradient-accent-3: 159 13% 58%;   /* neutral base */
-  --gradient-accent-4: 159 10% 45%;    /* primary base */
+  --gradient-accent-1: var(--color-secondary-100);
+  --gradient-accent-2: var(--color-secondary-500);
+  --gradient-accent-3: var(--color-neutral-500);
+  --gradient-accent-4: var(--color-primary-500);
+
 }
 
 .dark {
-  --gradient-accent-1: 156 10% 29%;    /* color-primary-700 */
-  --gradient-accent-2: 153 13% 37%;   /* color-secondary-700 */
-  --gradient-accent-3: 160 11% 36%;   /* color-neutral-700 */
-  --gradient-accent-4: 162 16% 59%;   /* color-primary-400 */
+  --gradient-accent-1: var(--color-primary-800);
+  --gradient-accent-2: var(--color-secondary-700);
+  --gradient-accent-3: var(--color-neutral-700);
+  --gradient-accent-4: var(--color-primary-400);
 }
 
 /* ==========================================================================
@@ -85,15 +86,15 @@ code, pre, kbd, samp {
 }
 
 .liquidUI {
-  background: linear-gradient(145deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
-  border: 1px solid rgba(255, 255, 255, .1);
+  background: linear-gradient(145deg, rgba(var(--gradient-accent-1), .35), rgba(var(--gradient-accent-2), .1));
+  border: 1px solid rgba(var(--gradient-accent-3), .1); /* Use a neutral accent for a subtle border */
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
 }
 
 .dark .liquidUI {
-  background: linear-gradient(145deg, rgba(30, 41, 59, .45), rgba(15, 23, 42, .25));
-  border: 1px solid rgba(148, 163, 184, .1);
+  background: linear-gradient(145deg, rgba(var(--gradient-accent-1), .45), rgba(var(--gradient-accent-2), .25));
+  border: 1px solid rgba(var(--gradient-accent-3), .1); /* Adjust if needed */
 }
 
 .liquidUI-shadow {
@@ -120,7 +121,7 @@ code, pre, kbd, samp {
 }
 
 .dark #site-header.header {
-  background-color: #C0D8CF;
+  background-color: #3C4B46;
   box-shadow: none;
 }
 
@@ -736,10 +737,10 @@ img.avatar {
   inset: 0;
   z-index: -1;
   background-image:
-    radial-gradient(at 20% 25%, hsla(var(--gradient-accent-1) /.45) 0px, transparent 50%),
-    radial-gradient(at 75% 30%, hsla(var(--gradient-accent-2) /.45) 0px, transparent 50%),
-    radial-gradient(at 5% 60%, hsla(var(--gradient-accent-4) /.25) 0px, transparent 50%),
-    radial-gradient(at 5% 85%, hsla(var(--gradient-accent-3) /.45) 0px, transparent 50%);
+    radial-gradient(at 20% 25%, rgba(var(--gradient-accent-1), 0.45) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, rgba(var(--gradient-accent-2), 0.45) 0px, transparent 50%),
+    radial-gradient(at 5% 60%, rgba(var(--gradient-accent-4), 0.25) 0px, transparent 50%),
+    radial-gradient(at 5% 85%, rgba(var(--gradient-accent-3), 0.45) 0px, transparent 50%);
 }
 
 
