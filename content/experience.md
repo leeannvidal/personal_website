@@ -16,8 +16,8 @@ sections:
       username: me
       greeting: "Hello, I'm"
       title: "TITLE"
-      role: role
-      bio: A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below.
+      role: "role"
+      bio: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
       tagline: tagline
       cta_buttons:
         - text: View Academic CV
