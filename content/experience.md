@@ -21,6 +21,7 @@ sections:
   #       text_color_light: true
   #     columns: '1'
   #     css_style: 'padding-top: 0; padding-bottom: 0;' 
+  # - block: markdown
   - block: resume-experience
     content:
       username: me
