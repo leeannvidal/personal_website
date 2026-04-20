@@ -45,13 +45,15 @@ sections:
     content:
       username: me
       greeting: "Hello, I'm"
-      text: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
+      title: title
+      bio: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
+      tagline: tagline
       cta_buttons:
-        - text: View Projects
-          url: "#projects"
-        - text: Download Resume
-          url: "/resume.pdf"
-          icon: document-arrow-down
+        - text: View Academic CV
+          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
+        - text: View Resume
+          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
+          # icon: document-arrow-down
     design:
       style: split
       avatar_shape: rounded
