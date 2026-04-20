@@ -8,13 +8,11 @@ name:
   alternate: ''  # Example: 王伟
   pronunciation: "[li.'aŋ bi.'ðal 'ko.βas]"  # Example: Wáng Wěi
   pronouns: she/her
-postnominals:
-  - PhD
+postnominals: [PhD]
 status:
   icon: "🦥"
 role: 
-bio: |
-  Linguist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
+bio: Linguist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
 
 affiliations:
   - name:
