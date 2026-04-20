@@ -316,7 +316,7 @@ img.avatar {
 .dark #site-header .navbar__menu-toggle:focus-visible {
   /* THEME ADJUSTMENTS START HERE */
   background: linear-gradient(145deg, rgba(67, 82, 76, .95), rgba(83, 107, .75)); /* More opaque dark accent gradient */
-  box-shadow: 0 32px 56px rgba(var(25, 31, 29, .65), inset 0 1px rgba(234, 241, 239, .14); /* Even darker shadow, light inner highlight */
+  box-shadow: 0 32px 56px rgba(25, 31, 29, .65), inset 0 1px rgba(234, 241, 239, .14); /* Even darker shadow, light inner highlight */
   /* THEME ADJUSTMENTS END HERE */
 }
 
