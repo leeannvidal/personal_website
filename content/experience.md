@@ -40,7 +40,40 @@ sections:
       # spacing:
       #   padding: ["6", "6", "6", "6"]
       # columns: "1"
-  
+  - block: dev-hero
+    id: hero
+    content:
+      username: me
+      greeting: "Hello, I'm"
+      cta_buttons:
+        - text: View Projects
+          url: "#projects"
+        - text: Download Resume
+          url: "/resume.pdf"
+          icon: document-arrow-down
+    design:
+      style: split
+      avatar_shape: rounded
+  - block: dev-hero
+    id: hero
+    content:
+      username: me
+      greeting: "Hi, I'm"
+      show_status: true
+      show_scroll_indicator: true
+      cta_buttons:
+        - text: View My Work
+          url: "#projects"
+          icon: arrow-down
+        - text: Get In Touch
+          url: "#contact"
+          icon: envelope
+    design:
+      style: centered
+      avatar_shape: circle
+      background:
+        color:
+          dark: "#0a0a0f"
   - block: resume-experience
     content:
       username: me
