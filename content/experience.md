@@ -21,7 +21,26 @@ sections:
   #       text_color_light: true
   #     columns: '1'
   #     css_style: 'padding-top: 0; padding-bottom: 0;' 
-  # - block: markdown
+  - block: resume-biography
+    content:
+      username: "admin"
+      text: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
+      button:
+        text: "Academic CV"
+        url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
+      # button:
+      #   text: "Resume"
+      #   url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
+    # design:
+    #   background:
+        # color: ""
+        # gradient_start: "#4f46e5"
+        # gradient_end: "#7c3aed"
+        # text_color_light: true
+      # spacing:
+      #   padding: ["6", "6", "6", "6"]
+      # columns: "1"
+  
   - block: resume-experience
     content:
       username: me
