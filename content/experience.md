@@ -2,8 +2,8 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
-# design:
-#   spacing: '5rem'
+design:
+  spacing: '-2rem'
 
 # Page sections
 sections:
