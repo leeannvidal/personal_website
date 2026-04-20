@@ -725,7 +725,7 @@ img.avatar {
 /* ==========================================================================
    BACKGROUND GRADIENTS
    ========================================================================== */
-
+/* 
 .hbx-bg-gradient {
   position: relative;
   z-index: 1;
@@ -741,7 +741,7 @@ img.avatar {
     radial-gradient(at 75% 30%, rgba(var(--gradient-accent-2), 0.45) 0px, transparent 50%),
     radial-gradient(at 5% 60%, rgba(var(--gradient-accent-4), 0.25) 0px, transparent 50%),
     radial-gradient(at 5% 85%, rgba(var(--gradient-accent-3), 0.45) 0px, transparent 50%);
-}
+} */
 
 
 /* ==========================================================================
