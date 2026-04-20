@@ -261,12 +261,16 @@ img.avatar {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(var(--color-primary-50), .35), rgba(255, 255, 255, .1));
+
+  /* THEME ADJUSTMENTS START HERE */
+  background: linear-gradient(135deg, rgba(var(--gradient-accent-1), .35), rgba(var(--gradient-accent-2), .1));
+  border: 1px solid rgba(var(--color-neutral-300), .25);
+  box-shadow: 0 18px 40px rgba(var(--color-neutral-900), .18); /* Using a dark neutral for shadow */
+  color: rgba(var(--color-neutral-800), .9); /* Dark neutral for icon/text */
+  /* THEME ADJUSTMENTS END HERE */
+
   backdrop-filter: blur(10px) saturate(160%);
   -webkit-backdrop-filter: blur(10px) saturate(160%);
-  border: 1px solid rgba(255, 255, 255, .25);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, .18);
-  color: rgba(28, 37, 54, .9);
   padding: 0;
   line-height: 1;
   flex-shrink: 0;
@@ -277,9 +281,12 @@ img.avatar {
 #site-header .navbar-search__button:focus-visible,
 #site-header .navbar__menu-toggle:hover,
 #site-header .navbar__menu-toggle:focus-visible {
-  box-shadow: 0 28px 52px rgba(12, 19, 36, .28), inset 0 1px rgba(255, 255, 255, .85);
-  background: linear-gradient(130deg, rgba(255, 255, 255, .96), rgba(255, 255, 255, .45));
+  /* THEME ADJUSTMENTS START HERE */
+  box-shadow: 0 28px 52px rgba(var(--color-neutral-950), .28), inset 0 1px rgba(var(--gradient-accent-1), .85); /* Darker shadow, with highlight from accent */
+  background: linear-gradient(130deg, rgba(var(--gradient-accent-1), .96), rgba(var(--gradient-accent-2), .45)); /* Brighter, more opaque accent gradient */
+  /* THEME ADJUSTMENTS END HERE */
 }
+
 
 #site-header .navbar-search__label {
   display: none;
@@ -291,21 +298,26 @@ img.avatar {
   transition: transform .25s ease;
 }
 
+/* DARK MODE */
 .dark #site-header .navbar-utils__btn,
 .dark #site-header .navbar-search__button,
 .dark #site-header .navbar__menu-toggle {
-  background: linear-gradient(145deg, rgba(23, 33, 47, .35), rgba(13, 20, 34, .25));
-  border: 1px solid rgba(var(--color-primary-300), .25);
-  box-shadow: 0 24px 48px rgba(2, 12, 27, .58), inset 0 1px rgba(255, 255, 255, .1);
-  color: rgba(226, 232, 240, .9);
+  /* THEME ADJUSTMENTS START HERE */
+  background: linear-gradient(145deg, rgba(var(--gradient-accent-1), .35), rgba(var(--gradient-accent-2), .25)); /* Dark accents for background */
+  border: 1px solid rgba(var(--color-neutral-700), .25); /* Darker neutral border */
+  box-shadow: 0 24px 48px rgba(var(--color-neutral-950), .58), inset 0 1px rgba(var(--color-neutral-50), .1); /* Darker shadow, light inner highlight */
+  color: rgba(var(--color-neutral-200), .9); /* Light neutral for text/icon */
+  /* THEME ADJUSTMENTS END HERE */
 }
 
 .dark #site-header .navbar-search__button:hover,
 .dark #site-header .navbar-search__button:focus-visible,
 .dark #site-header .navbar__menu-toggle:hover,
 .dark #site-header .navbar__menu-toggle:focus-visible {
-  background: linear-gradient(145deg, rgba(32, 46, 64, .95), rgba(18, 27, 41, .75));
-  box-shadow: 0 32px 56px rgba(2, 12, 27, .65), inset 0 1px rgba(255, 255, 255, .14);
+  /* THEME ADJUSTMENTS START HERE */
+  background: linear-gradient(145deg, rgba(var(--gradient-accent-1), .95), rgba(var(--gradient-accent-2), .75)); /* More opaque dark accent gradient */
+  box-shadow: 0 32px 56px rgba(var(--color-neutral-950), .65), inset 0 1px rgba(var(--color-neutral-100), .14); /* Even darker shadow, light inner highlight */
+  /* THEME ADJUSTMENTS END HERE */
 }
 
 
@@ -325,12 +337,23 @@ img.avatar {
   align-items: center;
   justify-content: center;
   gap: .25rem;
+
+  /*
+   * IMPORTANT: The base "liquid UI" button styles (width, height, border-radius,
+   * background, backdrop-filter, border, box-shadow, color, transition)
+   * are assumed to be applied through a shared class like .navbar-utils__btn
+   * as previously discussed. This rule only adds specific alignment for the button's content.
+   * If .navbar-utils__btn is NOT applied to .theme-toggle__button,
+   * you would need to duplicate those base styles here.
+   */
 }
 
 #site-header .theme-toggle__button:hover,
 #site-header .theme-toggle__button:focus-visible {
-  box-shadow: 0 28px 52px rgba(12, 19, 36, .28), inset 0 1px rgba(255, 255, 255, .85);
-  background: linear-gradient(130deg, rgba(255, 255, 255, .96), rgba(255, 255, 255, .45));
+  /* THEME ADJUSTMENTS START HERE */
+  box-shadow: 0 28px 52px rgba(var(--color-neutral-950), .28), inset 0 1px rgba(var(--gradient-accent-1), .85);
+  background: linear-gradient(130deg, rgba(var(--gradient-accent-1), .96), rgba(var(--gradient-accent-2), .45));
+  /* THEME ADJUSTMENTS END HERE */
 }
 
 #site-header .theme-toggle__icon {
@@ -345,8 +368,10 @@ img.avatar {
 
 .dark #site-header .theme-toggle__button:hover,
 .dark #site-header .theme-toggle__button:focus-visible {
-  background: linear-gradient(145deg, rgba(32, 46, 64, .95), rgba(18, 27, 41, .75));
-  box-shadow: 0 32px 56px rgba(2, 12, 27, .65), inset 0 1px rgba(255, 255, 255, .14);
+  /* THEME ADJUSTMENTS START HERE */
+  background: linear-gradient(145deg, rgba(var(--gradient-accent-1), .95), rgba(var(--gradient-accent-2), .75));
+  box-shadow: 0 32px 56px rgba(var(--color-neutral-950), .65), inset 0 1px rgba(var(--color-neutral-100), .14);
+  /* THEME ADJUSTMENTS END HERE */
 }
 
 
