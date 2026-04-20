@@ -50,17 +50,17 @@ code, pre, kbd, samp {
   --color-secondary-950: 25 34 30;
 
   /* NEUTRAL: #85A197 */
-  --color-neutral-50: 246 249 248;
+  /* --color-neutral-50: 246 249 248;
   --color-neutral-100: 234 241 239;
   --color-neutral-200: 209 225 220;
   --color-neutral-300: 176 204 196;
-  --color-neutral-400: 144 182 171;
-  --color-neutral-500: 133 161 151; /* base */
-  --color-neutral-600: 106 132 124;
+  --color-neutral-400: 144 182 171; */
+  /* --color-neutral-500: 133 161 151; base */
+  /* --color-neutral-600: 106 132 124;
   --color-neutral-700: 82 103 96;
   --color-neutral-800: 60 75 70;
   --color-neutral-900: 42 52 48;
-  --color-neutral-950: 25 31 29;
+  --color-neutral-950: 25 31 29; */
 
   --gradient-accent-1: 160 24% 93%;   /* secondary-100, a very light green */
   --gradient-accent-2: 155 19% 66%;   /* secondary base */
