@@ -3,28 +3,23 @@ title: 'Experience'
 date: 2023-10-24
 type: landing
 
-design:
-  spacing: '5rem'
+# design:
+#   spacing: '5rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
 sections:
   - block: dev-hero
-    id: hero
     content:
       username: me
-      greeting: "Hello, I'm"
-      title: "TITLE"
-      role: "role"
-      bio: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
-      tagline: tagline
+      # greeting: "Hello, I'm"
+      tagline: Scroll through to view my experience or click on the buttons for PDF versions of my CV and Resume.
       cta_buttons:
         - text: View Academic CV
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
         - text: View Resume
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
-          # icon: document-arrow-down
     design:
       style: split
       avatar_shape: rounded
@@ -40,10 +35,6 @@ sections:
     content:
       title: Skills & Hobbies
       username: me
-  # - block: resume-awards
-  #   content:
-  #     title: Awards
-  #     username: me
   - block: resume-languages
     content:
       title: Languages
