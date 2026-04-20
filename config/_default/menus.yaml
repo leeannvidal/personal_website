@@ -10,6 +10,9 @@ main:
   - name: Research
     url: /research/
     weight: 15
+  - name: Coding Corner
+    url: /coding_corner/
+    weight: 17
   # - name: Papers
   #   url: /#papers
   #   weight: 11
