@@ -23,19 +23,19 @@ code, pre, kbd, samp {
    THEME TOKENS / GLOBAL COLOR VARIABLES
    ========================================================================== */
 
-:root {
-  --bio-g1: 153 18% 92%;
-  --bio-g2: 153 18% 72%;
-  --bio-g3: 195 14% 45%;
-  --bio-g4: 153 8% 36%;
+/* :root {
+  --gradient-accent-1: 153 18% 92%;
+  --gradient-accent-2: 153 18% 72%;
+  --gradient-accent-3: 195 14% 45%;
+  --gradient-accent-4: 153 8% 36%;
 }
 
 .dark {
-  --bio-g1: 153 8% 18%;
-  --bio-g2: 153 18% 28%;
-  --bio-g3: 195 14% 25%;
-  --bio-g4: 153 18% 42%;
-}
+  --gradient-accent-1: 153 8% 18%;
+  --gradient-accent-2: 153 18% 28%;
+  --gradient-accent-3: 195 14% 25%;
+  --gradient-accent-4: 153 18% 42%;
+} */
 
 
 /* ==========================================================================
@@ -119,10 +119,6 @@ code, pre, kbd, samp {
 #site-header .navbar__slot--menu {
   flex-direction: column;
   gap: .5rem;
-}
-
-#site-header .navbar__slot--utilities {
-  /* layout refinements live in breakpoint sections */
 }
 
 #site-header .navbar__menu-card {
@@ -490,7 +486,7 @@ img.avatar {
     border-radius: 1rem;
     background: linear-gradient(145deg, rgba(206, 225, 218, .9), rgba(232, 241, 238, .35));
     border: 1px solid rgba(173, 201, 191, .4); /* Slightly darker secondary for border */
-    box-shadow: 0 18px 40px rgba(42, 52, 48;, .18);
+    box-shadow: 0 18px 40px rgba(42, 52, 48, .18);
     backdrop-filter: blur(10px) saturate(160%);
     -webkit-backdrop-filter: blur(10px) saturate(160%);
     transition: transform .25s ease;
@@ -588,7 +584,7 @@ img.avatar {
     min-height: var(--nav-chip-size);
     padding: 0 1.2rem;
     border-radius: 999px;
-    background: linear-gradient(145deg, rgba(206, 225, 218, .9), rgba(232, 241, 238, .35));
+    background: linear-gradient(145deg, rgba(206, 225, 218, .6), rgba(232, 241, 238, .3));
     border: 1px solid rgba(173, 201, 191, .4); /* Slightly darker secondary for border */
     box-shadow: 0 18px 40px rgba(42, 52, 48, .18), 0 8px 25px rgba(42, 52, 48, 8%);
     /* background: linear-gradient(145deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
@@ -697,17 +693,17 @@ img.avatar {
   z-index: 1;
 }
 
-.hbx-bg-gradient::before {
+/* .hbx-bg-gradient::before {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
   background-image:
-    radial-gradient(at 20% 25%, hsla(var(--bio-g1) /.45) 0px, transparent 50%),
-    radial-gradient(at 75% 30%, hsla(var(--bio-g2) /.45) 0px, transparent 50%),
-    radial-gradient(at 5% 60%, hsla(var(--bio-g4) /.25) 0px, transparent 50%),
-    radial-gradient(at 5% 85%, hsla(var(--bio-g3) /.45) 0px, transparent 50%);
-}
+    radial-gradient(at 20% 25%, hsla(var(--gradient-accent-1) /.45) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, hsla(var(--gradient-accent-2) /.45) 0px, transparent 50%),
+    radial-gradient(at 5% 60%, hsla(var(--gradient-accent-4) /.25) 0px, transparent 50%),
+    radial-gradient(at 5% 85%, hsla(var(--gradient-accent-3) /.45) 0px, transparent 50%);
+} */
 
 
 /* ==========================================================================
