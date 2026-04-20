@@ -18,83 +18,45 @@ code, pre, kbd, samp {
 }
 
 
+
 /* ==========================================================================
    THEME TOKENS / GLOBAL COLOR VARIABLES
    ========================================================================== */
 
 :root {
-  /* PRIMARY: #677E76 */
-  --color-primary-50: 243 247 246;
-  --color-primary-100: 228 236 234;
-  --color-primary-200: 203 217 213;
-  --color-primary-300: 170 194 187;
-  --color-primary-400: 133 166 156;
-  --color-primary-500: 103 126 118; /* base */
-  --color-primary-600: 86 105 98;
-  --color-primary-700: 67 82 76;
-  --color-primary-800: 50 62 57;
-  --color-primary-900: 36 45 41;
-  --color-primary-950: 22 27 25;
-
-  /* SECONDARY: #97B8AA */
-  --color-secondary-50: 245 249 247;
-  --color-secondary-100: 232 241 238;
-  --color-secondary-200: 206 225 218;
-  --color-secondary-300: 173 201 191;
-  --color-secondary-400: 134 174 159;
-  --color-secondary-500: 151 184 170; /* base */
-  --color-secondary-600: 108 139 124;
-  --color-secondary-700: 83 107 96;
-  --color-secondary-800: 61 79 71;
-  --color-secondary-900: 43 57 51;
-  --color-secondary-950: 25 34 30;
-
-  /* NEUTRAL: #85A197 */
-  --color-neutral-50: 246 249 248;
-  --color-neutral-100: 234 241 239;
-  --color-neutral-200: 209 225 220;
-  --color-neutral-300: 176 204 196;
-  --color-neutral-400: 144 182 171;
-  --color-neutral-500: 133 161 151; /* base */
-  --color-neutral-600: 106 132 124;
-  --color-neutral-700: 82 103 96;
-  --color-neutral-800: 60 75 70;
-  --color-neutral-900: 42 52 48;
-  --color-neutral-950: 25 31 29;
-
-  --gradient-accent-1: var(--color-secondary-100);
-  --gradient-accent-2: var(--color-secondary-500);
-  --gradient-accent-3: var(--color-neutral-500);
-  --gradient-accent-4: var(--color-primary-500);
-
+  --bio-g1: 153 18% 92%;
+  --bio-g2: 153 18% 72%;
+  --bio-g3: 195 14% 45%;
+  --bio-g4: 153 8% 36%;
 }
 
 .dark {
-  --gradient-accent-1: var(--color-primary-800);
-  --gradient-accent-2: var(--color-secondary-700);
-  --gradient-accent-3: var(--color-neutral-700);
-  --gradient-accent-4: var(--color-primary-400);
+  --bio-g1: 153 8% 18%;
+  --bio-g2: 153 18% 28%;
+  --bio-g3: 195 14% 25%;
+  --bio-g4: 153 18% 42%;
 }
+
 
 /* ==========================================================================
    GENERAL UI SURFACES / REUSABLE GLASS STYLES
    ========================================================================== */
 
 .group {
-  /* background-color: initial; */
+  background-color: #C0D8CF;
   border-radius: 26px;
 }
 
 .liquidUI {
-  background: linear-gradient(145deg, rgba(232, 241, 238, .35), rgba(151, 184, 170, .1));
-  border: 1px solid rgba(133, 161, 151, .1); /* Use a neutral accent for a subtle border */
+  background: linear-gradient(145deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
+  border: 1px solid rgba(255, 255, 255, .1);
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
 }
 
 .dark .liquidUI {
-  background: linear-gradient(145deg, rgba(67, 82, 76, .45), rgba(83, 107, 96, .25));
-  border: 1px solid rgba(82, 103, 96, .1); /* Adjust if needed */
+  background: linear-gradient(145deg, rgba(30, 41, 59, .45), rgba(15, 23, 42, .25));
+  border: 1px solid rgba(148, 163, 184, .1);
 }
 
 .liquidUI-shadow {
@@ -121,7 +83,7 @@ code, pre, kbd, samp {
 }
 
 .dark #site-header.header {
-  background-color: #3C4B46;
+  background-color: #C0D8CF;
   box-shadow: none;
 }
 
@@ -159,6 +121,10 @@ code, pre, kbd, samp {
   gap: .5rem;
 }
 
+#site-header .navbar__slot--utilities {
+  /* layout refinements live in breakpoint sections */
+}
+
 #site-header .navbar__menu-card {
   display: flex;
   flex-direction: column;
@@ -190,8 +156,8 @@ code, pre, kbd, samp {
   width: var(--nav-chip-size);
   height: var(--nav-chip-size);
   border-radius: 50%;
-  border: 4px solid rgba(170, 194, 187, .25);
-  box-shadow: 0 18px 40px rgba(36, 45, 41, .14);
+  border: 4px solid rgba(148, 163, 184, .25);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, .14);
   backdrop-filter: blur(10px) saturate(160%);
   -webkit-backdrop-filter: blur(10px) saturate(160%);
   display: grid;
@@ -201,7 +167,7 @@ code, pre, kbd, samp {
 
 .dark #site-header .navbar__brand {
   background: linear-gradient(145deg, rgba(29, 41, 57, .95), rgba(17, 24, 39, .68));
-  border: 4px solid rgba(170, 194, 187, .25);
+  border: 4px solid rgba(148, 163, 184, .25);
   box-shadow: 0 22px 44px rgba(2, 12, 27, .58);
   backdrop-filter: blur(10px) saturate(160%);
   -webkit-backdrop-filter: blur(10px) saturate(160%);
@@ -226,15 +192,15 @@ code, pre, kbd, samp {
 
 .avatar-emoji,
 img.avatar {
-  background: linear-gradient(145deg, rgba(246, 249, 248, .9), rgba(243, 247, 246, .35));
-  box-shadow: 0 18px 40px rgba(36, 45, 41, .14);
+  background: linear-gradient(145deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .35));
+  box-shadow: 0 18px 40px rgba(15, 23, 42, .14);
   backdrop-filter: blur(10px) saturate(160%);
   -webkit-backdrop-filter: blur(10px) saturate(160%);
 }
 
 .dark .avatar-emoji,
 .dark img.avatar {
-  background: linear-gradient(145deg, rgba(246, 249, 248, .9), rgba(243, 247, 246, .35));
+  background: linear-gradient(145deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .35));
   box-shadow: 0 22px 44px rgba(2, 12, 27, .58);
   backdrop-filter: blur(10px) saturate(160%);
   -webkit-backdrop-filter: blur(10px) saturate(160%);
@@ -261,16 +227,12 @@ img.avatar {
   display: grid;
   place-items: center;
   border-radius: 50%;
-
-  /* THEME ADJUSTMENTS START HERE */
-  background: linear-gradient(135deg, rgba(232, 241, 238, .35), rgba(151, 184, 170, .1));
-  border: 1px solid rgba(176, 204, 196, .25);
-  box-shadow: 0 18px 40px rgba(42, 52, 48, .18); /* Using a dark neutral for shadow */
-  color: rgba(60, 75, 70, .9); /* Dark neutral for icon/text */
-  /* THEME ADJUSTMENTS END HERE */
-
+  background: linear-gradient(135deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
   backdrop-filter: blur(10px) saturate(160%);
   -webkit-backdrop-filter: blur(10px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, .18);
+  color: rgba(28, 37, 54, .9);
   padding: 0;
   line-height: 1;
   flex-shrink: 0;
@@ -281,12 +243,9 @@ img.avatar {
 #site-header .navbar-search__button:focus-visible,
 #site-header .navbar__menu-toggle:hover,
 #site-header .navbar__menu-toggle:focus-visible {
-  /* THEME ADJUSTMENTS START HERE */
-  box-shadow: 0 28px 52px rgba(25, 31, 29, .28), inset 0 1px rgba(232, 241, 238, .85); /* Darker shadow, with highlight from accent */
-  background: linear-gradient(130deg, rgba(232, 241, 238, .96), rgba(151, 184, 170, .45)); /* Brighter, more opaque accent gradient */
-  /* THEME ADJUSTMENTS END HERE */
+  box-shadow: 0 28px 52px rgba(12, 19, 36, .28), inset 0 1px rgba(255, 255, 255, .85);
+  background: linear-gradient(130deg, rgba(255, 255, 255, .96), rgba(255, 255, 255, .45));
 }
-
 
 #site-header .navbar-search__label {
   display: none;
@@ -298,26 +257,21 @@ img.avatar {
   transition: transform .25s ease;
 }
 
-/* DARK MODE */
 .dark #site-header .navbar-utils__btn,
 .dark #site-header .navbar-search__button,
 .dark #site-header .navbar__menu-toggle {
-  /* THEME ADJUSTMENTS START HERE */
-  background: linear-gradient(145deg, rgba(67, 82, 76, .35), rgba(83, 107, 96, .25)); /* Dark accents for background */
-  border: 1px solid rgba(82, 103, 96, .25); /* Darker neutral border */
-  box-shadow: 0 24px 48px rgba(25, 31, 29, .58), inset 0 1px rgba(246, 249, 248, .1); /* Darker shadow, light inner highlight */
-  color: rgba(20, 225, 220, .9); /* Light neutral for text/icon */
-  /* THEME ADJUSTMENTS END HERE */
+  background: linear-gradient(145deg, rgba(23, 33, 47, .35), rgba(13, 20, 34, .25));
+  border: 1px solid rgba(148, 163, 184, .25);
+  box-shadow: 0 24px 48px rgba(2, 12, 27, .58), inset 0 1px rgba(255, 255, 255, .1);
+  color: rgba(226, 232, 240, .9);
 }
 
 .dark #site-header .navbar-search__button:hover,
 .dark #site-header .navbar-search__button:focus-visible,
 .dark #site-header .navbar__menu-toggle:hover,
 .dark #site-header .navbar__menu-toggle:focus-visible {
-  /* THEME ADJUSTMENTS START HERE */
-  background: linear-gradient(145deg, rgba(67, 82, 76, .95), rgba(83, 107, .75)); /* More opaque dark accent gradient */
-  box-shadow: 0 32px 56px rgba(25, 31, 29, .65), inset 0 1px rgba(234, 241, 239, .14); /* Even darker shadow, light inner highlight */
-  /* THEME ADJUSTMENTS END HERE */
+  background: linear-gradient(145deg, rgba(32, 46, 64, .95), rgba(18, 27, 41, .75));
+  box-shadow: 0 32px 56px rgba(2, 12, 27, .65), inset 0 1px rgba(255, 255, 255, .14);
 }
 
 
@@ -337,23 +291,12 @@ img.avatar {
   align-items: center;
   justify-content: center;
   gap: .25rem;
-
-  /*
-   * IMPORTANT: The base "liquid UI" button styles (width, height, border-radius,
-   * background, backdrop-filter, border, box-shadow, color, transition)
-   * are assumed to be applied through a shared class like .navbar-utils__btn
-   * as previously discussed. This rule only adds specific alignment for the button's content.
-   * If .navbar-utils__btn is NOT applied to .theme-toggle__button,
-   * you would need to duplicate those base styles here.
-   */
 }
 
 #site-header .theme-toggle__button:hover,
 #site-header .theme-toggle__button:focus-visible {
-  /* THEME ADJUSTMENTS START HERE */
-  box-shadow: 0 28px 52px rgba(25, 31, 29, .28), inset 0 1px rgba(232, 241, 238, .85);
-  background: linear-gradient(130deg, rgba(232, 241, 238, .96), rgba(151 184 170, .45));
-  /* THEME ADJUSTMENTS END HERE */
+  box-shadow: 0 28px 52px rgba(12, 19, 36, .28), inset 0 1px rgba(255, 255, 255, .85);
+  background: linear-gradient(130deg, rgba(255, 255, 255, .96), rgba(255, 255, 255, .45));
 }
 
 #site-header .theme-toggle__icon {
@@ -368,10 +311,8 @@ img.avatar {
 
 .dark #site-header .theme-toggle__button:hover,
 .dark #site-header .theme-toggle__button:focus-visible {
-  /* THEME ADJUSTMENTS START HERE */
-  background: linear-gradient(145deg, rgba(67, 82, 76, .95), rgba(83, 107, 96, .75));
-  box-shadow: 0 32px 56px rgba(25, 31, 29, .65), inset 0 1px rgba(234, 241, 239, .14);
-  /* THEME ADJUSTMENTS END HERE */
+  background: linear-gradient(145deg, rgba(32, 46, 64, .95), rgba(18, 27, 41, .75));
+  box-shadow: 0 32px 56px rgba(2, 12, 27, .65), inset 0 1px rgba(255, 255, 255, .14);
 }
 
 
@@ -392,22 +333,22 @@ img.avatar {
 
 #site-header .nav-link:hover,
 #site-header .nav-link:focus-visible {
-  background-color: rgba(209, 225, 220, .12);
+  background-color: rgba(93, 104, 138, .12);
   color: rgba(15, 23, 42, .9);
-  box-shadow: 0 10px 24px rgba(61, 79, 71, 8%), inset 0 1px rgba(203, 210, 213, .75);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 8%), inset 0 1px rgba(255, 255, 255, .75);
   transform: translateY(-1px);
 }
 
 #site-header .nav-link.active {
-  background-color: rgba(228, 236, 234, 5%);
+  background-color: rgba(93, 104, 138, 5%);
   color: rgba(15, 23, 42, .9);
-  box-shadow: inset 0 1px rgba(203, 210, 213, .14);
+  box-shadow: inset 0 1px rgba(255, 255, 255, .14);
 }
 
 #site-header .nav-link.active:hover,
 #site-header .nav-link.active:focus-visible {
-  background-color: rgba(228, 236, 234, .16);
-  box-shadow: 0 12px 26px rgba(15, 23, 42, .1), inset 0 1px rgba(203, 210, 213, .82);
+  background-color: rgba(93, 104, 138, .16);
+  box-shadow: 0 12px 26px rgba(15, 23, 42, .1), inset 0 1px rgba(255, 255, 255, .82);
 }
 
 .dark #site-header .nav-link:hover,
@@ -419,7 +360,7 @@ img.avatar {
 .dark #site-header .nav-link.active {
   background-color: rgba(148, 163, 184, .24);
   color: rgba(248, 250, 252, .95);
-  box-shadow: inset 0 1px rgba(203, 210, 213, .18);
+  box-shadow: inset 0 1px rgba(255, 255, 255, .18);
 }
 
 
@@ -547,7 +488,7 @@ img.avatar {
     margin-top: 0;
     padding: .75rem .75rem 1.25rem;
     border-radius: 1rem;
-    background: linear-gradient(145deg, rgba(var(--color-neutral-50), .9), rgba(var(--color-primary-50), .35));
+    background: linear-gradient(145deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .35));
     box-shadow: 0 18px 40px rgba(15, 23, 42, .18);
     backdrop-filter: blur(10px) saturate(160%);
     -webkit-backdrop-filter: blur(10px) saturate(160%);
@@ -646,7 +587,7 @@ img.avatar {
     min-height: var(--nav-chip-size);
     padding: 0 1.2rem;
     border-radius: 999px;
-    background: linear-gradient(145deg, rgba(var(--color-primary-50), .35), rgba(255, 255, 255, .1));
+    background: linear-gradient(145deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
     border: 1px solid rgba(255, 255, 255, .25);
     box-shadow: 0 18px 45px rgba(15, 23, 42, .18), 0 8px 25px rgba(15, 23, 42, 8%);
     backdrop-filter: blur(10px) saturate(180%);
@@ -758,12 +699,11 @@ img.avatar {
   inset: 0;
   z-index: -1;
   background-image:
-    radial-gradient(at 20% 25%, rgba(var(--gradient-accent-1), 0.45) 0px, transparent 50%),
-    radial-gradient(at 75% 30%, rgba(var(--gradient-accent-2), 0.45) 0px, transparent 50%),
-    radial-gradient(at 5% 60%, rgba(var(--gradient-accent-4), 0.25) 0px, transparent 50%),
-    radial-gradient(at 5% 85%, rgba(var(--gradient-accent-3), 0.45) 0px, transparent 50%);
+    radial-gradient(at 20% 25%, hsla(var(--bio-g1) /.45) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, hsla(var(--bio-g2) /.45) 0px, transparent 50%),
+    radial-gradient(at 5% 60%, hsla(var(--bio-g4) /.25) 0px, transparent 50%),
+    radial-gradient(at 5% 85%, hsla(var(--bio-g3) /.45) 0px, transparent 50%);
 }
-
 
 
 /* ==========================================================================
@@ -923,7 +863,7 @@ img.avatar {
 .dark .social-link {
   color: rgba(226, 232, 240, .92);
   background: linear-gradient(145deg, rgba(23, 33, 47, .35), rgba(13, 20, 34, .25));
-  border: 1px solid rgba(var(--color-primary-300), .25);
+  border: 1px solid rgba(148, 163, 184, .25);
   box-shadow: 0 16px 30px rgba(2, 12, 27, .36), inset 0 1px rgba(255, 255, 255, .1);
 }
 
