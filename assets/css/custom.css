@@ -77,13 +77,13 @@ code, pre, kbd, samp {
 }
 
 #site-header.header {
-  background-color: #C0D8CF;
+  background-color: initial;
   box-shadow: none;
   padding: 0;
 }
 
 .dark #site-header.header {
-  background-color: #C0D8CF;
+  background-color: initial;
   box-shadow: none;
 }
 
