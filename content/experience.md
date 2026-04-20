@@ -11,7 +11,6 @@ sections:
     content:
       username: me
       # greeting: "Hello, I'm"
-      text: "spom"
       cta_buttons:
         - text: View Academic CV
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
@@ -20,6 +19,8 @@ sections:
     design:
       style: split
       avatar_shape: rounded
+      spacing:
+        padding: "0.5rem 0 0.5rem 0"
   - block: resume-experience
     content:
       username: me
