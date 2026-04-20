@@ -23,7 +23,7 @@ sections:
   #     css_style: 'padding-top: 0; padding-bottom: 0;' 
   - block: resume-biography
     content:
-      username: "admin"
+      username: me
       text: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
       button:
         text: "Academic CV"
