@@ -43,7 +43,7 @@ code, pre, kbd, samp {
    ========================================================================== */
 
 .group {
-  background-color: #C0D8CF;
+  background-color: initial;
   border-radius: 26px;
 }
 
