@@ -81,7 +81,7 @@ code, pre, kbd, samp {
    ========================================================================== */
 
 .group {
-  background-color: initial;
+  /* background-color: initial; */
   border-radius: 26px;
 }
 
