@@ -25,12 +25,12 @@ sections:
     content:
       username: me
       text: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
-      button:
+      cta-buttons:
         text: "Academic CV"
         url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
-      # button:
-      #   text: "Resume"
-      #   url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
+      button:
+        text: "Resume"
+        url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
     # design:
     #   background:
         # color: ""
@@ -45,6 +45,7 @@ sections:
     content:
       username: me
       greeting: "Hello, I'm"
+      text: "A scrollable overview of my academic background, work experience, and technical skills. For my Academic CV or Industry Resume, click on the buttons below."
       cta_buttons:
         - text: View Projects
           url: "#projects"
@@ -54,26 +55,26 @@ sections:
     design:
       style: split
       avatar_shape: rounded
-  - block: dev-hero
-    id: hero
-    content:
-      username: me
-      greeting: "Hi, I'm"
-      show_status: true
-      show_scroll_indicator: true
-      cta_buttons:
-        - text: View My Work
-          url: "#projects"
-          icon: arrow-down
-        - text: Get In Touch
-          url: "#contact"
-          icon: envelope
-    design:
-      style: centered
-      avatar_shape: circle
-      background:
-        color:
-          dark: "#0a0a0f"
+  # - block: dev-hero
+  #   id: hero
+  #   content:
+  #     username: me
+  #     greeting: "Hi, I'm"
+  #     show_status: true
+  #     show_scroll_indicator: true
+  #     cta_buttons:
+  #       - text: View My Work
+  #         url: "#projects"
+  #         icon: arrow-down
+  #       - text: Get In Touch
+  #         url: "#contact"
+  #         icon: envelope
+  #   design:
+  #     style: centered
+  #     avatar_shape: circle
+  #     background:
+  #       color:
+  #         dark: "#0a0a0f"
   - block: resume-experience
     content:
       username: me
