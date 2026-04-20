@@ -21,7 +21,7 @@ sections:
       avatar_shape: rounded
       spacing:
         padding: "0"
-      css_class: "no-hero-gap"
+      css_class: "no-hero-gap" # FIGURE THIS OUT NEXT
   - block: markdown
     content:
       title: "Experience"
