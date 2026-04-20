@@ -29,7 +29,7 @@ code, pre, kbd, samp {
   --color-primary-200: 203 217 213;
   --color-primary-300: 170 194 187;
   --color-primary-400: 133 166 156;
-  --color-primary-500: 103 126 118;
+  --color-primary-500: 103 126 118; /* base */
   --color-primary-600: 86 105 98;
   --color-primary-700: 67 82 76;
   --color-primary-800: 50 62 57;
@@ -42,7 +42,7 @@ code, pre, kbd, samp {
   --color-secondary-200: 206 225 218;
   --color-secondary-300: 173 201 191;
   --color-secondary-400: 134 174 159;
-  --color-secondary-500: 151 184 170;
+  --color-secondary-500: 151 184 170; /* base */
   --color-secondary-600: 108 139 124;
   --color-secondary-700: 83 107 96;
   --color-secondary-800: 61 79 71;
@@ -55,25 +55,24 @@ code, pre, kbd, samp {
   --color-neutral-200: 209 225 220;
   --color-neutral-300: 176 204 196;
   --color-neutral-400: 144 182 171;
-  --color-neutral-500: 133 161 151;
+  --color-neutral-500: 133 161 151; /* base */
   --color-neutral-600: 106 132 124;
   --color-neutral-700: 82 103 96;
   --color-neutral-800: 60 75 70;
   --color-neutral-900: 42 52 48;
   --color-neutral-950: 25 31 29;
 
-  --gradient-accent-1: var(--color-secondary-100);
-  --gradient-accent-2: var(--color-secondary-500);
-  --gradient-accent-3: var(--color-neutral-500);
-  --gradient-accent-4: var(--color-primary-500);
-
+  --gradient-accent-1: 160 24% 93%;   /* secondary-100, a very light green */
+  --gradient-accent-2: 155 19% 66%;   /* secondary base */
+  --gradient-accent-3: 159 13% 58%;   /* neutral base */
+  --gradient-accent-4: 159 10% 45%;    /* primary base */
 }
 
 .dark {
-  --gradient-accent-1: var(--color-primary-800);
-  --gradient-accent-2: var(--color-secondary-700);
-  --gradient-accent-3: var(--color-neutral-700);
-  --gradient-accent-4: var(--color-primary-400);
+  --gradient-accent-1: 156 10% 29%;    /* color-primary-700 */
+  --gradient-accent-2: 153 13% 37%;   /* color-secondary-700 */
+  --gradient-accent-3: 160 11% 36%;   /* color-neutral-700 */
+  --gradient-accent-4: 162 16% 59%;   /* color-primary-400 */
 }
 
 /* ==========================================================================
@@ -737,11 +736,12 @@ img.avatar {
   inset: 0;
   z-index: -1;
   background-image:
-    radial-gradient(at 20% 25%, rgba(var(--gradient-accent-1), 0.45) 0px, transparent 50%),
-    radial-gradient(at 75% 30%, rgba(var(--gradient-accent-2), 0.45) 0px, transparent 50%),
-    radial-gradient(at 5% 60%, rgba(var(--gradient-accent-4), 0.25) 0px, transparent 50%),
-    radial-gradient(at 5% 85%, rgba(var(--gradient-accent-3), 0.45) 0px, transparent 50%);
+    radial-gradient(at 20% 25%, hsla(var(--gradient-accent-1) /.45) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, hsla(var(--gradient-accent-2) /.45) 0px, transparent 50%),
+    radial-gradient(at 5% 60%, hsla(var(--gradient-accent-4) /.25) 0px, transparent 50%),
+    radial-gradient(at 5% 85%, hsla(var(--gradient-accent-3) /.45) 0px, transparent 50%);
 }
+
 
 
 /* ==========================================================================
