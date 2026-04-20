@@ -23,17 +23,57 @@ code, pre, kbd, samp {
    ========================================================================== */
 
 :root {
-  --bio-g1: 153 18% 92%;   /* secondary-100, a very light green */
-  --bio-g2: 153 18% 72%;   /* secondary base */
-  --bio-g3: 195 14% 45%;   /* neutral base */
-  --bio-g4: 153 8% 36%;    /* primary base */
+  /* PRIMARY: #677E76 */
+  --color-primary-50: 243 247 246;
+  --color-primary-100: 228 236 234;
+  --color-primary-200: 203 217 213;
+  --color-primary-300: 170 194 187;
+  --color-primary-400: 133 166 156;
+  --color-primary-500: 103 126 118;
+  --color-primary-600: 86 105 98;
+  --color-primary-700: 67 82 76;
+  --color-primary-800: 50 62 57;
+  --color-primary-900: 36 45 41;
+  --color-primary-950: 22 27 25;
+
+  /* SECONDARY: #97B8AA */
+  --color-secondary-50: 245 249 247;
+  --color-secondary-100: 232 241 238;
+  --color-secondary-200: 206 225 218;
+  --color-secondary-300: 173 201 191;
+  --color-secondary-400: 134 174 159;
+  --color-secondary-500: 151 184 170;
+  --color-secondary-600: 108 139 124;
+  --color-secondary-700: 83 107 96;
+  --color-secondary-800: 61 79 71;
+  --color-secondary-900: 43 57 51;
+  --color-secondary-950: 25 34 30;
+
+  /* NEUTRAL: #85A197 */
+  --color-neutral-50: 246 249 248;
+  --color-neutral-100: 234 241 239;
+  --color-neutral-200: 209 225 220;
+  --color-neutral-300: 176 204 196;
+  --color-neutral-400: 144 182 171;
+  --color-neutral-500: 133 161 151;
+  --color-neutral-600: 106 132 124;
+  --color-neutral-700: 82 103 96;
+  --color-neutral-800: 60 75 70;
+  --color-neutral-900: 42 52 48;
+  --color-neutral-950: 25 31 29;
+
+  --gradient-accent-1: var(--color-secondary-100);
+  --gradient-accent-2: var(--color-secondary-500);
+  --gradient-accent-3: var(--color-neutral-500);
+  --gradient-accent-4: var(--color-primary-500);
+
 }
 
 .dark {
-  --bio-g1: 153 8% 18%;    /* darkened primary */
-  --bio-g2: 153 18% 28%;   /* darkened secondary */
-  --bio-g3: 195 14% 25%;   /* darkened neutral */
-  --bio-g4: 153 18% 42%;   /* slightly lighter than primary for contrast */
+  --gradient-accent-1: var(--color-primary-800);
+  --gradient-accent-2: var(--color-secondary-700);
+  --gradient-accent-3: var(--color-neutral-700);
+  --gradient-accent-4: var(--color-primary-400);
 }
 
 /* ==========================================================================
@@ -697,10 +737,10 @@ img.avatar {
   inset: 0;
   z-index: -1;
   background-image:
-    radial-gradient(at 20% 25%, hsla(var(--bio-g1) /.45) 0px, transparent 50%),
-    radial-gradient(at 75% 30%, hsla(var(--bio-g2) /.45) 0px, transparent 50%),
-    radial-gradient(at 5% 60%, hsla(var(--bio-g4) /.25) 0px, transparent 50%),
-    radial-gradient(at 5% 85%, hsla(var(--bio-g3) /.45) 0px, transparent 50%);
+    radial-gradient(at 20% 25%, rgba(var(--gradient-accent-1), 0.45) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, rgba(var(--gradient-accent-2), 0.45) 0px, transparent 50%),
+    radial-gradient(at 5% 60%, rgba(var(--gradient-accent-4), 0.25) 0px, transparent 50%),
+    radial-gradient(at 5% 85%, rgba(var(--gradient-accent-3), 0.45) 0px, transparent 50%);
 }
 
 
