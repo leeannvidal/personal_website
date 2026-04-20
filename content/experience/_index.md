@@ -20,13 +20,12 @@ sections:
       style: split
       avatar_shape: rounded
       spacing:
-        padding: "0.5rem 0 0.5rem 0"
+        padding: "0"
   - block: markdown
     content:
-      title: "About This Section"
-      subtitle: "More details below"
+      title: "Experience"
       text: | 
-        Scroll through to view my experience or click on the buttons for PDF versions of my CV and Resume.
+        Scroll through to view my experience or click on the buttons above for PDF versions of my CV and Resume.
   - block: resume-experience
     content:
       username: me
