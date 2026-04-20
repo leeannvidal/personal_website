@@ -512,14 +512,42 @@ img.avatar {
    ========================================================================== */
 
 @media (min-width: 1023px) {
+  /* Define header height for content push-down only in desktop media query */
+  :root {
+    --header-height: calc(clamp(.2rem, .45vw, .65rem) + clamp(.75rem, 1.4vw, 1.25rem) + var(--nav-chip-size, 3.6rem) + 2rem);
+    /* Calculated rough height: top padding + bottom padding + nav-chip-size + 2rem (for navbar vertical padding/margin) */
+  }
+
   #site-header.header {
+    /* These paddings are the *internal* paddings of the header container */
     padding-top: clamp(.2rem, .45vw, .65rem);
     padding-bottom: clamp(.75rem, 1.4vw, 1.25rem);
     margin-bottom: 0;
+
+    /* **** Crucial for fixed, full-width header **** */
+    position: fixed; /* Make the header stick to the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it spans full width */
+    z-index: 100; /* Ensure it's above other content */
+
+    /* **** Liquid UI background for the entire header strip **** */
+    background: linear-gradient(145deg, rgba(var(--color-secondary-200), .6), rgba(var(--color-secondary-100), .3));
+    border-bottom: 1px solid rgba(var(--color-secondary-300), .2); /* Subtle bottom border using theme color */
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+  }
+
+  .dark #site-header.header {
+    /* **** Dark mode Liquid UI background for the entire header strip **** */
+    background: linear-gradient(145deg, rgba(var(--color-primary-700), .6), rgba(var(--color-primary-800), .3));
+    border-bottom: 1px solid rgba(var(--color-neutral-600), .2);
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-950), .2);
   }
 
   #site-header .navbar-float-wrapper {
-    position: relative;
+    position: relative; /* Keep relative, now inside fixed header */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -527,20 +555,27 @@ img.avatar {
   }
 
   #site-header .navbar-float-spacer {
+    /* This spacer needs to push content BELOW the fixed header. */
+    /* It should be placed *after* the #site-header in your HTML body or a wrapper */
     display: block;
     width: 100%;
-    height: 0;
+    height: var(--header-height); /* Set height from calculated variable */
     pointer-events: none;
   }
 
   #site-header .navbar {
-    position: absolute;
-    top: 1rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: min(1080px, calc(100% - 3rem));
+    /* This element will now be centered *within* the fixed #site-header.header */
+    position: relative; /* Changed from absolute */
+    top: auto; /* Remove absolute positioning offsets */
+    left: auto;
+    transform: none; /* Remove transform for centering */
+    width: min(1080px, calc(100% - 3rem)); /* Keep width constraint */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center its content (navbar__inner) */
+    margin: 0 auto; /* Center the navbar itself horizontally within its parent */
+    padding-top: 1rem; /* Adjust padding to provide vertical space for content within the navbar */
+    padding-bottom: 1rem;
+    height: auto; /* Ensure height adjusts to content */
   }
 
   #site-header .navbar__inner {
@@ -584,12 +619,11 @@ img.avatar {
     min-height: var(--nav-chip-size);
     padding: 0 1.2rem;
     border-radius: 999px;
-    background: linear-gradient(145deg, rgba(206, 225, 218, .6), rgba(232, 241, 238, .3));
-    border: 1px solid rgba(173, 201, 191, .4); /* Slightly darker secondary for border */
-    box-shadow: 0 18px 40px rgba(42, 52, 48, .18), 0 8px 25px rgba(42, 52, 48, 8%);
-    /* background: linear-gradient(145deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
-    border: 1px solid rgba(255, 255, 255, .25);
-    box-shadow: 0 18px 45px rgba(15, 23, 42, .18), 0 8px 25px rgba(15, 23, 42, 8%); */
+
+    /* **** Liquid UI theme background for the DESKTOP menu card **** */
+    background: linear-gradient(145deg, rgba(var(--color-secondary-200), .6), rgba(var(--color-secondary-100), .3));
+    border: 1px solid rgba(var(--color-secondary-300), .4); /* Slightly darker secondary for border */
+    box-shadow: 0 18px 40px rgba(var(--color-neutral-900), .18), 0 8px 25px rgba(var(--color-neutral-900), 8%);
     backdrop-filter: blur(10px) saturate(180%);
     -webkit-backdrop-filter: blur(10px) saturate(180%);
   }
@@ -603,9 +637,10 @@ img.avatar {
   }
 
   .dark #site-header .navbar__menu-card {
-    background: linear-gradient(145deg, rgba(30, 41, 59, .45), rgba(15, 23, 42, .25));
-    border: 1px solid rgba(148, 163, 184, .18);
-    box-shadow: 0 24px 50px rgba(2, 12, 27, .6), 0 10px 30px rgba(2, 12, 27, .35);
+    /* **** Dark mode Liquid UI theme background for the DESKTOP menu card **** */
+    background: linear-gradient(145deg, rgba(var(--color-primary-700), .6), rgba(var(--color-primary-800), .3));
+    border: 1px solid rgba(var(--color-neutral-600), .18); /* Darker neutral for border */
+    box-shadow: 0 24px 48px rgba(var(--color-neutral-950), .5), 0 10px 30px rgba(var(--color-neutral-950), .35);
   }
 
   #site-header .navbar__menu-toggle {
@@ -615,19 +650,7 @@ img.avatar {
   #site-header .navbar-search {
     padding-left: clamp(.75rem, 2vw, 2rem);
   }
-
-  @supports not (backdrop-filter: blur(1rem)) {
-    #site-header .navbar__menu-card {
-      background: rgba(255, 255, 255, .88);
-    }
-
-    .dark #site-header .navbar__menu-card {
-      background: rgba(30, 41, 59, .85);
-    }
-  }
 }
-
-
 /* ==========================================================================
    DESKTOP-ONLY HAMBURGER TOGGLE HIDE
    >= 1024px
