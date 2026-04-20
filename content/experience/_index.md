@@ -32,7 +32,7 @@ sections:
       username: me
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: 'January 20 06'
       # Education or Experience section first?
       is_education_first: yes
   - block: resume-skills
