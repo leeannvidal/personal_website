@@ -25,16 +25,17 @@ code, pre, kbd, samp {
 
 :root {
   --bio-g1: 153 18% 92%;
-  --bio-g2: 153 18% 72%;
-  --bio-g3: 195 14% 45%;
-  --bio-g4: 153 8% 36%;
+  --gradient-accent-1: 160 24% 93%;   /* secondary-100, a very light green */
+  --gradient-accent-2: 155 19% 66%;   /* secondary base */
+  --gradient-accent-3: 159 13% 58%;   /* neutral base */
+  --gradient-accent-4: 159 10% 45%;    /* primary base */
 }
 
 .dark {
-  --bio-g1: 153 8% 18%;
-  --bio-g2: 153 18% 28%;
-  --bio-g3: 195 14% 25%;
-  --bio-g4: 153 18% 42%;
+  --gradient-accent-1: 156 10% 29%;    /* color-primary-700 */
+  --gradient-accent-2: 153 13% 37%;   /* color-secondary-700 */
+  --gradient-accent-3: 160 11% 36%;   /* color-neutral-700 */
+  --gradient-accent-4: 162 16% 59%;   /* color-primary-400 */
 }
 
 
@@ -699,10 +700,10 @@ img.avatar {
   inset: 0;
   z-index: -1;
   background-image:
-    radial-gradient(at 20% 25%, hsla(var(--bio-g1) /.45) 0px, transparent 50%),
-    radial-gradient(at 75% 30%, hsla(var(--bio-g2) /.45) 0px, transparent 50%),
-    radial-gradient(at 5% 60%, hsla(var(--bio-g4) /.25) 0px, transparent 50%),
-    radial-gradient(at 5% 85%, hsla(var(--bio-g3) /.45) 0px, transparent 50%);
+    radial-gradient(at 20% 25%, hsla(var(--gradient-accent-1) /.45) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, hsla(var(--gradient-accent-2) /.45) 0px, transparent 50%),
+    radial-gradient(at 5% 60%, hsla(var(--gradient-accent-4) /.25) 0px, transparent 50%),
+    radial-gradient(at 5% 85%, hsla(var(--gradient-accent-3) /.45) 0px, transparent 50%);
 }
 
 
