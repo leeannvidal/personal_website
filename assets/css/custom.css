@@ -159,10 +159,6 @@ code, pre, kbd, samp {
   gap: .5rem;
 }
 
-#site-header .navbar__slot--utilities {
-  /* layout refinements live in breakpoint sections */
-}
-
 #site-header .navbar__menu-card {
   display: flex;
   flex-direction: column;
