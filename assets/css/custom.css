@@ -43,10 +43,10 @@ code, pre, kbd, samp {
 }
 
 /* Target the div with py-20 and reduce its padding */
-.hbb-section.no-hero-gap div.py-20 {
+/* .hbb-section.no-hero-gap div.py-20 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-}
+} */
 /* ==========================================================================
    THEME TOKENS / GLOBAL COLOR VARIABLES
    ========================================================================== */
