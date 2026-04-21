@@ -1,17 +1,7 @@
 ---
 title: Publications
-# Optional: filter which types to show
-content:
-  filters:
-    - publication_type
-    - year
----
-<!-- ---
-title: Publications
-  content:
-        filters:
-          - publication_type
-          - date
+# cms_exclude: true 
+
 # Page sections
 # sections:
 #   - block: markdown
@@ -24,19 +14,12 @@ title: Publications
 #         color: '#677E76'
 #         text_color_light: true
 #       columns: '1'
-      # css_style: 'padding-top: 0; padding-bottom: 0;'
+#       css_style: 'padding-top: 0; padding-bottom: 0;'
 # View.
-# view: citation
+view: citation
 
-sections:
-  - block: collection
-    content:
-      title: "Publications"
-      # subtitle: "Latest updates from our blog"
-      # text: "Stay up to date with our latest news and insights"
-      filters:
-        - publication_type
-        - date
-    design:
-      view: citation
---- -->
+# # Optional header image (relative to `static/media/` folder).
+# banner:
+#   caption: ''
+#   image: ''
+---
