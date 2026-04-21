@@ -44,13 +44,13 @@ sections:
                   icon: devicon/rstudio
                   level: advanced
                 - name: R
-                  icon: fab/r-project
+                  icon: brands/R
                   level: advanced
                 - name: Python
                   icon: devicon/python
                   level: beginner
                 - name: Python
-                  icon: btands/python
+                  icon: brands/python
                   level: beginner
                 - name: LaTeX
                   icon: devicon/latex
@@ -66,9 +66,9 @@ sections:
             - name: Linguistic Tools
               items:
                 - name: Praat
-                  icon: brands/praat
+                  icon: praat
                 - name: ELAN
-                  icon: brands/ELAN
+                  icon: ELAN
             - name: Workflow & Version Control
               items:
                 - name: GitHub
@@ -78,9 +78,9 @@ sections:
                 - name: Git
                   icon: brands/git
                 - name: Git
-                  icon: fas/git
+                  icon: git
                 - name: Bash
-                  icon: brands/bash
+                  icon: brands/gnubash
                 - name: Bash/Terminal
                   icon: devicon/bash
     design:
