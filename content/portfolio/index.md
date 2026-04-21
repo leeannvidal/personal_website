@@ -44,7 +44,7 @@ sections:
                   icon: devicon/rstudio
                   level: advanced
                 - name: R
-                  icon: brands/R
+                  icon: brands/r
                   level: advanced
                 - name: Python
                   icon: devicon/python
@@ -78,7 +78,7 @@ sections:
                 - name: Git
                   icon: brands/git
                 - name: Git
-                  icon: git
+                  icon: icons/git
                 - name: Bash
                   icon: brands/gnubash
                 - name: Bash/Terminal
