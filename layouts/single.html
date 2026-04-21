@@ -233,13 +233,27 @@
 
       {{/* EVENT / PUBLICATION METADATA */}}
       {{ if .Params.abstract | or (eq .Type "publications") | or (eq .Type "events") }}
-        <div class="grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
-        {{/* ^^^^^ Changed this line ^^^^^ */}}
-        {{/* Removed 'max-w-prose' from this div, allowing it to take more horizontal space */}}
+        <div class="my-6 collapsible-abstract-wrap"> {{/* Keep the outer div, optionally add the wrap class */}}
 
-        {{ if .Params.abstract }}
-          <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
-          <div>{{ .Params.abstract | markdownify }}</div>
+            {{/* Replace grid layout here if the collapsible abstract needs to span full width */}}
+            {{/* Or keep the grid if you want the "Abstract" title to the left of the collapsible box */}}
+            <div class="grid grid-cols-1 md:grid-cols-[200px_auto] gap-4">
+            <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
+            <div>
+                {{ if .Params.abstract }}
+                {{/* Use Hugo's details shortcode */}}
+                {{ with .Params.abstract_summary }}
+                    {{/* If a shorter summary is provided, use that for the summary text */}}
+                    {{ highlight (printf "{{< details summary=\"%s\" class=\"collapsible-abstract\" summary_class=\"collapsible-abstract__summary\" toggle_class=\"collapsible-abstract__toggle\" >}}\n%s\n{{< /details >}}" . (.Params.abstract | markdownify)) "html" "" }}
+                {{ else }}
+                    {{/* Otherwise, use a generic "Read more" or "Abstract" for the summary text */}}
+                    {{ highlight (printf "{{< details summary=\"%s\" class=\"collapsible-abstract\" summary_class=\"collapsible-abstract__summary\" toggle_class=\"collapsible-abstract__toggle\" >}}\n%s\n{{< /details >}}" (i18n "abstract") (.Params.abstract | markdownify)) "html" "" }}
+                {{ end }}
+                {{ end }}
+            </div>
+            </div>
+
+        </div>
         {{ end }}
 
         {{/* If the type is Uncategorized, hide the type. */}}
