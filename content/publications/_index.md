@@ -1,7 +1,17 @@
 ---
 title: Publications
-# cms_exclude: true # hide a page or post from the Ownable CMS interface
-
+# Optional: filter which types to show
+content:
+  filters:
+    - publication_type
+    - year
+---
+<!-- ---
+title: Publications
+  content:
+        filters:
+          - publication_type
+          - date
 # Page sections
 # sections:
 #   - block: markdown
@@ -29,4 +39,4 @@ sections:
         - date
     design:
       view: citation
----
+--- -->
