@@ -57,18 +57,14 @@ sections:
                   level: advanced
             - name: Frontend
               items:
-                - name: React
-                  icon: devicon/react
-                - name: Next.js
-                  icon: devicon/nextjs
                 - name: Tailwind CSS
                   icon: devicon/tailwindcss
             - name: Linguistic Tools
               items:
                 - name: Praat
-                  icon: praat
+                  icon: custom/praat
                 - name: ELAN
-                  icon: ELAN.png
+                  icon: custom/ELAN
             - name: Workflow & Version Control
               items:
                 - name: GitHub
@@ -78,7 +74,7 @@ sections:
                 - name: Git
                   icon: brands/git
                 - name: Git
-                  icon: git.svg
+                  icon: custom/git
                 - name: Bash
                   icon: brands/gnubash
                 - name: Bash/Terminal
