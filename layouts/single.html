@@ -16,7 +16,7 @@
   {{/* {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }} */}}
   {{/* {{ partial "components/toc.html" . }} */}}
   <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-    {{/* <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12"> */}}
+    {{/* <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12"> */}} {{/* Removed max-w-6xl to expand to fill available space */}}
     <main class="w-full min-w-0 px-6 pt-4 md:px-12">
 
       {{ if .Params.show_breadcrumb }}
@@ -234,6 +234,8 @@
       {{/* EVENT / PUBLICATION METADATA */}}
       {{ if .Params.abstract | or (eq .Type "publications") | or (eq .Type "events") }}
         <div class="grid grid-cols-1 md:grid-cols-[200px_auto] gap-4 my-6">
+        {{/* ^^^^^ Changed this line ^^^^^ */}}
+        {{/* Removed 'max-w-prose' from this div, allowing it to take more horizontal space */}}
 
         {{ if .Params.abstract }}
           <div class="font-bold text-2xl">{{ i18n "abstract" }}</div>
