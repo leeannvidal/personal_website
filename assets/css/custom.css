@@ -21,7 +21,7 @@ code, pre, kbd, samp {
    DEV HERO BLOCK SPACING
    ========================================================================== */
 .no-hero-gap {
-  margin-top: 2rem !important;
+  margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -43,10 +43,10 @@ code, pre, kbd, samp {
 }
 
 /* Target the div with py-20 and reduce its padding */
-/* .hbb-section.no-hero-gap div.py-20 {
-  padding-top: 0 !important;
+.hbb-section.no-hero-gap div.py-20 {
+  padding-top: 2rem !important;
   padding-bottom: 0 !important;
-} */
+}
 /* ==========================================================================
    THEME TOKENS / GLOBAL COLOR VARIABLES
    ========================================================================== */
