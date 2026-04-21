@@ -14,7 +14,7 @@ sections:
         color: '#677E76'
         text_color_light: true
       columns: '1'
-      css_style: 'padding-top: 0; padding-bottom: 0;'
+      # css_style: 'padding-top: 0; padding-bottom: 0;'
 # View.
 view: citation
 
