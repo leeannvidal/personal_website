@@ -22,11 +22,11 @@ sections:
       spacing:
         padding: "0"
       css_class: "no-hero-gap" # FIGURE THIS OUT NEXT
-  - block: markdown
-    content:
-      title: "Experience"
-      text: | 
-        Scroll through to view my experience or click on the buttons above for PDF versions of my CV and Resume.
+  # - block: markdown
+  #   content:
+  #     title: "Experience"
+  #     text: | 
+  #       Scroll through to view my experience or click on the buttons above for PDF versions of my CV and Resume.
   - block: resume-experience
     content:
       username: me
