@@ -1,0 +1,18 @@
+<div class="collapsible-abstract-wrap max-w-prose mt-10 pt-6">
+  <details class="collapsible-abstract group rounded-2xl px-5 py-4">
+    <summary class="collapsible-abstract__summary flex cursor-pointer list-none items-center justify-between gap-4 text-xl font-semibold">
+      <span>Abstract</span>
+      <span class="collapsible-abstract__toggle text-2xl leading-none transition-transform duration-200 group-open:rotate-45">+</span>
+    </summary>
+    <div class="mt-4 prose prose-slate dark:prose-invert max-w-none [&_p]:text-justify">
+      {{ .Inner | markdownify }}
+    </div>
+  </details>
+</div>
+
+{{/* Use in main body: */}}
+{{/* {{% collapsible_abstract %}}
+Your actual abstract content goes here,
+with **Markdown formatting**,
+and $\text{LaTeX equations}$.
+{{% /collapsible_abstract %}} */}}

@@ -17,6 +17,85 @@ code, pre, kbd, samp {
   font-family: 'Space Mono', ui-monospace, monospace;
 }
 
+/* ==========================================================================
+   DEV HERO BLOCK SPACING
+   ========================================================================== */
+.no-hero-gap {
+  margin-top: 3rem !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* target the section responsible for the hero block */
+.hbb-section.no-hero-gap {
+  padding: 0 !important; /* Forces padding to 0, overriding the inline style */
+}
+
+/* Target the div that enforces min-height */
+/* Use a more specific selector to ensure it overrides theme CSS */
+.hbb-section.no-hero-gap > div.min-h-\[80vh\] {
+  min-height: auto !important; /* Set min-height to auto, or a smaller value */
+  height: auto !important; /* Ensure height also isn't fixed */
+  display: block; /* Change flex behavior if needed, or remove sizing */
+  align-items: flex-start !important; /* Adjust vertical alignment if content becomes too high */
+  justify-content: flex-start !important;
+}
+
+/* Target the div with py-20 and reduce its padding */
+/* .hbb-section.no-hero-gap div.py-20 {
+  padding-top: 2rem !important;
+  padding-bottom: 0 !important;
+} */
+
+/* ==========================================================================
+   COLLAPSIBLE ABSTRACT
+   ========================================================================== */
+
+.collapsible-abstract-wrap {
+  border-top: 1px solid rgba(148, 163, 184, .32);
+}
+
+.collapsible-abstract {
+  border: 1px solid rgba(148, 163, 184, .42);
+  background: rgba(255, 255, 255, .72);
+  box-shadow: inset 0 1px rgba(255, 255, 255, .65);
+}
+
+.collapsible-abstract__summary {
+  color: rgba(30, 41, 59, .96);
+}
+
+.collapsible-abstract__toggle {
+  color: rgba(71, 85, 105, .82);
+}
+
+.dark .collapsible-abstract-wrap {
+  border-top-color: rgba(100, 116, 139, .42);
+}
+
+.dark .collapsible-abstract {
+  border-color: rgba(100, 116, 139, .52);
+  background: rgba(15, 23, 42, .34);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 5%);
+}
+
+.dark .collapsible-abstract__summary {
+  color: rgba(226, 232, 240, .96);
+}
+
+.dark .collapsible-abstract__toggle {
+  color: rgba(148, 163, 184, .78);
+}
+
+.collapsible-abstract summary {
+  list-style: none;
+}
+
+.collapsible-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
 
 /* ==========================================================================
    THEME TOKENS / GLOBAL COLOR VARIABLES
@@ -814,53 +893,6 @@ img.avatar {
   border-color: rgba(255, 255, 255, .62);
   box-shadow: 0 16px 30px rgba(15, 23, 42, .16), inset 0 1px rgba(255, 255, 255, .82);
   transform: translateY(-3px) scale(1.05);
-}
-*/
-
-/* Collapsible abstract */
-/*
-.collapsible-abstract-wrap {
-  border-top: 1px solid rgba(148, 163, 184, .32);
-}
-
-.collapsible-abstract {
-  border: 1px solid rgba(148, 163, 184, .42);
-  background: rgba(255, 255, 255, .72);
-  box-shadow: inset 0 1px rgba(255, 255, 255, .65);
-}
-
-.collapsible-abstract__summary {
-  color: rgba(30, 41, 59, .96);
-}
-
-.collapsible-abstract__toggle {
-  color: rgba(71, 85, 105, .82);
-}
-
-.dark .collapsible-abstract-wrap {
-  border-top-color: rgba(100, 116, 139, .42);
-}
-
-.dark .collapsible-abstract {
-  border-color: rgba(100, 116, 139, .52);
-  background: rgba(15, 23, 42, .34);
-  box-shadow: inset 0 1px rgba(255, 255, 255, 5%);
-}
-
-.dark .collapsible-abstract__summary {
-  color: rgba(226, 232, 240, .96);
-}
-
-.dark .collapsible-abstract__toggle {
-  color: rgba(148, 163, 184, .78);
-}
-
-.collapsible-abstract summary {
-  list-style: none;
-}
-
-.collapsible-abstract summary::-webkit-details-marker {
-  display: none;
 }
 */
 
