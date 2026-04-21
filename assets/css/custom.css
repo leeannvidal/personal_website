@@ -21,7 +21,7 @@ code, pre, kbd, samp {
    DEV HERO BLOCK SPACING
    ========================================================================== */
 .no-hero-gap {
-  margin-top: 0 !important;
+  margin-top: 2rem !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
