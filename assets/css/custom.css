@@ -20,7 +20,7 @@ code, pre, kbd, samp {
 /* ==========================================================================
    DEV HERO BLOCK SPACING
    ========================================================================== */
-.no-hero-gap {
+/* .no-hero-gap {
   margin-top: 3rem !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
@@ -40,7 +40,7 @@ code, pre, kbd, samp {
   display: block; /* Change flex behavior if needed, or remove sizing */
   align-items: flex-start !important; /* Adjust vertical alignment if content becomes too high */
   justify-content: flex-start !important;
-}
+} */
 
 /* Target the div with py-20 and reduce its padding */
 /* .hbb-section.no-hero-gap div.py-20 {
