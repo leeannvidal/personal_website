@@ -68,7 +68,7 @@ sections:
                 - name: Praat
                   icon: praat
                 - name: ELAN
-                  icon: ELAN
+                  icon: ELAN.png
             - name: Workflow & Version Control
               items:
                 - name: GitHub
@@ -78,7 +78,7 @@ sections:
                 - name: Git
                   icon: brands/git
                 - name: Git
-                  icon: icons/git
+                  icon: git.svg
                 - name: Bash
                   icon: brands/gnubash
                 - name: Bash/Terminal
