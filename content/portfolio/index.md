@@ -55,6 +55,9 @@ sections:
                 - name: LaTeX
                   icon: devicon/latex
                   level: advanced
+                - name: html
+                  icon: devicon/htmx
+                  level: intermediate
             - name: Frontend
               items:
                 - name: Tailwind CSS
@@ -67,10 +70,6 @@ sections:
               items:
                 - name: Praat
                   icon: custom/praat
-                - name: Praat
-                  icon: custom/praat.png
-                - name: Praat
-                  icon: custom/praat2
                 - name: ELAN
                   icon: custom/ELAN
             - name: Workflow & Version Control
