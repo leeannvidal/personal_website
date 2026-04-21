@@ -110,6 +110,9 @@ sections:
                 - name: LaTeX
                   icon: devicon/latex
                   level: advanced
+                - name: html
+                  icon: devicon/htmx
+                  level: intermediate
             - name: Frontend
               items:
                 - name: Tailwind CSS
