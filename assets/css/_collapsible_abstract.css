@@ -1,0 +1,47 @@
+/* ==========================================================================
+   COLLAPSIBLE ABSTRACT
+   ========================================================================== */
+
+.collapsible-abstract-wrap {
+  border-top: 1px solid rgba(148, 163, 184, .32);
+}
+
+.collapsible-abstract {
+  border: 1px solid rgba(148, 163, 184, .42);
+  background: rgba(255, 255, 255, .72);
+  box-shadow: inset 0 1px rgba(255, 255, 255, .65);
+}
+
+.collapsible-abstract__summary {
+  color: rgba(30, 41, 59, .96);
+}
+
+.collapsible-abstract__toggle {
+  color: rgba(71, 85, 105, .82);
+}
+
+.dark .collapsible-abstract-wrap {
+  border-top-color: rgba(100, 116, 139, .42);
+}
+
+.dark .collapsible-abstract {
+  border-color: rgba(100, 116, 139, .52);
+  background: rgba(15, 23, 42, .34);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 5%);
+}
+
+.dark .collapsible-abstract__summary {
+  color: rgba(226, 232, 240, .96);
+}
+
+.dark .collapsible-abstract__toggle {
+  color: rgba(148, 163, 184, .78);
+}
+
+.collapsible-abstract summary {
+  list-style: none;
+}
+
+.collapsible-abstract summary::-webkit-details-marker {
+  display: none;
+}
