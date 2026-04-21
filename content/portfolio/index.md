@@ -32,4 +32,48 @@ sections:
           - project
     design:
       columns: 2
+  - block: tech-stack
+    id: skills
+    content:
+        title: "Tech Stack"
+        subtitle: "Technologies I use to build things"
+        categories:
+            - name: Languages
+                items:
+                - name: TypeScript
+                    icon: devicon/typescript
+                    level: expert
+                - name: Python
+                    icon: devicon/python
+                    level: advanced
+                - name: Go
+                    icon: devicon/go
+                    level: intermediate
+            - name: Frontend
+                items:
+                - name: React
+                    icon: devicon/react
+                - name: Next.js
+                    icon: devicon/nextjs
+                - name: Tailwind CSS
+                    icon: devicon/tailwindcss
+            - name: Backend
+                items:
+                - name: Node.js
+                    icon: devicon/nodejs
+                - name: PostgreSQL
+                    icon: devicon/postgresql
+                - name: Redis
+                    icon: devicon/redis
+            - name: DevOps
+                items:
+                - name: Docker
+                    icon: devicon/docker
+                - name: AWS
+                    icon: devicon/amazonwebservices
+                - name: GitHub Actions
+                    icon: brands/github
+    design:
+        style: grid
+        show_levels: true
 ---
