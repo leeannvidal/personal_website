@@ -46,9 +46,9 @@ sections:
                 - name: R
                   icon: brands/r
                   level: advanced
-                - name: Python
-                  icon: devicon/python
-                  level: beginner
+                # - name: Python
+                #   icon: devicon/python
+                #   level: beginner
                 - name: Python
                   icon: brands/python
                   level: beginner
@@ -69,16 +69,14 @@ sections:
               items:
                 - name: GitHub
                   icon: brands/github
-                - name: Git
-                  icon: devicon/git
-                - name: Git
-                  icon: brands/git
+                # - name: Git
+                #   icon: brands/git
                 - name: Git
                   icon: custom/git
-                - name: Bash
+                - name: Bash / Terminal
                   icon: brands/gnubash
-                - name: Bash/Terminal
-                  icon: devicon/bash
+                # - name: Bash/Terminal
+                #   icon: devicon/bash
     design:
         style: list
         show_levels: true
