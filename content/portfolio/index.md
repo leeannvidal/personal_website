@@ -80,6 +80,6 @@ sections:
                 - name: Bash/Terminal
                   icon: devicon/bash
     design:
-        style: grid
+        style: list
         show_levels: true
 ---
