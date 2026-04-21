@@ -40,15 +40,21 @@ sections:
         categories:
             - name: Languages
               items:
-                - name: TypeScript
-                  icon: devicon/typescript
-                  level: expert
+                - name: R
+                  icon: devicon/rstudio
+                  level: advanced
+                - name: R
+                  icon: fab/r-project
+                  level: advanced
                 - name: Python
                   icon: devicon/python
+                  level: beginner
+                - name: Python
+                  icon: btands/python
+                  level: beginner
+                - name: LaTeX
+                  icon: devicon/latex
                   level: advanced
-                - name: Go
-                  icon: devicon/go
-                  level: intermediate
             - name: Frontend
               items:
                 - name: React
@@ -57,22 +63,26 @@ sections:
                   icon: devicon/nextjs
                 - name: Tailwind CSS
                   icon: devicon/tailwindcss
-            - name: Backend
+            - name: Linguistic Tools
               items:
-                - name: Node.js
-                  icon: devicon/nodejs
-                - name: PostgreSQL
-                  icon: devicon/postgresql
-                - name: Redis
-                  icon: devicon/redis
-            - name: DevOps
+                - name: Praat
+                  icon: brands/praat
+                - name: ELAN
+                  icon: brands/ELAN
+            - name: Workflow & Version Control
               items:
-                - name: Docker
-                  icon: devicon/docker
-                - name: AWS
-                  icon: devicon/amazonwebservices
-                - name: GitHub Actions
+                - name: GitHub
                   icon: brands/github
+                - name: Git
+                  icon: devicon/git
+                - name: Git
+                  icon: brands/git
+                - name: Git
+                  icon: fas/git
+                - name: Bash
+                  icon: brands/bash
+                - name: Bash/Terminal
+                  icon: devicon/bash
     design:
         style: grid
         show_levels: true
