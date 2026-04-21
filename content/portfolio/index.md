@@ -39,40 +39,40 @@ sections:
         subtitle: "Technologies I use to build things"
         categories:
             - name: Languages
-                items:
+              items:
                 - name: TypeScript
-                    icon: devicon/typescript
-                    level: expert
+                  icon: devicon/typescript
+                  level: expert
                 - name: Python
-                    icon: devicon/python
-                    level: advanced
+                  icon: devicon/python
+                  level: advanced
                 - name: Go
-                    icon: devicon/go
-                    level: intermediate
+                  icon: devicon/go
+                  level: intermediate
             - name: Frontend
-                items:
+              items:
                 - name: React
-                    icon: devicon/react
+                  icon: devicon/react
                 - name: Next.js
-                    icon: devicon/nextjs
+                  icon: devicon/nextjs
                 - name: Tailwind CSS
-                    icon: devicon/tailwindcss
+                  icon: devicon/tailwindcss
             - name: Backend
-                items:
+              items:
                 - name: Node.js
-                    icon: devicon/nodejs
+                  icon: devicon/nodejs
                 - name: PostgreSQL
-                    icon: devicon/postgresql
+                  icon: devicon/postgresql
                 - name: Redis
-                    icon: devicon/redis
+                  icon: devicon/redis
             - name: DevOps
-                items:
+              items:
                 - name: Docker
-                    icon: devicon/docker
+                  icon: devicon/docker
                 - name: AWS
-                    icon: devicon/amazonwebservices
+                  icon: devicon/amazonwebservices
                 - name: GitHub Actions
-                    icon: brands/github
+                  icon: brands/github
     design:
         style: grid
         show_levels: true
