@@ -7,6 +7,9 @@ main:
   - name: Bio
     url: /
     weight: 10
+  - name: Portfolio
+    url: portfolio/
+    weight: 11
   - name: Research
     url: /research/
     weight: 15
