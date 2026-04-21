@@ -17,36 +17,7 @@ code, pre, kbd, samp {
   font-family: 'Space Mono', ui-monospace, monospace;
 }
 
-/* ==========================================================================
-   DEV HERO BLOCK SPACING
-   ========================================================================== */
-/* .no-hero-gap {
-  margin-top: 3rem !important;
-  margin-bottom: 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
 
-/* target the section responsible for the hero block */
-.hbb-section.no-hero-gap {
-  padding: 0 !important; /* Forces padding to 0, overriding the inline style */
-}
-
-/* Target the div that enforces min-height */
-/* Use a more specific selector to ensure it overrides theme CSS */
-.hbb-section.no-hero-gap > div.min-h-\[80vh\] {
-  min-height: auto !important; /* Set min-height to auto, or a smaller value */
-  height: auto !important; /* Ensure height also isn't fixed */
-  display: block; /* Change flex behavior if needed, or remove sizing */
-  align-items: flex-start !important; /* Adjust vertical alignment if content becomes too high */
-  justify-content: flex-start !important;
-} */
-
-/* Target the div with py-20 and reduce its padding */
-/* .hbb-section.no-hero-gap div.py-20 {
-  padding-top: 2rem !important;
-  padding-bottom: 0 !important;
-} */
 /* ==========================================================================
    THEME TOKENS / GLOBAL COLOR VARIABLES
    ========================================================================== */
