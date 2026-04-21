@@ -1,10 +1,9 @@
 ---
 title: 'Experience'
-date: 2023-10-24
+date: 2026-04-21
 type: landing
 design:
-  spacing: '-2rem'
-
+#
 # Page sections
 sections:
   - block: dev-hero
