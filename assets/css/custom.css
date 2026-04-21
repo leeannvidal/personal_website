@@ -1,6 +1,6 @@
 /* assets/css/custom.css */
 
-@import 'typography.css';
+@import "typography.css";
 @import './_global_color_variables.css';
 @import './_navbar.css';
 @import './_spacing.css';
