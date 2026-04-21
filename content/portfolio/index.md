@@ -68,7 +68,7 @@ sections:
                 - name: Praat
                   icon: custom/praat
                 - name: Praat
-                  icon: custom/praat2
+                  icon: custom/praat.png
                 - name: ELAN
                   icon: custom/ELAN
             - name: Workflow & Version Control
