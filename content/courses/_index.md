@@ -33,44 +33,6 @@ sections:
           url: "#contact"
         - text: "Download Resume"
           url: "#resume"
----
-I didn’t have a chance to test it, but the output was this (input was just _Create a portfolio site and give me links to the documentation of every block in Hugo Blox_):
-
-```
----
-title: "My Portfolio"
-summary: "Showcasing my work and skills"
-date: 2026-04-17
-type: landing
-sections:
-  - block: hero
-    content:
-      title: "Welcome to My Portfolio"
-      text: "Discover my projects and experience."
-      primary_action:
-        text: "View My Work"
-        url: "#portfolio"
-  - block: portfolio
-    content:
-      title: "My Projects"
-      projects:
-        - title: "Project 1"
-          description: "A brief description of Project 1."
-          url: "#project1"
-        - title: "Project 2"
-          description: "A brief description of Project 2."
-          url: "#project2"
-  - block: testimonials
-    content:
-      title: "What People Say"
-    
-  - block: cta-button-list
-    content:
-      buttons:
-        - text: "Get in Touch"
-          url: "#contact"
-        - text: "Download Resume"
-          url: "#resume"
   - block: contact-info
     content:
       email: "myemail@example.com"
