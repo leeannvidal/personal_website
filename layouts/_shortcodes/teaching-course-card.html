@@ -4,11 +4,11 @@
       {{ .Get "title" }}
     </h4>
     <p class="text-gray-700 dark:text-gray-300 mb-4">
-      {{ if .Get "institution" }}<strong>Institution:</strong> <span class="font-normal">{{ .Get "institution" | markdownify }}</span><br>{{ end }}
-      {{ if .Get "role" }}<strong>Role:</strong> <span class="font-normal">{{ .Get "role" | markdownify }}</span><br>{{ end }}
-      {{ if .Get "years" }}<strong>Year(s):</strong> <span class="font-normal">{{ .Get "years" | markdownify }}</span><br>{{ end }}
-      {{ if .Get "students" }}<strong>Students:</strong> <span class="font-normal">{{ .Get "students" | markdownify }}</span><br>{{ end }}
-      {{ if .Get "description" }}<em>{{ .Get "description" | markdownify }}</em>{{ end }}
+      {{ if .Get "institution" }}<strong>Institution:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "institution" | markdownify }}</span><br>{{ end }}
+      {{ if .Get "role" }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "role" | markdownify }}</span><br>{{ end }}
+      {{ if .Get "years" }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "years" | markdownify }}</span><br>{{ end }}
+      {{ if .Get "students" }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "students" | markdownify }}</span><br>{{ end }}
+      {{ if .Get "description" }}<span class="font-normal text-primary-700 dark:text-primary-300"><em>{{ .Get "description" | markdownify }}</em></span>{{ end }}
     </p>
   </div>
   <div class="mt-4 flex flex-wrap gap-2">
