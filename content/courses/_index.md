@@ -169,8 +169,6 @@ sections:
             years="Fall 2018 & Spring 2020"
             students="~100"
             description="Introduction to sociolinguistic variation: how dialects arise, social patterns, and media."
-            syllabus_url="https://github.com/leeannvidal/leeannvidal.github.io/blob/main/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf"
-            description_url="/some-description-page"
           >}}
 
           {{< teaching-course-card
@@ -180,7 +178,6 @@ sections:
             years="Fall 2021"
             students="~30–40"
             description="Interdisciplinary links between language and music, brain-based evidence."
-            syllabus_url="#"
           >}}
 
         </div> <!-- End grid -->
@@ -195,7 +192,6 @@ sections:
             years="2014–2017"
             students="~25–30 per section"
             description="Introductory Spanish course focused on basic vocabulary, everyday communication, and foundational skills."
-            syllabus_url="#"
           >}}
 
         </div> <!-- End grid -->

@@ -9,12 +9,12 @@
       {{ if .Get "description" }}<em>{{ .Get "description" }}</em>{{ end }}
     </p>
   </div>
-  <div class="mt-4 flex flex-wrap gap-2">
+  {{/* <div class="mt-4 flex flex-wrap gap-2">
     {{ if .Get "syllabus_url" }}
       {{< button url=(.Get "syllabus_url") new_tab="true" style="primary" size="sm" rounded="md" >}}Syllabus{{< /button >}}
     {{ end }}
     {{ if .Get "description_url" }}
       {{< button url=(.Get "description_url") new_tab="true" style="secondary" size="sm" rounded="md" >}}Class Description{{< /button >}}
     {{ end }}
-  </div>
+  </div> */}}
 </div>
