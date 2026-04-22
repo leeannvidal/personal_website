@@ -122,7 +122,7 @@ sections:
       title: "Overview of Courses Taught"
       text: |
         <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {{< teaching-course-card 
             title="CAS LX 110: Accents, Dialects, and Society"
             institution="Boston University (BU)"
@@ -215,34 +215,6 @@ sections:
     design:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  - block: markdown
-    content:
-      title: "Courses Taught"
-      text: |
-        **Bachelor’s level courses**
-
-        | Year(s)         | Course                                   | Institution                | Role              | Short Description                                                                                                                    | Students          |
-        |-----------------|------------------------------------------|----------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-        | Fall 2018 & Spring 2020 | CAS LX 110: Accents, Dialects, and Society | Boston University (BU)    | Teaching Fellow   | Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media.                                      | ~100              |
-        | Fall 2021       | CAS LX 120: Language and Music           | BU                         | Grader            | Interdisciplinary: structure/cognition links between language & music, evolution, brain evidence.                                   | ~30-40            |
-        | Fall 2020       | CAS LX 301/601: Introduction to Sound Systems | BU                    | Course Assistant  | Phonetics & phonology basics, hands-on transcription/acoustic analysis.                                                             | ~25               |
-        | 2012–2013       | Spanish 1101: Elementary Spanish I       | Louisiana State University | Instructor        | Foundational Spanish—communicative approach to basic skills.                                                                        | ~25–30/section    |
-        | 2012–2013       | Spanish 1102: Elementary Spanish II      | LSU                        | Instructor        | Continuation: functional communication, past narration, cultural practices.                                                         | ~25–30/section    |
-
-        **High School level courses**
-
-        | Year(s)    | Course                 | Institution        | Role      | Short Description                                                                   | Students         |
-        |------------|------------------------|--------------------|-----------|-------------------------------------------------------------------------------------|------------------|
-        | 2014–2017  | Elementary Spanish I   | Saint Joseph’s Academy | Instructor | Basic vocabulary; foundational speaking, reading, writing, listening skills.         | ~25–30/section   |
-        | 2014–2017  | Elementary Spanish II  | SJA                   | Instructor | Intermediate; extended communication, complex grammar, culture.                      | ~25–30/section   |
-        | 2016–2017  | Computer & Software Orientation | SJA           | Instructor | Tech literacy, productivity software, academic/practical skills.                      | ~25–30/section   |
-
-        **Middle School level courses**
-
-        | Year(s)    | Course                 | Institution      | Role      | Short Description                                                      | Students         |
-        |------------|------------------------|------------------|-----------|------------------------------------------------------------------------|------------------|
-        | 2017–2018  | Introductory Spanish   | Academy of the Sacred Heart | Instructor | Basic vocab; conversational skills, cultural awareness.                 | ~10–15/section   |
-        | 2017–2018  | Basic Technology       | ASH                 | Instructor | Computer fundamentals, safe online practices, basic software.           | ~10–15/section   |
 ---
 
   <!-- - block: cta-button-list
@@ -283,3 +255,32 @@ sections:
           filename: 'textures/noise-pattern.svg'
           size: '32px'
           position: 'repeat' -->
+<!-- 
+            - block: markdown
+    content:
+      title: "Courses Taught"
+      text: |
+        **Bachelor’s level courses**
+
+        | Year(s)         | Course                                   | Institution                | Role              | Short Description                                                                                                                    | Students          |
+        |-----------------|------------------------------------------|----------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+        | Fall 2018 & Spring 2020 | CAS LX 110: Accents, Dialects, and Society | Boston University (BU)    | Teaching Fellow   | Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media.                                      | ~100              |
+        | Fall 2021       | CAS LX 120: Language and Music           | BU                         | Grader            | Interdisciplinary: structure/cognition links between language & music, evolution, brain evidence.                                   | ~30-40            |
+        | Fall 2020       | CAS LX 301/601: Introduction to Sound Systems | BU                    | Course Assistant  | Phonetics & phonology basics, hands-on transcription/acoustic analysis.                                                             | ~25               |
+        | 2012–2013       | Spanish 1101: Elementary Spanish I       | Louisiana State University | Instructor        | Foundational Spanish—communicative approach to basic skills.                                                                        | ~25–30/section    |
+        | 2012–2013       | Spanish 1102: Elementary Spanish II      | LSU                        | Instructor        | Continuation: functional communication, past narration, cultural practices.                                                         | ~25–30/section    |
+
+        **High School level courses**
+
+        | Year(s)    | Course                 | Institution        | Role      | Short Description                                                                   | Students         |
+        |------------|------------------------|--------------------|-----------|-------------------------------------------------------------------------------------|------------------|
+        | 2014–2017  | Elementary Spanish I   | Saint Joseph’s Academy | Instructor | Basic vocabulary; foundational speaking, reading, writing, listening skills.         | ~25–30/section   |
+        | 2014–2017  | Elementary Spanish II  | SJA                   | Instructor | Intermediate; extended communication, complex grammar, culture.                      | ~25–30/section   |
+        | 2016–2017  | Computer & Software Orientation | SJA           | Instructor | Tech literacy, productivity software, academic/practical skills.                      | ~25–30/section   |
+
+        **Middle School level courses**
+
+        | Year(s)    | Course                 | Institution      | Role      | Short Description                                                      | Students         |
+        |------------|------------------------|------------------|-----------|------------------------------------------------------------------------|------------------|
+        | 2017–2018  | Introductory Spanish   | Academy of the Sacred Heart | Instructor | Basic vocab; conversational skills, cultural awareness.                 | ~10–15/section   |
+        | 2017–2018  | Basic Technology       | ASH                 | Instructor | Computer fundamentals, safe online practices, basic software.           | ~10–15/section   | -->

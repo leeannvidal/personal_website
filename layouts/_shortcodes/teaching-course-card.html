@@ -3,8 +3,8 @@
     <h4 class="text-lg font-bold mb-2 {{ with .Get "title_color_class" }}{{ . }}{{ else }}text-primary-700 dark:text-primary-300{{ end }}">
       {{ .Get "title" }}
     </h4>
-    <p class="text-gray-700 dark:text-gray-300 mb-4">
-      {{ if .Get "institution" }}<strong>Institution:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "institution" | markdownify }}</span><br>{{ end }}
+    <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+      {{ if .Get "institution" }}<strong>Institution:</strong> <span class="text-md font-normal text-primary-700 dark:text-primary-300">{{ .Get "institution" | markdownify }}</span><br>{{ end }}
       {{ if .Get "role" }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "role" | markdownify }}</span><br>{{ end }}
       {{ if .Get "years" }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "years" | markdownify }}</span><br>{{ end }}
       {{ if .Get "students" }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ .Get "students" | markdownify }}</span><br>{{ end }}
