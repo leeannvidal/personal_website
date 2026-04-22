@@ -1,6 +1,8 @@
 <div class="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-800 flex flex-col justify-between h-full">
   <div>
-    <h4 class="text-xl font-bold mb-2 {{ with .Get "title_color_class" }}{{ . }}{{ else }}text-primary-700 dark:text-primary-300{{ end }}">{{ .Get "title" }}</h4>
+    <h4 class="text-xl font-bold mb-2 {{ with .Get "title_color_class" }}{{ . }}{{ else }}text-primary-700 dark:text-primary-300{{ end }}">
+      {{ .Get "title" }}
+    </h4>
     <p class="text-gray-700 dark:text-gray-300 mb-4">
       {{ if .Get "institution" }}<strong>Institution:</strong> {{ .Get "institution" }}<br>{{ end }}
       {{ if .Get "role" }}<strong>Role:</strong> {{ .Get "role" }}<br>{{ end }}
@@ -14,7 +16,7 @@
       <a href="{{ .Get "syllabus_url" }}" 
          target="_blank" 
          rel="noopener" 
-         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-md shadow-md transition-all text-sm"
+         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-md shadow-md transition-all text-sm no-underline"
       >
         Syllabus
       </a>
@@ -23,7 +25,7 @@
       <a href="{{ .Get "description_url" }}" 
          target="_blank" 
          rel="noopener" 
-         class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-md shadow-md transition-all text-sm"
+         class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-md shadow-md transition-all text-sm no-underline"
       >
         Class Description
       </a>
