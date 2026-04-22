@@ -11,21 +11,6 @@ type: landing
 #       show_breadcrumb: true
 
 sections:
-  - block: collection
-    id: courses
-    content:
-      title: Courses
-      filters:
-        folders: courses
-        # tag: Course
-        # kinds:
-        #   - section
-    design:
-      view: card
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
   - block: cta-button-list
     content:
       buttons:
@@ -64,6 +49,43 @@ sections:
           filename: 'textures/noise-pattern.svg'
           size: '32px'
           position: 'repeat'
+  - block: features
+    content:
+      title: "Undergraduate Courses"
+      text: "Selection of undergraduate-level classes I've taught."
+      items:
+        - name: "CAS LX 110: Accents, Dialects, and Society"
+          description: |
+            **Institution:** Boston University  
+            **Role:** Teaching Fellow  
+            **Year(s):** Fall 2018 & Spring 2020  
+            **Students:** ~100  
+            *Introduction to sociolinguistic variation: how dialects arise, social patterns, and media.*  
+            [Syllabus](#) [Class Description](#)
+          icon: hero/book-open
+        - name: "CAS LX 120: Language and Music"
+          description: |
+            **Institution:** BU  
+            **Role:** Grader  
+            **Year(s):** Fall 2021  
+            **Students:** ~30–40  
+            *Interdisciplinary links between language and music, brain-based evidence.*  
+            [Syllabus](#)
+          icon: hero/musical-note
+        # ...etc for more courses
+    design:
+      background:
+        gradient:
+          start: 'primary-400'
+          end: 'secondary-500'
+          direction: 120
+        gradient_mesh:
+          enable: true
+          style: orbs
+          colors: ['primary-500/30', 'secondary-500/30']
+          orb_count: 2
+      spacing:
+        padding: ['4rem', '0', '4rem', '0']
   - block: markdown
     content:
       title: "Courses Taught"
