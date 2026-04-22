@@ -20,7 +20,7 @@ sections:
         kinds:
           - section
     design:
-      view: list
+      view: card
       show_read_time: false
       show_date: false
       show_read_more: false
