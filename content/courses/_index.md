@@ -53,7 +53,7 @@ sections:
       title: "Overview of Courses Taught"
       text: |
         <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
           {{< teaching-course-card 
             title="CAS LX 110: Accents, Dialects, and Society"
             institution="Boston University (BU)"
@@ -146,14 +146,14 @@ sections:
     design:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-      css_class: 'glassmorphism-secondary noise-texture text-white'
-      text_color: 'auto' # auto|light|dark
-      overlay_opacity: 0.15 # 0.0-1.0 for contrast control
-      background:
-        gradient:
-          start: 'primary-500'
-          end: 'primary-700'
-          direction: 135
+      # css_class: 'glassmorphism-secondary noise-texture text-white'
+      # text_color: 'auto' # auto|light|dark
+      # overlay_opacity: 0.15 # 0.0-1.0 for contrast control
+      # background:
+      #   gradient:
+      #     start: 'primary-500'
+      #     end: 'primary-700'
+      #     direction: 135
 ---
 
   <!-- - block: cta-button-list
