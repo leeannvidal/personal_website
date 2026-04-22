@@ -70,11 +70,3 @@ featured: true
 # Draft
 draft: false
 ---
-
-{{< collapsible-button title="Reveal Details" summary="Click to view more." icon="chevron-down" style="secondary" align="center" rounded="full" open="false" >}}
-
-**Here is hidden markdown content!**
-
-Can include lists, links, etc.
-
-{{< /collapsible-button >}}

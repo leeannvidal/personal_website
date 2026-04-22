@@ -24,7 +24,8 @@ Parameters:
 {{/* Unique IDs for accessibility */}}
 {{- $uid := delimit (slice "collapsible" (now.UnixNano)) "-" -}}
 
-{{/* Alignment classes */}} <!-- Similar to button.html for class logic -->
+{{/* Start of copied button.html styling logic */}}
+{{/* Alignment classes */}}
 {{- $alignClass := "" -}}
 {{- if eq $align "center" -}}
   {{- $alignClass = "text-center" -}}
@@ -74,6 +75,7 @@ Parameters:
   {{/* Primary gradient (default) */}}
   {{- $styleClasses = "bg-gradient-to-br from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 active:from-primary-700 active:to-primary-800 text-white shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98] focus:ring-primary-500/50" -}}
 {{- end -}}
+{{/* End of copied button.html styling logic */}}
 
 <div class="{{ $alignClass }} my-4">
   <button
