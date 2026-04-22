@@ -9,12 +9,24 @@
       {{ if .Get "description" }}<em>{{ .Get "description" }}</em>{{ end }}
     </p>
   </div>
-  {{/* <div class="mt-4 flex flex-wrap gap-2">
+  <div class="mt-4 flex flex-wrap gap-2">
     {{ if .Get "syllabus_url" }}
-      {{< button url=(.Get "syllabus_url") new_tab="true" style="primary" size="sm" rounded="md" >}}Syllabus{{< /button >}}
+      <a href="{{ .Get "syllabus_url" }}" 
+         target="_blank" 
+         rel="noopener" 
+         class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-md shadow-md transition-all text-sm"
+      >
+        Syllabus
+      </a>
     {{ end }}
     {{ if .Get "description_url" }}
-      {{< button url=(.Get "description_url") new_tab="true" style="secondary" size="sm" rounded="md" >}}Class Description{{< /button >}}
+      <a href="{{ .Get "description_url" }}" 
+         target="_blank" 
+         rel="noopener" 
+         class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-md shadow-md transition-all text-sm"
+      >
+        Class Description
+      </a>
     {{ end }}
-  </div> */}}
+  </div>
 </div>
