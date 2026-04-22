@@ -20,7 +20,7 @@ sections:
         kinds:
           - section
     design:
-      view: compact
+      view: list
       show_read_time: false
       show_date: false
       show_read_more: false
