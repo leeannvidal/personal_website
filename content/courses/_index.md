@@ -106,7 +106,7 @@ sections:
               </p>
             </div>
             <div class="mt-4 flex flex-wrap gap-2">
-              <a class="btn btn-primary btn-sm rounded" href="https://github.com/leeannvidal/leeannvidal.github.io/blob/main/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf" target="_blank">Syllabus</a>
+              <a class="btn btn-primary btn-sm rounded" href="https://github.com/leeannvidal/leeannvidal.github.io/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf" target="_blank">Syllabus</a>
               <a class="btn btn-secondary btn-sm rounded" href="/some-description-page" target="_blank">Class Description</a>
             </div>
           </div>
