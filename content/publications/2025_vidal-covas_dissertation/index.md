@@ -47,7 +47,7 @@ featured: true
 draft: false
 ---
 
-{{< collapsible-button title="Abstract" summary="Click to view more." icon="chevron-down" style="secondary" align="center" rounded="full" open="false" >}}
+{{< collapsible-button title="Abstract" summary="Click to view more." icon="chevron-down" iconPosition="left" style="secondary" align="left" rounded="full" open="false" >}}
 
 This dissertation examines how Spanish-speaking Bostonians of Puerto Rican and Dominican origin navigate linguistic variation and lectal coherence, focusing on the role of salience in shaping the outcomes of linguistic contact. Speakers do not adopt, resist, or modify linguistic features at random—social and cognitive factors shape how variation unfolds in contact settings. While prior research has shown that some features vary in their susceptibility to change in bilingual environments, the extent to which salience influences this process remains underexplored. By analyzing both low-salience features (e.g., *subject pronoun expression*, *subject placement*, and *filled pauses*) and high-salience features (e.g., *coda /s/* and *liquid variation*), this study explores how speakers engage with variation in response to social and linguistic pressures in a dynamic contact setting.
   
