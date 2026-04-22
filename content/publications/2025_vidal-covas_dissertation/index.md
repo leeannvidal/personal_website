@@ -1,6 +1,7 @@
 ---
 title: "Covariation & salience in linguistic contact: a sociophonetic study of liquid variation in Boston Spanish"
 date: 2025-09-21
+toc: false
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
