@@ -61,7 +61,7 @@ sections:
             **Year(s):** Fall 2018 & Spring 2020  
             **Students:** ~100  
             *Introduction to sociolinguistic variation: how dialects arise, social patterns, and media.*  
-            [Syllabus](#) [Class Description](#)
+            [Syllabus](https://github.com/leeannvidal/leeannvidal.github.io/blob/main/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf) [Class Description](#)
           icon: hero/book-open
         - name: "CAS LX 120: Language and Music"
           description: |
