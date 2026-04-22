@@ -16,7 +16,7 @@ publication: "Doctoral Dissertation, Boston University"
 publication_short: ""
 
 # Abstract
-abstract: >
+abstract: |
   This dissertation examines how Spanish-speaking Bostonians of Puerto Rican and Dominican origin navigate linguistic variation and lectal coherence, focusing on the role of salience in shaping the outcomes of linguistic contact. Speakers do not adopt, resist, or modify linguistic features at random—social and cognitive factors shape how variation unfolds in contact settings. While prior research has shown that some features vary in their susceptibility to change in bilingual environments, the extent to which salience influences this process remains underexplored. By analyzing both low-salience features (e.g., *subject pronoun expression*, *subject placement*, and *filled pauses*) and high-salience features (e.g., *coda /s/* and *liquid variation*), this study explores how speakers engage with variation in response to social and linguistic pressures in a dynamic contact setting.
   
   Using sociolinguistic interviews from 22 Spanish speakers in Boston, the study employs quantitative variationist methods to analyze the distribution and interaction of multiple variables. The results show that low-salience features exhibit modest, yet, measurable and systematic structural convergence with English grammatical norms, reflecting bilingual optimization strategies. In contrast, high-salience features provide speakers with greater social and stylistic flexibility, allowing them to deploy these features in ways that align with their identity, ideology, and interactional goals.
@@ -49,24 +49,17 @@ tags:
 #   caption: ""
 #   focal_point: Smart
 
-# # Links
-# links:
-#   - name: PDF
-#     url: https://hdl.handle.net/2144/51243
-
-# External link (opens this URL instead of the publication page)
-url_pdf: ""
-url_code: ""
-url_dataset: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
-
 # Pin to top of listings
 featured: true
 
 # Draft
 draft: false
 ---
+
+{{< collapsible-button title="Reveal Details" summary="Click to view more." icon="chevron-down" style="secondary" align="center" rounded="full" open="false" >}}
+
+**Here is hidden markdown content!**
+
+Can include lists, links, etc.
+
+{{< /collapsible-button >}}
