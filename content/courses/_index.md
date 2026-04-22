@@ -52,7 +52,7 @@ sections:
         icon: 'hero/rocket-launch'
     design:
       card:
-        css_class: 'cta-glassmorphism'
+        css_class: 'glassmorphism-secondary noise-texture text-white'
         text_color: 'auto' # auto|light|dark
         overlay_opacity: 0.15 # 0.0-1.0 for contrast control
       background:
