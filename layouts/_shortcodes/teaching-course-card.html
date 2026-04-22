@@ -13,10 +13,10 @@
     {{ if .Get "syllabus_url" }}
       {{/* Hugo shortcode parameters need to be simple strings or variables, not nested template expressions like {{ .Get "param" }} */}}
       {{/* Use `relref` here if linking to another Markdown page, otherwise a direct URL. */}}
-      {{< button url=(.Get "syllabus_url") new_tab="true" style="primary" size="sm" rounded="true" >}}Syllabus{{< /button >}}
+      {{< button url=(.Get "syllabus_url") new_tab="true" style="primary" size="sm" rounded="full" >}}Syllabus{{< /button >}}
     {{ end }}
     {{ if .Get "description_url" }}
-      {{< button url=(.Get "description_url") new_tab="true" style="secondary" size="sm" rounded="true" >}}Class Description{{< /button >}}
+      {{< button url=(.Get "description_url") new_tab="true" style="secondary" size="sm" rounded="full" >}}Class Description{{< /button >}}
     {{ end }}
   </div>
 </div>
