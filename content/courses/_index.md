@@ -42,6 +42,28 @@ sections:
           url: "https://www.linkedin.com/in/myprofile"
         - text: "GitHub"
           url: "https://github.com/myprofile"
+  - block: cta-card
+    content:
+      title: 'Ready to Get Started?'
+      text: 'Join thousands of users creating amazing websites'
+      button:
+        text: 'Get Started Free'
+        url: '/signup/'
+        icon: 'hero/rocket-launch'
+    design:
+      card:
+        css_class: 'cta-glassmorphism'
+        text_color: 'auto' # auto|light|dark
+        overlay_opacity: 0.15 # 0.0-1.0 for contrast control
+      background:
+        gradient:
+          start: 'primary-500'
+          end: 'primary-700'
+          direction: 135
+        image:
+          filename: 'textures/noise-pattern.svg'
+          size: '32px'
+          position: 'repeat'
   - block: markdown
     content:
       title: "Courses Taught"
