@@ -122,7 +122,7 @@ sections:
       title: "Overview of Courses Taught"
       text: |
         <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
-        <div class="grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {{< teaching-course-card 
             title="CAS LX 110: Accents, Dialects, and Society"
             institution="Boston University (BU)"
