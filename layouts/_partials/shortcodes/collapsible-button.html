@@ -1,0 +1,108 @@
+{{/* Collapsible Button Shortcode for HugoBlox
+
+Parameters:
+- title (required)
+- summary (optional)
+- icon (optional, default chevron-down)
+- icon_position (optional, default right)
+- style, size, align, rounded, new_tab, disabled (all as per button)
+- open (optional, default false)
+*/}}
+
+{{- $title := .Get "title" | default "Details" -}}
+{{- $summary := .Get "summary" -}}
+{{- $icon := .Get "icon" | default "chevron-down" -}}
+{{- $iconPosition := .Get "icon_position" | default "right" -}}
+{{- $open := .Get "open" | default false -}}
+
+{{- $style := .Get "style" | default "primary" -}}
+{{- $size := .Get "size" | default "md" -}}
+{{- $align := .Get "align" | default "left" -}}
+{{- $rounded := .Get "rounded" | default "md" -}}
+{{- $disabled := .Get "disabled" | default false -}}
+
+{{/* Unique IDs for accessibility */}}
+{{- $uid := delimit (slice "collapsible" (now.UnixNano)) "-" -}}
+
+{{/* Alignment classes */}} <!-- Similar to button.html for class logic -->
+{{- $alignClass := "" -}}
+{{- if eq $align "center" -}}
+  {{- $alignClass = "text-center" -}}
+{{- else if eq $align "right" -}}
+  {{- $alignClass = "text-right" -}}
+{{- else -}}
+  {{- $alignClass = "text-left" -}}
+{{- end -}}
+
+{{/* Size classes */}}
+{{- $sizeClasses := "" -}}
+{{- if eq $size "sm" -}}
+  {{- $sizeClasses = "px-3 py-1.5 text-sm" -}}
+{{- else if eq $size "lg" -}}
+  {{- $sizeClasses = "px-6 py-3 text-lg" -}}
+{{- else if eq $size "xl" -}}
+  {{- $sizeClasses = "px-8 py-4 text-xl" -}}
+{{- else -}}
+  {{- $sizeClasses = "px-4 py-2 text-base" -}}
+{{- end -}}
+
+{{/* Rounded classes */}}
+{{- $roundedClass := "" -}}
+{{- if eq $rounded "sm" -}}
+  {{- $roundedClass = "rounded" -}}
+{{- else if eq $rounded "lg" -}}
+  {{- $roundedClass = "rounded-xl" -}}
+{{- else if eq $rounded "xl" -}}
+  {{- $roundedClass = "rounded-2xl" -}}
+{{- else if eq $rounded "full" -}}
+  {{- $roundedClass = "rounded-full" -}}
+{{- else -}}
+  {{- $roundedClass = "rounded-lg" -}}
+{{- end -}}
+
+{{/* Style classes */}}
+{{- $styleClasses := "" -}}
+{{- $baseClasses := "inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none" -}}
+
+{{- if eq $style "secondary" -}}
+  {{- $styleClasses = "bg-gradient-to-br from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 active:from-secondary-700 active:to-secondary-800 text-white shadow-lg shadow-secondary-500/25 hover:shadow-xl hover:shadow-secondary-500/30 hover:scale-105 active:scale-95 focus:ring-secondary-500/50" -}}
+{{- else if eq $style "outline" -}}
+  {{- $styleClasses = "bg-white dark:bg-zinc-900 border-2 border-primary-500 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/50 hover:border-primary-600 active:bg-primary-100 dark:active:bg-primary-950 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 focus:ring-primary-500/50" -}}
+{{- else if eq $style "ghost" -}}
+  {{- $styleClasses = "bg-transparent text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/50 active:bg-primary-100 dark:active:bg-primary-950 hover:scale-105 active:scale-95 focus:ring-primary-500/50" -}}
+{{- else -}}
+  {{/* Primary gradient (default) */}}
+  {{- $styleClasses = "bg-gradient-to-br from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 active:from-primary-700 active:to-primary-800 text-white shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98] focus:ring-primary-500/50" -}}
+{{- end -}}
+
+<div class="my-4">
+  <div class="{{ $alignClass }}">
+    <button
+      type="button"
+      aria-expanded="{{ if $open }}true{{ else }}false{{ end }}"
+      aria-controls="content-{{ $uid }}"
+      class="{{ $baseClasses }} {{ $styleClasses }} {{ $sizeClasses }} {{ $roundedClass }}"
+      data-toggle="collapse"
+      data-target="#content-{{ $uid }}"
+      {{ if $disabled }}disabled aria-disabled="true"{{ end }}
+      onclick="
+        var content=document.getElementById('content-{{ $uid }}');
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !expanded);
+        content.hidden = expanded;
+      "
+    >
+      {{ if and $icon (eq $iconPosition "left") }}
+        <span class="flex-shrink-0">{{ partial "functions/get_icon" (dict "name" $icon "attributes" "class=\"w-4 h-4\"") }}</span>
+      {{ end }}
+      <span>{{ $title }}</span>
+      {{ if and $icon (eq $iconPosition "right") }}
+        <span class="flex-shrink-0">{{ partial "functions/get_icon" (dict "name" $icon "attributes" "class=\"w-4 h-4 transition-transform duration-300\"" }}</span>
+      {{ end }}
+    </button>
+    {{ with $summary }}<div class="text-sm text-zinc-500 mt-1">{{ . }}</div>{{ end }}
+    <div id="content-{{ $uid }}" hidden="{{ not $open }}" class="mt-4 p-4 border rounded-lg">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>

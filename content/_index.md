@@ -37,8 +37,8 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        align: center
-        rounded: full
+        # align: center #these dont work. come back later
+        # rounded: full
         url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
       headings:
         about: 'About Me'

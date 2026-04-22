@@ -1,7 +1,7 @@
 ---
 title: "Covariation & salience in linguistic contact: a sociophonetic study of liquid variation in Boston Spanish"
 date: 2025-09-21
-toc: false
+toc: false #check later if this works by modifying the single.html under layouts
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -71,3 +71,10 @@ featured: true
 draft: false
 ---
 
+{{< collapsible-button title="Reveal Details" summary="Click to view more." icon="chevron-down" style="secondary" align="center" rounded="full" open="false" >}}
+
+**Here is hidden markdown content!**
+
+Can include lists, links, etc.
+
+{{< /collapsible-button >}}
