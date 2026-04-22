@@ -62,7 +62,6 @@ sections:
             <strong>Students:</strong> ~100<br>
             <em>Introduction to sociolinguistic variation: how dialects arise, social patterns, and media.</em><br>
             <a class="btn btn-primary btn-sm rounded-full" href="https://github.com/leeannvidal/leeannvidal.github.io/blob/main/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf" target="_blank">Syllabus</a>
-            {{< button url="/download" text="Download Now" icon="download" style="primary" size="lg" align="center" >}}
           icon: hero/book-open
         - name: "CAS LX 120: Language and Music"
           description: |
@@ -87,6 +86,75 @@ sections:
           orb_count: 2
       spacing:
         padding: ['4rem', '0', '4rem', '0']
+  - block: markdown
+    content:
+      title: "Overview of Courses Taught"
+      text: |
+        <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+
+          <!-- Course Card: CAS LX 110 -->
+          <div class="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-800 flex flex-col justify-between h-full">
+            <div>
+              <h4 class="text-xl font-bold mb-2 text-primary-700 dark:text-primary-300">CAS LX 110: Accents, Dialects, and Society</h4>
+              <p class="text-gray-700 dark:text-gray-300 mb-4">
+                <strong>Institution:</strong> Boston University<br>
+                <strong>Role:</strong> Teaching Fellow<br>
+                <strong>Year(s):</strong> Fall 2018 &amp; Spring 2020<br>
+                <strong>Students:</strong> ~100<br>
+                <em>Introduction to sociolinguistic variation: how dialects arise, social patterns, and media.</em>
+              </p>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <a class="btn btn-primary btn-sm rounded" href="https://github.com/leeannvidal/leeannvidal.github.io/blob/main/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf" target="_blank">Syllabus</a>
+              <a class="btn btn-secondary btn-sm rounded" href="/some-description-page" target="_blank">Class Description</a>
+            </div>
+          </div>
+
+          <!-- Course Card: CAS LX 120 -->
+          <div class="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-800 flex flex-col justify-between h-full">
+            <div>
+              <h4 class="text-xl font-bold mb-2 text-primary-700 dark:text-primary-300">CAS LX 120: Language and Music</h4>
+              <p class="text-gray-700 dark:text-gray-300 mb-4">
+                <strong>Institution:</strong> BU<br>
+                <strong>Role:</strong> Grader<br>
+                <strong>Year(s):</strong> Fall 2021<br>
+                <strong>Students:</strong> ~30–40<br>
+                <em>Interdisciplinary links between language and music, brain-based evidence.</em>
+              </p>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <a class="btn btn-primary btn-sm rounded" href="#" target="_blank">Syllabus</a>
+            </div>
+          </div>
+
+        </div> <!-- End grid -->
+
+        <h3 class="mt-12 mb-4 text-3xl font-bold dark:text-white">High School Level Courses</h3>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+
+          <!-- High School Course Card: Elementary Spanish I -->
+          <div class="p-6 rounded-lg shadow-lg bg-white dark:bg-gray-800 flex flex-col justify-between h-full">
+            <div>
+              <h4 class="text-xl font-bold mb-2 text-primary-700 dark:text-primary-300">Elementary Spanish I</h4>
+              <p class="text-gray-700 dark:text-gray-300 mb-4">
+                <strong>Institution:</strong> Saint Joseph’s Academy<br>
+                <strong>Role:** Instructor<br>
+                <strong>Year(s):</strong> 2014–2017<br>
+                <strong>Students:</strong> ~25–30 per section<br>
+                <em>Introductory Spanish course focused on basic vocabulary, everyday communication, and foundational skills.</em>
+              </p>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <a class="btn btn-primary btn-sm rounded" href="#" target="_blank">Syllabus</a>
+            </div>
+          </div>
+
+        </div> <!-- End grid -->
+
+    design:
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
   - block: markdown
     content:
       title: "Courses Taught"
