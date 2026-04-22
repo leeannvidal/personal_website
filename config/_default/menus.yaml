@@ -16,6 +16,9 @@ main:
   - name: Coding Corner
     url: /coding_corner/
     weight: 17
+  - name: Teaching
+    url: courses/
+    weight: 40
   # - name: Papers
   #   url: /#papers
   #   weight: 11
