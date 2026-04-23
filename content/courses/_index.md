@@ -16,12 +16,12 @@ sections:
     content:
       title: "My Teaching and Course Experience"
       cards:
-        - title: "Introduction to Data Science"
-          institution: "University of Academia"
-          role: "Lead Instructor"
-          years: "Fall 2023 - Spring 2024"
-          students: "120"
-          description: "Comprehensive course covering statistical foundations, machine learning, and data visualization."
+        - title: "CAS LX 110: Accents, Dialects, and Society"
+          institution: "Boston University (BU)"
+          role: "Teaching Fellow"
+          years: "Fall 2018 & Spring 2020"
+          students: "~100"
+          description: "Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
           syllabus_url: "/uploads/data-science-syllabus.pdf" # Make sure this path is valid
           description_url: "https://www.university.edu/data-science-course"
         - title: "Advanced Machine Learning"

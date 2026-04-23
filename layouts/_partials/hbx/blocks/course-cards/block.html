@@ -24,10 +24,17 @@
       <h2 class="text-3xl font-bold text-center mb-8 {{ if $startGradient }}text-white{{ else }}text-gray-800 dark:text-white{{ end }}">{{ . }}</h2>
     {{ end }}
 
+    {{/* DEBUG LINE - Check if $cards has data */}}
+    {{ if $cards }}
+        <p>DEBUG: Cards found (count: {{ len $cards }})</p>
+    {{ else }}
+        <p>DEBUG: No cards found in $cards variable.</p>
+    {{ end }}
+
     <div class="grid grid-cols-1 md:grid-cols-{{ $columns }} gap-6">
       {{ range $card := $cards }}
         <div class="p-6 rounded-lg shadow-lg flex flex-col justify-between h-full
-          {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ end }}
+          {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ else }}text-base{{ end }}
           {{ if $cardCssClass }}{{ $cardCssClass }}{{ else }} bg-white dark:bg-gray-800 {{ end }}
           {{ if eq $textColor "auto" }}text-gray-700 dark:text-gray-300 {{ else if eq $textColor "light" }}text-white{{ else if eq $textColor "dark" }}text-gray-900{{ end }}
           "
