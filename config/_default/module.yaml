@@ -27,3 +27,6 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  ### My custom block:
+  - source: assets/hbx/blocks/course-cards
+    target: assets/hbx/blocks/course-cards

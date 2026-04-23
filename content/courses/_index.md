@@ -80,14 +80,22 @@ sections:
       columns: 2 # You can change this to 1, 3, or 4
       card_size: "big" # Try "small", "medium", or "large" to see the effect
       card:
-        css_class: 'cta-glassmorphism' # This should now work with appropriate CSS
-        text_color: 'auto' # 'auto', 'light', or 'dark'
-        overlay_opacity: 0.15 # 0.0-1.0
+        css_class: 'glassmorphism-secondary noise-texture text-white'
+        text_color: 'auto' # auto|light|dark
+        overlay_opacity: 0.15 # 0.0-1.0 for contrast control
       background:
         gradient:
-          start: 'primary-700'
-          end: 'primary-900'
-          direction: 45 # Angle of the gradient
+          start: 'primary-500'
+          end: 'primary-700'
+          direction: 135
+      #   css_class: 'cta-glassmorphism' # This should now work with appropriate CSS
+      #   text_color: 'auto' # 'auto', 'light', or 'dark'
+      #   overlay_opacity: 0.15 # 0.0-1.0
+      # background:
+      #   gradient:
+      #     start: 'primary-700'
+      #     end: 'primary-900'
+      #     direction: 45 # Angle of the gradient
   - block: markdown
     content:
       title: "Overview of Courses Taught"
