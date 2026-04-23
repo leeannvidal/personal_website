@@ -47,8 +47,8 @@ sections:
           description: "Continuation: functional communication, past narration, cultural practices."
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1102_Syllabus-LSU.pdf"
     design: # Optional: Uncomment to apply custom design to this block
-      columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
-      card_size: "large" # Example size
+      columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
+      card_size: "small" # Example size
       # card:
       #   css_class: 'cta-glassmorphism'
       #   text_color: 'auto'
@@ -84,8 +84,8 @@ sections:
           students: "~25–30/section"
           description: "Tech literacy, productivity software, academic/practical skills."
     design: # Optional: Uncomment to apply custom design to this block
-      columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
-      card_size: "large" # Example size
+      columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
+      card_size: "medium" # Example size
       # card:
       #   css_class: 'cta-glassmorphism'
       #   text_color: 'auto'
