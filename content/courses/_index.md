@@ -17,8 +17,8 @@ sections:
           years: "Fall 2018 & Spring 2020"
           students: "~100"
           description: "Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
-          syllabus_url: "/uploads/data-science-syllabus.pdf" # Make sure this path is valid
-          description_url: "https://github.com/leeannvidal/leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf"
+          syllabus_url: "https://github.com/leeannvidal/leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf" 
+          # description_url:
         - title: "Advanced Machine Learning"
           institution: "University of Academia"
           role: "Teaching Assistant"
@@ -50,6 +50,7 @@ sections:
             years="Fall 2018 & Spring 2020"
             students="~100"
             description="Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
+            syllabus_url="https://github.com/leeannvidal/leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf"
           >}}
           {{< teaching-course-card 
             title="CAS LX 120: Language and Music"
