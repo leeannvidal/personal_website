@@ -1,10 +1,74 @@
-{{/*
-  This is a server-side Go HTML partial file.
-  It renders a placeholder div for the client-side Preact component.
-  The actual block content is rendered by assets/hbx/blocks/course-cards/component.jsx
-*/}}
-<div
-  data-block-type="course-cards"
-  data-props='{{ . | jsonify }}'
->
-</div>
+{{ $block := . }}
+{{ $cards := $block.content.cards }}
+{{ $design := $block.design }}
+
+{{ $columns := default 2 $design.columns }}
+{{ $cardSize := default "medium" $design.card_size }}
+{{ $cardCssClass := "" }}
+{{ if $design.card.css_class }}{{ $cardCssClass = $design.card.css_class }}{{ end }}
+{{ $textColor := default "auto" $design.card.text_color }}
+{{ $overlayOpacity := default 0.15 $design.card.overlay_opacity }}
+
+{{ $startGradient := "" }}
+{{ $endGradient := "" }}
+{{ $gradientDirection := "" }}
+{{ if $design.background.gradient }}
+  {{ $startGradient = $design.background.gradient.start }}
+  {{ $endGradient = $design.background.gradient.end }}
+  {{ $gradientDirection = printf "deg-%v" $design.background.gradient.direction }}
+{{ end }}
+
+<section id="{{ $block.id }}" class="{{ if $startGradient }}bg-gradient-to-{{ $gradientDirection }} from-{{ $startGradient }} to-{{ $endGradient }} {{ else }}bg-white dark:bg-gray-900{{ end }} py-12">
+  <div class="container mx-auto px-4">
+    {{ with $block.content.title }}
+      <h2 class="text-3xl font-bold text-center mb-8 {{ if $startGradient }}text-white{{ else }}text-gray-800 dark:text-white{{ end }}">{{ . }}</h2>
+    {{ end }}
+
+    <div class="grid grid-cols-1 md:grid-cols-{{ $columns }} gap-6">
+      {{ range $card := $cards }}
+        <div class="p-6 rounded-lg shadow-lg flex flex-col justify-between h-full
+          {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ end }}
+          {{ if $cardCssClass }}{{ $cardCssClass }}{{ else }} bg-white dark:bg-gray-800 {{ end }}
+          {{ if eq $textColor "auto" }}text-gray-700 dark:text-gray-300 {{ else if eq $textColor "light" }}text-white{{ else if eq $textColor "dark" }}text-gray-900{{ end }}
+          "
+          {{ if $cardCssClass }}
+            style="--overlay-opacity: {{ $overlayOpacity }};"
+          {{ end }}
+          >
+          <div>
+            <h4 class="font-bold mb-2 text-primary-700 dark:text-primary-300">
+              {{ $card.title }}
+            </h4>
+            <p>
+              {{ if $card.institution }}<strong>Institution:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.institution | markdownify }}</span><br>{{ end }}
+              {{ if $card.role }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.role | markdownify }}</span><br>{{ end }}
+              {{ if $card.years }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.years | markdownify }}</span><br>{{ end }}
+              {{ if $card.students }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.students | markdownify }}</span><br>{{ end }}
+              {{ if $card.description }}<span class="font-normal text-primary-700 dark:text-primary-300"><em>{{ $card.description | markdownify }}</em></span>{{ end }}
+            </p>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            {{ if $card.syllabus_url }}
+              <a href="{{ $card.syllabus_url }}"
+                 target="_blank"
+                 rel="noopener"
+                 class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+              >
+                Syllabus
+              </a>
+            {{ end }}
+            {{ if $card.description_url }}
+              <a href="{{ $card.description_url }}"
+                 target="_blank"
+                 rel="noopener"
+                 class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+              >
+                Class Description
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

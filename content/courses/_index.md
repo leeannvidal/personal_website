@@ -11,49 +11,7 @@ type: landing
 #       show_breadcrumb: true
 
 sections:
-  - block: features
-    content:
-      title: "Undergraduate Courses"
-      text: "Selection of undergraduate-level classes I've taught."
-      items:
-        - name: "CAS LX 110: Accents, Dialects, and Society"
-          description: |
-            <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
-            <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
-            {{< teaching-course-card 
-              title="CAS LX 110: Accents, Dialects, and Society"
-              institution="Boston University (BU)"
-              role="Teaching Fellow"
-              years="Fall 2018 & Spring 2020"
-              students="~100"
-              description="Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
-            >}} 
-          icon: hero/book-open
-        - name: "CAS LX 120: Language and Music"
-          description: |
-            **Institution:** BU  
-            **Role:** Grader  
-            **Year(s):** Fall 2021  
-            **Students:** ~30–40  
-            *Interdisciplinary links between language and music, brain-based evidence.*  
-            [Syllabus](#)
-          icon: hero/musical-note
-        # ...etc for more courses
-    design:
-      background:
-        gradient:
-          start: 'primary-400'
-          end: 'secondary-500'
-          direction: 120
-        gradient_mesh:
-          enable: true
-          style: orbs
-          colors: ['primary-500/30', 'secondary-500/30']
-          orb_count: 2
-      spacing:
-        padding: ['4rem', '0', '4rem', '0']
   - block: course-cards # Use the actual block name here, not 'custom' for Preact blocks based on docs
-    component: assets/hbx/blocks/course-cards # <--- ADD THIS LINE
     id: my-courses
     content:
       title: "My Teaching and Course Experience"
@@ -81,87 +39,9 @@ sections:
           students: "30"
           description: "Delivered a guest lecture on modern JavaScript frameworks."
         # Add more cards as needed
-    design:
-      columns: 2 # You can change this to 1, 3, or 4
-      card_size: "big" # Try "small", "medium", or "large" to see the effect
-      # card:
-      #   css_class: 'glassmorphism-secondary noise-texture text-white'
-      #   text_color: 'auto' # auto|light|dark
-      #   overlay_opacity: 0.15 # 0.0-1.0 for contrast control
-      # background:
-      #   gradient:
-      #     start: 'primary-500'
-      #     end: 'primary-700'
-      #     direction: 135
-      #   css_class: 'cta-glassmorphism' # This should now work with appropriate CSS
-      #   text_color: 'auto' # 'auto', 'light', or 'dark'
-      #   overlay_opacity: 0.15 # 0.0-1.0
-      # background:
-      #   gradient:
-      #     start: 'primary-700'
-      #     end: 'primary-900'
-      #     direction: 45 # Angle of the gradient
-  - block: cta-card
-    content:
-      title: 'Ready to Get Started?'
-      text: |
-        <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
-        <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
-          {{< teaching-course-card 
-            title="CAS LX 110: Accents, Dialects, and Society"
-            institution="Boston University (BU)"
-            role="Teaching Fellow"
-            years="Fall 2018 & Spring 2020"
-            students="~100"
-            description="Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
-          >}}
-          {{< teaching-course-card 
-            title="CAS LX 120: Language and Music"
-            institution="Boston University (BU)"
-            role="Grader"
-            years="Fall 2021"
-            students="~30-40"
-            description="Interdisciplinary: structure/cognition links between language & music, evolution, brain evidence."
-          >}}
-          {{< teaching-course-card 
-            title="CAS LX 301/601: Introduction to Sound Systems"
-            institution="Boston University (BU)"
-            role="Course Assistant"
-            years="Fall 2020"
-            students="~25"
-            description="Phonetics & phonology basics, hands-on transcription/acoustic analysis."
-          >}}
-          {{< teaching-course-card 
-            title="Spanish 1101: Elementary Spanish I"
-            institution="Louisiana State University (LSU)"
-            role="Instructor"
-            years="2012–2013"
-            students="~25–30/section"
-            description="Foundational Spanish—communicative approach to basic skills."
-          >}}
-          {{< teaching-course-card 
-            title="Spanish 1102: Elementary Spanish II"
-            institution="Louisiana State University (LSU)"
-            role="Instructor"
-            years="2012–2013"
-            students="~25–30/section"
-            description="Continuation: functional communication, past narration, cultural practices."
-          >}}
-        </div>
-      button:
-        text: 'Get Started Free'
-        url: '/signup/'
-        icon: 'hero/rocket-launch'
-    design:
-      card:
-        css_class: 'glassmorphism-secondary noise-texture text-white'
-        text_color: 'auto' # auto|light|dark
-        overlay_opacity: 0.15 # 0.0-1.0 for contrast control
-      background:
-        gradient:
-          start: 'primary-500'
-          end: 'primary-700'
-          direction: 135
+    # design:
+    #   columns: 2 # You can change this to 1, 3, or 4
+    #   card_size: "big" # Try "small", "medium", or "large" to see the effect
   - block: markdown
     content:
       title: "Overview of Courses Taught"
