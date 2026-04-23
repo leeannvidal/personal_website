@@ -11,7 +11,7 @@ sections:
     content:
       title: "Bachelor’s Level Courses" # This will be your h3 title
       cards:
-        - title: "CAS LX 110: Accents, Dialects, and Society"
+        - title: "CAS LX 110: Accents, Dialects, & Society"
           institution: "Boston University"
           role: "Teaching Fellow"
           years: "Fall 2018 & Spring 2020"
