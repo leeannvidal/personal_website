@@ -59,6 +59,7 @@ sections:
             years="Fall 2021"
             students="~30-40"
             description="Interdisciplinary: structure/cognition links between language & music, evolution, brain evidence."
+            syllabus_url="https://leeannvidal.github.io/documents/Teaching/Syllabi/LX_120_Language_Music_Sample_Syllabus.pdf"
           >}}
           {{< teaching-course-card 
             title="CAS LX 301/601: Introduction to Sound Systems"
