@@ -121,6 +121,8 @@ sections:
     design: # Optional: Uncomment to apply custom design to this block
       columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
       card_size: "large" # Example size
+      card:
+        css_class: 'glassmorphism-light glass-ring glass-shadow text-gray-900'
       # card:
       #   css_class: 'cta-glassmorphism'
       #   text_color: 'auto'
