@@ -48,6 +48,46 @@ sections:
   #         orb_count: 2
   #     spacing:
   #       padding: ['4rem', '0', '4rem', '0']
+  - block: course-cards # Use the actual block name here, not 'custom' for Preact blocks based on docs
+    id: my-courses
+    content:
+      title: "My Teaching and Course Experience"
+      cards:
+        - title: "Introduction to Data Science"
+          institution: "University of Academia"
+          role: "Lead Instructor"
+          years: "Fall 2023 - Spring 2024"
+          students: "120"
+          description: "Comprehensive course covering statistical foundations, machine learning, and data visualization."
+          syllabus_url: "/uploads/data-science-syllabus.pdf" # Make sure this path is valid
+          description_url: "https://www.university.edu/data-science-course"
+        - title: "Advanced Machine Learning"
+          institution: "University of Academia"
+          role: "Teaching Assistant"
+          years: "Spring 2023"
+          students: "60"
+          description: "Assisted in labs and grading for graduate-level ML concepts."
+          syllabus_url: "#" # Use # for a placeholder if no syllabus
+          description_url: "https://www.university.edu/advanced-ml"
+        - title: "Web Development Fundamentals"
+          institution: "Community College"
+          role: "Guest Lecturer"
+          years: "Summer 2022"
+          students: "30"
+          description: "Delivered a guest lecture on modern JavaScript frameworks."
+        # Add more cards as needed
+    design:
+      columns: 2 # You can change this to 1, 3, or 4
+      card_size: "big" # Try "small", "medium", or "large" to see the effect
+      card:
+        css_class: 'cta-glassmorphism' # This should now work with appropriate CSS
+        text_color: 'auto' # 'auto', 'light', or 'dark'
+        overlay_opacity: 0.15 # 0.0-1.0
+      background:
+        gradient:
+          start: 'primary-700'
+          end: 'primary-900'
+          direction: 45 # Angle of the gradient
   - block: markdown
     content:
       title: "Overview of Courses Taught"
