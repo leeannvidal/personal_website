@@ -18,7 +18,6 @@ sections:
           students: "~100"
           description: "Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf"
-          # description_url is intentionally left out as it was not in the shortcode source
         - title: "CAS LX 120: Language and Music"
           institution: "Boston University (BU)"
           role: "Grader"
@@ -32,6 +31,8 @@ sections:
           years: "Fall 2020"
           students: "~25"
           description: "Phonetics & phonology basics, hands-on transcription/acoustic analysis."
+          extra_button_text: "Teaching Evaluation" # New field for the extra button
+          extra_button_url: "https://example.com/lx110-evals" # New field for the extra button
         - title: "Spanish 1101: Elementary Spanish I"
           institution: "Louisiana State University (LSU)"
           role: "Instructor"

@@ -20,15 +20,7 @@
   {{ $gradientDirection = printf "deg-%v" $design.background.gradient.direction }}
 {{ end }}
 
-{{/*
-  Removed the outer <section> tag to prevent nesting.
-  The outer styling (background, padding) can be controlled by HugoBlox's
-  design options in the front matter, or by applying classes here inside
-  a div, if the theme's wrapper isn't sufficient.
-*/}}
 <div class="container mx-auto px-4 {{ if not $design }}bg-white dark:bg-gray-900 py-12{{ end }}">
-  {{/* The above div now takes the section's background/padding if no design is specified */}}
-
   {{ with $block.wcBlock.content.title }}
     <h2 class="text-3xl font-bold text-center mb-8 {{ if $startGradient }}text-white{{ else if $design.background.gradient }}text-white{{ else }}text-gray-800 dark:text-white{{ end }}">{{ . }}</h2>
   {{ end }}
@@ -53,30 +45,40 @@
             {{ if $card.role }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.role | markdownify }}</span><br>{{ end }}
             {{ if $card.years }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.years | markdownify }}</span><br>{{ end }}
             {{ if $card.students }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.students | markdownify }}</span><br>{{ end }}
-            {{ if $card.description }}<span class="font-normal text-primary-700 dark:text-primary-300"><em>{{ $card.description | markdownify }}</em></span>{{ end }}
-          </p>
+            {{ if $card.description }}
+              <strong>Description:</strong> <span class="font-normal text-primary-700 dark:text-primary-300"><em>{{ $card.description | markdownify }}</em></span>{{ end }}
+            </p>
+          </div>
+          <div class="mt-4 flex flex-wrap gap-2">
+            {{ if $card.syllabus_url }}
+              <a href="{{ $card.syllabus_url }}"
+                 target="_blank"
+                 rel="noopener"
+                 class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+              >
+                Syllabus
+              </a>
+            {{ end }}
+            {{ if $card.description_url }}
+              <a href="{{ $card.description_url }}"
+                 target="_blank"
+                 rel="noopener"
+                 class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+              >
+                Class Description
+              </a>
+            {{ end }}
+            {{ if and $card.extra_button_url $card.extra_button_text }}
+              <a href="{{ $card.extra_button_url }}"
+                 target="_blank"
+                 rel="noopener"
+                 class="inline-flex items-center px-4 py-2 bg-tertiary-600 hover:bg-tertiary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+              >
+                {{ $card.extra_button_text }}
+              </a>
+            {{ end }}
+          </div>
         </div>
-        <div class="mt-4 flex flex-wrap gap-2">
-          {{ if $card.syllabus_url }}
-            <a href="{{ $card.syllabus_url }}"
-               target="_blank"
-               rel="noopener"
-               class="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
-            >
-              Syllabus
-            </a>
-          {{ end }}
-          {{ if $card.description_url }}
-            <a href="{{ $card.description_url }}"
-               target="_blank"
-               rel="noopener"
-               class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
-            >
-              Class Description
-            </a>
-          {{ end }}
-        </div>
-      </div>
-    {{ end }}
+      {{ end }}
+    </div>
   </div>
-</div>
