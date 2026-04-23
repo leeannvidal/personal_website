@@ -34,8 +34,9 @@ sections:
           years: "Fall 2020"
           students: "~25"
           description: "Phonetics & phonology basics, hands-on transcription/acoustic analysis."
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX301_Syllabus-F20.pdf"
           extra_button_text: "Teaching Evaluation" # New field for the extra button
-          extra_button_url: "https://example.com/lx110-evals" # New field for the extra button
+          extra_button_url: "https://leeannvidal.github.io/documents/Teaching/Evaluations/Vidal-Covas-F20-Teaching_Evaluation.pdf"
         - title: "Spanish 1101: Elementary Spanish I"
           institution: "Louisiana State University"
           role: "Instructor"
