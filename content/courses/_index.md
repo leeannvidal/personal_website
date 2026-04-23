@@ -7,9 +7,9 @@ type: landing
 
 sections:
   - block: course-cards
-    id: my-courses
+    id: bachelors-courses
     content:
-      title: "My Teaching and Course Experience"
+      title: "Bachelor’s Level Courses" # This will be your h3 title
       cards:
         - title: "CAS LX 110: Accents, Dialects, and Society"
           institution: "Boston University (BU)"
@@ -17,26 +17,115 @@ sections:
           years: "Fall 2018 & Spring 2020"
           students: "~100"
           description: "Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
-          syllabus_url: "https://github.com/leeannvidal/leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf" 
-          # description_url:
-        - title: "Advanced Machine Learning"
-          institution: "University of Academia"
-          role: "Teaching Assistant"
-          years: "Spring 2023"
-          students: "60"
-          description: "Assisted in labs and grading for graduate-level ML concepts."
-          syllabus_url: "#" # Use # for a placeholder if no syllabus
-          # description_url: "https://www.university.edu/advanced-ml"
-        - title: "Web Development Fundamentals"
-          institution: "Community College"
-          role: "Guest Lecturer"
-          years: "Summer 2022"
-          students: "30"
-          description: "Delivered a guest lecture on modern JavaScript frameworks."
-        # Add more cards as needed
-    # design:
-    #   columns: 2 # You can change this to 1, 3, or 4
-    #   card_size: "big" # Try "small", "medium", or "large" to see the effect
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf"
+          # description_url is intentionally left out as it was not in the shortcode source
+        - title: "CAS LX 120: Language and Music"
+          institution: "Boston University (BU)"
+          role: "Grader"
+          years: "Fall 2021"
+          students: "~30-40"
+          description: "Interdisciplinary: structure/cognition links between language & music, evolution, brain evidence."
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX_120_Language_Music_Sample_Syllabus.pdf"
+        - title: "CAS LX 301/601: Introduction to Sound Systems"
+          institution: "Boston University (BU)"
+          role: "Course Assistant"
+          years: "Fall 2020"
+          students: "~25"
+          description: "Phonetics & phonology basics, hands-on transcription/acoustic analysis."
+        - title: "Spanish 1101: Elementary Spanish I"
+          institution: "Louisiana State University (LSU)"
+          role: "Instructor"
+          years: "2012–2013"
+          students: "~25–30/section"
+          description: "Foundational Spanish—communicative approach to basic skills."
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1101_Syllabus-LSU.pdf"
+        - title: "Spanish 1102: Elementary Spanish II"
+          institution: "Louisiana State University (LSU)"
+          role: "Instructor"
+          years: "2012–2013"
+          students: "~25–30/section"
+          description: "Continuation: functional communication, past narration, cultural practices."
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1102_Syllabus-LSU.pdf"
+    design: # Optional: Uncomment to apply custom design to this block
+      columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
+      card_size: "large" # Example size
+      # card:
+      #   css_class: 'cta-glassmorphism'
+      #   text_color: 'auto'
+      #   overlay_opacity: 0.15
+      # background:
+      #   gradient:
+      #     start: 'primary-300'
+      #     end: 'primary-500'
+      #     direction: 135
+
+  # High School Level Courses Block
+  - block: course-cards
+    id: highschool-courses
+    content:
+      title: "High School Level Courses" # This will be your h3 title
+      cards:
+        - title: "Elementary Spanish I"
+          institution: "Saint Joseph’s Academy (SJA)"
+          role: "Instructor"
+          years: "2014–2017"
+          students: "~25–30/section"
+          description: "Basic vocabulary; foundational speaking, reading, writing, listening skills."
+        - title: "Elementary Spanish II"
+          institution: "Saint Joseph’s Academy (SJA)"
+          role: "Instructor"
+          years: "2014–2017"
+          students: "~25–30/section"
+          description: "Intermediate; extended communication, complex grammar, culture."
+        - title: "Computer & Software Orientation"
+          institution: "Saint Joseph’s Academy (SJA)"
+          role: "Instructor"
+          years: "2016–2017"
+          students: "~25–30/section"
+          description: "Tech literacy, productivity software, academic/practical skills."
+    design: # Optional: Uncomment to apply custom design to this block
+      columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
+      card_size: "large" # Example size
+      # card:
+      #   css_class: 'cta-glassmorphism'
+      #   text_color: 'auto'
+      #   overlay_opacity: 0.15
+      # background:
+      #   gradient:
+      #     start: 'secondary-300'
+      #     end: 'secondary-500'
+      #     direction: 135
+
+  # Middle School Level Courses Block
+  - block: course-cards
+    id: middleschool-courses
+    content:
+      title: "Middle School Level Courses" # This will be your h3 title
+      cards:
+        - title: "Introductory Spanish"
+          institution: "Academy of the Sacred Heart (ASH)"
+          role: "Instructor"
+          years: "2017–2018"
+          students: "~10–15/section"
+          description: "Basic vocab; conversational skills, cultural awareness."
+        - title: "Basic Technology"
+          institution: "Academy of the Sacred Heart (ASH)"
+          role: "Instructor"
+          years: "2017–2018"
+          students: "~10–15/section"
+          description: "Computer fundamentals, safe online practices, basic software."
+    design: # Optional: Uncomment to apply custom design to this block
+      columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
+      card_size: "large" # Example size
+      # card:
+      #   css_class: 'cta-glassmorphism'
+      #   text_color: 'auto'
+      #   overlay_opacity: 0.15
+      # background:
+      #   gradient:
+      #     start: 'tertiary-300'
+      #     end: 'tertiary-500'
+      #     direction: 135
   - block: markdown
     content:
       title: "Overview of Courses Taught"
