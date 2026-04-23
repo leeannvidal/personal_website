@@ -43,7 +43,7 @@
           <p>
             {{ if $card.institution }}<strong>Institution:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.institution | markdownify }}</span><br>{{ end }}
             {{ if $card.role }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.role | markdownify }}</span><br>{{ end }}
-            {{ if $card.primary_instructor }}<strong>Primary Instructor:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.primary_instructor | markdownify }}</span><br>{{ end }}
+            {{ if $card.primary_instructor }}<strong>Course Lead:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.primary_instructor | markdownify }}</span><br>{{ end }}
             {{ if $card.years }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.years | markdownify }}</span><br>{{ end }}
             {{ if $card.students }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.students | markdownify }}</span><br>{{ end }}
             {{ if $card.description }}
