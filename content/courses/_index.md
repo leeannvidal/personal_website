@@ -97,6 +97,67 @@ sections:
       #     start: 'primary-700'
       #     end: 'primary-900'
       #     direction: 45 # Angle of the gradient
+  - block: cta-card
+    content:
+      title: 'Ready to Get Started?'
+      text: |
+        <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
+        <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+          {{< teaching-course-card 
+            title="CAS LX 110: Accents, Dialects, and Society"
+            institution="Boston University (BU)"
+            role="Teaching Fellow"
+            years="Fall 2018 & Spring 2020"
+            students="~100"
+            description="Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
+          >}}
+          {{< teaching-course-card 
+            title="CAS LX 120: Language and Music"
+            institution="Boston University (BU)"
+            role="Grader"
+            years="Fall 2021"
+            students="~30-40"
+            description="Interdisciplinary: structure/cognition links between language & music, evolution, brain evidence."
+          >}}
+          {{< teaching-course-card 
+            title="CAS LX 301/601: Introduction to Sound Systems"
+            institution="Boston University (BU)"
+            role="Course Assistant"
+            years="Fall 2020"
+            students="~25"
+            description="Phonetics & phonology basics, hands-on transcription/acoustic analysis."
+          >}}
+          {{< teaching-course-card 
+            title="Spanish 1101: Elementary Spanish I"
+            institution="Louisiana State University (LSU)"
+            role="Instructor"
+            years="2012–2013"
+            students="~25–30/section"
+            description="Foundational Spanish—communicative approach to basic skills."
+          >}}
+          {{< teaching-course-card 
+            title="Spanish 1102: Elementary Spanish II"
+            institution="Louisiana State University (LSU)"
+            role="Instructor"
+            years="2012–2013"
+            students="~25–30/section"
+            description="Continuation: functional communication, past narration, cultural practices."
+          >}}
+        </div>
+      button:
+        text: 'Get Started Free'
+        url: '/signup/'
+        icon: 'hero/rocket-launch'
+    design:
+      card:
+        css_class: 'glassmorphism-secondary noise-texture text-white'
+        text_color: 'auto' # auto|light|dark
+        overlay_opacity: 0.15 # 0.0-1.0 for contrast control
+      background:
+        gradient:
+          start: 'primary-500'
+          end: 'primary-700'
+          direction: 135
   - block: markdown
     content:
       title: "Overview of Courses Taught"
