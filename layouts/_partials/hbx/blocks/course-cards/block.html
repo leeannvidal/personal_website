@@ -43,6 +43,7 @@
           <p>
             {{ if $card.institution }}<strong>Institution:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.institution | markdownify }}</span><br>{{ end }}
             {{ if $card.role }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.role | markdownify }}</span><br>{{ end }}
+            {{ if $card.primary_instructor }}<strong>Primary Instructor:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.primary_instructor | markdownify }}</span><br>{{ end }}
             {{ if $card.years }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.years | markdownify }}</span><br>{{ end }}
             {{ if $card.students }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.students | markdownify }}</span><br>{{ end }}
             {{ if $card.description }}
@@ -72,7 +73,7 @@
               <a href="{{ $card.extra_button_url }}"
                  target="_blank"
                  rel="noopener"
-                 class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
+                 class="inline-flex items-center px-4 py-2 bg-tertiary-600 hover:bg-tertiary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
               >
                 {{ $card.extra_button_text }}
               </a>
