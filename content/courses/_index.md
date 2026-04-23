@@ -75,6 +75,7 @@ sections:
             years="2012–2013"
             students="~25–30/section"
             description="Foundational Spanish—communicative approach to basic skills."
+            syllabus_url="https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1101_Syllabus-LSU.pdf"
           >}}
           {{< teaching-course-card 
             title="Spanish 1102: Elementary Spanish II"
@@ -83,6 +84,7 @@ sections:
             years="2012–2013"
             students="~25–30/section"
             description="Continuation: functional communication, past narration, cultural practices."
+            syllabus_url="https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1102_Syllabus-LSU.pdf"
           >}}
         </div>
 
