@@ -49,7 +49,7 @@ sections:
   #     spacing:
   #       padding: ['4rem', '0', '4rem', '0']
   - block: course-cards # Use the actual block name here, not 'custom' for Preact blocks based on docs
-    # component: assets/hbx/blocks/course-cards # <--- ADD THIS LINE
+    component: assets/hbx/blocks/course-cards # <--- ADD THIS LINE
     id: my-courses
     content:
       title: "My Teaching and Course Experience"
