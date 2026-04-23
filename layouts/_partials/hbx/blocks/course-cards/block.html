@@ -34,7 +34,7 @@
         {{ $baseTextColor = "text-white" }}
       {{ else if eq $textColor "dark" }}
         {{ $baseTextColor = "text-gray-900" }}
-      {{ else if in $cardCssClass "glassmorphism-dark" "glassmorphism-primary" "glassmorphism-secondary" }}
+      {{ else if or (in $cardCssClass "glassmorphism-dark") (in $cardCssClass "glassmorphism-primary") (in $cardCssClass "glassmorphism-secondary") }}
         {{ $baseTextColor = "text-white" }}
       {{ else }}
         {{ $baseTextColor = "text-gray-700 dark:text-gray-300" }}

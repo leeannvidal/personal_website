@@ -23,8 +23,8 @@ summary: >
   A sociolinguistic variationist dissertation examining covariation across five Spanish variables in Boston's Puerto Rican and Dominican community, showing that low-salience features converge with English norms while high-salience features remain sites of social and stylistic agency shaped by a salience continuum.
 
 # DOI
-doi: "https://hdl.handle.net/2144/51243"
-
+# doi: "https://hdl.handle.net/2144/51243"
+hugoblox.ids: { doi: https://hdl.handle.net/2144/51243}
 # Tags
 tags:
   - Sociolinguistics
