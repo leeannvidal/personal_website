@@ -11,43 +11,47 @@ type: landing
 #       show_breadcrumb: true
 
 sections:
-  # - block: features
-  #   content:
-  #     title: "Undergraduate Courses"
-  #     text: "Selection of undergraduate-level classes I've taught."
-  #     items:
-  #       - name: "CAS LX 110: Accents, Dialects, and Society"
-  #         description: |
-  #           <strong>Institution:</strong> Boston University<br>
-  #           <strong>Role:</strong> Teaching Fellow<br>
-  #           <strong>Year(s):</strong> Fall 2018 & Spring 2020<br>
-  #           <strong>Students:</strong> ~100<br>
-  #           <em>Introduction to sociolinguistic variation: how dialects arise, social patterns, and media.</em><br>
-  #           <a class="btn btn-primary btn-sm rounded-full" href="https://github.com/leeannvidal/leeannvidal.github.io/blob/main/documents/Teaching/Syllabi/LX%20110%20-%20Say%20what%20Syllabus%20-%20Spring%202020%20-%20Boston%20University.pdf" target="_blank">Syllabus</a>
-  #         icon: hero/book-open
-  #       - name: "CAS LX 120: Language and Music"
-  #         description: |
-  #           **Institution:** BU  
-  #           **Role:** Grader  
-  #           **Year(s):** Fall 2021  
-  #           **Students:** ~30–40  
-  #           *Interdisciplinary links between language and music, brain-based evidence.*  
-  #           [Syllabus](#)
-  #         icon: hero/musical-note
-  #       # ...etc for more courses
-  #   design:
-  #     background:
-  #       gradient:
-  #         start: 'primary-400'
-  #         end: 'secondary-500'
-  #         direction: 120
-  #       gradient_mesh:
-  #         enable: true
-  #         style: orbs
-  #         colors: ['primary-500/30', 'secondary-500/30']
-  #         orb_count: 2
-  #     spacing:
-  #       padding: ['4rem', '0', '4rem', '0']
+  - block: features
+    content:
+      title: "Undergraduate Courses"
+      text: "Selection of undergraduate-level classes I've taught."
+      items:
+        - name: "CAS LX 110: Accents, Dialects, and Society"
+          description: |
+            <h3 class="mb-4 text-3xl font-bold dark:text-white">Bachelor’s Level Courses</h3>
+            <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+            {{< teaching-course-card 
+              title="CAS LX 110: Accents, Dialects, and Society"
+              institution="Boston University (BU)"
+              role="Teaching Fellow"
+              years="Fall 2018 & Spring 2020"
+              students="~100"
+              description="Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
+            >}} 
+          icon: hero/book-open
+        - name: "CAS LX 120: Language and Music"
+          description: |
+            **Institution:** BU  
+            **Role:** Grader  
+            **Year(s):** Fall 2021  
+            **Students:** ~30–40  
+            *Interdisciplinary links between language and music, brain-based evidence.*  
+            [Syllabus](#)
+          icon: hero/musical-note
+        # ...etc for more courses
+    design:
+      background:
+        gradient:
+          start: 'primary-400'
+          end: 'secondary-500'
+          direction: 120
+        gradient_mesh:
+          enable: true
+          style: orbs
+          colors: ['primary-500/30', 'secondary-500/30']
+          orb_count: 2
+      spacing:
+        padding: ['4rem', '0', '4rem', '0']
   - block: course-cards # Use the actual block name here, not 'custom' for Preact blocks based on docs
     component: assets/hbx/blocks/course-cards # <--- ADD THIS LINE
     id: my-courses
