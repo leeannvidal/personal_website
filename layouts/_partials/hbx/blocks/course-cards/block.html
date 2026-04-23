@@ -37,13 +37,6 @@
       <h2 class="text-3xl font-bold text-center mb-8 {{ if $startGradient }}text-white{{ else }}text-gray-800 dark:text-white{{ end }}">{{ . }}</h2>
     {{ end }}
 
-    {{/* DEBUG LINE - Check if $cards has data */}}
-    {{ if $cards }}
-        <p>DEBUG: Cards found (count: {{ len $cards }})</p>
-    {{ else }}
-        <p>DEBUG: No cards found in $cards variable.</p>
-    {{ end }}
-
     <div class="grid grid-cols-1 md:grid-cols-{{ $columns }} gap-6">
       {{ range $card := $cards }}
         <div class="p-6 rounded-lg shadow-lg flex flex-col justify-between h-full
