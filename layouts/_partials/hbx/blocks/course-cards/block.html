@@ -3,15 +3,24 @@
 {{/* NEW DEBUG: Print the entire context of the block */}}
 <pre>DEBUG: Block Context: {{ jsonify $block }}</pre>
 
-{{ $cards := $block.content.cards }}
-{{ $design := $block.design }}
+{{ $cards := $block.wcBlock.content.cards }}   // CORRECTED PATH
+{{ $design := $block.wcBlock.design }}         // CORRECTED PATH
+
+{{/* DEBUG LINE - Check if $cards has data */}}
+{{ if $cards }}
+    <p>DEBUG2: Cards found (count: {{ len $cards }})</p>
+{{ else }}
+    <p>DEBUG2: No cards found in $cards variable.</p>
+{{ end }}
 
 {{ $columns := default 2 $design.columns }}
 {{ $cardSize := default "medium" $design.card_size }}
 {{ $cardCssClass := "" }}
-{{ if $design.card.css_class }}{{ $cardCssClass = $design.card.css_class }}{{ end }}
-{{ $textColor := default "auto" $design.card.text_color }}
-{{ $overlayOpacity := default 0.15 $design.card.overlay_opacity }}
+{{ if $design.card }}{{ if $design.card.css_class }}{{ $cardCssClass = $design.card.css_class }}{{ end }}{{ end }}
+{{ $textColor := default "auto" }}
+{{ if $design.card }}{{ $textColor = default "auto" $design.card.text_color}}{{ end }}
+{{ $overlayOpacity := default 0.15 }}
+{{ if $design.card }}{{ $overlayOpacity = default 0.15 $design.card.overlay_opacity}}{{ end }}
 
 {{ $startGradient := "" }}
 {{ $endGradient := "" }}
@@ -22,9 +31,9 @@
   {{ $gradientDirection = printf "deg-%v" $design.background.gradient.direction }}
 {{ end }}
 
-<section id="{{ $block.id }}" class="{{ if $startGradient }}bg-gradient-to-{{ $gradientDirection }} from-{{ $startGradient }} to-{{ $endGradient }} {{ else }}bg-white dark:bg-gray-900{{ end }} py-12">
+<section id="{{ $block.wcBlock.id }}" class="{{ if $startGradient }}bg-gradient-to-{{ $gradientDirection }} from-{{ $startGradient }} to-{{ $endGradient }} {{ else }}bg-white dark:bg-gray-900{{ end }} py-12">
   <div class="container mx-auto px-4">
-    {{ with $block.content.title }}
+    {{ with $block.wcBlock.content.title }}
       <h2 class="text-3xl font-bold text-center mb-8 {{ if $startGradient }}text-white{{ else }}text-gray-800 dark:text-white{{ end }}">{{ . }}</h2>
     {{ end }}
 
