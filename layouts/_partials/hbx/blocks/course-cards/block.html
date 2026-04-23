@@ -1,4 +1,8 @@
 {{ $block := . }}
+
+{{/* NEW DEBUG: Print the entire context of the block */}}
+<pre>DEBUG: Block Context: {{ jsonify $block }}</pre>
+
 {{ $cards := $block.content.cards }}
 {{ $design := $block.design }}
 
