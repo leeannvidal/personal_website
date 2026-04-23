@@ -71,7 +71,6 @@ sections:
     design:
       columns: 2
       fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
-      css_class: 'glassmorphism-secondary text-white'
   ## ──────────────────────────────── ##
   ###########   PUBLICATIONS   ###########    
   ## ──────────────────────────────── ##
