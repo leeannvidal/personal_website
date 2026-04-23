@@ -3,15 +3,10 @@ title: Courses
 summary: My courses
 type: landing
 
-# cascade:
-#   - target:
-#       path: '{/courses/*/**}'
-#     type: docs
-#     params:
-#       show_breadcrumb: true
+
 
 sections:
-  - block: course-cards # Use the actual block name here, not 'custom' for Preact blocks based on docs
+  - block: course-cards
     id: my-courses
     content:
       title: "My Teaching and Course Experience"
@@ -23,7 +18,7 @@ sections:
           students: "~100"
           description: "Intro to sociolinguistic variation—dialect formation, community patterns, discrimination, media."
           syllabus_url: "/uploads/data-science-syllabus.pdf" # Make sure this path is valid
-          description_url: "https://www.university.edu/data-science-course"
+          description_url: "https://github.com/leeannvidal/leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf"
         - title: "Advanced Machine Learning"
           institution: "University of Academia"
           role: "Teaching Assistant"
@@ -31,7 +26,7 @@ sections:
           students: "60"
           description: "Assisted in labs and grading for graduate-level ML concepts."
           syllabus_url: "#" # Use # for a placeholder if no syllabus
-          description_url: "https://www.university.edu/advanced-ml"
+          # description_url: "https://www.university.edu/advanced-ml"
         - title: "Web Development Fundamentals"
           institution: "Community College"
           role: "Guest Lecturer"

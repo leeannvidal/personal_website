@@ -30,7 +30,7 @@ main:
   #   weight: 13
   - name: CV & Resume
     url: experience/
-    weight: 20
+    weight: 50
   # - name: Projects
   #   url: projects/
   #   weight: 30
