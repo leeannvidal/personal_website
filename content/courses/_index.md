@@ -70,13 +70,13 @@ sections:
     content:
       title: "High School Level Courses" # This will be your h3 title
       cards:
-        - title: "Elementary Spanish I"
+        - title: "Spanish I"
           institution: "Saint Joseph’s Academy"
           role: "Instructor"
           years: "2014–2017"
           students: "~25–30/section"
           description: "Basic vocabulary; foundational speaking, reading, writing, listening skills."
-        - title: "Elementary Spanish II"
+        - title: "Spanish II"
           institution: "Saint Joseph’s Academy"
           role: "Instructor"
           years: "2014–2017"
