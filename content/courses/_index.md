@@ -54,7 +54,7 @@ sections:
       columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
       card_size: "small" # Example size
       card:
-        css_class: 'glassmorphism-secondary'
+        css_class: 'glassmorphism-secondary text-white'
       #   text_color: 'auto'
       #   overlay_opacity: 0.15
       # background:
@@ -90,9 +90,9 @@ sections:
     design: # Optional: Uncomment to apply custom design to this block
       columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
       card_size: "medium" # Example size
-      # card:
-      #   css_class: 'cta-glassmorphism'
-      #   text_color: 'auto'
+      card:
+        css_class: 'cta-glassmorphism'
+        text_color: 'auto'
       #   overlay_opacity: 0.15
       # background:
       #   gradient:
