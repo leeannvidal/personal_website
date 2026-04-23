@@ -27,27 +27,60 @@
 
   <div class="grid grid-cols-1 md:grid-cols-{{ $columns }} gap-6">
     {{ range $card := $cards }}
+      {{/* Determine base text colors for the card content */}}
+      {{ $baseTextColor := "" }}
+      {{ if eq $textColor "light" }}
+        {{ $baseTextColor = "text-white" }}
+      {{ else if eq $textColor "dark" }}
+        {{ $baseTextColor = "text-gray-900" }} {{/* Use a stronger dark for contrast */}}
+      {{ else if in $cardCssClass "glassmorphism-dark" "glassmorphism-primary" "glassmorphism-secondary" }}
+          {{ $baseTextColor = "text-white" }} {{/* Assume dark background for these glassmorphism types */}}
+      {{ else /* auto or other */}}
+        {{ $baseTextColor = "text-gray-700 dark:text-gray-300" }} {{/* Default for auto or light backgrounds */}}
+      {{ end }}
+
+      {{/* Define more specific colors based on the baseTextColor */}}
+      {{ $headingColor := "text-primary-700 dark:text-primary-300" }} {{/* Default primary accent for headings */}}
+      {{ $labelColor := "font-bold" }}
+      {{ $valueColor := "font-normal" }}
+
+      {{ if eq $baseTextColor "text-white" }}
+          {{ $headingColor = "text-white" }} {{/* White headings for dark cards */}}
+          {{ $labelColor = "font-bold text-white" }}
+          {{ $valueColor = "font-normal text-gray-200" }}
+          {{/* Additional adjustment for buttons if not set globally */}}
+      {{ else if eq $baseTextColor "text-gray-900" }}
+          {{ $headingColor = "text-gray-900" }} {{/* Dark headings for light cards */}}
+          {{ $labelColor = "font-bold text-gray-900" }}
+          {{ $valueColor = "font-normal text-gray-700" }}
+      {{ else /* Default for auto/light backgrounds */}}
+          {{ $headingColor = "text-primary-700 dark:text-primary-300" }}
+          {{ $labelColor = "font-bold text-gray-700 dark:text-gray-300" }}
+          {{ $valueColor = "font-normal text-gray-700 dark:text-gray-300" }}
+      {{ end }}
+
+
       <div class="p-6 rounded-lg shadow-lg flex flex-col justify-between h-full
         {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ else }}text-base{{ end }}
-        {{ if $cardCssClass }}{{ $cardCssClass }}{{ else }} bg-white dark:bg-gray-800 {{ end }}
-        {{ if eq $textColor "auto" }}text-gray-700 dark:text-gray-300 {{ else if eq $textColor "light" }}text-white{{ else if eq $textColor "dark" }}text-gray-900{{ end }}
+        {{ $cardCssClass }}{{ if not $cardCssClass }} bg-white dark:bg-gray-800 {{ end }}
+        {{ $baseTextColor }}
         "
         {{ if $cardCssClass }}
           style="--overlay-opacity: {{ $overlayOpacity }};"
         {{ end }}
         >
         <div>
-          <h4 class="font-bold mb-2 text-primary-700 dark:text-primary-300">
+          <h4 class="font-bold mb-2 {{ $headingColor }}"> {{/* Applied new heading color */}}
             {{ $card.title }}
           </h4>
           <p>
-            {{ if $card.institution }}<strong>Institution:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.institution | markdownify }}</span><br>{{ end }}
-            {{ if $card.role }}<strong>Role:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.role | markdownify }}</span><br>{{ end }}
-            {{ if $card.primary_instructor }}<strong>Course Lead:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.primary_instructor | markdownify }}</span><br>{{ end }}
-            {{ if $card.years }}<strong>Year(s):</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.years | markdownify }}</span><br>{{ end }}
-            {{ if $card.students }}<strong>Students:</strong> <span class="font-normal text-primary-700 dark:text-primary-300">{{ $card.students | markdownify }}</span><br>{{ end }}
+            {{ if $card.institution }}<strong class="{{ $labelColor }}">Institution:</strong> <span class="{{ $valueColor }}">{{ $card.institution | markdownify }}</span><br>{{ end }}
+            {{ if $card.role }}<strong class="{{ $labelColor }}">Role:</strong> <span class="{{ $valueColor }}">{{ $card.role | markdownify }}</span><br>{{ end }}
+            {{ if $card.primary_instructor }}<strong class="{{ $labelColor }}">Course Lead:</strong> <span class="{{ $valueColor }}">{{ $card.primary_instructor | markdownify }}</span><br>{{ end }}
+            {{ if $card.years }}<strong class="{{ $labelColor }}">Year(s):</strong> <span class="{{ $valueColor }}">{{ $card.years | markdownify }}</span><br>{{ end }}
+            {{ if $card.students }}<strong class="{{ $labelColor }}">Students:</strong> <span class="{{ $valueColor }}">{{ $card.students | markdownify }}</span><br>{{ end }}
             {{ if $card.description }}
-              <strong>Description:</strong> <span class="font-normal text-primary-700 dark:text-primary-300"><em>{{ $card.description | markdownify }}</em></span>{{ end }}
+              <strong class="{{ $labelColor }}">Description:</strong> <span class="{{ $valueColor }}"><em>{{ $card.description | markdownify }}</em></span>{{ end }}
             </p>
           </div>
           <div class="mt-4 flex flex-wrap gap-2">
@@ -64,22 +97,4 @@
               <a href="{{ $card.description_url }}"
                  target="_blank"
                  rel="noopener"
-                 class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
-              >
-                Class Description
-              </a>
-            {{ end }}
-            {{ if and $card.extra_button_url $card.extra_button_text }}
-              <a href="{{ $card.extra_button_url }}"
-                 target="_blank"
-                 rel="noopener"
-                 class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline"
-              >
-                {{ $card.extra_button_text }}
-              </a>
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
-    </div>
-  </div>
+                 class="inline-flex items-center px-4 py-2 bg-secondary-600 hover:bg-secondary-500 text-white font-medium
