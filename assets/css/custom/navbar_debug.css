@@ -75,8 +75,8 @@
 
 @media (max-width: 1023px) {
   #site-header .navbar__menu-card #nav-menu {
-    width: 90vw !important; /* Forces the width, adjust as desired */
-    max-width: 400px !important; /* Forces max-width */
+    width: 30vw !important; /* Forces the width, adjust as desired */
+    max-width: 100px !important; /* Forces max-width */
     right: 1.5rem !important; /* Pushes from the right */
     left: auto !important; /* Ensures it's not sticking to the left */
     margin-left: auto !important; /* Pushes the menu to the right */
