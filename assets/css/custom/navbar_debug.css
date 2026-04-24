@@ -73,15 +73,14 @@
    <= 1023px
    ========================================================================== */
 
-   @media (max-width: 1023px) {
+@media (max-width: 1023px) {
   #site-header .navbar__menu-card #nav-menu {
-    /* Adjust width as desired */
-    width: 90vw; /* Try 16rem, 18rem, or whatever you prefer */
-    max-width: 400px; /* Optional: further limits the width */
-    right: 1.5rem;     /* Push further into screen if you want more offset */
-    left: auto;
-    border-radius: 1.5rem; /* Change to taste */
-    /* Optional: add a drop shadow or tweak background if you want! */
+    width: 90vw !important; /* Forces the width, adjust as desired */
+    max-width: 400px !important; /* Forces max-width */
+    right: 1.5rem !important; /* Pushes from the right */
+    left: auto !important; /* Ensures it's not sticking to the left */
+    margin-left: auto !important; /* Pushes the menu to the right */
+    border-radius: 1.5rem !important; /* Forces rounded corners */
   }
 }
 
