@@ -6,9 +6,9 @@
   --nav-chip-size: 3rem;
 }
 
-/* #site-header.header {
-  background-color: #C0D8CF; */
-/* } */
+#site-header.header {
+  background-color: color-mix(in srgb, var(--hb-color-header-bg) 75%, transparent);
+ }
 /* ==========================================================================
    NAVIGATION LINKS
    ========================================================================== */
