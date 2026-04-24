@@ -1,0 +1,66 @@
+/* ==========================================================================
+   NAVBAR UTILITY BUTTONS
+   Search, theme toggle, menu toggle
+   ========================================================================== */
+
+#site-header .navbar-utils-card {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  height: var(--nav-chip-size);
+}
+
+#site-header .navbar-utils__btn,
+#site-header .navbar-search__button,
+#site-header .navbar__menu-toggle {
+  width: var(--nav-chip-size);
+  height: var(--nav-chip-size);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, .35), rgba(255, 255, 255, .1));
+  backdrop-filter: blur(10px) saturate(160%);
+  -webkit-backdrop-filter: blur(10px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, .18);
+  color: rgba(28, 37, 54, .9);
+  padding: 0;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: background .25s ease, box-shadow .25s ease, color .25s ease;
+}
+
+#site-header .navbar-search__button:hover,
+#site-header .navbar-search__button:focus-visible,
+#site-header .navbar__menu-toggle:hover,
+#site-header .navbar__menu-toggle:focus-visible {
+  box-shadow: 0 28px 52px rgba(12, 19, 36, .28), inset 0 1px rgba(255, 255, 255, .85);
+  background: linear-gradient(130deg, rgba(255, 255, 255, .96), rgba(255, 255, 255, .45));
+}
+
+#site-header .navbar-search__label {
+  display: none;
+}
+
+#site-header .navbar__menu-toggle svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  transition: transform .25s ease;
+}
+
+.dark #site-header .navbar-utils__btn,
+.dark #site-header .navbar-search__button,
+.dark #site-header .navbar__menu-toggle {
+  background: linear-gradient(145deg, rgba(23, 33, 47, .35), rgba(13, 20, 34, .25));
+  border: 1px solid rgba(148, 163, 184, .25);
+  box-shadow: 0 24px 48px rgba(2, 12, 27, .58), inset 0 1px rgba(255, 255, 255, .1);
+  color: rgba(226, 232, 240, .9);
+}
+
+.dark #site-header .navbar-search__button:hover,
+.dark #site-header .navbar-search__button:focus-visible,
+.dark #site-header .navbar__menu-toggle:hover,
+.dark #site-header .navbar__menu-toggle:focus-visible {
+  background: linear-gradient(145deg, rgba(32, 46, 64, .95), rgba(18, 27, 41, .75));
+  box-shadow: 0 32px 56px rgba(2, 12, 27, .65), inset 0 1px rgba(255, 255, 255, .14);
+}
