@@ -89,7 +89,6 @@
     padding: 1.5rem 1rem 1rem !important;
     max-height: min(80vh, 24rem);
     overflow-y: auto !important;
-    display: block !important;   /* Ensure it shows when toggled */
   }
 /*  #nav-menu li { /*list items, ie individual menu links */
    /* border-radius: 1rem;
