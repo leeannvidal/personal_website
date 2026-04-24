@@ -1,11 +1,11 @@
 /* assets/css/custom.css */
 
-@import "typography.css";
-@import "./_global_color_variables.css";
-@import './_navbar.css';
-@import './_spacing.css';
-@import './_liquid_UI.css';
-@import "_collapsible_abstract.css";
+@import "custom/typography.css";
+@import "custom/_global_color_variables.css";
+@import 'custom/_navbar.css';
+@import 'custom/_spacing.css';
+@import 'custom/_liquid_UI.css';
+@import "custom/_collapsible_abstract.css";
 
 
 
