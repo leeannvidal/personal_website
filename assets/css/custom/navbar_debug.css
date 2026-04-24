@@ -6,7 +6,7 @@
   border-radius: 999px;  /* Makes the link background a fully rounded pill shape */
   /* padding-block: .55rem; /* Vertical padding (top and bottom) */
   /* padding-inline: 1rem; */ /* Horizontal padding (left and right) */
-  /* padding-inline: .5rem; */
+  padding-inline: .55rem;
   transition:
     color .32s ease,
     background-color .42s ease,
