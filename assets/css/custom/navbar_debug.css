@@ -2,6 +2,10 @@
    BRAND / AVATAR STYLING
    ========================================================================== */
 
+#site-header .navbar__slot--brand {
+  justify-content: flex-start;
+}
+
 #site-header .navbar__brand {
   width: var(--nav-chip-size);
   height: var(--nav-chip-size);
