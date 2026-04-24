@@ -61,10 +61,10 @@
 
 @media (min-width: 1023px) {
   /* Define header height for content push-down only in desktop media query */
-  :root {
-    --header-height: calc(clamp(.2rem, .45vw, .65rem) + clamp(.75rem, 1.4vw, 1.25rem) + var(--nav-chip-size, 3.6rem) + 2rem);
+  /* :root { */
+    /* --header-height: calc(clamp(.2rem, .45vw, .65rem) + clamp(.75rem, 1.4vw, 1.25rem) + var(--nav-chip-size, 3.6rem) + 2rem); */
     /* Calculated rough height: top padding + bottom padding + nav-chip-size + 2rem (for navbar vertical padding/margin) */
-  }
+  /* } */
 
   #site-header.header {
     /* These paddings are the *internal* paddings of the header container */
