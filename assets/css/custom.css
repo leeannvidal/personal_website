@@ -3,6 +3,7 @@
 @import "custom/typography.css";
 @import "custom/global_color_variables.css";
 /* @import 'custom/navbar.css'; */
+@import 'custom/navbar_debug.css';
 @import 'custom/spacing.css';
 @import 'custom/liquid_UI.css';
 @import "custom/collapsible_abstract.css";

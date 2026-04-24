@@ -1,0 +1,74 @@
+/* ==========================================================================
+   SITE HEADER / NAVBAR FOUNDATION
+   ========================================================================== */
+
+#site-header {
+  --nav-chip-size: 3rem;
+}
+
+#site-header.header {
+  background-color: initial;
+  box-shadow: none;
+  padding: 0;
+}
+
+.dark #site-header.header {
+  background-color: initial;
+  box-shadow: none;
+}
+
+#site-header .navbar-float-wrapper {
+  position: relative;
+}
+
+#site-header .navbar-float-spacer {
+  display: none;
+}
+
+#site-header .navbar {
+  width: 100%;
+}
+
+#site-header .navbar__inner {
+  display: flex;
+  flex-direction: row;
+  gap: .75rem;
+  width: 100%;
+}
+
+#site-header .navbar__slot {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#site-header .navbar__slot--brand {
+  justify-content: flex-start;
+}
+
+#site-header .navbar__slot--menu {
+  flex-direction: column;
+  gap: .5rem;
+}
+
+#site-header .navbar__menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: auto;
+  gap: .5rem;
+}
+
+#site-header .navbar-search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+#site-header .navbar__utilities {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
