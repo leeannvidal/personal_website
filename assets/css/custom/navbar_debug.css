@@ -76,13 +76,13 @@
 @media (max-width: 1023px) {
   #nav-menu {
     position: absolute !important;
-    top: calc(100% + .5rem) !important;
+    top: calc(100% + 2rem) !important;
     right: 1rem !important; /* Offset from right edge */
     left: auto !important;
     width: min(18rem, calc(100vw - 4.5rem)) !important; 
     max-width: 400px !important;
     border-radius: 1.5rem !important;
-    background: color-mix(in srgb, var(--color-secondary-600) 75%, transparent);
+    background: color-mix(in srgb, var(--color-secondary-600) 85%, transparent);
     box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.08);
     backdrop-filter: blur(10px) saturate(180%);
     -webkit-backdrop-filter: blur(10px) saturate(180%);
