@@ -68,16 +68,16 @@
 
   #site-header.header {
     /* These paddings are the *internal* paddings of the header container */
-    padding-top: clamp(.2rem, .45vw, .65rem);
+    /* padding-top: clamp(.2rem, .45vw, .65rem);
     padding-bottom: clamp(.75rem, 1.4vw, 1.25rem);
-    margin-bottom: 0;
+    margin-bottom: 0; */
 
     /* **** Crucial for fixed, full-width header **** */
-    position: fixed; /* Make the header stick to the top */
-    top: 0;
-    left: 0;
-    width: 100%; /* Ensure it spans full width */
-    z-index: 100; /* Ensure it's above other content */
+    /* position: fixed; Make the header stick to the top */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%; Ensure it spans full width */
+    /* z-index: 100; Ensure it's above other content */
 
     /* **** Liquid UI background for the entire header strip **** */
     background: linear-gradient(145deg, rgba(var(--color-secondary-200), .6), rgba(var(--color-secondary-100), .3));
