@@ -73,43 +73,15 @@
    <= 1023px
    ========================================================================== */
 
-@media (max-width: 1023px) {
-
-  /* #site-header .navbar__menu-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    width: auto;
-    gap: .25rem;
-    padding: 0;
-    border-radius: 0;
-    background: transparent;
-    transition: transform .25s ease;
-    border: 0;
-    box-shadow: none;
-    min-height: 0;
-    position: relative;
-    overflow: visible;
-  } */
-
+   @media (max-width: 1023px) {
   #site-header .navbar__menu-card #nav-menu {
-    position: absolute;
-    top: calc(100% + .5rem);
-    right: 0;
+    /* Adjust width as desired */
+    width: 90vw; /* Try 16rem, 18rem, or whatever you prefer */
+    max-width: 400px; /* Optional: further limits the width */
+    right: 1.5rem;     /* Push further into screen if you want more offset */
     left: auto;
-    width: min(18rem, calc(100vw - 2.5rem));
-    margin-top: 0;
-    padding: .75rem .75rem 1.25rem;
-    border-radius: 1rem;
-    transition: transform .25s ease;
-    z-index: 20;
-    max-height: min(80vh, 24rem);
-    overflow-y: auto;
-  }
-
-  #site-header .navbar__menu-card #nav-menu .nav-link {
-    border-radius: .75rem;
+    border-radius: 1.5rem; /* Change to taste */
+    /* Optional: add a drop shadow or tweak background if you want! */
   }
 }
 
