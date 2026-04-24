@@ -80,7 +80,12 @@
     /* z-index: 100; Ensure it's above other content */
 
     /* **** Liquid UI background for the entire header strip **** */
-    background: linear-gradient(145deg, rgba(var(--color-secondary-500), .90), rgba(var(--color-secondary-400), .95));
+    background: linear-gradient(
+        135deg,
+        color-mix(in oklch, var(--color-secondary-500) 90%, transparent),
+        color-mix(in oklch, var(--color-secondary-600) 95%, transparent),
+        color-mix(in oklch, var(--color-secondary-700) 90%, transparent)
+    );
     border-bottom: 1px solid rgba(var(--color-secondary-300), .2); /* Subtle bottom border using theme color */
     box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
     backdrop-filter: blur(10px) saturate(180%);
