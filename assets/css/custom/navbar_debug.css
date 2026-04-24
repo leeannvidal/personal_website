@@ -82,8 +82,8 @@
     border-radius: 1.5rem !important;
     background: color-mix(in srgb, var(--color-secondary-600) 90%, transparent);
     box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.18);
-    backdrop-filter: blur(35px) saturate(160%) !important;
-    -webkit-backdrop-filter: blur(35px) saturate(160%) !important;
+    backdrop-filter: blur(55px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(55px) saturate(160%) !important;
     z-index: 1000 !important;
     margin: 0 !important;
     padding: 1.5rem 1rem 1rem !important;
