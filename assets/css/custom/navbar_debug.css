@@ -74,92 +74,6 @@
    ========================================================================== */
 
 @media (max-width: 1023px) {
-  #site-header {
-    --nav-chip-size: 2.75rem;
-  }
-
-  #site-header.header {
-    padding-top: .75rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  #site-header .navbar-float-wrapper {
-    position: relative;
-    padding-inline: 1rem;
-  }
-
-  #site-header .navbar-float-spacer {
-    display: block;
-    width: 100%;
-    height: 0;
-    pointer-events: none;
-  }
-
-  #site-header .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: .75rem 0;
-    width: 100%;
-    z-index: 30;
-  }
-
-  #site-header .navbar__inner {
-    gap: .5rem;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  #site-header .navbar__slot {
-    flex: none;
-    width: auto;
-  }
-
-  #site-header .navbar__slot--brand {
-    order: 1;
-    flex: none;
-    margin-right: auto;
-    justify-content: flex-start;
-  }
-
-  #site-header .navbar__slot--utilities {
-    order: 2;
-    justify-content: flex-end;
-  }
-
-  #site-header .navbar__slot--utilities .navbar__utilities {
-    width: auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: .25rem;
-    margin-left: 0;
-  }
-
-  #site-header .navbar-utils-card {
-    display: flex;
-    align-items: center;
-    gap: .25rem;
-  }
-
-  #site-header .navbar-search {
-    margin-left: 0;
-  }
-
-  #site-header .navbar__slot--menu {
-    order: 3;
-    gap: .25rem;
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    overflow: visible;
-  }
 
   #site-header .navbar__menu-card {
     display: flex;
@@ -201,11 +115,6 @@
     z-index: 20;
     max-height: min(80vh, 24rem);
     overflow-y: auto;
-  }
-
-  .dark #site-header .navbar__menu-card #nav-menu {
-    background: linear-gradient(145deg, rgba(29, 41, 57, .95), rgba(17, 24, 39, .68));
-    box-shadow: 0 24px 48px rgba(2, 12, 27, .5);
   }
 
   #site-header .navbar__menu-card #nav-menu .nav-link {
