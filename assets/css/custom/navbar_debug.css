@@ -3,9 +3,9 @@
    ========================================================================== */
 
 #site-header .nav-link {
-  border-radius: 999px;
-  /* padding-block: .55rem; /* vertical padding */
-  /* padding-inline: 1rem; */
+  border-radius: 999px;  /* Makes the link background a fully rounded pill shape */
+  /* padding-block: .55rem; /* Vertical padding (top and bottom) */
+  /* padding-inline: 1rem; */ /* Horizontal padding (left and right) */
   /* padding-inline: .5rem; */
   transition:
     color .32s ease,
