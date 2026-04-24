@@ -76,17 +76,16 @@
 @media (max-width: 1023px) {
   #nav-menu {
     position: absolute !important;
-    top: 60px !important;   /* Adjust this to match your header's height */
+    top: calc(100% + .5rem) !important;
     right: 1rem !important; /* Offset from right edge */
     left: auto !important;
-    width: 90vw !important; /* Or set e.g. width: 320px !important; */
+    width: min(18rem, calc(100vw - 4.5rem)) !important; 
     max-width: 400px !important;
-    background: var(--hb-color-header-bg, white); /* Preserve your color theme */
     border-radius: 1.5rem !important;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.15) !important;
     z-index: 1000 !important;
     margin: 0 !important;
     padding: 1.5rem 1rem 1rem !important;
+    max-height: min(80vh, 24rem);
     overflow-y: auto !important;
     display: block !important;   /* Ensure it shows when toggled */
   }
