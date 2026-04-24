@@ -80,7 +80,7 @@
     width: min(18rem, calc(100vw - 4.5rem)) !important; 
     max-width: 400px !important;
     border-radius: 1.5rem !important;
-    background: color-mix(in srgb, var(--color-secondary-600) 90%, transparent);
+    background: color-mix(in srgb, var(--color-secondary-600) 95%, transparent);
     box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.18);
     backdrop-filter: blur(55px) saturate(160%) !important;
     -webkit-backdrop-filter: blur(55px) saturate(160%) !important;
@@ -96,13 +96,6 @@
     margin-bottom: 0.5rem;
   } */
 }
-
-/* Optional: Remove full width on the parent nav */
-/* @media (max-width: 1023px) {
-  .navbar-nav {
-    width: auto !important;
-    min-width: 0 !important;
-  } */
 }
 
   
