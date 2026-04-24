@@ -288,3 +288,13 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # CUSTOM
+  # Custom overrides of hugobloxes files
+  # ────────────────────────────────────────────────────────────────────────────
+custom:
+  site_head_overridden: true # Set to false once you've re-checked the original site_head.html
+  site_head_override_version: "HugoBloxKit_v0_12_0" # version where I first created the override
+  # Reason I overrode it
+  site_head_override_reason: "Modified custom.css to use css.Build for @import resolution"
