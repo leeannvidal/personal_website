@@ -74,13 +74,33 @@
    ========================================================================== */
 
 @media (max-width: 1023px) {
-  #site-header .navbar__menu-card #nav-menu {
-    width: 30vw !important; /* Forces the width, adjust as desired */
-    max-width: 100px !important; /* Forces max-width */
-    right: 1.5rem !important; /* Pushes from the right */
-    left: auto !important; /* Ensures it's not sticking to the left */
-    margin-left: auto !important; /* Pushes the menu to the right */
-    border-radius: 1.5rem !important; /* Forces rounded corners */
+  #nav-menu {
+    position: absolute !important;
+    top: 60px !important;   /* Adjust this to match your header's height */
+    right: 1rem !important; /* Offset from right edge */
+    left: auto !important;
+    width: 90vw !important; /* Or set e.g. width: 320px !important; */
+    max-width: 400px !important;
+    background: var(--hb-color-header-bg, white); /* Preserve your color theme */
+    border-radius: 1.5rem !important;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15) !important;
+    z-index: 1000 !important;
+    margin: 0 !important;
+    padding: 1.5rem 1rem 1rem !important;
+    overflow-y: auto !important;
+    display: block !important;   /* Ensure it shows when toggled */
+  }
+  #nav-menu li {
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Optional: Remove full width on the parent nav */
+@media (max-width: 1023px) {
+  .navbar-nav {
+    width: auto !important;
+    min-width: 0 !important;
   }
 }
 
