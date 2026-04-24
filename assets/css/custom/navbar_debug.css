@@ -78,17 +78,16 @@
     right: 1rem !important; /* Offset from right edge */
     left: auto !important;
     width: min(18rem, calc(100vw - 4.5rem)) !important; 
-    max-width: 400px !important;
-    border-radius: 1.5rem !important;
-    background: color-mix(in srgb, var(--color-secondary-600) 95%, transparent);
-    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.18);
-    backdrop-filter: blur(55px) saturate(160%) !important;
-    -webkit-backdrop-filter: blur(55px) saturate(160%) !important;
-    transition: transform .25s ease;
-    z-index: 1000 !important;
-    margin: 0 !important;
+    max-width: 400px !important;margin: 0 !important;
     padding: 1.5rem 1rem 1rem !important;
     max-height: min(80vh, 24rem);
+    border-radius: 1.5rem !important;
+    background: color-mix(in srgb, var(--color-secondary-600) 95%, transparent);
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.08);
+    backdrop-filter: blur(55px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(55px) saturate(180%) !important;
+    transition: transform .25s ease;
+    z-index: 1000 !important;
     overflow-y: auto !important;
   }
 /*  #nav-menu li { /*list items, ie individual menu links */
