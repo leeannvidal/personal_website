@@ -53,3 +53,149 @@
   color: rgba(248, 250, 252, .95);
   box-shadow: inset 0 1px rgba(255, 255, 255, .18);
 }
+
+/* ==========================================================================
+   DESKTOP MENU CUSTOMIZATIONS
+   >= 1023px
+   ========================================================================== */
+
+@media (min-width: 1023px) {
+  /* Define header height for content push-down only in desktop media query */
+  :root {
+    --header-height: calc(clamp(.2rem, .45vw, .65rem) + clamp(.75rem, 1.4vw, 1.25rem) + var(--nav-chip-size, 3.6rem) + 2rem);
+    /* Calculated rough height: top padding + bottom padding + nav-chip-size + 2rem (for navbar vertical padding/margin) */
+  }
+
+  #site-header.header {
+    /* These paddings are the *internal* paddings of the header container */
+    padding-top: clamp(.2rem, .45vw, .65rem);
+    padding-bottom: clamp(.75rem, 1.4vw, 1.25rem);
+    margin-bottom: 0;
+
+    /* **** Crucial for fixed, full-width header **** */
+    position: fixed; /* Make the header stick to the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it spans full width */
+    z-index: 100; /* Ensure it's above other content */
+
+    /* **** Liquid UI background for the entire header strip **** */
+    background: linear-gradient(145deg, rgba(var(--color-secondary-200), .6), rgba(var(--color-secondary-100), .3));
+    border-bottom: 1px solid rgba(var(--color-secondary-300), .2); /* Subtle bottom border using theme color */
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+  }
+
+  .dark #site-header.header {
+    /* **** Dark mode Liquid UI background for the entire header strip **** */
+    background: linear-gradient(145deg, rgba(var(--color-primary-700), .6), rgba(var(--color-primary-800), .3));
+    border-bottom: 1px solid rgba(var(--color-neutral-600), .2);
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-950), .2);
+  }
+
+  #site-header .navbar-float-wrapper {
+    position: relative; /* Keep relative, now inside fixed header */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-inline: min(5vw, 4rem);
+  }
+
+  #site-header .navbar-float-spacer {
+    /* This spacer needs to push content BELOW the fixed header. */
+    /* It should be placed *after* the #site-header in your HTML body or a wrapper */
+    display: block;
+    width: 100%;
+    height: var(--header-height); /* Set height from calculated variable */
+    pointer-events: none;
+  }
+
+  #site-header .navbar {
+    /* This element will now be centered *within* the fixed #site-header.header */
+    position: relative; /* Changed from absolute */
+    top: auto; /* Remove absolute positioning offsets */
+    left: auto;
+    transform: none; /* Remove transform for centering */
+    width: min(1080px, calc(100% - 3rem)); /* Keep width constraint */
+    display: flex;
+    justify-content: center; /* Center its content (navbar__inner) */
+    margin: 0 auto; /* Center the navbar itself horizontally within its parent */
+    padding-top: 1rem; /* Adjust padding to provide vertical space for content within the navbar */
+    padding-bottom: 1rem;
+    height: auto; /* Ensure height adjusts to content */
+  }
+
+  #site-header .navbar__inner {
+    flex-direction: row;
+    align-items: stretch;
+    gap: clamp(1rem, 2.5vw, 3rem);
+  }
+
+  #site-header .navbar__slot {
+    width: auto;
+    align-items: center;
+  }
+
+  #site-header .navbar__slot--brand {
+    flex: none;
+  }
+
+  #site-header .navbar__slot--menu {
+    flex: auto;
+    justify-content: center;
+  }
+
+  #site-header .navbar__slot--utilities {
+    flex: none;
+    justify-content: flex-end;
+  }
+
+  #site-header .navbar__slot--utilities .navbar__utilities {
+    width: auto;
+    flex-wrap: nowrap;
+  }
+
+  #site-header {
+    --nav-chip-size: clamp(3.2rem, 2vw, 3.6rem);
+  }
+
+  #site-header .navbar__menu-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--nav-chip-size);
+    padding: 0 1.2rem;
+    border-radius: 999px;
+
+    /* **** Liquid UI theme background for the DESKTOP menu card **** */
+    background: linear-gradient(145deg, rgba(var(--color-secondary-200), .6), rgba(var(--color-secondary-100), .3));
+    border: 1px solid rgba(var(--color-secondary-300), .4); /* Slightly darker secondary for border */
+    box-shadow: 0 18px 40px rgba(var(--color-neutral-900), .18), 0 8px 25px rgba(var(--color-neutral-900), 8%);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+  }
+
+  #site-header .navbar__menu-card #nav-menu {
+    margin-top: 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    justify-content: center;
+  }
+
+  .dark #site-header .navbar__menu-card {
+    /* **** Dark mode Liquid UI theme background for the DESKTOP menu card **** */
+    background: linear-gradient(145deg, rgba(var(--color-primary-700), .6), rgba(var(--color-primary-800), .3));
+    border: 1px solid rgba(var(--color-neutral-600), .18); /* Darker neutral for border */
+    box-shadow: 0 24px 48px rgba(var(--color-neutral-950), .5), 0 10px 30px rgba(var(--color-neutral-950), .35);
+  }
+
+  #site-header .navbar__menu-toggle {
+    margin-right: .75rem;
+  }
+
+  #site-header .navbar-search {
+    padding-left: clamp(.75rem, 2vw, 2rem);
+  }
+}
