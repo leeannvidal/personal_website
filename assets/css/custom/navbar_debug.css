@@ -4,6 +4,7 @@
 
 #site-header .nav-link {
   border-radius: 999px;
+  padding-block: .25rem;
   /* padding-block: .55rem;
   padding-inline: 1rem; */
   transition:
@@ -51,6 +52,7 @@
 
 #site-header .theme-toggle {
   position: relative;
+  border-radius: 999px;
   display: inline-flex;
   align-items: center;
 }
