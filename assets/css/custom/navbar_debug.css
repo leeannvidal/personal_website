@@ -72,29 +72,22 @@
    ========================================================================== */
 
 @media (max-width: 1023px) {
-  /* Ensure the overall menu card doesn't interfere */
-  #site-header .navbar__menu-card {
-    display: contents !important; /* Makes parent disappear from layout flow */
-  }
-
-  #nav-menu { /* Target #nav-menu directly to avoid parent transforms */
+  #site-header #nav-menu {
     position: absolute !important;
     top: calc(100% + 2rem) !important;
     right: 1rem !important; /* Offset from right edge */
     left: auto !important;
-    width: min(18rem, calc(100vw - 4.5rem)) !important;
-    max-width: 400px !important;
-    margin: 0 !important;
+    width: min(18rem, calc(100vw - 4.5rem)) !important; 
+    max-width: 400px !important;margin: 0 !important;
     padding: 1.5rem 1rem 1rem !important;
     max-height: min(80vh, 24rem);
     border-radius: 1.5rem !important;
     background: color-mix(in srgb, var(--color-secondary-600) 95%, transparent) !important; /* Make sure this is transparent */
-    box-shadow: 0 4px 15px rgba(var(--color-neutral-900-rgb), 0.18) !important; /* Assuming --color-neutral-900-rgb exists for rgba */
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.08)!important;
     backdrop-filter: blur(55px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(55px) saturate(180%) !important;
-    transition: none !important; /* Disable any transitions on #nav-menu itself */
+    transition: transform .25s ease;
     z-index: 1000 !important;
-    /* If you need scrolling, put it on an INNER div, not on #nav-menu */
-    overflow-y: visible !important; /* Ensure it's not hidden */
+    overflow-y: auto !important;
   }
 }

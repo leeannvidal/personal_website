@@ -175,9 +175,9 @@ languages:
   #   label: Fieldwork
 
 
-# awards:
-#   - title: Best Paper Award
-#     awarder: NeurIPS
-#     date: "2022-12-01"
-#     summary: Awarded for groundbreaking work on efficient training of large models.
-#     icon: hero/trophy
+awards:
+  - title: Certificate of Appreciation
+    awarder: Saint Joseph's Academy
+    date: "2019-05-01"
+    summary: Awarded for making a positive impact on a graduating student's life
+    icon: hero/trophy
