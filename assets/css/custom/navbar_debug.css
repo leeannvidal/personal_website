@@ -4,8 +4,8 @@
 
 #site-header .nav-link {
   border-radius: 999px;
-  padding-block: .55rem;
-  padding-inline: 1rem;
+  /* padding-block: .55rem;
+  padding-inline: 1rem; */
   transition:
     color .32s ease,
     background-color .42s ease,
@@ -57,6 +57,7 @@
 
 #site-header .theme-toggle__button {
   position: relative;
+  border-radius: 999px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
