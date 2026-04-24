@@ -71,7 +71,7 @@
    <= 1023px
    ========================================================================== */
 @media (max-width: 1023px) {
-  #site-header .navbar__menu-card #nav-menu {
+  #site-header #nav-menu {
     position: absolute !important;
     top: calc(100% + 2rem) !important;
     right: 1rem !important; /* Offset from right edge */
