@@ -66,35 +66,17 @@
     /* Calculated rough height: top padding + bottom padding + nav-chip-size + 2rem (for navbar vertical padding/margin) */
   /* } */
 
-  #site-header.header {
-    /* These paddings are the *internal* paddings of the header container */
-    /* padding-top: clamp(.2rem, .45vw, .65rem);
-    padding-bottom: clamp(.75rem, 1.4vw, 1.25rem);
-    margin-bottom: 0; */
-
-    /* **** Crucial for fixed, full-width header **** */
-    /* position: fixed; Make the header stick to the top */
-    /* top: 0;
-    left: 0; */
-    /* width: 100%; Ensure it spans full width */
-    /* z-index: 100; Ensure it's above other content */
-
-    /* **** Liquid UI background for the entire header strip **** */
-    background: linear-gradient(
-        135deg,
-        color-mix(in oklch, var(--color-secondary-500) 70%, transparent),
-        color-mix(in oklch, var(--color-secondary-600) 75%, transparent),
-        color-mix(in oklch, var(--color-secondary-700) 70%, transparent)
-    );
-    border-bottom: 3px solid rgb(var(--color-secondary-900) / .60); /* Subtle bottom border using theme color */
-    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
-    backdrop-filter: blur(10px) saturate(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%);
-  }
-
   .dark #site-header.header {
     /* **** Dark mode Liquid UI background for the entire header strip **** */
     background: linear-gradient(145deg, rgba(var(--color-primary-700), .6), rgba(var(--color-primary-800), .3));
     border-bottom: 1px solid rgba(var(--color-neutral-600), .2);
     box-shadow: 0 4px 15px rgba(var(--color-neutral-950), .2);
+  }
+
+    #site-header.header {
+    /* **** Liquid UI background for the entire header strip **** */
+    background: linear-gradient(145deg, rgba(var(--color-secondary-500), .9), rgba(var(--color-secondary-700), .9));
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
   }
