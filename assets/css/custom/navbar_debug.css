@@ -82,6 +82,10 @@
     width: min(18rem, calc(100vw - 4.5rem)) !important; 
     max-width: 400px !important;
     border-radius: 1.5rem !important;
+    background: color-mix(in srgb, var(--color-secondary-600) 75%, transparent);
+    box-shadow: 0 4px 15px rgba(var(--color-neutral-900), 0.08);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
     z-index: 1000 !important;
     margin: 0 !important;
     padding: 1.5rem 1rem 1rem !important;
