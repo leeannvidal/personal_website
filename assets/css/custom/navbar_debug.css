@@ -6,12 +6,6 @@
   --nav-chip-size: 3rem;
 }
 
-#site-header.header {
-  background-color: #C0D8CF;
-  box-shadow: none;
-  padding: 0;
-}
-
 /* ==========================================================================
    NAVIGATION LINKS
    ========================================================================== */
@@ -86,7 +80,7 @@
     /* z-index: 100; Ensure it's above other content */
 
     /* **** Liquid UI background for the entire header strip **** */
-    background: linear-gradient(145deg, rgba(var(--color-secondary-200), .6), rgba(var(--color-secondary-100), .3));
+    background: linear-gradient(145deg, rgba(var(--color-secondary-500), .6), rgba(var(--color-secondary-400), .3));
     border-bottom: 1px solid rgba(var(--color-secondary-300), .2); /* Subtle bottom border using theme color */
     box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
     backdrop-filter: blur(10px) saturate(180%);
