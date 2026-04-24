@@ -64,12 +64,12 @@
 
  #site-header.header {
     /* **** Liquid UI background for the entire header strip **** */
-    background: linear-gradient(
+    /* background: linear-gradient(
         135deg,
         color-mix(in oklch, var(--color-secondary-500) 70%, transparent),
         color-mix(in oklch, var(--color-secondary-600) 75%, transparent),
         color-mix(in oklch, var(--color-secondary-700) 70%, transparent)
-    );
+    ); */
     /* border-bottom: 3px solid rgb(var(--color-secondary-900) / .60); Subtle bottom border using theme color */
     box-shadow: 0 4px 15px rgba(var(--color-neutral-900), .08); /* Subtle shadow for depth */
     backdrop-filter: blur(10px) saturate(180%);
