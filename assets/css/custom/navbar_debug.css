@@ -96,6 +96,15 @@
     margin-bottom: 0.5rem;
   } */
 }
-}
 
-  
+
+  /* @media(max-width: 1023px) {
+    #site-header .navbar__menu-card #nav-menu {
+        width:30vw!important;
+        max-width: 100px!important;
+        right: 1.5rem!important;
+        left: auto!important;
+        margin-left: auto!important;
+        border-radius: 1.5rem!important
+    }
+} */
