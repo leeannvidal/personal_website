@@ -56,14 +56,8 @@
    SECTION SPACING / TITLE
    ========================================================================== */
 
-
-.tight-publications-section h2 {
-  margin-bottom: 0.5rem !important; /* Adjust this value as needed */
-  padding-bottom: 0.5rem !important;
-  /* You can also try: */
-  /* padding-bottom: 0.5rem !important; */
+.tight-publications-section .mt-16,
+.tight-publications-section .sm\:mt-20 {
+  margin-top: 1rem !important; /* or 0, or whatever spacing is desired */
 }
 
-.tight-publications-section .section-title + p { /* targets a paragraph right after the title */
-    margin-top: 0 !important;
-}

@@ -49,6 +49,7 @@ sections:
       count: 0
     design:
       view: citation
+      css_class: "tight-publications-section"
       spacing:
         padding: ["1rem", "0", "0", "0"]
   - block: collection
@@ -65,6 +66,7 @@ sections:
       count: 0
     design:
       view: citation
+      css_class: "tight-publications-section"
       spacing:
         padding: ["1rem", "0", "0", "0"]
   - block: collection
@@ -81,6 +83,7 @@ sections:
       count: 0
     design:
       view: citation
+      css_class: "tight-publications-section"
       spacing:
         padding: ["1rem", "0", "0", "0"]
   - block: collection
@@ -97,6 +100,7 @@ sections:
       count: 0
     design:
       view: citation
+      css_class: "tight-publications-section"
       spacing:
         padding: ["1rem", "0", "0", "0"]
 

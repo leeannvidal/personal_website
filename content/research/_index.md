@@ -5,17 +5,6 @@ type: landing
 
 # Page sections
 sections:
-  # - block: markdown
-  #   content:
-  #     title: ''
-  #     subtitle: ''
-  #     text: '<div style="display: flex; align-items: center; justify-content: center; padding: 0.4rem 0;"><h1 style="font-size: 5rem; color: #F2F2F2; margin: 0;">Research</h1></div>'
-  #   design:
-  #     background:
-  #       color: '#677E76'
-  #       text_color_light: true
-  #     columns: '1'
-  #     css_style: 'padding-top: 0; padding-bottom: 0;' 
   - block: markdown
     content:
       title: ''
@@ -26,6 +15,17 @@ sections:
         color: '#677E76'
         text_color_light: true
       columns: '1'
+      css_style: 'padding-top: 0; padding-bottom: 0;'
+  # - block: markdown
+  #   content:
+  #     title: ''
+  #     subtitle: ''
+  #     text: '<div style="display: flex; align-items: center; justify-content: center; padding: 0.4rem 0;"><h1 style="font-size: 5rem; color: #F2F2F2; margin: 0;">Research</h1></div>'
+  #   design:
+  #     background:
+  #       color: '#677E76'
+  #       text_color_light: true
+  #     columns: '1'
   ## ──────────────────────────────── ##
   ###########   PROJECTS   ###########    
   ## ──────────────────────────────── ##
@@ -71,6 +71,8 @@ sections:
     design:
       columns: 2
       fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
   ## ──────────────────────────────── ##
   ###########   PUBLICATIONS   ###########    
   ## ──────────────────────────────── ##
@@ -95,6 +97,9 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      css_class: "tight-publications-section"
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
   ## ──────────────────────────────── ##
   ###########   PRESENTATIONS     ###########    
   ## ──────────────────────────────── ##
@@ -107,59 +112,53 @@ sections:
           - presentations
         exclude_featured: false
       count: 4
-      # buttons:
-      #   - name: All
-      #     tag: '*'
-      #   # - name: Covariation
-      #   #   tag: Covariation
-      #   # - name: Morphosyntax
-      #   #   tag: Morphosyntax
-      #   - name: Phonetics
-      #     tag: Phonetics
     design:
       view: citation
-  - block: portfolio
-    content:
-      title: "Talks"
-      show_date: true
-      count: 4
-      filters:
-        folders:
-          - presentations  # Or: research, portfolio, work, teaching, etc.
-      buttons:
-        - name: All
-          tag: '*'
-        # - name: Covariation
-        #   tag: Covariation
-        # - name: Morphosyntax
-        #   tag: Morphosyntax
-        - name: Phonetics
-          tag: Phonetics
-      default_button_index: 0
-      archive:
-        # Auto-shown if more items exist than displayed
-        # Optionally customize:
-        # enable: false  # Explicitly hide
-        # link: "/work/"  # Custom URL
-        # text: "Browse All"  # Custom text
-    design:
-      columns: 2
-      fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
-      show_date: true
-  - block: collection
-    content:
-      title: Presentations
-      text:
-      filters:
-        folders:
-          - presentations
-      count: 4
-    design:
-      view: article-grid
-      columns: 2
-      # show_date: false
-      show_read_time: false
-      show_read_more: false
+      css_class: "tight-publications-section"
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
+  # - block: portfolio
+  #   content:
+  #     title: "Talks"
+  #     show_date: true
+  #     count: 4
+  #     filters:
+  #       folders:
+  #         - presentations  # Or: research, portfolio, work, teaching, etc.
+  #     buttons:
+  #       - name: All
+  #         tag: '*'
+  #       # - name: Covariation
+  #       #   tag: Covariation
+  #       # - name: Morphosyntax
+  #       #   tag: Morphosyntax
+  #       - name: Phonetics
+  #         tag: Phonetics
+  #     default_button_index: 0
+  #     archive:
+  #       # Auto-shown if more items exist than displayed
+  #       # Optionally customize:
+  #       # enable: false  # Explicitly hide
+  #       # link: "/work/"  # Custom URL
+  #       # text: "Browse All"  # Custom text
+  #   design:
+  #     columns: 2
+  #     fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
+  #     show_date: true
+  # - block: collection
+  #   content:
+  #     title: Presentations
+  #     text:
+  #     filters:
+  #       folders:
+  #         - presentations
+  #     count: 4
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+  #     # show_date: false
+  #     show_read_time: false
+  #     show_read_more: false
   ## ──────────────────────────────── ##
   ###########   LABS     ###########    
   ## ──────────────────────────────── ##
