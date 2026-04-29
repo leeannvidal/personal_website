@@ -1,21 +1,33 @@
 ---
-title: "¿Va primero el verbo OR El sujeto va primero?: Subject-Verb order in Latin American Spanish"
+title: "Making a Splash: The Salience of Liquid Variation among Boston Spanish speakers"
+type: events
+# show_breadcrum: false
+# no_sidebar: true
 
 # Event details
-event: "LSA 2023"
-event_url: "https://www.lsadc.org/Files/AM_Handbooks/2023%20Annual%20Meeting%20Handbook%20Bookmarked%20Rev1.4.23.pdf"
-location: "Denver Colorado"
+event: "New Waves of Analyzing Linguistic Variation 2023"
+# event_url: 
+location: "New York City, NY, USA"
 
 # Talk start and end times (ISO 8601)
-date: "2023-01-05"
-date_end: "2023-01-08"
+date: "2023-10-13"
+date_end: "2023-10-17"
 all_day: true
 
+# Publication type
+# Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
+publication_types: []
+
+# Publication venue
+publication: "New Waves of Analyzing Linguistic Variation (NWAV), NYC, NY, Oct 13th - 17th"
+publication_short: ""
+
 # Abstract
-abstract: 
+abstract:  This study explores how liquid variation in Spanish (*laterals and rhotics*) interacts with five other sociolinguistic variables among Spanish speakers in Greater Boston. Preliminary results show that highly salient features like liquid variation tend to persist across generations rather than converge with English, highlighting the role of salience in shaping dialectal variation and linguistic coherence.
+
 
 # Summary for listing cards
-summary: "Presenting work on word order in Spanish at LSA 2023."
+summary: "Presenting work on liquid variation in Boston Spanish at NWAV 2023."
 
 # Authors / Speakers
 authors:
@@ -24,37 +36,19 @@ authors:
 # Tags
 tags:
   - Latin American Spanish
-  - subject-verb order
-  - intransitive verbs
-  - unaccusative verbs
-  - unergative verbs
-  - regional dialects
-  - sociosyntax
+  - sociophonetics
   - Spanish language
-  - morphosyntax
-
-# Link to slides (folder name under content/slides/)
-# slides: "neurips-2024"
-
-# Featured image
-# image:
-#   filename: featured.jpg
-#   caption: "Presenting at LSA 2023"
+  - phonetics
 
 # # Links
-# links:
-#   - name: Video Recording
-#     url: https://youtube.com/...
-#     icon: video
-#   - name: Paper
-#     url: /publication/attention-paper/
-#     icon: document
-
-# Shorthand link fields
-url_pdf: "https://leeannvidal.github.io/documents/Conferences/Posters/Vidal_Covas_LSA_2023_Poster.pdf"
-url_slides: ""
-url_video: ""
-url_code: ""
+links:
+  - name: Conference Program
+    url: https://leeannvidal.github.io/documents/Conferences/Programs/NWAV51_Program.pdf
+    icon: document
+    button: true
+  - name: Submitted Abstract
+    url: NWAV_2023_Saliency_astract_submitted.pdf
+    icon: document
 
 # Featured
 featured: true
@@ -62,3 +56,9 @@ featured: true
 # Draft
 draft: false
 ---
+
+<!-- {{< embed url="2023_NWAV/NWAV_2023_Saliency_astract_submitted.pdf" title="NWAV 51 Program" thumbnail=true >}}
+
+{{< collapsible-button title="Abstract" summary="Click to view more." icon="chevron-down" iconPosition="left" style="secondary" align="left" rounded="full" open="false" >}}
+
+{{< /collapsible-button >}} -->

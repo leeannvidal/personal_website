@@ -5,12 +5,123 @@
     <link>http://localhost:1313/tags/phonetics/</link>
       <atom:link href="http://localhost:1313/tags/phonetics/index.xml" rel="self" type="application/rss+xml" />
     <description>Phonetics</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/logo_hu_408c0977b7e48a52.png</url>
       <title>Phonetics</title>
       <link>http://localhost:1313/tags/phonetics/</link>
     </image>
+    
+    <item>
+      <title>Investigating salience and ideologies in Greater Boston: A sociophonetic analysis of liquid variation</title>
+      <link>http://localhost:1313/presentations/2024_ideoling/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/2024_ideoling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making a Splash: The Salience of Liquid Variation among Boston Spanish speakers</title>
+      <link>http://localhost:1313/presentations/2023_nwav/</link>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/2023_nwav/</guid>
+      <description>&lt;!-- 
+
+
+
+&lt;div class=&#34;group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-1 focus-within:ring-2 focus-within:ring-primary-500/50 my-6&#34; role=&#34;article&#34; aria-labelledby=&#34;hb-embed-title-hb-embed-970ff6c4da9d718124ec79e2c89b7cb5&#34;&gt;
+  
+    
+    &lt;div class=&#34;flex items-center gap-3 p-6 border-b border-zinc-100 dark:border-zinc-800&#34;&gt;
+      &lt;div class=&#34;flex-shrink-0&#34;&gt;
+        
+  &lt;div class=&#34;w-10 h-10 rounded-full bg-gradient-to-br from-zinc-700 to-zinc-800 flex items-center justify-center&#34;&gt;
+    &lt;svg class=&#34;w-5 h-5 text-white&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a9 9 0 0 1 7.843 4.582M12 3a9 9 0 0 0-7.843 4.582m15.686 0A11.95 11.95 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.96 8.96 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.9 17.9 0 0 1 12 16.5a17.9 17.9 0 0 1-8.716-2.247m0 0A9 9 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418&#34;/&gt;&lt;/svg&gt;
+  &lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;flex-1 min-w-0&#34;&gt;
+        &lt;h3 id=&#34;hb-embed-title-hb-embed-970ff6c4da9d718124ec79e2c89b7cb5&#34; class=&#34;text-xl font-bold tracking-tight leading-tight truncate&#34;&gt;
+  &lt;a href=&#34;2023_NWAV/NWAV_2023_Saliency_astract_submitted.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;text-zinc-900 dark:text-zinc-100 hover:text-primary-600 dark:hover:text-primary-400 hover:underline transition-colors duration-200&#34;&gt;NWAV 51 Program&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;div class=&#34;flex items-center gap-2 mt-1&#34;&gt;
+  &lt;span class=&#34;text-sm text-zinc-500 dark:text-zinc-500&#34;&gt;&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      
+      &lt;div class=&#34;flex-shrink-0&#34;&gt;
+        &lt;a href=&#34;2023_NWAV/NWAV_2023_Saliency_astract_submitted.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;text-zinc-400 hover:text-primary-500 transition-colors duration-200&#34;&gt;
+          &lt;svg class=&#34;w-5 h-5 hb-embed-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25&#34;/&gt;&lt;/svg&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    
+    
+    &lt;div class=&#34;p-6 space-y-4&#34;&gt;
+      
+    &lt;/div&gt;
+    
+    
+    &lt;div class=&#34;absolute inset-0 pointer-events-none bg-gradient-to-r from-primary-500/0 via-primary-500/5 to-secondary-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300&#34;&gt;&lt;/div&gt;
+    
+    
+    &lt;div class=&#34;sr-only&#34; data-hb-component=&#34;embed&#34; data-hb-version=&#34;1.0&#34; data-hb-license=&#34;MIT&#34;&gt;
+      Powered by Hugo Blox Kit - https://github.com/HugoBlox/kit
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;text-left my-4&#34;&gt;
+  &lt;button
+    type=&#34;button&#34;
+    aria-expanded=&#34;true&#34;
+    aria-controls=&#34;content-collapsible-1777397402890244000&#34;
+    class=&#34;inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 active:from-secondary-700 active:to-secondary-800 text-white shadow-lg shadow-secondary-500/25 hover:shadow-xl hover:shadow-secondary-500/30 hover:scale-105 active:scale-95 focus:ring-secondary-500/50 px-4 py-2 text-base rounded-full&#34;
+    
+    onclick=&#34;
+      var content = document.getElementById(&#39;content-collapsible-1777397402890244000&#39;);
+      var expanded = this.getAttribute(&#39;aria-expanded&#39;) === &#39;true&#39;;
+      this.setAttribute(&#39;aria-expanded&#39;, !expanded);
+      content.hidden = expanded;
+    &#34;
+  &gt;
+    
+
+    &lt;span&gt;Abstract&lt;/span&gt;
+
+    
+      &lt;span class=&#34;flex-shrink-0&#34;&gt;
+        &lt;svg class=&#34;w-4 h-4 transition-transform duration-300&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m19.5 8.25l-7.5 7.5l-7.5-7.5&#34;/&gt;&lt;/svg&gt;
+      &lt;/span&gt;
+    
+  &lt;/button&gt;
+
+  
+    &lt;div class=&#34;text-sm text-zinc-500 mt-1&#34;&gt;
+      Click to view more.
+    &lt;/div&gt;
+  
+
+  &lt;div
+    id=&#34;content-collapsible-1777397402890244000&#34;
+    
+    class=&#34;mt-4 p-4 border rounded-lg&#34;
+  &gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt; --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Making a Splash: The Salience of Liquid Variation among Boston Spanish speakers</title>
+      <link>http://localhost:1313/presentations/2023_northeastern_invited_talk/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/2023_northeastern_invited_talk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Filled pauses as a site of language contact among Spanish-speaking Bostonians</title>
@@ -21,7 +132,13 @@
 ## Talk Details
 
 Add any additional context, extended abstract, or notes about the talk.
-Include references, acknowledgments, or related work. --&gt;</description>
+Include references, acknowledgments, or related work. --&gt;
+&lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/O635uBqYKjQ?si=-yuVw7cOn5AQQ1NI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;1&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/O635uBqYKjQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -33,7 +150,13 @@ Include references, acknowledgments, or related work. --&gt;</description>
 ## Talk Details
 
 Add any additional context, extended abstract, or notes about the talk.
-Include references, acknowledgments, or related work. --&gt;</description>
+Include references, acknowledgments, or related work. --&gt;
+&lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/TcwhBhFsgDA?si=k8TG90FtPquzI_1y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/TcwhBhFsgDA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+</description>
     </item>
     
     <item>

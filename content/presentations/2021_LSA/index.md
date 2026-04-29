@@ -1,6 +1,6 @@
 ---
 title: "Filled pauses as a site of language contact among Spanish-speaking Bostonians"
-
+type: events
 # Event details
 event: "LSA 2021"
 event_url: ""
@@ -11,12 +11,20 @@ date: "2021-01-06"
 date_end: "2021-01-09"
 all_day: true
 
+# Publication type
+# Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
+publication_types: []
+
+# Publication venue
+publication: "LSA 2021, (Virtual) January 9th"
+publication_short: ""
+
 # Abstract
 abstract: >
   This study examines how contact with English shapes phonological filled pause variation among Spanish-speaking Bostonians, finding that speakers with greater English exposure prefer more centralized vowels, a change led by young women.
 
 # Summary for listing cards
-summary: "Presenting QP 1 results at LSA 2024."
+summary: "Presenting QP 1 results at LSA 2021."
 
 # Authors / Speakers
 authors:
@@ -66,3 +74,7 @@ projects: []
 
 Add any additional context, extended abstract, or notes about the talk.
 Include references, acknowledgments, or related work. -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/O635uBqYKjQ?si=-yuVw7cOn5AQQ1NI" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+{{< youtube O635uBqYKjQ >}}

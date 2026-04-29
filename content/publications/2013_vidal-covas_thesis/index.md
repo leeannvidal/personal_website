@@ -23,7 +23,7 @@ summary: >
     A variationist study comparing null and expressed subject pronoun use among Puerto Rican Spanish speakers in Louisiana and Puerto Rico. Analysis of 2,226 tokens reveals similar pronominal rates (~37%) in both groups, consistent with Caribbean Spanish norms, with internal linguistic factors as the primary conditioning variables.
 
 # DOI
-doi: "10.31390/gradschool_theses.3876"
+# doi: "10.31390/gradschool_theses.3876"
 
 # Tags
 tags:
@@ -40,8 +40,10 @@ tags:
 
 # Links
 links:
-  - name: PDF
+  - type: pdf
     url: Vidal-Covas_2013_El_uso_variable_de_los_pronombres_sujetos_en_el_castellano_puertorriqueño_hablado_en_Luisiana_y_Puerto_Rico.pdf
+  - type: doi
+    id: 10.31390/gradschool_theses.3876
 
 # External link (opens this URL instead of the publication page)
 # url_pdf: "https://digitalcommons.lsu.edu/cgi/viewcontent.cgi?article=4875&context=gradschool_theses"

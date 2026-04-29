@@ -98,6 +98,26 @@ sections:
   ## ──────────────────────────────── ##
   ###########   PRESENTATIONS     ###########    
   ## ──────────────────────────────── ##
+  - block: collection
+    content:
+      title: Selected Presentations
+      text: ''
+      filters:
+        folders:
+          - presentations
+        exclude_featured: false
+      count: 4
+      # buttons:
+      #   - name: All
+      #     tag: '*'
+      #   # - name: Covariation
+      #   #   tag: Covariation
+      #   # - name: Morphosyntax
+      #   #   tag: Morphosyntax
+      #   - name: Phonetics
+      #     tag: Phonetics
+    design:
+      view: citation
   - block: portfolio
     content:
       title: "Talks"
@@ -158,13 +178,5 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - events
-  #   design:
-  #     view: card
+
 ---

@@ -28,7 +28,7 @@ summary: >
     A study of filled pause vowel quality (eh/em vs. ah/am/uh/um) among 80 Boston Spanish speakers, finding that degree of English contact predicts which variant speakers use — interpreted as evidence of contact-induced restructuring of pausing norms.
 
 # DOI
-doi: "10.15427/OR080-09/2022EN"
+# doi: "10.15427/OR080-09/2022EN"
 
 # Tags
 tags:
@@ -45,12 +45,14 @@ tags:
 #   focal_point: Smart
 
 # # Links
-# links:
-#   - name: PDF
-#     url: 
+links:
+  - type: pdf
+    url: https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_en_erker_vidal-covas_sept_20.pdf
+  - type: doi
+    id: 10.15427/OR080-09/2022EN
 
 # External link (opens this URL instead of the publication page)
-url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_en_erker_vidal-covas_sept_20.pdf"
+# url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_en_erker_vidal-covas_sept_20.pdf"
 # url_code: ""
 # url_dataset: ""
 # url_poster: ""

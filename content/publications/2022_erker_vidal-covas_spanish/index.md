@@ -30,7 +30,7 @@ summary: >
     Traducción al español de Erker & Vidal-Covas (2022). Examina la calidad vocálica de las pausas llenas en 80 hispanohablantes de Boston, hallando que el grado de contacto con el inglés predice el uso de eh/em vs. ah/am/uh/um — evidencia de un reordenamiento de normas inducido por contacto.
 
 # DOI
-doi: "10.15427/OR080-09/2022SP"
+# doi: "10.15427/OR080-09/2022SP"
 
 # Tags
 tags:
@@ -47,12 +47,17 @@ tags:
 #   focal_point: Smart
 
 # # Links
-# links:
-#   - name: PDF
-#     url: 
+links:
+  # - name: PDF
+  #   url: https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_sp_erker_vidal-covas_21_sept.pdf
+  - type: pdf
+    url: https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_sp_erker_vidal-covas_21_sept.pdf
+  - type: doi
+    id: 10.15427/OR080-09/2022SP
+
 
 # External link (opens this URL instead of the publication page)
-url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_sp_erker_vidal-covas_21_sept.pdf"
+# url_pdf: "https://cervantesobservatorio.fas.harvard.edu/sites/default/files/80_sp_erker_vidal-covas_21_sept.pdf"
 # url_code: ""
 # url_dataset: ""
 # url_poster: ""

@@ -24,7 +24,7 @@ summary: >
   A study of six Spanish variables in Boston's bilingual community, finding that socially "weak" features converge toward English norms while socially "strong" features tied to identity and style persist — suggesting social meaning is a key driver of contact-induced change.
 
 # DOI
-doi: "10.1515/shll-2024-2010"
+# doi: "10.1515/shll-2024-2010"
 
 # Tags
 tags:
@@ -47,6 +47,8 @@ links:
   - name: Open Access PDF
     icon: academicons/open-access
     url: https://leeannvidal.github.io/documents/Publications/Erker_Vidal-Covas_2024_Bilingual_optimization_stylistic_practice_SHLL.pdf
+  - type: doi
+    id: 10.1515/shll-2024-2010
 #   - name: Code
 #     url: https://github.com/...
 #   - name: Slides
@@ -55,16 +57,6 @@ links:
 #     url: https://youtube.com/...
 #   - name: Poster
 #     url: poster.pdf
-
-# External link (opens this URL instead of the publication page)
-url_pdf: ""
-url_code: ""
-url_dataset: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
 
 # Pin to top of listings
 featured: true

@@ -24,7 +24,7 @@ summary: >
   An acceptability judgment study of subject-verb order in Latin American Spanish (Caribbean, Chilean, and Mexican varieties), finding that verb type (unaccusative vs. unergative) and pragmatic context jointly predict SV/VS preference, supporting the Unaccusative Hypothesis.
 
 # DOI
-doi: "10.3765/plsa.v8i1.5542"
+# doi: "10.3765/plsa.v8i1.5542"
 
 # Tags
 tags:
@@ -49,16 +49,21 @@ links:
   - name: Open Access PDF
     icon: academicons/open-access
     url: Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pdf
+  - type: doi
+    id: 10.3765/plsa.v8i1.5542
+  # - type: preprint
+  #   url: Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pd
 
-# External link (opens this URL instead of the publication page)
-url_pdf: "Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pdf"
-url_code: ""
-url_dataset: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
+
+# # External link (opens this URL instead of the publication page)
+# url_pdf: "Vidal-Covas_2023_Subject-verb_order_in_Latin_American_Spanish.pdf"
+# url_code: ""
+# url_dataset: ""
+# url_poster: ""
+# url_project: ""
+# url_slides: ""
+# url_source: ""
+# url_video: ""
 
 # Pin to top of listings
 featured: true

@@ -1,6 +1,6 @@
 ---
 title: "English/Spanish Contrastive Phonology & Filled Pauses"
-
+type: events
 # Event details
 event: "Intro to Sounds Class"
 event_url: ""
@@ -10,6 +10,14 @@ location: "Boston University"
 date: "2020-10-15"
 # date_end: "2020-10-15T00:00:00Z"
 all_day: true
+
+# Publication type
+# Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
+publication_types: []
+
+# Publication venue
+publication: "Intro to Sounds - Boston University, Boston, MA, October 15th"
+publication_short: ""
 
 # Abstract
 abstract: 
@@ -63,3 +71,7 @@ draft: false
 
 Add any additional context, extended abstract, or notes about the talk.
 Include references, acknowledgments, or related work. -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TcwhBhFsgDA?si=k8TG90FtPquzI_1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+{{< youtube TcwhBhFsgDA >}}
