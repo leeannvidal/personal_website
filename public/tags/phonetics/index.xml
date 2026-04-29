@@ -78,11 +78,11 @@
   &lt;button
     type=&#34;button&#34;
     aria-expanded=&#34;true&#34;
-    aria-controls=&#34;content-collapsible-1777397402890244000&#34;
+    aria-controls=&#34;content-collapsible-1777468767180626000&#34;
     class=&#34;inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 active:from-secondary-700 active:to-secondary-800 text-white shadow-lg shadow-secondary-500/25 hover:shadow-xl hover:shadow-secondary-500/30 hover:scale-105 active:scale-95 focus:ring-secondary-500/50 px-4 py-2 text-base rounded-full&#34;
     
     onclick=&#34;
-      var content = document.getElementById(&#39;content-collapsible-1777397402890244000&#39;);
+      var content = document.getElementById(&#39;content-collapsible-1777468767180626000&#39;);
       var expanded = this.getAttribute(&#39;aria-expanded&#39;) === &#39;true&#39;;
       this.setAttribute(&#39;aria-expanded&#39;, !expanded);
       content.hidden = expanded;
@@ -106,7 +106,7 @@
   
 
   &lt;div
-    id=&#34;content-collapsible-1777397402890244000&#34;
+    id=&#34;content-collapsible-1777468767180626000&#34;
     
     class=&#34;mt-4 p-4 border rounded-lg&#34;
   &gt;

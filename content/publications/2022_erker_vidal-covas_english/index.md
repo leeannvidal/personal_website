@@ -12,7 +12,7 @@ editors:
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: ["report-edited-volume"] 
+publication_types: ["report"] 
 
 # Publication venue
 publication: "*Observatorio Studies,* 80, pp. 1- 29"

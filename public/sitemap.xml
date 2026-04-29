@@ -52,9 +52,11 @@
   <url>
     <loc>http://localhost:1313/publication_types/thesis/</loc><lastmod>2025-09-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/invited-talk/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/presentations/2025_bu_defense/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/presentations/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/presentations/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication_types/invited-talk/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/presentations/2024_lsu_invited_talk/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -158,7 +160,7 @@
   <url>
     <loc>http://localhost:1313/publications/2022_erker_vidal-covas_spanish/</loc><lastmod>2022-09-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/report-edited-volume/</loc><lastmod>2022-09-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/publication_types/report/</loc><lastmod>2022-09-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/bilingualism/</loc><lastmod>2022-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
