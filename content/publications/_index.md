@@ -34,7 +34,7 @@ sections:
       view: citation
       css_class: "tight-publications-section"
       spacing:
-        padding: ["2rem", "0", "0", "0"]
+        padding: ["4rem", "0", "0", "0"]
   - block: collection
     content:
       title: Refereed Proceedings

@@ -2,7 +2,7 @@
 title: "Making a Splash: The Salience of Liquid Variation among Boston Spanish speakers"
 type: events
 # Event details
-event: "Invited Talk: Linguistics Program - Northeastern University"
+event_name: "Invited Talk: Linguistics Program - Northeastern University"
 # event_url: 
 location: "Boston, MA, USA"
 

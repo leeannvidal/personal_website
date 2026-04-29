@@ -20,7 +20,7 @@ sections:
   - block: course-cards
     id: bachelors-courses
     content:
-      title: "Bachelor’s Level Courses" # This will be your h3 title
+      title: "University Level Courses" # This will be your h3 title
       cards:
         - title: "CAS LX 110: Accents, Dialects, & Society"
           institution: "Boston University"

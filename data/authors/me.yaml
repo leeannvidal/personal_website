@@ -176,8 +176,14 @@ languages:
 
 
 awards:
-  - title: Certificate of Appreciation
+  - title: Student-Nominated Teaching Appreciation
     awarder: Saint Joseph's Academy
     date: "2019-05-01"
-    summary: Awarded for making a positive impact on a graduating student's life
+    summary: Student-nominated recognition acknowledging positive academic and personal impact
     icon: hero/trophy
+  - title: Outstanding Graduate Presentation
+    awarder: Universidad de Puerto Rico en Río Piedras
+    date: "2013-04-01"
+    summary: "Awarded for outstanding conference presentation on sociolinguistic research at the *2nd Graduate Symposium*"
+    icon: hero/trophy
+

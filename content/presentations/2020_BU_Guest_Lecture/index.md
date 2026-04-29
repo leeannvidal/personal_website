@@ -2,7 +2,7 @@
 title: "English/Spanish Contrastive Phonology & Filled Pauses"
 type: events
 # Event details
-event: "Intro to Sounds Class"
+event_name: "Guest Lecture: Intro to Sounds Class"
 event_url: ""
 location: "Boston University"
 

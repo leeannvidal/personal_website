@@ -3,7 +3,7 @@ title: "How Salience Influences Dialectal Persistence and Covariation: Insights 
 type: events
 
 # Event details
-event: "New Waves of Analyzing Linguistic Variation (NWAV 52)"
+event_name: "New Waves of Analyzing Linguistic Variation – NWAV 52"
 # event_url: 
 location: "Miami, FL, USA"
 

@@ -5,7 +5,7 @@ type: events
 # no_sidebar: true
 
 # Event details
-event: "New Waves of Analyzing Linguistic Variation 2023"
+event_name: "New Waves of Analyzing Linguistic Variation – NWAV 51"
 # event_url: 
 location: "New York City, NY, USA"
 

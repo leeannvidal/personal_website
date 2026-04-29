@@ -3,7 +3,7 @@ title: "Investigating salience and ideologies in Greater Boston: A sociophonetic
 type: events
 
 # Event details
-event: "The International Symposium on Language Ideologies and Attitudes"
+event_name: "The International Symposium on Language Ideologies and Attitudes – IDEOLING"
 # event_url: 
 location: "Palma de Mallorca, Spain"
 
@@ -50,7 +50,7 @@ links:
     url: https://leeannvidal.github.io/documents/Conferences/Certificates/Vidal_Covas_IDEOLING_2024_Certificate.pdf
     icon: document
 
-
+projects: [covariation_salience]
 
 # Featured
 featured: true

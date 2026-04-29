@@ -3,7 +3,7 @@ title: "Riding the Waves of Salience: Exploring Spanish Liquid Variation among B
 type: events
 
 # Event details
-event: "LSA 2024"
+event_name: "Linguistics Society of America Annual Meeting – LSA 2024"
 # event_url: 
 location: "New York City, NY, USA"
 

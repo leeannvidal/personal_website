@@ -1,12 +1,10 @@
 ---
 title: "Spanish in Boston Project"
-date: 2014
-start: 2020
-end: Present
+date: 2019-04-01 
 
 # Summary for listing cards
 summary: >
-  I have previously served as a Grad Assistant and Lab Manager for danny-erker in the Spanish in Boston Project, where I focused on transcribing and annotating sociolinguistic interviews related to various social and linguistic phenomena. Currently, I continue to contribute to the project through data creation, extraction, and cleaning, as well as running statistical analyses and creating visualizations.
+  Helped answer questions about language maintenance and attitudes. 
 
 # Tags for filtering
 tags:
@@ -57,3 +55,12 @@ featured: true
 # Draft
 draft: false
 ---
+<!-- {{< collapsible-button title="Overview" summary="Click to view more." icon="chevron-down" iconPosition="left" style="secondary" align="left" rounded="full" open="false" >}}
+ I have previously served as a Grad Assistant and Lab Manager for <a href="https://blogs.bu.edu/danerker/" target="_blank" rel="noopener noreferrer">Dr. Daniel Erker</a> in the Spanish in Boston Project, where I focused on transcribing and annotating sociolinguistic interviews related to various social and linguistic phenomena. Currently, I continue to contribute to the project through data creation, extraction, and cleaning, as well as running statistical analyses and creating visualizations.
+{{< /collapsible-button >}} -->
+
+I have previously served as a Grad Assistant and Lab Manager for <a href="https://blogs.bu.edu/danerker/" target="_blank" rel="noopener noreferrer">Dr. Daniel Erker</a> in the Spanish in Boston Project, where I focused on transcribing and annotating sociolinguistic interviews related to various social and linguistic phenomena. Currently, I continue to contribute to the project through data creation, extraction, and cleaning, as well as running statistical analyses and creating visualizations.
+
+<a href="https://blogs.bu.edu/danerker/" target="_blank" rel="noopener noreferrer">Dr. Daniel Erker</a>
+
+<!-- {{< mention "danny-erker" >}} -->

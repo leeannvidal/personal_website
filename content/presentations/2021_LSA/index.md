@@ -2,7 +2,7 @@
 title: "Filled pauses as a site of language contact among Spanish-speaking Bostonians"
 type: events
 # Event details
-event: "LSA 2021"
+event_name: "Linguistics Society of America Annual Meeting – LSA 2021"
 event_url: ""
 location: "Online"
 

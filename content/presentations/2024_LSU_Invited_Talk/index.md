@@ -2,7 +2,7 @@
 title: "Salient Features, Strong Identities: Social Meaning and Stylistic Choices in Boston Spanish"
 type: events
 # Event details
-event: "Invited Talk: Louisiana State University"
+event_name: "Invited Talk: Louisiana State University"
 # event_url: 
 location: Baton Rouge, LA, USA
 # citation: "2024 Vidal-Covas, Lee-Ann M. Salient Features, Strong Identities: Social Meaning and Stylistic Choices in Boston Spanish, Louisiana State University, Baton Rouge, LA, December 3rd"

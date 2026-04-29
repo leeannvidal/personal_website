@@ -46,14 +46,6 @@
     </item>
     
     <item>
-      <title>The Mirror Principle Violations Project</title>
-      <link>http://localhost:1313/labs/neil/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
-      <guid>http://localhost:1313/labs/neil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Covariation &amp; Salience in Linguistic Contact</title>
       <link>http://localhost:1313/projects/covariation_salience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -133,6 +125,16 @@
 &lt;li&gt;1SG/3SG and switch-reference favor pronoun usage; plurals disfavor it.&lt;/li&gt;
 &lt;li&gt;Only location shows a clear social effect — routine English contact did not increase pronoun usage.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Mirror Principle Violations Project</title>
+      <link>http://localhost:1313/labs/neil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/neil/</guid>
+      <description>&lt;p&gt;I served as a Grad Assistant for 
+ Mirror Principle Violations Project, where I surveyed existing descriptive materials on a wide range of languages to describe the interactions between causative and applicative morphemes.&lt;/p&gt;
 </description>
     </item>
     

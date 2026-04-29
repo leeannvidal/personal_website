@@ -42,4 +42,8 @@ sections:
     content:
       title: Languages
       username: me
+  - block: resume-awards
+    content:
+      title: Awards
+      username: me
 ---

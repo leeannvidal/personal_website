@@ -3,7 +3,7 @@ title: "Covariation & salience in linguistic contact: a sociophonetic study of l
 type: events
 
 # Event details
-event: "Lee-Ann Vidal's dissertation defense"
+event_name: "Dissertation Defense"
 # event_url: 
 location: "Boston, MA, USA"
 
