@@ -1,6 +1,8 @@
 ---
 title: "Spanish in Boston Project"
 date: 2019-04-01 
+show_date: false
+show_read_time: false
 
 # Summary for listing cards
 summary: >
