@@ -17,11 +17,11 @@ tags:
   - under-researched languages
   - grammar
 
-tech_stack:
-  - Python
-  - PyTorch
-  - CUDA
-  - NumPy
+# tech_stack:
+#   - Python
+#   - PyTorch
+#   - CUDA
+#   - NumPy
 
 # Featured image
 image:

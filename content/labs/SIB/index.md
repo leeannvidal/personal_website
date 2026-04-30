@@ -10,19 +10,20 @@ summary: >
 
 # Tags for filtering
 tags:
+  - Variationist Sociolinguistics
   - Sociolinguistics
   - Language Contact
-  - Language Variation
-  - Corpus Linguistics
+  - Language Variation & Change
+  # - Corpus Linguistics
   - Spanish in the United States
   - Boston Spanish
-  - Subject Pronouns
-  - Filled Pauses
-  - Word Order
-  - Liquids
-  - Coda /s/
-  - Variationist Sociolinguistics
-  - NSF-funded
+  # - Subject Pronouns
+  # - Filled Pauses
+  # - Word Order
+  # - Liquids
+  # - Coda /s/
+  
+  # - NSF-funded
 
 # Featured image
 image:
