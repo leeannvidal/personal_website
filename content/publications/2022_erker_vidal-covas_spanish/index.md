@@ -41,9 +41,9 @@ tags:
 
 
 # Featured image
-# image:
-#   filename: featured.jpg
-#   caption: "Architecture diagram"
+image:
+  # filename: featured.jpg
+  caption: "Tasa de vocal de pausa llena centralizada por porcentaje de interlocutores solo en español y edad de llegada."
 #   focal_point: Smart
 
 # # Links

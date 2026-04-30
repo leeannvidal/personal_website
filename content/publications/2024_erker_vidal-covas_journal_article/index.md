@@ -36,9 +36,9 @@ tags:
 
 # Featured image
 image:
-  filename: featured.jpg
-  caption: "Architecture diagram"
-  focal_point: Smart
+  # filename: featured.png
+  caption: "Habitual language use with interlocutors."
+  # focal_point: Smart
 
 # Links
 links:

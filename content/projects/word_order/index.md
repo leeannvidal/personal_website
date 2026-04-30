@@ -14,9 +14,9 @@ tags:
   - Covariation
 
 # Featured image
-image:
-  filename: featured.jpg
-  caption: "**Word Order Ratings for Verb Types by Pragmatic Conditions**. Figure shows an interesting asymmetry that appears in contexts in which there is no information being focused (*wide-focus*): SV is preferred with *unergatives*, and VS is preferred with *unaccusatives*. It should be emphasized that, when it comes to *unergative* verbs, the dispreference for VS is stronger when the subject is old info, amplifying the effect of people’s general dislike of VS order in sentences with *unergative* verbs."
+# image:
+#   filename: featured.jpg
+#   caption: "**Word Order Ratings for Verb Types by Pragmatic Conditions**. Figure shows an interesting asymmetry that appears in contexts in which there is no information being focused (*wide-focus*): SV is preferred with *unergatives*, and VS is preferred with *unaccusatives*. It should be emphasized that, when it comes to *unergative* verbs, the dispreference for VS is stronger when the subject is old info, amplifying the effect of people’s general dislike of VS order in sentences with *unergative* verbs."
 #   focal_point: Smart
 
 # Links displayed as buttons
@@ -38,18 +38,19 @@ status: "Published"
 draft: false
 ---
 
-How do Spanish speakers judge Subject-Verb (SV) vs. Verb-Subject (VS) word orders—and how do verb type (unergative vs. unaccusative) and pragmatic condition (wide focus, subject-narrow focus, subject-given) shape those judgments? Using a controlled, online experiment, I test links between argument structure and information structure in four Latin American dialects.
+How do Spanish speakers judge **Subject-Verb (SV)** vs. **Verb-Subject (VS)** word orders—and how do **verb type** (*unergative* vs. *unaccusative*) and **pragmatic condition** (*wide focus*, *subject-narrow focus*, *subject-given*) shape those judgments? Using a controlled, online experiment, I test links between **argument structure** and **information structure** in four Latin American dialects.
 
 **At a glance**
 
 | | |
-|---|---|
-| **Design** | Online acceptability-judgment task (Likert 1–5), 2×3 (Verb Type × Pragmatic Condition) |
-| **Platform & Recruitment** | Qualtrics (survey), Prolific (recruitment) |
+|---|---|---|
+| **Design** | Online acceptability-judgment task (Likert 1–5), *2×3* (Verb Type × Pragmatic Condition) |
+| **Survey Hosting Platform** | Qualtrics | {{< button url="#" size="sm" icon="custom/XM" style="outline" >}}Qualtrics{{< /button >}} |
+| **Recruitment** | Prolific | {{< button url="#" size="sm" icon="custom/prolific" style="outline" >}}Prolific{{< /button >}} |
 | **Participants** | N = 69 (Chile, Cuba, Mexico, Puerto Rico) → 1,656 ratings (SV/VS) |
 
 **Key findings**
-- SV preferred overall; VS favored with unaccusatives.
-- Verb type and pragmatic condition jointly predict acceptability.
-- Region not predictive in these data.
-- Supports a link between argument structure & information structure (Unaccusative Hypothesis).
+- **SV** preferred overall; **VS** favored with unaccusatives.
+- **Verb type** and **pragmatic condition** jointly predict acceptability.
+- **Region** not predictive in these data.
+- Supports a link between **argument structure** & **information structure** (Unaccusative Hypothesis).

@@ -39,9 +39,9 @@ tags:
 
 
 # Featured image
-# image:
-#   filename: featured.jpg
-#   caption: "Architecture diagram"
+image:
+  # filename: featured.jpg
+  caption: "Rate of Centralized FP-vowel by Percent Interlocutors Spanish Only and Age of Arrival."
 #   focal_point: Smart
 
 # # Links
