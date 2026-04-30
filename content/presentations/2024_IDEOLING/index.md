@@ -14,7 +14,7 @@ all_day: true
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: []
+publication_types: ["refereed-papers"]
 
 # Publication venue
 publication: "The International Symposium on Language Ideologies and Attitudes (IDEOLING), Palma de Mallorca, Spain, October 17th - 19th"

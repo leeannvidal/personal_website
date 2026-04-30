@@ -13,7 +13,8 @@ all_day: true
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: []
+publication_types: ["refereed-posters"]
+
 
 # Publication venue
 publication: "LSA 2021, (Virtual) January 9th"

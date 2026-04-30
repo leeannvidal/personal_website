@@ -13,7 +13,7 @@ all_day: true
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: []
+publication_types: ["invited-talks"]
 
 # Publication venue
 publication: "Intro to Sounds - Boston University, Boston, MA, October 15th"

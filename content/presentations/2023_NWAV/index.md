@@ -16,7 +16,7 @@ all_day: true
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: []
+publication_types: ["refereed-papers"]
 
 # Publication venue
 publication: "New Waves of Analyzing Linguistic Variation (NWAV), NYC, NY, Oct 13th - 17th"

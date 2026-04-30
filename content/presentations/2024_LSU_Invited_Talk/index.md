@@ -13,7 +13,7 @@ all_day: true
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: [Invited Talk]
+publication_types: ["invited-talks"]
 
 # Publication venue
 publication: "Louisiana State University, Baton Rouge, LA, December 3rd"

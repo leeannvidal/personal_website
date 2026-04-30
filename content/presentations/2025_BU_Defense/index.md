@@ -15,7 +15,7 @@ all_day: true
 
 # Publication type
 # Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
-publication_types: []
+publication_types: ["departmental-talks"]
 
 # Publication venue
 publication: "*Dissertation Defense* - Boston University, Boston, MA, April 7th"
