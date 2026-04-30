@@ -17,7 +17,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "The International Symposium on Language Ideologies and Attitudes (IDEOLING), Palma de Mallorca, Spain, October 17th - 19th"
+publication: "*The International Symposium on Language Ideologies and Attitudes (IDEOLING)*, Palma de Mallorca, Spain, October 17th - 19th"
 publication_short: ""
 
 # Abstract

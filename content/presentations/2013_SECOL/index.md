@@ -15,7 +15,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "*Southeastern Conference on Linguistics LXXX* Spartanburg, South Carolina, April 4th - 6th"
+publication: "*Southeastern Conference on Linguistics LXXX*, Spartanburg, South Carolina, April 4th - 6th"
 
 # Authors / Speakers
 authors:

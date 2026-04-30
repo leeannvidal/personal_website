@@ -14,7 +14,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "*2nd Graduate Symposium* Universidad de Puerto Rico, Río Piedras, Puerto Rico, April"
+publication: "*2nd Graduate Symposium* – Universidad de Puerto Rico, Río Piedras, Puerto Rico, April"
 
 # Authors / Speakers
 authors:

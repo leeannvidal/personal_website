@@ -16,7 +16,7 @@ all_day: true
 publication_types: ["invited-talks"]
 
 # Publication venue
-publication: "Linguistics Program - Northeastern University, Boston, MA, March 23rd"
+publication: "*Linguistics Program - Northeastern University*, Boston, MA, March 23rd"
 publication_short: ""
 
 # Abstract

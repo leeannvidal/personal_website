@@ -16,7 +16,7 @@ all_day: true
 publication_types: ["invited-talks"]
 
 # Publication venue
-publication: "Louisiana State University, Baton Rouge, LA, December 3rd"
+publication: "*Louisiana State University*, Baton Rouge, LA, December 3rd"
 publication_short: ""
 
 # Abstract

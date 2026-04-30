@@ -19,7 +19,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "New Waves of Analyzing Linguistic Variation (NWAV), NYC, NY, Oct 13th - 17th"
+publication: "*New Waves of Analyzing Linguistic Variation (NWAV 51)*, NYC, NY, Oct 13th - 17th"
 publication_short: ""
 
 # Abstract

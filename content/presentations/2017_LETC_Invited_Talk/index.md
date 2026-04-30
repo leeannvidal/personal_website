@@ -14,7 +14,7 @@ all_day: true
 publication_types: ["invited-talks"]
 
 # Publication venue
-publication: "*Louisiana Education Technology Consortium* Baton Rouge, LA, March"
+publication: "*Louisiana Education Technology Consortium*, Baton Rouge, LA, March"
 
 # Authors / Speakers
 authors:

@@ -18,7 +18,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "Linguistic Society of America (LSA), NYC, NY, January 4th - 7th"
+publication: "*Linguistics Society of America Annual Meeting – LSA 2024*, NYC, NY, January 4th - 7th"
 publication_short: ""
 
 # Abstract

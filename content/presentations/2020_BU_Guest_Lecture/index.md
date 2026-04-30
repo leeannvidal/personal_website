@@ -16,7 +16,7 @@ all_day: true
 publication_types: ["invited-talks"]
 
 # Publication venue
-publication: "Intro to Sounds - Boston University, Boston, MA, October 15th"
+publication: "*Intro to Sounds - Boston University*, Boston, MA, October 15th"
 publication_short: ""
 
 # Abstract

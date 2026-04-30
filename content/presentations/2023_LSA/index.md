@@ -17,7 +17,7 @@ all_day: true
 publication_types: ["refereed-posters"]
 
 # Publication venue
-publication: "LSA 2023, Denver, CO, January 5th– 8th"
+publication: "*Linguistics Society of America Annual Meeting – LSA 2023*, Denver, CO, January 5th– 8th"
 publication_short: ""
 
 # Abstract

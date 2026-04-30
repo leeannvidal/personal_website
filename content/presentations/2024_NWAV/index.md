@@ -18,7 +18,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "New Waves of Analyzing Linguistic Variation (NWAV 52), Miami, FL, November 7th - 9th"
+publication: "*New Waves of Analyzing Linguistic Variation (NWAV 52)*, Miami, FL, November 7th - 9th"
 publication_short: ""
 
 # Abstract

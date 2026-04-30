@@ -17,7 +17,7 @@ publication_types: ["refereed-posters"]
 
 
 # Publication venue
-publication: "LSA 2021, (Virtual) January 9th"
+publication: "*Linguistics Society of America Annual Meeting – LSA 2021*, (Virtual) January 9th"
 publication_short: ""
 
 # Abstract

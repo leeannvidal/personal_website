@@ -15,7 +15,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "*The Association of Linguistics and Philology Latin America Conference* Paraiba, João Pessoa, Brazil, July 14th - 19th"
+publication: "*The Association of Linguistics and Philology Latin America Conference*, Paraiba, João Pessoa, Brazil, July 14th - 19th"
 
 # Authors / Speakers
 authors:

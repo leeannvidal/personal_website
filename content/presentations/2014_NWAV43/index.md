@@ -15,7 +15,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "*New Ways of Analyzing Variation 43* Chicago, Illinois, October 23rd - 26th"
+publication: "*New Ways of Analyzing Variation 43*, Chicago, Illinois, October 23rd - 26th"
 
 # Authors / Speakers
 authors:

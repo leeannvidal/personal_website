@@ -14,7 +14,7 @@ all_day: true
 publication_types: ["departmental-talks"]
 
 # Publication venue
-publication: "*LSU Spanish Roundtable* Baton Rouge, LA, October"
+publication: "*LSU Spanish Roundtable*, Baton Rouge, LA, October"
 
 # Authors / Speakers
 authors:

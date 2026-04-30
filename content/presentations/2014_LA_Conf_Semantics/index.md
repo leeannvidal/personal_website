@@ -15,7 +15,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "*XXIX Biennial Louisiana Conference on Hispanic Languages & Literatures* Baton Rouge, Louisiana, Feb 27th - March 1st"
+publication: "*XXIX Biennial Louisiana Conference on Hispanic Languages & Literatures*, Baton Rouge, Louisiana, Feb 27th - March 1st"
 
 # Authors / Speakers
 authors:

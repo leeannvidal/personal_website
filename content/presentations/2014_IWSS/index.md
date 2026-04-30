@@ -15,7 +15,7 @@ all_day: true
 publication_types: ["refereed-papers"]
 
 # Publication venue
-publication: "*7th International Workshop on Spanish Sociolinguistics* Madison, Wisconsin, April 3rd - 5th"
+publication: "*7th International Workshop on Spanish Sociolinguistics*, Madison, Wisconsin, April 3rd - 5th"
 
 # Authors / Speakers
 authors:
