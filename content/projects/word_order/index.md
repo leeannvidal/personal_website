@@ -13,6 +13,11 @@ tags:
   - Spanish
   - Covariation
 
+tech_stack:  # Or think of as: tools, methods, skills, materials
+  - Prolific
+  - Qualtrics
+  - R
+
 # Featured image
 # image:
 #   filename: featured.jpg
@@ -48,6 +53,8 @@ How do Spanish speakers judge **Subject-Verb (SV)** vs. **Verb-Subject (VS)** wo
 | **Survey Hosting Platform** | Qualtrics | {{< button url="#" size="sm" icon="custom/XM" style="outline" >}}Qualtrics{{< /button >}} |
 | **Recruitment** | Prolific | {{< button url="#" size="sm" icon="custom/prolific" style="outline" >}}Prolific{{< /button >}} |
 | **Participants** | N = 69 (Chile, Cuba, Mexico, Puerto Rico) → 1,656 ratings (SV/VS) |
+| **Methods** | Mixed-effects modeling in R | {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}} |
+
 
 **Key findings**
 - **SV** preferred overall; **VS** favored with unaccusatives.

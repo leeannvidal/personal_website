@@ -38,7 +38,7 @@ status: "Active"
 draft: false
 ---
 
-In Spanish, finite verbs can occur with or without an expressed subject pronoun — as in *yo hablo* 'I speak' vs. *hablo* '(I) speak' — without altering the meaning. Drawing on sociolinguistic interviews from Puerto Rican speakers in Louisiana and Puerto Rico, I examine how grammatical and discourse constraints pattern this variation. Results reveal Caribbean-typical pronoun rates (~37%) and show that internal morphosyntactic factors, not English contact, drive pronoun use in this sample.
+In Spanish, finite verbs can occur **with or without an expressed subject pronoun** — as in *yo hablo* 'I speak' vs. *hablo* '(I) speak' — without altering the meaning. Drawing on sociolinguistic interviews from Puerto Rican speakers in Louisiana and Puerto Rico, I examine how grammatical and discourse constraints pattern this variation. Results reveal **Caribbean-typical pronoun rates (~37%)** and show that internal morphosyntactic factors, not English contact, drive pronoun use in this sample.
 
 **At a glance**
 
@@ -50,5 +50,5 @@ In Spanish, finite verbs can occur with or without an expressed subject pronoun 
 
 **Key findings**
 - Pronoun rates ≈ PR 37.8% vs. LA 37.0%.
-- 1SG/3SG and switch-reference favor pronoun usage; plurals disfavor it.
-- Only location shows a clear social effect — routine English contact did not increase pronoun usage.
+- **1SG/3SG** and **switch-reference** favor pronoun usage; **plurals** disfavor it.
+- Only location shows a clear social effect — **routine English contact did not increase pronoun usage.**
