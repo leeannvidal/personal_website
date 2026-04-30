@@ -90,6 +90,8 @@ sections:
   - block: collection
     content:
       title: Recent Publications
+      archive:
+        text: "View All Publications" # <- custom button label
       text: ''
       filters:
         folders:
@@ -100,12 +102,16 @@ sections:
       css_class: "tight-publications-section"
       spacing:
         padding: ["2rem", "0", "0", "0"]
-  ## ──────────────────────────────── ##
+    # archive_text: "See all Publications"
+
+## ──────────────────────────────── ##
   ###########   PRESENTATIONS     ###########    
   ## ──────────────────────────────── ##
   - block: collection
     content:
       title: Selected Presentations
+      archive:
+        text: "View All Presentations" # <- custom button label
       text: ''
       filters:
         folders:

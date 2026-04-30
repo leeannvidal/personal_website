@@ -14,9 +14,9 @@ tags:
   - Covariation
 
 # Featured image
-# image:
-#   filename: featured.jpg
-#   caption: ""
+image:
+  filename: featured.jpg
+  caption: "**Word Order Ratings for Verb Types by Pragmatic Conditions**. Figure shows an interesting asymmetry that appears in contexts in which there is no information being focused (*wide-focus*): SV is preferred with *unergatives*, and VS is preferred with *unaccusatives*. It should be emphasized that, when it comes to *unergative* verbs, the dispreference for VS is stronger when the subject is old info, amplifying the effect of people’s general dislike of VS order in sentences with *unergative* verbs."
 #   focal_point: Smart
 
 # Links displayed as buttons

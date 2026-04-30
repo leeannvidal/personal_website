@@ -54,11 +54,17 @@
   <url>
     <loc>http://localhost:1313/presentations/2025_bu_defense/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/publication_types/departmental-talks/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/presentations/</loc><lastmod>2025-05-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/invited-talk/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/publication_types/invited-talks/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/presentations/2024_lsu_invited_talk/</loc><lastmod>2024-12-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2024_nwav/</loc><lastmod>2024-11-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication_types/refereed-papers/</loc><lastmod>2024-11-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/presentations/2024_ideoling/</loc><lastmod>2024-10-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -146,7 +152,11 @@
   <url>
     <loc>http://localhost:1313/presentations/2023_northeastern_invited_talk/</loc><lastmod>2023-03-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/presentations/2023_bu_grf_dept_talk/</loc><lastmod>2023-03-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/presentations/2023_lsa/</loc><lastmod>2023-01-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication_types/refereed-posters/</loc><lastmod>2023-01-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/bilinguismo/</loc><lastmod>2022-09-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -184,31 +194,23 @@
   <url>
     <loc>http://localhost:1313/tags/language-contact/</loc><lastmod>2021-01-06T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/presentations/2020_bu_grf_dept_talk/</loc><lastmod>2020-12-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/presentations/2020_bu_guest_lecture/</loc><lastmod>2020-10-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/boston-spanish/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/coda-/s/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/corpus-linguistics/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>http://localhost:1313/labs/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/language-variation/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/liquids/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/nsf-funded/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/tags/language-variation--change/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/labs/sib/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/spanish-in-the-united-states/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/subject-pronouns/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>http://localhost:1313/tags/variationist-sociolinguistics/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/word-order/</loc><lastmod>2019-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/presentations/2017_letc_invited_talk/</loc><lastmod>2017-03-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/events/example/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -216,11 +218,29 @@
   <url>
     <loc>http://localhost:1313/events/</loc><lastmod>2017-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/presentations/2014_nwav43/</loc><lastmod>2014-10-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2014_alpa/</loc><lastmod>2014-07-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/publications/2014_orozco_mendez-vallejo_vidal-covas_conference-paper/</loc><lastmod>2014-07-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/tags/subject-pronouns/</loc><lastmod>2014-07-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2014_iwss/</loc><lastmod>2014-04-03T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2014_la_conf_pronouns/</loc><lastmod>2014-02-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2014_la_conf_semantics/</loc><lastmod>2014-02-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/publications/2013_vidal-covas_thesis/</loc><lastmod>2013-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/puerto-rico/</loc><lastmod>2013-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2013_lsu_dept_talk/</loc><lastmod>2013-10-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2013_secol/</loc><lastmod>2013-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/presentations/2013_upr_symposium/</loc><lastmod>2013-04-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/courses/hugo-blox/guide/formatting/button/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -233,8 +253,6 @@
     <loc>http://localhost:1313/projects/filled_pauses/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/grammar/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/presentations/2024_nwav/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/tags/information-structure/</loc><changefreq>weekly</changefreq></url>
   <url>

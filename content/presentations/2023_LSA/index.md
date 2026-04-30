@@ -47,9 +47,9 @@ tags:
 # slides: "neurips-2024"
 
 # Featured image
-# image:
-#   filename: featured.jpg
-#   caption: "Presenting at LSA 2023"
+image:
+  filename: Vidal_Covas_LSA_2023_Poster.pdf
+  caption: "Poster"
 
 # # Links
 # links:

@@ -39,10 +39,10 @@ tags:
   - morphosyntax
 
 # Featured image
-# image:
-#   filename: featured.jpg
-#   caption: "Architecture diagram"
-#   focal_point: Smart
+image:
+  filename: featured.jpg
+  caption: "Word Order Ratings. Figure shows that, overall, SV order is highly preferable (86%) compared to VS order which is rated as preferable only 60% of the time. SV order is only dispreferred 5% of the time, whereas VS is rated negatively 23% of the time."
+  # focal_point: Smart
 
 # Links
 links:

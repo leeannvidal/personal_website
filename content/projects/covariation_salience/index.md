@@ -15,6 +15,15 @@ tags:
   - Morphosyntax
   - Phonetics
 
+tech_stack:  # Or think of as: tools, methods, skills, materials
+  - Praat
+  - R
+  - LaTeX
+  - Python
+  - Bash / Terminal
+  - Git/GitHub
+
+
 # Featured image
 # image:
 #   filename: featured.jpg
