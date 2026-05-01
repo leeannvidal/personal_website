@@ -140,22 +140,16 @@ sections:
           description:  |
             - Designed and conducted linguistic fieldwork with Puerto Rican Spanish speakers in Puerto Rico and Louisiana. <br>
             - Developed interview protocols for exploratory research and hypothesis testing.
-          # sub_metric: End-to-end design, QA, and analysis          
         - statistic: "Quantitative Analysis"
           description: |
             - Designed online studies, coded linguistic variables, extracted datasets, and conducted statistical analysis of sociolinguistic data.
-          # sub_metric: For linguistic & ML workflows
           
         - statistic: "Experimental Design"
           description: |
             - Built and ran online studies using Qualtrics and Prolific, including a Spanish word order study published in conference proceedings.
-          # sub_metric: Emotion, engagement, speech patterns
     design:
-      layout: cards # options are: cards | compact | minimal
-      card:
-        background:
-          color: secondary-500
-        css_class: 'cta-glassmorphism'
+      layout: compact # options are: cards | compact | minimal
+      # css_class: 'glassmorphism-secondary noise-texture text-white'
       spacing:
         padding: ["0", "0", "0", "0"]
   - block: tech-stack
