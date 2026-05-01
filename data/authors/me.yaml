@@ -12,7 +12,8 @@ postnominals: [PhD]
 status:
   icon: "🦥"
 role: 
-bio: "Linguist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science."
+bio: |
+  Language Scientist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
 
 affiliations:
   - name:
