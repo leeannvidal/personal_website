@@ -8,8 +8,8 @@ sections:
     content:
       username: me
       # tagline: hey
-      bio_override: |
-        I create and analyze linguistic datasets for research and machine learning applications. My work focuses on annotation design, data quality, and bridging sociolinguistic research with real-world AI systems.
+      # bio_override: |
+      #   I create and analyze linguistic datasets for research and machine learning applications. My work focuses on annotation design, data quality, and bridging sociolinguistic research with real-world AI systems.
       greeting: "Hello, welcome to my portfolio page. I'm"
       cta_buttons:
         - text: View Resume
@@ -18,7 +18,7 @@ sections:
       style: split
       avatar_shape: rounded
       spacing:
-        padding: "0"
+        padding: ["0", "0", "0", "0"]
       css_class: "no-hero-gap"
   # - block: hero
   #   content:
@@ -41,15 +41,12 @@ sections:
         I create and analyze linguistic datasets for research and machine learning applications. My work focuses on annotation design, data quality, and bridging sociolinguistic research with real-world AI systems.
     design:
       card:
+        # css_class: 'cta-glassmorphism'
         css_class: 'glassmorphism-secondary glass-ring glass-shadow text-gray-900'
         text_color: 'auto' # Will detect primary-500 as medium and use adaptive colors
         overlay_opacity: 0.1
       spacing:
         padding: ["0", "0", "0", "0"]
-      # background:
-      #   gradient:
-      #     start: 'primary-500'
-      #     end: 'primary-700'
   # - block: features
   #   content:
   #     # title: "My Expertise"
@@ -113,6 +110,7 @@ sections:
       spacing:
         padding: ["0", "0", "0", "0"]
   - block: features
+    id: methods
     content:
       title: "Research Methods"
       # text: "Methods I use to design, collect, analyze, and interpret data"
@@ -132,135 +130,133 @@ sections:
         #   color: "secondary-500"
         spacing:
           padding: ["0", "0", "0", "0"]
-  - block: stats
+  - block: features
+    id: ml-workflows
     content:
-      title: "Research Methods"
+      title: "Applied ML & Data Workflows"
+      subtitle: "Annotation, QA, and language data workflows for machine learning systems"
       items:
-        - statistic: "Qualitative Research"
-          description:  |
-            - Designed and conducted linguistic fieldwork with Puerto Rican Spanish speakers in Puerto Rico and Louisiana. <br>
-            - Developed interview protocols for exploratory research and hypothesis testing.
-        - statistic: "Quantitative Analysis"
-          description: |
-            - Designed online studies, coded linguistic variables, extracted datasets, and conducted statistical analysis of sociolinguistic data.
-          
-        - statistic: "Experimental Design"
-          description: |
-            - Built and ran online studies using Qualtrics and Prolific, including a Spanish word order study published in conference proceedings.
+        - name: "Workflow Optimization"
+          # icon: arrows-right-left
+          description: "Improved annotation and QA workflows to increase consistency, efficiency, and data quality across projects."
+
+        # - name: "Data Processing"
+        #   # icon: circle-stack
+        #   description: "Processed and structured text and speech data for annotation and machine learning workflows, including scripting and data preparation."
+
+        - name: "Annotation Design"
+          # icon: pencil-square
+          description: "Designed annotation schemes and guidelines for linguistic variables and machine learning data workflows."
+
+        - name: "Dataset QA"
+          # icon: shield-check
+          description: "Validated annotated datasets for consistency, accuracy, and usability across research and ML contexts."
+
+        - name: "Speech & Language Annotation"
+          # icon: microphone
+          description: "Annotated audio for emotional engagement, rate of speech, energy level, and customer/agent experience."
+
+        - name: "Prompt Engineering"
+          # icon: sparkles
+          description: "Tested and refined prompts for AI models to improve task accuracy and annotation outcomes."
+
+        - name: "Model Testing"
+          # icon: cpu-chip
+          description: "Tested pre-trained language models and provided calibration suggestions based on linguistic and annotation insights."
     design:
-      layout: compact # options are: cards | compact | minimal
-      # css_class: 'glassmorphism-secondary noise-texture text-white'
-      spacing:
-        padding: ["0", "0", "0", "0"]
-  - block: tech-stack
-    id: skills
-    content:
-        title: "Tech Stack"
-        # subtitle: "Technologies I use to build things"
-        categories:
-            - name: Data & Analysis
-              items:
-                - name: R
-                  icon: devicon/rstudio
-                  level: advanced
-                - name: R
-                  icon: brands/r
-                  level: advanced 
-                # - name: Python
-                #   icon: devicon/python
-                #   level: beginner
-                - name: Python
-                  icon: brands/python
-                  level: beginner
-                - name: LaTeX
-                  icon: devicon/latex
-                  level: advanced
-                - name: html
-                  icon: devicon/htmx
-                  level: intermediate
-            - name: Frontend
-              items:
-                - name: Tailwind CSS
-                  icon: devicon/tailwindcss
-                # - name: Excel
-                #   icon: 
-                # - name: Google Sheets
-                #   icon: brands/googlesheets
-            - name: Linguistic Tools
-              items:
-                - name: Praat
-                  icon: custom/praat
-                - name: ELAN
-                  icon: custom/ELAN
-            - name: Workflow & Version Control
-              items:
-                - name: GitHub
-                  icon: brands/github
-                # - name: Git
-                #   icon: brands/git
-                - name: Git
-                  icon: custom/git
-                - name: Bash / Terminal
-                  icon: brands/gnubash
-                # - name: Bash/Terminal
-                #   icon: devicon/bash
-    design:
-        style: grid
-        show_levels: false
         spacing:
           padding: ["0", "0", "0", "0"]
+  # - block: stats
+  #   content:
+  #     title: "Research Methods"
+  #     items:
+  #       - statistic: "Qualitative Research"
+  #         description:  |
+  #           - Designed and conducted linguistic fieldwork with Puerto Rican Spanish speakers in Puerto Rico and Louisiana. <br>
+  #           - Developed interview protocols for exploratory research and hypothesis testing.
+  #       - statistic: "Quantitative Analysis"
+  #         description: |
+  #           - Designed online studies, coded linguistic variables, extracted datasets, and conducted statistical analysis of sociolinguistic data.
+          
+  #       - statistic: "Experimental Design"
+  #         description: |
+  #           - Built and ran online studies using Qualtrics and Prolific, including a Spanish word order study published in conference proceedings. 
+  #   design:
+  #     layout: compact # options are: cards | compact | minimal
+  #     # css_class: 'glassmorphism-secondary noise-texture text-white'
+  #     spacing:
+  #       padding: ["0", "0", "0", "0"]
   - block: tech-stack
+    id: technical-toolkit
     content:
-        title: "Tech Stack"
-        # subtitle: "Technologies I use to build things"
-        categories:
-            - name: Data & Analysis
-              items:
-                - name: R
-                  icon: devicon/rstudio
-                  level: advanced
-                - name: R
-                  icon: brands/r
-                  level: advanced
-                # - name: Python
-                #   icon: devicon/python
-                #   level: beginner
-                - name: Python
-                  icon: brands/python
-                  level: beginner
-                - name: LaTeX
-                  icon: devicon/latex
-                  level: advanced
-                - name: html
-                  icon: devicon/htmx
-                  level: intermediate
-            - name: Frontend
-              items:
-                - name: Tailwind CSS
-                  icon: devicon/tailwindcss
-                # - name: Excel
-                #   icon: 
-                # - name: Google Sheets
-                #   icon: brands/googlesheets
-            - name: Linguistic Tools
-              items:
-                - name: Praat
-                  icon: custom/praat
-                - name: ELAN
-                  icon: custom/ELAN
-            - name: Workflow & Version Control
-              items:
-                - name: GitHub
-                  icon: brands/github
-                # - name: Git
-                #   icon: brands/git
-                - name: Git
-                  icon: custom/git
-                - name: Bash / Terminal
-                  icon: brands/gnubash
-                # - name: Bash/Terminal
-                #   icon: devicon/bash
+      title: "Technical Toolkit"
+      categories:
+
+        - name: "Data & Analysis"
+          items:
+            - name: R
+              # icon: brands/r
+              icon: devicon/rstudio
+              level: advanced
+            - name: Python
+              icon: brands/python
+              level: beginner
+            - name: Regex
+              # level: 
+              icon: code-bracket
+            - name: Excel / Google Sheets
+              level: advanced
+              icon: table-cells
+              # icon: brands/googlesheets
+
+        - name: "Linguistic & Research Tools"
+          items:
+            - name: Praat
+              icon: custom/praat
+            - name: ELAN
+              icon: custom/ELAN
+            - name: LaTeX
+              icon: devicon/latex
+
+        - name: "Workflow & Version Control"
+          items:
+            - name: Git
+              icon: custom/git
+            - name: GitHub
+              icon: brands/github
+            - name: Bash / Terminal
+              icon: brands/gnubash
+              # icon: devicon/bash
+
+        - name: "Web & Documentation"
+          items:
+            - name: HTML
+              icon: code-bracket
+              # icon: devicon/htmx
+            - name: Markdown
+              icon: document-text
+            - name: HugoBlox
+              icon: squares-2x2
+            # - name: Tailwind CSS
+            #   icon: devicon/tailwindcss
     design:
-        style: list
-        show_levels: true
+      style: grid # other option: list
+      show_levels: false
+      spacing:
+        padding: ["0", "0", "0", "0"]
+  - block: cta-card
+    content:
+      title: "UX & Industry Impact"
+      text: |
+        - I translate linguistic research into practical insights for conversational AI, annotation strategy, and model design. <br>
+        <br>
+        - My work has supported decisions around speech patterns, pause-fillers, engagement cues, and language variation—helping bridge the gap between human communication and machine learning systems.
+    design:
+      card:
+        # css_class: 'cta-glassmorphism'
+        css_class: 'glassmorphism-secondary glass-ring glass-shadow text-gray-900'
+        text_color: 'auto' # Will detect primary-500 as medium and use adaptive colors
+        overlay_opacity: 0.1
+      spacing:
+        padding: ["0", "0", "0", "0"]
 ---
