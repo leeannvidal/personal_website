@@ -21,6 +21,9 @@ hugo_stats.json
 # Auto-generated JS config
 **/assets/jsconfig.json
 
+# Ignore and dont upload vendor folder
+*_vendor/
+
 # ============================================================================
 # Node.js & Package Managers
 # ============================================================================
@@ -36,6 +39,7 @@ node_modules/
 .env
 .env.local
 .env.*.local
+.envrc
 
 # ============================================================================
 # Generated Content
