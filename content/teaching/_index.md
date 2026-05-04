@@ -23,10 +23,36 @@ sections:
 
             My teaching emphasizes active participation, real-world application, and inclusive learning environments where students feel supported in exploring language, culture, and identity. Across all contexts, my goal is not only to teach content, but to help people build confidence, curiosity, and transferable skills.
           image: images/escritorio_plantas_general.png
+        - title: Featured Course
+          text: |
+            One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism.  <br> <br>
+            
+            This course helped students see language as a powerful tool in understanding society, which is crucial in any field.
+          image: images/escritorio_plantas_cursos.png
+          button:
+            text: 'See all courses'
+            url: '/courses'
     design:
     #   css_class: "bg-white dark:bg-gray-800"
       spacing:
         padding: ["0", 0, "0", "0"]
+#   - block: cta-image-paragraph
+#     content:
+#       items:
+#         - title: 
+#           text:
+#         - title: Teaching Experience
+#           text: |
+#             One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism. 
+            
+#             This course helped students see language as a powerful tool in understanding society, which is crucial in any field.
+#           image: images/escritorio_plantas_cursos.png
+#           button:
+#             text: 'See all courses'
+#             url: '/courses'
+#     design:
+#       spacing:
+#         padding: ["0", 0, "0", "0"]
   - block: features
     id: teaching-skills
     content:
@@ -73,23 +99,7 @@ sections:
       card_size: "medium"
       card:
         css_class: "glassmorphism-light glass-ring glass-shadow"
-  - block: cta-image-paragraph
-    content:
-      items:
-        - title: 
-          text:
-        - title: Teaching Experience
-          text: |
-            One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism. 
-            
-            This course helped students see language as a powerful tool in understanding society, which is crucial in any field.
-          image: images/escritorio_plantas_cursos.png
-          button:
-            text: 'See all courses'
-            url: '/courses'
-    design:
-      spacing:
-        padding: ["0", 0, "0", "0"]
+
   - block: impact-cards
     id: training-leadership
     content:
@@ -114,7 +124,8 @@ sections:
         padding: ["0", "0", "0", "0"]
       card_size: "medium"
       card:
-        css_class: "cta-glasmorphism"
+        css_class: "glassmorphism-light glass-ring glass-shadow"
+        # css_class: "cta-glasmorphism"
   - block: cta-card
     content:
       title: Beyond the classroom
@@ -128,7 +139,8 @@ sections:
         spacing:
             padding: ["1rem", "2rem", "0", "2rem"]
         card:
-            css_class: 'cta-glassmorphism'
+            css_class: 'glassmorphism-secondary glass-ring glass-shadow'
+            # css_class: 'cta-glassmorphism'
             text_color: 'auto' # auto|light|dark
             overlay_opacity: 0.15 # 0.0-1.0 for contrast control
         background:
