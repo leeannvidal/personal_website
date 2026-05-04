@@ -2,6 +2,7 @@
 {{ $cards := $block.wcBlock.content.cards }}
 {{ $design := $block.wcBlock.design }}
 
+{{ $iconSvgs := .Page.Store.Get "icon_svgs" }}
 {{ $columns := default 2 $design.columns }}
 {{ $cardSize := default "medium" $design.card_size }}
 
@@ -51,34 +52,87 @@
         {{ $descriptionColor = "text-gray-700 dark:text-gray-300" }}
       {{ end }}
 
-      <article class="p-6 rounded-2xl shadow-lg h-full
+      <article class="p-6 rounded-2xl shadow-lg h-full flex flex-col justify-between
         {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ else }}text-base{{ end }}
         {{ if $cardCssClass }}{{ $cardCssClass }}{{ else }}bg-white dark:bg-gray-800{{ end }}
         {{ $baseTextColor }}"
         {{ if $cardCssClass }}style="--overlay-opacity: {{ $overlayOpacity }};"{{ end }}>
 
-        {{ if $card.icon }}
-          <div class="mb-4 text-primary-600 dark:text-primary-300">
-            {{/* optional: leave icon rendering for later */}}
+        <div>
+          {{ if $card.icon }}
+            <div class="mb-4 text-primary-600 dark:text-primary-300">
+              {{/* optional: leave icon rendering for later */}}
+            </div>
+          {{ end }}
+
+          {{ with $card.label }}
+            <p class="mb-2 text-sm font-semibold uppercase tracking-wide {{ $labelColor }}">
+              {{ . | markdownify }}
+            </p>
+          {{ end }}
+
+          {{ with $card.title }}
+            <h3 class="text-xl font-bold mb-3 {{ $headingColor }}">
+              {{ . | markdownify }}
+            </h3>
+          {{ end }}
+
+          {{ with $card.description }}
+            <p class="leading-relaxed {{ $descriptionColor }}">
+              {{ . | markdownify }}
+            </p>
+          {{ end }}
+        </div>
+        
+        {{ if or $card.button $card.buttons }}
+          <div class="mt-5 flex flex-wrap gap-2">
+
+            {{ with $card.button }}
+              {{ $buttonStyle := default "primary" .style }}
+              {{ $iconSvg := "" }}
+              {{ if and .icon $iconSvgs }}
+                {{ $iconSvg = index $iconSvgs .icon }}
+              {{ end }}
+
+              <a href="{{ .url }}"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 px-4 py-2 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline
+                {{ if eq $buttonStyle "secondary" }}bg-secondary-600 hover:bg-secondary-500{{ else }}bg-primary-600 hover:bg-primary-500{{ end }}">
+
+                {{ if $iconSvg }}
+                  <span class="w-4 h-4 flex-shrink-0">
+                    {{ $iconSvg | safeHTML }}
+                  </span>
+                {{ end }}
+
+                {{ .text }}
+              </a>
+            {{ end }}
+
+            {{ range $button := $card.buttons }}
+              {{ $buttonStyle := default "primary" $button.style }}
+              {{ $iconSvg := "" }}
+              {{ if and $button.icon $iconSvgs }}
+                {{ $iconSvg = index $iconSvgs $button.icon }}
+              {{ end }}
+
+              <a href="{{ $button.url }}"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-2 px-4 py-2 text-white font-medium rounded-full shadow-md transition-all text-sm no-underline
+                {{ if eq $buttonStyle "secondary" }}bg-secondary-600 hover:bg-secondary-500{{ else }}bg-primary-600 hover:bg-primary-500{{ end }}">
+
+                {{ if $iconSvg }}
+                  <span class="w-4 h-4 flex-shrink-0">
+                    {{ $iconSvg | safeHTML }}
+                  </span>
+                {{ end }}
+
+                {{ $button.text }}
+              </a>
+            {{ end }}
           </div>
-        {{ end }}
-
-        {{ with $card.label }}
-          <p class="mb-2 text-sm font-semibold uppercase tracking-wide {{ $labelColor }}">
-            {{ . | markdownify }}
-          </p>
-        {{ end }}
-
-        {{ with $card.title }}
-          <h3 class="text-xl font-bold mb-3 {{ $headingColor }}">
-            {{ . | markdownify }}
-          </h3>
-        {{ end }}
-
-        {{ with $card.description }}
-          <p class="leading-relaxed {{ $descriptionColor }}">
-            {{ . | markdownify }}
-          </p>
         {{ end }}
       </article>
     {{ end }}

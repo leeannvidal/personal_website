@@ -15,7 +15,98 @@ sections:
         text_color: '#F2F2F2'
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
-  - block: hero
+  - block: cta-image-paragraph
+    content:
+      items:
+        - title: My Learning Journey
+        # - title: Coding Corner
+          text: |
+            I learned coding by solving real problems—automating workflows, analyzing data, and building tools to support research and teaching. <br> <br>
+
+            Over time, this approach led me to develop reproducible data pipelines, annotation workflows, and scripts for linguistic analysis. This page highlights both the tools I use and the workflows I’ve built along the way. <br> <br>
+
+            If you're new to coding: start small, stay curious, and build as you go.
+          image: images/coding_plants.png
+        - title: "Featured Project: Reproducible R Workflow"
+          text: |
+            My most comprehensive coding work comes from my dissertation, where I developed a full, reproducible workflow for cleaning, analyzing, and visualizing sociolinguistic data. <br> <br>
+
+            The project includes modular scripts, custom functions, and automated pipelines that generate publication-ready tables and visualizations. While the dataset is private, the repository demonstrates my approach to scalable, reproducible data analysis. <br> <br>
+
+            This work reflects how I design systems for efficiency, clarity, and reuse across complex projects.
+          image: images/r_workflow_2.png
+          button:
+            text: 'View GitHub Repo'
+            # icon: brands/github
+            url: 'https://github.com/leeannvidal/dissertation_data_analysis/tree/main'
+    design:
+    #   css_class: "bg-white dark:bg-gray-800"
+      spacing:
+        padding: ["0", 0, "0", "0"]
+  - block: impact-cards
+    content:
+      title: "Technical Areas"
+      subtitle: "Tools and workflows I use across research and data projects"
+      cards:
+        - title: "R & Data Analysis"
+          label: "Statistical modeling & automation"
+          description: "Used for data cleaning, statistical analysis, and visualization. I build modular scripts and reproducible workflows for large datasets."
+        - title: "Praat & Speech Analysis"
+          label: "Annotation & scripting"
+          description: "Used for phonetic analysis and speech annotation. I write scripts to automate labeling, extraction, and preprocessing for downstream analysis."
+        - title: "LaTeX & Documentation"
+          label: "Reproducible reporting"
+          description: "Used to generate structured documents, tables, and reports. Integrated with R workflows for automated outputs."
+        - title: "Workflow Design"
+          label: "Bridging tools & systems"
+          description: "I connect tools (R, Praat, LaTeX) into cohesive pipelines that support research, annotation, and data analysis."
+    design:
+      columns: 2
+      spacing:
+        padding: ["0", "0", "0", "0"]
+      card_size: "medium"
+      card:
+        css_class: "glassmorphism-light glass-ring glass-shadow"
+  - block: impact-cards
+    content:
+      title: "Useful Praat Scripts"
+      # title: "Selected Scripts"
+      # subtitle: "Tools for linguistic data processing"
+      subtitle: "The scripts below are meant as tools to assist with linguistic analysis using Praat. I have carefully annotated them for ease of use to help you get started quickly and effectively."
+      cards:
+        - title: TextGrid Automation
+          label: 
+          description: Scripts for adding labels, modifying tiers, & managing annotations.
+          buttons: 
+            - text: Add Labels from CSV to TextGrid
+              url: https://github.com/leeannvidal/leeannvidal.github.io/blob/main/code/Add_Labels_from_CSV_to_TextGrid.praat
+              icon: custom/praat
+            - text: Create New Tiers in TextGrid
+              url: https://github.com/leeannvidal/leeannvidal.github.io/blob/main/code/Create_New_Tiers_in_TextGrid.praat
+              icon: custom/praat
+        - title: Regex Label Processing
+          label: 
+          description: Pattern-based transformations for cleaning and standardizing annotations.
+          buttons: 
+            - text: Change Interval Labels with Regex
+              url: https://github.com/leeannvidal/leeannvidal.github.io/blob/main/code/Change_Interval_Labels_with_Regex.praat
+              icon: custom/praat
+        - title: Data Extraction
+          label: 
+          description: Script for exporting annotations into structured formats for analysis in R.
+          buttons: 
+            - text: Extract Annotations to CSV
+              url: https://github.com/leeannvidal/leeannvidal.github.io/blob/main/code/Extract_Annotations_to_CSV.praat
+              icon: custom/praat
+    design:
+      columns: 3
+      spacing:
+        padding: ["0", "0", "0", "0"]
+      card_size: "medium"
+      card:
+        css_class: "glassmorphism-light glass-ring glass-shadow"
+---
+<!-- - block: hero
     content:
       title: "Coding Corner"
       text: "Despite having formal training only in a quantitative methods class for R, I’ve primarily learned coding through self-study, asking colleagues, and extensive googling. My drive to find solutions for automation and problem-solving has continually pushed me to learn different coding languages throughout my life."
@@ -132,5 +223,4 @@ sections:
       text: "Explore my repositories, scripts, and resources to enhance your projects and workflows."
       button:
         text: "View My GitHub"
-        url: "https://github.com/yourusername" # Placeholder: Replace with your GitHub URL
----
+        url: "https://github.com/yourusername" # Placeholder: Replace with your GitHub URL -->
