@@ -1,0 +1,86 @@
+{{ $block := . }}
+{{ $cards := $block.wcBlock.content.cards }}
+{{ $design := $block.wcBlock.design }}
+
+{{ $columns := default 2 $design.columns }}
+{{ $cardSize := default "medium" $design.card_size }}
+
+{{ $cardCssClass := "" }}
+{{ if $design.card }}{{ if $design.card.css_class }}{{ $cardCssClass = $design.card.css_class }}{{ end }}{{ end }}
+
+{{ $textColor := "auto" }}
+{{ if $design.card }}{{ $textColor = default "auto" $design.card.text_color }}{{ end }}
+
+{{ $overlayOpacity := 0.15 }}
+{{ if $design.card }}{{ $overlayOpacity = default 0.15 $design.card.overlay_opacity }}{{ end }}
+
+<div class="container mx-auto px-4 py-8">
+  {{ with $block.wcBlock.content.title }}
+    <h2 class="text-3xl font-bold text-center mb-3 text-gray-800 dark:text-white">{{ . }}</h2>
+  {{ end }}
+
+  {{ with $block.wcBlock.content.subtitle }}
+    <p class="max-w-3xl mx-auto text-center text-gray-600 dark:text-gray-300 mb-8">{{ . }}</p>
+  {{ end }}
+
+  <div class="grid grid-cols-1 md:grid-cols-{{ $columns }} gap-6">
+    {{ range $card := $cards }}
+
+      {{ $baseTextColor := "" }}
+      {{ if eq $textColor "light" }}
+        {{ $baseTextColor = "text-white" }}
+      {{ else if eq $textColor "dark" }}
+        {{ $baseTextColor = "text-gray-900" }}
+      {{ else if or (in $cardCssClass "glassmorphism-dark") (in $cardCssClass "glassmorphism-primary") (in $cardCssClass "glassmorphism-secondary") (in $cardCssClass "cta-glassmorphism") }}
+        {{ $baseTextColor = "text-white" }}
+      {{ else }}
+        {{ $baseTextColor = "text-gray-700 dark:text-gray-300" }}
+      {{ end }}
+
+      {{ $headingColor := "" }}
+      {{ $labelColor := "" }}
+      {{ $descriptionColor := "" }}
+
+      {{ if eq $baseTextColor "text-white" }}
+        {{ $headingColor = "text-white" }}
+        {{ $labelColor = "text-gray-100" }}
+        {{ $descriptionColor = "text-gray-100" }}
+      {{ else }}
+        {{ $headingColor = "text-primary-700 dark:text-primary-300" }}
+        {{ $labelColor = "text-secondary-700 dark:text-secondary-300" }}
+        {{ $descriptionColor = "text-gray-700 dark:text-gray-300" }}
+      {{ end }}
+
+      <article class="p-6 rounded-2xl shadow-lg h-full
+        {{ if eq $cardSize "small" }}text-sm{{ else if eq $cardSize "large" }}text-lg{{ else }}text-base{{ end }}
+        {{ if $cardCssClass }}{{ $cardCssClass }}{{ else }}bg-white dark:bg-gray-800{{ end }}
+        {{ $baseTextColor }}"
+        {{ if $cardCssClass }}style="--overlay-opacity: {{ $overlayOpacity }};"{{ end }}>
+
+        {{ if $card.icon }}
+          <div class="mb-4 text-primary-600 dark:text-primary-300">
+            {{/* optional: leave icon rendering for later */}}
+          </div>
+        {{ end }}
+
+        {{ with $card.label }}
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wide {{ $labelColor }}">
+            {{ . | markdownify }}
+          </p>
+        {{ end }}
+
+        {{ with $card.title }}
+          <h3 class="text-xl font-bold mb-3 {{ $headingColor }}">
+            {{ . | markdownify }}
+          </h3>
+        {{ end }}
+
+        {{ with $card.description }}
+          <p class="leading-relaxed {{ $descriptionColor }}">
+            {{ . | markdownify }}
+          </p>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+</div>

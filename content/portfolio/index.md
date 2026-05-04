@@ -79,8 +79,8 @@ sections:
     content:
       title:
       items:
-        - statistic: "24k+"
-          description: Linguistic dataset built
+        - statistic: "70k+"
+          description: Tokens in linguistic datasets # built
           sub_metric: End-to-end design, QA, and analysis
           # icon: 
           

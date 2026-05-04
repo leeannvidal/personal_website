@@ -6,17 +6,16 @@ type: landing
 
 
 sections:
-  # - block: markdown
-  #   content:
-  #     title: ''
-  #     subtitle: ''
-  #     text: '<div style="display: flex; align-items: center; justify-content: center; padding: 0.4rem 0;"><h1 style="font-size: 5rem; color: #F2F2F2; margin: 0;">Teaching & Training</h1></div>'
-  #   design:
-  #     background:
-  #       color: '#677E76'
-  #       text_color_light: true
-  #     columns: '1'
-  #     css_style: 'padding-top: 0; padding-bottom: 0;'
+  - block: page-header
+    content:
+      title: Courses
+      subtitle: 
+    design:
+      background:
+        color: '#677E76'
+        text_color: '#F2F2F2'
+      spacing:
+        padding: ["1rem", "0", "1rem", "0"]
   - block: course-cards
     id: bachelors-courses
     content:
@@ -64,9 +63,12 @@ sections:
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1102_Syllabus-LSU.pdf"
     design: # Optional: Uncomment to apply custom design to this block
       columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
+      # spacing:
+      #   padding: ["3rem", "0", "1rem", "0"]
       card_size: "small" # Example size
       card:
-        css_class: 'glassmorphism-secondary text-white'
+        css_class: 'glassmorphism-light glass-ring glass-shadow'
+        # css_class: 'glassmorphism-secondary text-white'
       #   text_color: 'auto'
       #   overlay_opacity: 0.15
       # background:
@@ -101,9 +103,12 @@ sections:
           description: "Tech literacy, productivity software, academic/practical skills."
     design: # Optional: Uncomment to apply custom design to this block
       columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
+      # spacing:
+      #   padding: ["1rem", "0", "1rem", "0"]
       card_size: "small" # Example size
       card:
-        css_class: 'cta-glassmorphism'
+        css_class: 'glassmorphism-light glass-ring glass-shadow'
+        # css_class: 'cta-glassmorphism'
         text_color: 'auto'
       #   overlay_opacity: 0.15
       # background:
@@ -132,6 +137,8 @@ sections:
           description: "Computer fundamentals, safe online practices, basic software."
     design: # Optional: Uncomment to apply custom design to this block
       columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
+      # spacing:
+      #   padding: ["1rem", "0", "1rem", "0"]
       card_size: "small" # Example size
       card:
         css_class: 'glassmorphism-light glass-ring glass-shadow'
