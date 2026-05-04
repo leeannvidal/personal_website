@@ -4,6 +4,16 @@ summary: "Tools, resources, and my learning journey in R, Praat, and LaTeX."
 date: 2026-04-20
 type: landing
 sections:
+  - block: page-header
+    content:
+      title: "Coding Corner: <br>Tools & Resources"
+      subtitle: 
+    design:
+      background:
+        color: '#677E76'
+        text_color: '#F2F2F2'
+      spacing:
+        padding: ["1rem", "0", "1rem", "0"]
   - block: hero
     content:
       title: "Coding Corner"
@@ -15,7 +25,7 @@ sections:
       background:
         color: neutral
       spacing:
-        padding: ["6rem", "0", "6rem", "0"]
+        padding: ["0", "0", "0", "0"]
   
   - block: markdown
     content:
@@ -26,7 +36,7 @@ sections:
         I hope this inspires anyone new to coding to realize it can be approachable and manageable. Trust me, if I could figure it out, so can you.
     design:
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["0", "0", "0", "0"]
 
   - block: features
     content:
@@ -44,8 +54,7 @@ sections:
     design:
       columns: "1"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
-
+        padding: ["0", "0", "0", "0"]
   - block: features
     id: resources
     content:
@@ -69,7 +78,7 @@ sections:
     design:
       columns: "1"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["0", "0", "0", "0"]
 
   - block: features
     content:
@@ -90,7 +99,7 @@ sections:
     design:
       columns: "1"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["0", "0", "0", "0"]
 
   - block: features
     content:
@@ -114,7 +123,7 @@ sections:
     design:
       columns: "1"
       spacing:
-        padding: ["3rem", "0", "3rem", "0"]
+        padding: ["0", "0", "0", "0"]
 
   - block: cta-card
     content:

@@ -19,7 +19,7 @@ sections:
       style: split
       avatar_shape: rounded
       spacing:
-        padding: "0"
+        padding: ["0", "0", "0", "0"]
       css_class: "no-hero-gap" # FIGURE THIS OUT NEXT
   # - block: markdown
   #   content:
@@ -30,20 +30,38 @@ sections:
     content:
       username: me
     design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
       # Hugo date format
       date_format: 'January 20 06'
       # Education or Experience section first?
       is_education_first: yes
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Technical Toolkit
       username: me
+    design:
+      spacing:
+        padding: ["3rem", "0", "0", "0"]
+  - block: resume-skills
+    content:
+      title: Research & Professional Skills
+      username: me2
+    design:
+      spacing:
+        padding: ["1rem", "0", "0", "0"]
   - block: resume-languages
     content:
       title: Languages
       username: me
+    design:
+      spacing:
+        padding: ["1rem", "0", "0", "0"]
   - block: resume-awards
     content:
       title: Awards
       username: me
+    design:
+      spacing:
+        padding: ["3rem", "0", "0", "0"]
 ---

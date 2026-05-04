@@ -4,6 +4,16 @@ summary: "Linguist with expertise in sociolinguistic research, dataset curation,
 date: 2026-04-21
 type: landing
 sections:
+  - block: page-header
+    content:
+      title: Portfolio
+      subtitle: 
+    design:
+      background:
+        color: '#677E76'
+        text_color: '#F2F2F2'
+      spacing:
+        padding: ["1rem", "0", "1rem", "0"]
   # - block: dev-hero
   #   content:
   #     username: me
@@ -208,15 +218,12 @@ sections:
               level: advanced
               icon: table-cells
               # icon: brands/googlesheets
-
-        - name: "Linguistic & Research Tools"
+        - name: "Research & Experimentation"
           items:
-            - name: Praat
-              icon: custom/praat
-            - name: ELAN
-              icon: custom/ELAN
-            - name: LaTeX
-              icon: devicon/latex
+            - name: Qualtrics
+              icon: custom/xm #chart-bar
+            - name: Prolific
+              icon: custom/prolific #user-group
 
         - name: "Workflow & Version Control"
           items:
@@ -239,6 +246,14 @@ sections:
               icon: squares-2x2
             # - name: Tailwind CSS
             #   icon: devicon/tailwindcss
+        - name: "Linguistic & Research Tools"
+          items:
+            - name: Praat
+              icon: custom/praat
+            - name: ELAN
+              icon: custom/ELAN
+            - name: LaTeX
+              icon: devicon/latex
     design:
       style: grid # other option: list
       show_levels: false

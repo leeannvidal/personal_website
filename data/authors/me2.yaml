@@ -1,0 +1,80 @@
+schema: hugoblox/author/v1
+slug: me2
+is_owner: true
+name:
+  display: Lee-Ann Vidal Covas
+  given: Lee-Ann
+  family: Vidal Covas
+  alternate: ''  # Example: 王伟
+  pronunciation: "[li.'aŋ bi.'ðal 'ko.βas]"  # Example: Wáng Wěi
+  pronouns: she/her
+postnominals: [PhD]
+status:
+  icon:
+role: 
+bio: 
+
+
+
+skills:
+  - name: Data Science & Research
+    items:
+      - label: Statistical Analysis
+        icon: brands/r
+        # icon: brands/python
+      - label: Experiment Design
+        icon: beaker
+      - label: Data Creation & Sampling
+        icon: table-cells
+      - label: Data Cleaning
+        icon: code-bracket-square #broom
+      - label: Data Visualization
+        icon: chart-bar
+      # - label: Data Processing
+      #   icon: cog
+      # - label: Workflow Automation
+      #   icon: cog
+        # icon: custom/code-branch
+
+  - name: QA & Annotation
+    items:
+      - label: Quality Assurance (QA)
+        icon: check-circle
+      - label: Data Labeling
+        icon: tag
+      - label: Guideline Creation
+        icon: document-magnifying-glass #document-text
+      - label: Linguistic Data Analysis
+        icon: chat-bubble-left-right
+      - label: Automated Data Extraction
+        icon: cog
+      # - label: Data Annotation
+      #   icon: tag
+
+  - name: Research & Project Leadership
+    items:
+      - label: Project & Team Management
+        icon: clipboard-document-check
+      - label: Strategic Thinking
+        icon: clipboard-document-list #chess-rook
+      - label: Problem Solving
+        icon: light-bulb
+      - label: Interdisciplinary Collaboration
+        icon: user-group
+      - label: Event Coordination
+        icon: calendar-days
+      # - label: Team Management #(Long-term)
+      #   icon: users
+
+  - name: Communication # Academic & Professional Communication
+    items:
+      - label: Academic Writing
+        icon: pencil
+      - label: Conference Presentations
+        icon: presentation-chart-bar #presentation-chart-line
+      - label: Grant Proposals
+        icon: pencil-square
+      - label: Stakeholder Communication
+        icon: chat-bubble-bottom-center-text
+
+
