@@ -221,7 +221,8 @@ sections:
         - name: "Research & Experimentation"
           items:
             - name: Qualtrics
-              icon: custom/xm #chart-bar
+              # icon: brands/qualtrics
+              icon: custom/XM #chart-bar
             - name: Prolific
               icon: custom/prolific #user-group
 
