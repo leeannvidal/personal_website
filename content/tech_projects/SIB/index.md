@@ -9,15 +9,13 @@ tags:
   - Linguistics
 tech_stack:
   - R
-  - Praat
-  - ELAN
+  - Praat & ELAN
   - Regex
-  - Excel
-links:
-  - type: custom
-    url: "#"
-    label: "Project Details"
-    icon: document-text
+# links:
+#   - type: custom
+#     url: "#"
+#     label: "Project Details"
+#     icon: document-text
 status: "Research"
 featured: true
 ---

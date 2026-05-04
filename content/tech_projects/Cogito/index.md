@@ -11,12 +11,12 @@ tech_stack:
   - Python
   - Regex
   - Annotation Tools
-  - Excel
-links:
-  - type: custom
-    url: "#"
-    label: "Project Details"
-    icon: cpu-chip
+  - Excel & Google Sheets
+# links:
+#   - type: custom
+#     url: "#"
+#     label: "Project Details"
+#     icon: cpu-chip
 status: "Industry"
 featured: true
 ---

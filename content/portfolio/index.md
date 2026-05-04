@@ -4,22 +4,22 @@ summary: "Linguist with expertise in sociolinguistic research, dataset curation,
 date: 2026-04-21
 type: landing
 sections:
-  - block: dev-hero
-    content:
-      username: me
-      # tagline: hey
-      # bio_override: |
-      #   I create and analyze linguistic datasets for research and machine learning applications. My work focuses on annotation design, data quality, and bridging sociolinguistic research with real-world AI systems.
-      greeting: "Hello, welcome to my portfolio page. I'm"
-      cta_buttons:
-        - text: View Resume
-          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
-    design:
-      style: split
-      avatar_shape: rounded
-      spacing:
-        padding: ["0", "0", "0", "0"]
-      css_class: "no-hero-gap"
+  # - block: dev-hero
+  #   content:
+  #     username: me
+  #     # tagline: hey
+  #     # bio_override: |
+  #     #   I create and analyze linguistic datasets for research and machine learning applications. My work focuses on annotation design, data quality, and bridging sociolinguistic research with real-world AI systems.
+  #     greeting: "Hello, welcome to my portfolio page. I'm"
+  #     cta_buttons:
+  #       - text: View Resume
+  #         url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
+  #   design:
+  #     style: split
+  #     avatar_shape: rounded
+  #     spacing:
+  #       padding: ["0", "0", "0", "0"]
+  #     css_class: "no-hero-gap"
   # - block: hero
   #   content:
   #     title: "Hello, I'm [Your Name]"
@@ -46,7 +46,7 @@ sections:
         text_color: 'auto' # Will detect primary-500 as medium and use adaptive colors
         overlay_opacity: 0.1
       spacing:
-        padding: ["0", "0", "0", "0"]
+        padding: ["1rem", "1rem", "0", "1rem"]
   # - block: features
   #   content:
   #     # title: "My Expertise"
@@ -258,5 +258,5 @@ sections:
         text_color: 'auto' # Will detect primary-500 as medium and use adaptive colors
         overlay_opacity: 0.1
       spacing:
-        padding: ["0", "0", "0", "0"]
+        padding: ["1rem", "1rem", "0", "1rem"]
 ---
