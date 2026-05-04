@@ -25,9 +25,13 @@ sections:
           image: images/escritorio_plantas_general.png
         - title: Featured Course
           text: |
-            One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism.  <br> <br>
+            One of my favorite courses to teach was *Say What? Accents, Dialects, and Society*, where students explored how language variation intersects with identity, class, and social perception. <br> <br>
+
+            The course encouraged students to see language not just as a system, but as a powerful tool for understanding society—an insight that translates across disciplines and real-world contexts.
+
+        # One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism.  <br> <br>
             
-            This course helped students see language as a powerful tool in understanding society, which is crucial in any field.
+        # This course helped students see language as a powerful tool in understanding society, which is crucial in any field.
           image: images/escritorio_plantas_cursos.png
           button:
             text: 'See all courses'
@@ -83,7 +87,7 @@ sections:
   - block: impact-cards
     id: teaching-impact
     content:
-      title: "Teaching in Practice"
+      title: "Supporting Learners in Practice"
       subtitle: "Selected examples of mentorship, adaptability, and student-centered teaching"
       cards:
         - title: "University Teaching"
@@ -125,7 +129,7 @@ sections:
       card_size: "medium"
       card:
         css_class: "glassmorphism-light glass-ring glass-shadow"
-        # css_class: "cta-glasmorphism"
+        # css_class: "cta-glassmorphism"
   - block: cta-card
     content:
       title: Beyond the classroom

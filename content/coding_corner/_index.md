@@ -6,7 +6,8 @@ type: landing
 sections:
   - block: page-header
     content:
-      title: "Coding Corner: <br>Tools & Resources"
+      title: "Coding & Data Workflows"
+      # title: "Coding Corner: <br>Tools & Resources"
       subtitle: 
     design:
       background:
