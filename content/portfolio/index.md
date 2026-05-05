@@ -119,27 +119,63 @@ sections:
       fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
       spacing:
         padding: ["0", "0", "0", "0"]
-  - block: features
-    id: methods
+  # - block: features
+  #   id: methods
+  #   content:
+  #     title: "Research Methods"
+  #     # text: "Methods I use to design, collect, analyze, and interpret data"
+  #     items:
+  #       - name: "Qualitative Research"
+  #         description: |
+  #           - Designed and conducted linguistic fieldwork with Puerto Rican Spanish speakers in Puerto Rico and Louisiana. <br>
+  #           - Developed interview protocols for exploratory research and hypothesis testing.
+  #       - name: "Quantitative Analysis"
+  #         description: |
+  #           - Designed online studies, coded linguistic variables, extracted datasets, and conducted statistical analysis of sociolinguistic data.
+  #       - name: "Experimental Design"
+  #         description: |
+  #           - Built and ran online studies using Qualtrics and Prolific, including a Spanish word order study published in conference proceedings.
+  #   design:
+  #       # background:
+  #       #   color: "secondary-500"
+  #       spacing:
+  #         padding: ["0", "0", "0", "0"]
+  - block: impact-cards
     content:
       title: "Research Methods"
-      # text: "Methods I use to design, collect, analyze, and interpret data"
-      items:
-        - name: "Qualitative Research"
+      # subtitle: 
+      cards:
+        - title: Qualitative Research
+          label: 
           description: |
-            - Designed and conducted linguistic fieldwork with Puerto Rican Spanish speakers in Puerto Rico and Louisiana. <br>
+            - Designed and conducted linguistic fieldwork with Puerto Rican Spanish speakers in Puerto Rico and Louisiana. <br><br>
             - Developed interview protocols for exploratory research and hypothesis testing.
-        - name: "Quantitative Analysis"
+        - title: Quantitative Analysis
+          label: 
           description: |
             - Designed online studies, coded linguistic variables, extracted datasets, and conducted statistical analysis of sociolinguistic data.
-        - name: "Experimental Design"
+          # buttons: 
+          #   - text: Change Interval Labels with Regex
+          #     url: https://github.com/leeannvidal/leeannvidal.github.io/blob/main/code/Change_Interval_Labels_with_Regex.praat
+          #     icon: custom/praat
+        - title: Experimental Design
+          label: 
           description: |
             - Built and ran online studies using Qualtrics and Prolific, including a Spanish word order study published in conference proceedings.
+          buttons: 
+            - text: Word Order Replication Packet
+              url: https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf
+            - text: Word Order Publication
+              url: /publications/2023_vidal-covas_conference-paper
     design:
-        # background:
-        #   color: "secondary-500"
-        spacing:
-          padding: ["0", "0", "0", "0"]
+      columns: 3
+      spacing:
+        padding: ["0", "0", "0", "0"]
+      card_size: "medium"
+      card:
+        # css_class: "glassmorphism-light glass-ring glass-shadow"
+        css_class: "cta-glassmorphism"
+        text_color: 'dark'
   - block: features
     id: ml-workflows
     content:
