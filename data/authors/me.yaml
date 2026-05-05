@@ -52,11 +52,11 @@ education:
     start: 
     end: 2025
     summary: |
-      Dissertation Title: Covariation & Salience in Linguistic Contact: A Sociophonetic Study of Liquid Variation in Spanish in Boston
-    button:
-      text: Download dissertation
-      url: https://hdl.handle.net/2144/51243
-      icon: hero/arrow-down-tray
+      Dissertation: [Covariation & Salience in Linguistic Contact: A Sociophonetic Study of Liquid Variation in Spanish in Boston](/publications/2025_vidal-covas_dissertation)
+    # button:
+    #   text: Download dissertation
+    #   url: https://hdl.handle.net/2144/51243
+    #   icon: hero/arrow-down-tray
   - degree: MA Linguistics
     institution: Boston University
     icon: brands/BU
@@ -68,7 +68,7 @@ education:
     start: 
     end: 2013
     summary: |
-      Thesis Title: El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico
+      Thesis: [El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico](/publications/2013_vidal-covas_thesis)
   - degree: BA in Hispanic Studies & Literatures
     institution: Louisiana State University
     icon: brands/LSU
