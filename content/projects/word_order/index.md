@@ -1,6 +1,6 @@
 ---
 title: "Word Order & Information Structure in Latin American Spanish"
-
+reading_time: false
 # Summary for listing cards
 summary: "How verb type and pragmatic context shape subject-verb order acceptability across Latin American Spanish dialects."
 

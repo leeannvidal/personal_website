@@ -1,6 +1,7 @@
 ---
 title: "Covariation & Salience in Linguistic Contact"
 show_date: false
+reading_time: false
 
 # Summary for listing cards
 summary: "How the social noticeability of linguistic features shapes language use and adaptation in contact settings."

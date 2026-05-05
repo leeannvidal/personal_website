@@ -1,5 +1,6 @@
 ---
 title: "Filled Pauses & Language Contact in Boston Spanish"
+reading_time: false
 # subtitle: "How bilingual experience reshapes the smallest details of speech"
 
 # Summary for listing cards
