@@ -75,7 +75,7 @@ sections:
       columns: 2
       fallback_icon: code-bracket  # Or: academic-cap, paint-brush, camera, etc.
       spacing:
-        padding: ["2rem", "0", "0", "0"]
+        padding: ["0", "0", "0", "0"]
   ## ──────────────────────────────── ##
   ###########   PUBLICATIONS   ###########    
   ## ──────────────────────────────── ##
@@ -88,8 +88,11 @@ sections:
           - publications
         featured_only: true
     design:
+      spacing:
+        padding: ["0", "0", "0", "0"]
       view: article-grid
       columns: 2
+      show_read_time: false
   - block: collection
     content:
       title: Recent Publications
@@ -104,7 +107,7 @@ sections:
       view: citation
       css_class: "tight-publications-section"
       spacing:
-        padding: ["2rem", "0", "0", "0"]
+        padding: ["1rem", "0", "0", "0"]
     # archive_text: "See all Publications"
 
 ## ──────────────────────────────── ##
@@ -125,7 +128,7 @@ sections:
       view: citation
       css_class: "tight-publications-section"
       spacing:
-        padding: ["2rem", "0", "0", "0"]
+        padding: ["1rem", "0", "0", "0"]
   # - block: portfolio
   #   content:
   #     title: "Talks"
@@ -181,6 +184,8 @@ sections:
           - labs
     #   count: 3
     design:
+      spacing:
+        padding: ["1rem", "0", "0", "0"]
       view: article-grid
       columns: 2
       show_date: false

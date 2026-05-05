@@ -1,6 +1,7 @@
 ---
 title: "Los efectos condicionantes del verbo en el uso variable de los pronombres personales de sujeto"
 date: 2014-07-14
+reading_time: false
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:

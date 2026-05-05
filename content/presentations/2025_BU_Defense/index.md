@@ -1,6 +1,9 @@
 ---
 title: "Covariation & salience in linguistic contact: a sociophonetic study of liquid variation in Boston Spanish"
 type: events
+show_date: false
+reading_time: false
+
 
 # Event details
 event_name: "Dissertation Defense"

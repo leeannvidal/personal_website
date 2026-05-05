@@ -1,6 +1,7 @@
 ---
 title: "El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico"
 date: 2013-12-20
+reading_time: false
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:

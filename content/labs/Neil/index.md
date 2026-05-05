@@ -5,7 +5,7 @@ title: "The Mirror Principle Violations Project"
 # date_end: 2021-05-01
 # date: 2020-08-01
 show_date: false
-show_read_time: false
+reading_time: false
 
 # Summary for listing cards
 summary: >

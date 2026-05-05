@@ -1,7 +1,8 @@
 ---
 title: "Los efectos condicionantes del verbo en el uso variable de los pronombres personales de sujeto"
 type: events
-
+show_date: false
+reading_time: false
 # Event details
 event_name: "The Association of Linguistics and Philology Latin America Conference"
 location: "Paraiba, João Pessoa, Brazil"

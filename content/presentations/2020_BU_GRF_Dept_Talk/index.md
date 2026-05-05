@@ -1,6 +1,9 @@
 ---
 title: "Filled pauses as a site of language contact among Spanish-speaking Bostonians"
 type: events
+show_date: false
+reading_time: false
+
 
 # Event details
 event_name: "Graduate Research Forum - Boston University"

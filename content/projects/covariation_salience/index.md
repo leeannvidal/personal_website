@@ -66,8 +66,8 @@ Conducted as part of the Spanish in Boston Project (NSF BCS-1423840), my dissert
 **At a glance**
 
 | | |
-|---|---|---|
-| **Scope** | Covariation across **morphosyntax** (pronouns, word order), **discourse** (filled pauses), and **phonology** (coda /s/, liquids) |
+|---|---|:---|
+| **Scope** | Covariation across **morphosyntax** (*pronouns*, *word order*), **discourse** (*filled pauses*), and **phonology** (*coda /s/*, *liquids*) |
 | **Design** | Sociolinguistic interviews from the Spanish in Boston Corpus plus metalinguistic commentary |
 | **Speakers** | Puerto Rican and Dominican speakers (N=22, ≈24,197 tokens) |
 | **Methods** | Acoustic analysis in Praat <br> Mixed-effects modeling in R |{{< button url="#" size="sm"icon="custom/praat" style="outline" >}}Praat{{< /button >}} {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}}

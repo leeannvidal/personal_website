@@ -2,6 +2,7 @@
 title: "¿Va primero el verbo? OR ¿El sujeto va primero?: Subject-verb order in Latin American Spanish"
 # title: "<em>¿Va primero el verbo?</em> OR <em>¿El sujeto va primero?</em>: Subject-verb order in Latin American Spanish"
 date: 2023-07-01
+reading_time: false
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -17,7 +18,7 @@ publication_short: #"PLSA"
 
 # Abstract
 abstract: >
-  This paper investigates subject-verb placement for *unaccusative* and *unergative* verbs in Spanish, focusing on syntactic, pragmatic, and sociolinguistic factors that predict placement. The study aims to answer three questions: (1) Does the unergative/unaccusative divide influence SV/VS order acceptability?, (2) What are the dialectal differences in subject placement acceptability in Spanish?, and (3) Does sentence context affect subject placement preference? The study collected data from sixty-nine Spanish speakers from the Caribbean, Chile, and Mexico, who provided 1656 acceptability ratings on sentences with different subject-verb orders. The findings indicate that both verb type and pragmatic conditions predict word preferability, with VS order preferred when the verb is unaccusative, and SV order preferred overall. The study adds to the literature by establishing the connection between argument structure and information structure and supporting the Unaccusative Hypothesis.
+  This paper investigates subject-verb placement for *unaccusative* and *unergative* verbs in Spanish, focusing on syntactic, pragmatic, and sociolinguistic factors that predict placement. <br> <br> The study aims to answer three questions: <br> (1) Does the unergative/unaccusative divide influence SV/VS order acceptability?, <br> (2) What are the dialectal differences in subject placement acceptability in Spanish?, and <br> (3) Does sentence context affect subject placement preference? <br> <br>The study collected data from sixty-nine Spanish speakers from the Caribbean, Chile, and Mexico, who provided 1656 acceptability ratings on sentences with different subject-verb orders. The findings indicate that both verb type and pragmatic conditions predict word preferability, with VS order preferred when the verb is unaccusative, and SV order preferred overall. The study adds to the literature by establishing the connection between argument structure and information structure and supporting the Unaccusative Hypothesis.
 
 # Summary (for listing cards)
 summary: >

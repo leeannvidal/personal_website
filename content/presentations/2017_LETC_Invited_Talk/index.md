@@ -1,6 +1,9 @@
 ---
 title: "Teaching Foreign Language in the 21st Century Classroom"
 type: events
+show_date: false
+reading_time: false
+
 
 # Event details
 event_name: "Louisiana Education Technology Consortium"

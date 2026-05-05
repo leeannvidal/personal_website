@@ -24,7 +24,7 @@ sections:
         color: '#677E76'
         text_color: '#F2F2F2'
       spacing:
-        padding: ["1rem", "0", "1rem", "0"]
+        padding: ["1rem", "0", "1rem", "0"] 
   # - block: markdown
   #   content:
   #     title: ''

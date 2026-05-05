@@ -1,6 +1,9 @@
 ---
 title: "Making a Splash: The Salience of Liquid Variation among Boston Spanish speakers"
 type: events
+show_date: false
+reading_time: false
+
 # show_breadcrum: false
 # no_sidebar: true
 

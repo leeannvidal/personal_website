@@ -36,11 +36,9 @@ sections:
         
         If you’re from industry or tech, take a look at my [Portfolio](portfolio/) and [Coding Corner](/coding_corner/) to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        # align: center #these dont work. come back later
-        # rounded: full
-        url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
+      # button:
+      #   text: Download CV
+      #   url: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
       headings:
         about: 'Bienvenid@'
         education: ''

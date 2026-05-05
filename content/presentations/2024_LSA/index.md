@@ -1,6 +1,9 @@
 ---
 title: "Riding the Waves of Salience: Exploring Spanish Liquid Variation among Boston Spanish speaker"
 type: events
+show_date: false
+reading_time: false
+
 
 # Event details
 event_name: "Linguistics Society of America Annual Meeting – LSA 2024"

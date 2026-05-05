@@ -1,6 +1,8 @@
 ---
 title: "Variable use of subject pronouns in the Spanish in Louisiana"
 type: events
+show_date: false
+reading_time: false
 
 # Event details
 event_name: "2nd Graduate Symposium Universidad de Puerto Rico"

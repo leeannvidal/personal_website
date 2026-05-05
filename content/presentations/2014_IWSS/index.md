@@ -1,6 +1,8 @@
 ---
 title: "Verb-related Constraints on Variable Pronominal Use: Do we have all the Answers?"
 type: events
+show_date: false
+reading_time: false
 
 # Event details
 event_name: "7th International Workshop on Spanish Sociolinguistics"

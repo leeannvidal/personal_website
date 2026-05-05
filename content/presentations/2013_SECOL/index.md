@@ -1,6 +1,8 @@
 ---
 title: "Variable use of subject pronouns in Spanish"
 type: events
+show_date: false
+reading_time: false
 
 # Event details
 event_name: "Southeastern Conference on Linguistics LXXX"

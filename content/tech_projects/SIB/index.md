@@ -1,6 +1,7 @@
 ---
 title: "Spanish in Boston: Sociolinguistic Dataset & Analysis"
 show_date: false
+reading_time: false
 
 summary: "Designed, built, and analyzed a large-scale sociolinguistic dataset, including annotation frameworks, QA workflows, and statistical modeling."
 tags:

@@ -1,6 +1,8 @@
 ---
 title: "El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico"
 type: events
+show_date: false
+reading_time: false
 
 # Event details
 event_name: "XXIX Biennial Louisiana Conference on Hispanic Languages & Literatures"

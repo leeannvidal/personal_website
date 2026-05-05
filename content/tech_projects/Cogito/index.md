@@ -1,6 +1,7 @@
 ---
 title: "Cogito: Speech Data Annotation for Machine Learning"
 show_date: false
+reading_time: false
 
 summary: "Annotated and validated speech datasets for machine learning models, including prompt engineering, QA workflows, and model calibration."
 tags:

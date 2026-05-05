@@ -1,6 +1,9 @@
 ---
 title: "The Verb as a Predictor of Variable Pronominal Use in Spanish"
 type: events
+show_date: false
+reading_time: false
+
 
 # Event details
 event_name: "New Ways of Analyzing Variation 43"

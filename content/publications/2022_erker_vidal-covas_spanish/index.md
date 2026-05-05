@@ -1,6 +1,7 @@
 ---
 title: "Qué decimos cuando no decimos nada: Claves del cambio lingüístico inducido por contacto en las pausas llenas del español conversacional"
 date: 2022-09-21
+reading_time: false
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:

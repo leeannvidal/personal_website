@@ -1,6 +1,9 @@
 ---
 title: "Making a Splash: The Salience of Liquid Variation among Boston Spanish speakers"
 type: events
+show_date: false
+reading_time: false
+
 # Event details
 event_name: "Invited Talk: Linguistics Program - Northeastern University"
 # event_url: 

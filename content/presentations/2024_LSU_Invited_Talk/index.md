@@ -1,6 +1,9 @@
 ---
 title: "Salient Features, Strong Identities: Social Meaning and Stylistic Choices in Boston Spanish"
 type: events
+show_date: false
+reading_time: false
+
 # Event details
 event_name: "Invited Talk: Louisiana State University"
 # event_url: 

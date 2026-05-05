@@ -1,6 +1,8 @@
 ---
 title: "How Salience Influences Dialectal Persistence and Covariation: Insights from Boston's Spanish-Speaking Community"
 type: events
+show_date: false
+reading_time: false
 
 # Event details
 event_name: "New Waves of Analyzing Linguistic Variation – NWAV 52"

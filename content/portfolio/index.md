@@ -52,7 +52,7 @@ sections:
     design:
       card:
         # css_class: 'cta-glassmorphism'
-        css_class: 'glassmorphism-secondary glass-ring glass-shadow text-gray-900'
+        css_class: 'glassmorphism-secondary glass-ring glass-shadow'
         text_color: 'auto' # Will detect primary-500 as medium and use adaptive colors
         overlay_opacity: 0.1
       spacing:

@@ -1,6 +1,9 @@
 ---
 title: "English/Spanish Contrastive Phonology & Filled Pauses"
 type: events
+show_date: false
+reading_time: false
+
 # Event details
 event_name: "Guest Lecture: Intro to Sounds Class"
 event_url: ""

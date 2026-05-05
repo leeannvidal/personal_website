@@ -1,6 +1,7 @@
 ---
 title: "Variation, Contact, and Change in Boston Spanish: How social meaning shapes stylistic practice and bilingual optimization"
 date: 2024-09-06
+reading_time: false
 
 # Authors (reference data/authors/*.yaml slugs)
 authors:
@@ -17,7 +18,7 @@ publication_short: ""
 
 # Abstract
 abstract: >
-  This paper examines variation in six features of Spanish, testing the hypothesis that outcomes of language and dialect contact are shaped by the differing social meaning of linguistic variables. Two of the study’s variables are strongly associated with aspects of identity and style. Four others are poorer signals of social meaning, despite constituting sites of crosslinguistic and/or dialectal difference. In the speech of life-long residents of the contact setting (Boston, MA), the weak features have converged with English grammatical norms. In contrast, the strong features show persistence of dialectal and crosslinguistic differences, suggesting that socially weaker variables are more susceptible to reconfiguration by bilingual optimization strategies. The effect of contact on strong variables, by comparison, is to amplify their already powerful links to ideologies of personal and group style. While strong variables are not immune to contact-induced change, modification in their use is primarily social, rather than cognitive, in nature.
+  This paper examines variation in six features of Spanish, testing the hypothesis that outcomes of language and dialect contact are shaped by the differing social meaning of linguistic variables. <br> <br> Two of the study’s variables are strongly associated with aspects of identity and style. Four others are poorer signals of social meaning, despite constituting sites of crosslinguistic and/or dialectal difference. In the speech of life-long residents of the contact setting (Boston, MA), the weak features have converged with English grammatical norms. <br> <br> In contrast, the strong features show persistence of dialectal and crosslinguistic differences, suggesting that socially weaker variables are more susceptible to reconfiguration by bilingual optimization strategies. The effect of contact on strong variables, by comparison, is to amplify their already powerful links to ideologies of personal and group style. While strong variables are not immune to contact-induced change, modification in their use is primarily social, rather than cognitive, in nature.
 
 # Summary (for listing cards)
 summary: >

@@ -1,6 +1,9 @@
 ---
 title: "¿Va primero el verbo OR El sujeto va primero?: Subject-Verb order in Latin American Spanish"
 type: events
+show_date: false
+reading_time: false
+
 # Event details
 event_name: "Linguistics Society of America Annual Meeting – LSA 2023"
 # event_url: "https://www.lsadc.org/Files/AM_Handbooks/2023%20Annual%20Meeting%20Handbook%20Bookmarked%20Rev1.4.23.pdf"

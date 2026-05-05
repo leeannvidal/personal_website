@@ -1,6 +1,9 @@
 ---
 title: "Investigating salience and ideologies in Greater Boston: A sociophonetic analysis of liquid variation"
 type: events
+show_date: false
+reading_time: false
+
 
 # Event details
 event_name: "The International Symposium on Language Ideologies and Attitudes – IDEOLING"

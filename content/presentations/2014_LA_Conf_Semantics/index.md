@@ -1,6 +1,8 @@
 ---
 title: "The Effects of Verb Semantics on Pronominal Expression: A Preliminary Study"
 type: events
+show_date: false
+reading_time: false
 
 # Event details
 event_name: "XXIX Biennial Louisiana Conference on Hispanic Languages & Literatures"

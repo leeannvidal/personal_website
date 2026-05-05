@@ -1,6 +1,7 @@
 ---
 title: "(Eds.) Proceedings of the 45th Annual Boston University Conference on Language Development"
 date: 2021-05-01
+reading_time: false
 
 # Editors (this is an edited volume)
 Authors:

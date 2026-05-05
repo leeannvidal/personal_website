@@ -9,6 +9,18 @@ sections:
   - block: dev-hero
     content:
       username: me
+      # show_status: true #add emoji
+      # typewriter: ## for the message under the name
+      #   enable: true
+      #   prefix: "I build"
+      #   strings:
+      #     - "full-stack web apps"
+      #     - "scalable APIs"
+      #     - "beautiful UIs"
+      #     - "open source tools"
+      #   type_speed: 70
+      #   delete_speed: 40
+      #   pause_time: 2500
       # greeting: "Hello, I'm"
       cta_buttons:
         - text: View Academic CV
@@ -17,6 +29,7 @@ sections:
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
     design:
       style: split
+      # animations: true
       avatar_shape: rounded
       spacing:
         padding: ["0", "0", "0", "0"]
