@@ -191,6 +191,17 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+  # - block: portfolio
+  #   content:
+  #     title: "Labs"
+  #     count: 2
+  #     filters:
+  #       folders:
+  #         - labs  
+  #   design:
+  #     columns: 2
+  #     spacing:
+  #       padding: ["0", "0", "0", "0"]
   ## ──────────────────────────────── ##
   ###########   TRIAL FOR TOPICS     ###########    
   ## ──────────────────────────────── ##

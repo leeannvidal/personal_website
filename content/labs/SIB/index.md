@@ -1,12 +1,17 @@
 ---
 title: "Spanish in Boston Project"
-date: 2019-04-01 
+date: 2025-05-01 
+# date: 2019-04-01 # actual start date
 show_date: false
 reading_time: false
 
 # Summary for listing cards
 summary: >
   Helped answer questions about language maintenance and attitudes. 
+
+# authors:
+#   - me
+#   - danny-erker
 
 # Tags for filtering
 tags:
