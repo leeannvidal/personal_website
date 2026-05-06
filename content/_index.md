@@ -30,11 +30,14 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |
-        I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization. 
-  
-        If you’re coming from academia, you might want to explore my [Research](/research/) and [Teaching & Training](teaching/) pages, where I share my work on language variation and classroom experience.
+        I hold a PhD in Linguistics and bridge linguistic research and applied data science, with expertise in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language variation and contact.
         
-        If you’re from industry or tech, take a look at my [Portfolio](portfolio/) and [Coding Corner](/coding_corner/) to see how I’ve applied linguistic expertise to data science, annotation, and machine learning projects.
+        In industry, I've contributed to machine learning projects through speech data annotation, quality assurance, prompt engineering, and workflow optimization. My skills extend to data science, AI ethics, language learning, model training, team management, and training others—demonstrating my ability to adapt quickly, learn new tools, and apply interdisciplinary knowledge to diverse challenges.
+
+        For insights into my technical skills and data-driven projects, check out my [Portfolio](portfolio/) and [Coding Corner](/coding_corner/). Explore my [Research](/research/) page for details on my academic projects, publications, and presentations. My [Teaching & Training](teaching/) page showcases my experience in education, event management, and collaborative programs. 
+        
+        For a comprehensive overview of my professional experience, visit my [CV & Resume](experience/) page.
+  
       # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Download CV
@@ -263,3 +266,4 @@ sections:
   #       css_class: 'bg-primary-300 dark:bg-primary-700'
   #       css_style: ''
 ---
+        <!-- I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.  -->

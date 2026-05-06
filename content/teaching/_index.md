@@ -40,23 +40,6 @@ sections:
     #   css_class: "bg-white dark:bg-gray-800"
       spacing:
         padding: ["0", 0, "0", "0"]
-#   - block: cta-image-paragraph
-#     content:
-#       items:
-#         - title: 
-#           text:
-#         - title: Teaching Experience
-#           text: |
-#             One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism. 
-            
-#             This course helped students see language as a powerful tool in understanding society, which is crucial in any field.
-#           image: images/escritorio_plantas_cursos.png
-#           button:
-#             text: 'See all courses'
-#             url: '/courses'
-#     design:
-#       spacing:
-#         padding: ["0", 0, "0", "0"]
   - block: features
     id: teaching-skills
     content:
@@ -135,10 +118,6 @@ sections:
       title: Beyond the classroom
       text: |
             My teaching experience extends into research, machine learning annotation, and collaborative environments, where I apply the same principles of clarity, structure, and human-centered design to training, documentation, and workflow development.
-    #   button:
-    #     text: 'Get Started Free'
-    #     url: '/signup/'
-    #     icon: 'hero/rocket-launch'
     design:
         spacing:
             padding: ["1rem", "2rem", "0", "2rem"]

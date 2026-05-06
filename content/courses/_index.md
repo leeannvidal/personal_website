@@ -63,11 +63,12 @@ sections:
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1102_Syllabus-LSU.pdf"
     design: # Optional: Uncomment to apply custom design to this block
       columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
-      # spacing:
-      #   padding: ["3rem", "0", "1rem", "0"]
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
       card_size: "small" # Example size
       card:
-        css_class: 'glassmorphism-light glass-ring glass-shadow'
+        # css_class: 'glassmorphism-light glass-ring glass-shadow'
+        css_class: 'cta-glassmorphism'
         # css_class: 'glassmorphism-secondary text-white'
       #   text_color: 'auto'
       #   overlay_opacity: 0.15
@@ -103,12 +104,12 @@ sections:
           description: "Tech literacy, productivity software, academic/practical skills."
     design: # Optional: Uncomment to apply custom design to this block
       columns: 3 # You had lg:grid-cols-2, so 2 columns for larger screens
-      # spacing:
-      #   padding: ["1rem", "0", "1rem", "0"]
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
       card_size: "small" # Example size
       card:
-        css_class: 'glassmorphism-light glass-ring glass-shadow'
-        # css_class: 'cta-glassmorphism'
+        # css_class: 'glassmorphism-light glass-ring glass-shadow'
+        css_class: 'cta-glassmorphism'
         text_color: 'auto'
       #   overlay_opacity: 0.15
       # background:
@@ -137,11 +138,12 @@ sections:
           description: "Computer fundamentals, safe online practices, basic software."
     design: # Optional: Uncomment to apply custom design to this block
       columns: 2 # You had lg:grid-cols-2, so 2 columns for larger screens
-      # spacing:
-      #   padding: ["1rem", "0", "1rem", "0"]
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
       card_size: "small" # Example size
       card:
-        css_class: 'glassmorphism-light glass-ring glass-shadow'
+        css_class: 'cta-glassmorphism'
+        # css_class: 'glassmorphism-light glass-ring glass-shadow'
       # card:
       #   css_class: 'cta-glassmorphism'
       #   text_color: 'auto'

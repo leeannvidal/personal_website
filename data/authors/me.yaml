@@ -38,11 +38,16 @@ links:
   # link: https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf
 
 interests:
-  - Multilingualism
-  - Language & Dialect Contact
-  - Sociolinguistics
-  - Language Variation & Change
-  - AI Ethics
+  - Language, Data & Society
+  - Data-Driven Language Research
+  - Workflow Automation & Efficiency
+  - Ethical AI & Responsible Technology
+  - Team Leadership & Knowledge Transfer
+  # - Multilingualism
+  # - Language & Dialect Contact
+  # - Sociolinguistics
+  # - Language Variation & Change
+  # - AI Ethics
 
 education:
   - degree: PhD Linguistics
@@ -97,10 +102,10 @@ experience:
       - Labeled conversational audio (engagement, energy, pace), boosting model calibration.
       - Evaluated pre-trained models & provided actionable feedback, boosting accuracy.
       - Suggested workflow improvements, reducing annotation turnaround time.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
+    # button:
+    #   text: View portfolio
+    #   url: /
+    #   icon: hero/arrow-down-tray
   - role: Secondary Spanish & Technology Educator
     org: Academy of the Sacred Heart
     icon: brands/ASH

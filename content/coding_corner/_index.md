@@ -25,7 +25,7 @@ sections:
 
             Over time, this approach led me to develop reproducible data pipelines, annotation workflows, and scripts for linguistic analysis. This page highlights both the tools I use and the workflows I’ve built along the way. <br> <br>
 
-            If you're new to coding: start small, stay curious, and build as you go.
+            If you're new to coding: *start small, stay curious, and build as you go*.
           image: images/coding_plants.png
         - title: "Featured Project: Reproducible R Workflow"
           text: |
