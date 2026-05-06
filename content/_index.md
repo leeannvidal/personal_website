@@ -266,4 +266,3 @@ sections:
   #       css_class: 'bg-primary-300 dark:bg-primary-700'
   #       css_style: ''
 ---
-        <!-- I specialize in building and curating linguistic datasets, designing annotation schemes, and applying quantitative and qualitative methods to study language and dialect contact as well as the social significance of linguistic variation. In industry settings, I’ve worked on speech and language data annotation for machine learning, including quality assurance, prompt engineering, and workflow optimization.  -->
