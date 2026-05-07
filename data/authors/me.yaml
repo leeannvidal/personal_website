@@ -58,7 +58,10 @@ education:
     end: 2025
     summary: |
       Dissertation: [Covariation & Salience in Linguistic Contact: A Sociophonetic Study of Liquid Variation in Spanish in Boston](/publications/2025_vidal-covas_dissertation)
-    # button:
+    button:
+      text: View Certified Electronic Diploma
+      url: https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_PhD_Diploma.pdf
+      icon: custom/paradigm
     #   text: Download dissertation
     #   url: https://hdl.handle.net/2144/51243
     #   icon: hero/arrow-down-tray
@@ -67,6 +70,11 @@ education:
     icon: brands/BU
     start: 
     end: 2021
+    button:
+      text: View Certified Electronic Diploma
+      url: https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_Masters_Diploma.pdf
+      icon: custom/paradigm
+      # icon: brands/BU_seal
   - degree: MA in Hispanic Studies & Linguistics
     institution: Louisiana State University
     icon: brands/LSU
