@@ -289,10 +289,6 @@ sections:
               icon: custom/praatlogo
             - name: ELAN
               icon: custom/ELANlogo
-            - name: Praat
-              icon: custom/praat
-            - name: ELAN
-              icon: custom/ELAN
             - name: LaTeX
               icon: devicon/latex
     design:

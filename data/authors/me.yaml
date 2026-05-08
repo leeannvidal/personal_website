@@ -167,11 +167,7 @@ skills:
   - name: Linguistic & Research Tools
     items:
       - label: Praat
-        icon: custom/praat
-      - label: Praat
         icon: custom/praatlogo
-      - label: ELAN
-        icon: custom/ELAN
       - label: ELAN
         icon: custom/ELANlogo
       - label: LaTeX
@@ -202,8 +198,8 @@ skills:
   - name: Research Platforms
     items:
       - label: Qualtrics
-        icon: brands/qualtrics
-        # icon: custom/xm
+        # icon: brands/qualtrics
+        icon: custom/xm
       - label: Prolific
         # icon: user-group
         icon: custom/prolific
