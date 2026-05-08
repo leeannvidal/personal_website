@@ -61,7 +61,7 @@ education:
     button:
       text: View Certified Electronic Diploma
       url: https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_PhD_Diploma.pdf
-      icon: custom/paradigm
+      icon: custom/paradigmlogo
     #   text: Download dissertation
     #   url: https://hdl.handle.net/2144/51243
     #   icon: hero/arrow-down-tray
@@ -73,7 +73,7 @@ education:
     button:
       text: View Certified Electronic Diploma
       url: https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_Masters_Diploma.pdf
-      icon: custom/paradigm
+      icon: custom/paradigmlogo
       # icon: brands/BU_seal
   - degree: MA in Hispanic Studies & Linguistics
     institution: Louisiana State University
@@ -143,6 +143,7 @@ experience:
       -  Developed and taught multiple courses in Spanish; designed curricula, lecture notes, assignments, and assessments for >500 enrolled students.
   - role: Administrative Coordinator | Office & Production Manager
     org: Communications on Hold
+    icon: brands/coh
     start: 2007
     end: 2017
     summary: |
@@ -166,9 +167,13 @@ skills:
   - name: Linguistic & Research Tools
     items:
       - label: Praat
-        # icon: custom/praat
+        icon: custom/praat
+      - label: Praat
+        icon: custom/praatlogo
       - label: ELAN
-        # icon: custom/ELAN
+        icon: custom/ELAN
+      - label: ELAN
+        icon: custom/ELANlogo
       - label: LaTeX
         icon: devicon/latex
       - label: Overleaf
@@ -200,8 +205,8 @@ skills:
         icon: brands/qualtrics
         # icon: custom/xm
       - label: Prolific
-        icon: user-group
-        # icon: custom/prolific
+        # icon: user-group
+        icon: custom/prolific
   
   # - name: Technical Skills
   #   items:
