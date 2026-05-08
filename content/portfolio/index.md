@@ -258,7 +258,7 @@ sections:
           items:
             - name: Qualtrics
               # icon: brands/qualtrics
-              icon: custom/XM #chart-bar
+              icon: custom/xm #chart-bar
             - name: Prolific
               icon: custom/prolific #user-group
 

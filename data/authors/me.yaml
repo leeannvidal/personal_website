@@ -198,8 +198,8 @@ skills:
   - name: Research Platforms
     items:
       - label: Qualtrics
-        icon: brands/qualtrics
-        # icon: custom/xm
+        # icon: brands/qualtrics
+        icon: custom/xm
       - label: Prolific
         # icon: user-group
         icon: custom/prolific
