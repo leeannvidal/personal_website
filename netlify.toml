@@ -55,6 +55,66 @@
     pnpm run pagefind
   """
 
+[[redirects]]
+from = "https://leeannvc.net/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.leeannvc.net/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://leeannvc.org/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.leeannvc.org/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://leeannvidalcovas.com/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.leeannvidalcovas.com/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://leeannvidalcovas.net/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.leeannvidalcovas.net/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://leeannvidalcovas.org/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.leeannvidalcovas.org/*"
+to = "https://leeannvc.com/:splat"
+status = 301
+force = true
+
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
