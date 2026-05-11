@@ -36,14 +36,17 @@ links:
   - name: "Dissertation (2025)"
     icon: 📘
     url: /publications/2025_vidal-covas_dissertation/
-  - name: "Paper — SHLL (2024)"
+  # - name: "Paper — SHLL (2024)"
+  - name: "SHLL (2024)"
     icon: 📄
     url: /publications/2024_erker_vidal-covas_journal_article/
-  - name: "Coding Manual (Liquids)"
+  # - name: "Coding Manual (Liquids)"
+  - name: "Coding Manual"
     icon: 🧾
     url: "https://leeannvidal.github.io/documents/Portfolio/Vidal_Covas_Liquids_Coding_Manual.pdf"
-  - name: "Analysis Repo (GitHub)"
-    icon: 💾
+  - name: "Analysis Repo"
+    # icon: 💾
+    icon: brands/github
     url: https://github.com/leeannvidal/dissertation_data_analysis
 
 # Pin to top of listings
@@ -71,7 +74,7 @@ Conducted as part of the Spanish in Boston Project (NSF BCS-1423840), my dissert
 | **Scope** | Covariation across **morphosyntax** (*pronouns*, *word order*), **discourse** (*filled pauses*), and **phonology** (*coda /s/*, *liquids*) |
 | **Design** | Sociolinguistic interviews from the Spanish in Boston Corpus plus metalinguistic commentary |
 | **Speakers** | Puerto Rican and Dominican speakers (N=22, ≈24,197 tokens) |
-| **Methods** | Acoustic analysis in Praat <br> Mixed-effects modeling in R |{{< button url="#" size="sm"icon="custom/praat" style="outline" >}}Praat{{< /button >}} {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}}
+| **Methods** | Acoustic analysis in Praat <br> Mixed-effects modeling in R |{{< button url="#" size="sm"icon="custom/praatlogo" style="outline" >}}Praat{{< /button >}} {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}}
 
 **Key findings**
 - **Lower-salience features** show modest, systematic convergence with English norms (bilingual optimization).

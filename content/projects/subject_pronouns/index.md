@@ -1,6 +1,7 @@
 ---
 title: "Subject Pronoun Expression in Puerto Rican Spanish"
 reading_time: false
+show_date: false
 
 # Summary for listing cards
 summary: "How grammatical and discourse constraints condition overt vs. null subject pronoun use in Puerto Rican Spanish speakers in Louisiana and Puerto Rico."

@@ -1,6 +1,7 @@
 ---
 title: "Word Order & Information Structure in Latin American Spanish"
 reading_time: false
+show_date: false
 # Summary for listing cards
 summary: "How verb type and pragmatic context shape subject-verb order acceptability across Latin American Spanish dialects."
 
@@ -29,7 +30,7 @@ links:
   - name: "Paper — PLSA (2023)"
     icon: 📄
     url: /publications/2023_vidal-covas_conference-paper/
-  - name: "Replication Packet"
+  - name: "Replication Materials"
     icon: 📂
     url: "https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf"
 
@@ -50,7 +51,7 @@ How do Spanish speakers judge **Subject-Verb (SV)** vs. **Verb-Subject (VS)** wo
 | | |
 |---|---|---|
 | **Design** | Online acceptability-judgment task (Likert 1–5), *2×3* (Verb Type × Pragmatic Condition) |
-| **Survey Hosting Platform** | Qualtrics | {{< button url="#" size="sm" icon="custom/XM" style="outline" >}}Qualtrics{{< /button >}} |
+| **Survey Hosting Platform** | Qualtrics | {{< button url="#" size="sm" icon="custom/xm" style="outline" >}}Qualtrics{{< /button >}} |
 | **Recruitment** | Prolific | {{< button url="#" size="sm" icon="custom/prolific" style="outline" >}}Prolific{{< /button >}} |
 | **Participants** | N = 69 (Chile, Cuba, Mexico, Puerto Rico) → 1,656 ratings (SV/VS) |
 | **Methods** | Mixed-effects modeling in R | {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}} |

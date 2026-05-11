@@ -1,6 +1,7 @@
 ---
 title: "Filled Pauses & Language Contact in Boston Spanish"
 reading_time: false
+show_date: false
 # subtitle: "How bilingual experience reshapes the smallest details of speech"
 
 # Summary for listing cards
@@ -50,7 +51,7 @@ When people speak, they often pause with short sounds like *uh*, *ah*, or *eh* w
 |---|---|---|
 | **Design** | Sociolinguistic interviews from the Spanish in Boston Corpus |
 | **Speakers** | Spanish-speaking Bostonians (N=80, ≈6,364 tokens, 13 national origins) |
-| **Methods** | Acoustic analysis in Praat <br> Mixed-effects modeling in R |{{< button url="#" size="sm"icon="custom/praat" style="outline" >}}Praat{{< /button >}} {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}}
+| **Methods** | Acoustic analysis in Praat <br> Mixed-effects modeling in R |{{< button url="#" size="sm"icon="custom/praatlogo" style="outline" >}}Praat{{< /button >}} {{< button url="#" size="sm" icon="devicon/rstudio" style="outline" >}}RStudio{{< /button >}}
 | **Predictors** | Age of arrival, language use with interlocutors, and phonetic context |
 | **Variable** | Vowel quality in filled pauses — fronted [e] (*eh*) vs. centralized [a]/[ə] (*ah*, *uh*) |
 

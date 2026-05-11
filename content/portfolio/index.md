@@ -163,7 +163,7 @@ sections:
           description: |
             - Built and ran online studies using Qualtrics and Prolific, including a Spanish word order study published in conference proceedings.
           buttons: 
-            - text: Word Order Replication Packet
+            - text: Word Order Replication Materials
               url: https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf
             - text: Word Order Publication
               url: /publications/2023_vidal-covas_conference-paper
