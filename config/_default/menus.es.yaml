@@ -1,6 +1,6 @@
 main:
   - name: Inicio
-    url: /es/
+    url: /
     weight: 10
   - name: Portafolio
     url: portfolio/
