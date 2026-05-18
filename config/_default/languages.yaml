@@ -2,21 +2,19 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
+# Default language (English)
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  label: English
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Spanish
+es:
+  locale: es
+  contentDir: content/es
+  label: Español
+  weight: 2
+  # title: Lee-Ann Vidal Covas, PhD
+  params:
+    description: Científica del lenguaje (PhD, Boston University) con experiencia en investigación sociolingüística, curación de conjuntos de datos y ciencia de datos aplicada.

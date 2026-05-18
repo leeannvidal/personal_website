@@ -1,0 +1,39 @@
+main:
+  - name: Inicio
+    url: /es/
+    weight: 10
+  - name: Portafolio
+    url: portfolio/
+    weight: 11
+  - name: Investigación
+    url: /research/
+    weight: 15
+  - name: Rincón de Código
+    url: /coding_corner/
+    weight: 17
+  - name: Enseñanza y Formación
+    url: /teaching/
+    weight: 30
+  - name: CV & Resume
+    url: experience/
+    weight: 50
+
+# main:
+#   - name: Inicio
+#       url: /es/
+#       weight: 10
+#   - name: Portafolio
+#       url: /es/portfolio/
+#       weight: 11
+#   - name: Investigación
+#       url: /es/research/
+#       weight: 15
+#   - name: Código & Datos
+#       url: /es/coding_corner/
+#       weight: 17
+#   - name: Enseñanza y Formación
+#       url: /es/teaching/
+#       weight: 30
+#   - name: CV y Resume
+#       url: /es/experience/
+#       weight: 50
