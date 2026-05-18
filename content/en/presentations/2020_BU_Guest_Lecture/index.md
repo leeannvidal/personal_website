@@ -52,7 +52,7 @@ image:
 links:
   - name: "Recorded Lecture"
     url: https://www.youtube.com/watch?v=TcwhBhFsgDA
-    icon: video
+    icon: 🎥
 #   - name: Paper
 #     url: /publication/attention-paper/
 #     icon: document

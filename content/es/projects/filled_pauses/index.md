@@ -18,7 +18,7 @@ tech_stack:
   - R
 
 links:
-  - name: "Paper — English (2022)"
+  - name: "Artículo — Inglés (2022)"
     icon: 📄
     url: /es/publications/2022_erker_vidal-covas_english/
   - name: "Artículo — Español (2022)"

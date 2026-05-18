@@ -30,11 +30,11 @@ tags:
   - phonetics
 
 links:
-  - name: Conference Program
+  - name: Programa de Conferencia
     url: https://leeannvidal.github.io/documents/Conferences/Programs/NWAV51_Program.pdf
     icon: document
     button: true
-  - name: Submitted Abstract
+  - name: Resumen Enviado
     url: NWAV_2023_Saliency_astract_submitted.pdf
     icon: document
 

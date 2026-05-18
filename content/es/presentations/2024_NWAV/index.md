@@ -24,10 +24,10 @@ authors:
   - me
 
 links:
-  - name: Conference Program
+  - name: Programa de Conferencia
     url: https://leeannvidal.github.io/documents/Conferences/Programs/NWAV_52_Program.pdf
     icon: document
-  - name: Submitted Abstract
+  - name: Resumen Enviado
     url: NWAV_2024_Covariation_Submitted_Abstract.pdf
     icon: document
 

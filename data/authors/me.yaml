@@ -13,7 +13,7 @@ status:
   icon: "🦥"
 role: 
 bio: |
-  Language Scientist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
+  Scientist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
 
 affiliations:
   - name:
@@ -120,6 +120,7 @@ experience:
     start: 2017
     end: 2018
     summary: |
+      -  Developed & implemented a Spanish curriculum for secondary school students, teaching grammar, vocabulary, and communication skills.
       -  Developed & implemented a technology curriculum for middle school students, teaching digital literacy, typing basics, and responsible online behavior.
   - role: Secondary Spanish & Technology Educator
     org: St. Joseph’s Academy
@@ -127,6 +128,7 @@ experience:
     start: 2014
     end: 2017
     summary: |
+      - Developed & implemented a multi-level Spanish curriculum for high school students, teaching grammar, vocabulary, and communication skills.
       - Automated assessments by coding self-grading grammar quizzes, improving feedback speed & freeing class time for project-based learning.
       - Implemented onboarding workshops for 250+ incoming high school students per year, guiding digital setup & proficiency in Microsoft Office & school platforms.
       - Leveraged instructional technology to streamline lesson delivery, enhance student engagement, & modernize evaluation processes.

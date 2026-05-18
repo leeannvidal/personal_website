@@ -23,7 +23,7 @@ tech_stack:
   - Git/GitHub
 
 links:
-  - name: "Dissertation (2025)"
+  - name: "Disertación (2025)"
     icon: 📘
     url: /es/publications/2025_vidal-covas_dissertation/
   - name: "SHLL (2024)"
@@ -37,7 +37,7 @@ links:
     url: https://github.com/leeannvidal/dissertation_data_analysis
 
 featured: true
-status: "En curso"
+status: "En progreso"
 draft: false
 ---
 

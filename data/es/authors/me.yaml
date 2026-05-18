@@ -1,11 +1,11 @@
 bio: |
-  Científica del Lenguaje (PhD, Boston University) con experiencia en investigación sociolingüística, curación de conjuntos de datos y ciencia de datos aplicada.
+  Investigadora (PhD, Boston University) con experiencia en investigación sociolingüística, curación de conjuntos de datos y ciencia de datos aplicada.
 
 interests:
   - Lenguaje, Datos y Sociedad
   - Investigación Lingüística Basada en Datos
   - Automatización de Flujos de Trabajo y Eficiencia
-  - IA Ética y Tecnología Responsable
+  - Ética de IA y Tecnología Responsable
   - Liderazgo de Equipos y Transferencia de Conocimiento
 
 education:
@@ -36,7 +36,7 @@ education:
     end: 2013
     summary: |
       Tesis: [El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico](/es/publications/2013_vidal-covas_thesis)
-  - degree: BA en Estudios e Literaturas Hispánicas
+  - degree: BA en Estudios Hispánicos y Literatura
     institution: Louisiana State University
     icon: brands/LSU
     start:
@@ -49,9 +49,9 @@ experience:
     start: 2018
     end: 2025
     summary: |
-      - Formé a más de 10 investigadores estudiantes y desarrollé flujos de trabajo reutilizables en R y Praat que automatizaron las actualizaciones de conjuntos de datos, redujeron el procesamiento manual y mejoraron la calidad de los datos y la consistencia de los flujos de trabajo en múltiples conjuntos de datos de habla.
-      - Lideré todos los aspectos de un proyecto de investigación plurianual sobre covariación y saliencia en el contacto lingüístico; desarrollé directrices de anotación para etiquetar los datos con 12 propiedades y construí pipelines reproducibles en R para limpiar y analizar más de 20,000 puntos de datos con modelos de efectos mixtos, resultando en 1 monografía, 1 artículo y 8 presentaciones.
-      - Desarrollé e implementé un estudio experimental en línea sobre la preferencia de orden de palabras en español; reclute participantes a través de Prolific, alojé el estudio en Qualtrics, redacté documentos de diseño y directrices, y analicé resultados usando modelos de efectos mixtos lineales y logísticos en R, resultando en 1 artículo y 2 presentaciones.
+      - Entrené a más de 10 investigadores estudiantes y desarrollé flujos de trabajo reutilizables en R y Praat que automatizaron las actualizaciones de conjuntos de datos, redujeron el procesamiento manual y mejoraron la calidad de los datos y la consistencia de los flujos de trabajo en múltiples conjuntos de datos de habla.
+      - Dirigí todos los aspectos de un proyecto de investigación plurianual sobre covariación y saliencia en el contacto lingüístico; desarrollé directrices de anotación para etiquetar los datos con 12 propiedades y construí pipelines reproducibles en R para limpiar y analizar más de 20,000 puntos de datos con modelos de efectos mixtos, resultando en 1 monografía, 1 artículo y 8 presentaciones.
+      - Desarrollé e implementé un estudio experimental en línea sobre la preferencia de orden de palabras en español; recluté participantes a través de Prolific, alojé el estudio en Qualtrics, redacté documentos de diseño y directrices, y analicé resultados usando modelos de efectos mixtos lineales y logísticos en R, resultando en 1 artículo y 2 presentaciones.
       - Co-organicé una conferencia (~1,000 participantes), transitando con éxito el evento internacional a formato virtual durante el COVID-19. Supervisé la selección de ponencias y la programación. Apoyé la publicación de las actas.
   - role: Anotadora de Datos | Anotación para Aprendizaje Automático
     org: Cogito Corporation
@@ -60,7 +60,7 @@ experience:
     end: 2023
     summary: |
       - Produje conjuntos de datos de habla anotados de alta calidad para apoyar el entrenamiento de modelos de ML.
-      - Etiqueté audio conversacional (participación, energía, ritmo), mejorando la calibración del modelo.
+      - Etiqueté audio conversacional (*interacción, energía, ritmo*), mejorando la calibración del modelo.
       - Evalué modelos preentrenados y proporcioné retroalimentación accionable, mejorando la precisión.
       - Sugerí mejoras en los flujos de trabajo, reduciendo el tiempo de entrega de las anotaciones.
   - role: Docente de Español y Tecnología en Secundaria
@@ -69,6 +69,7 @@ experience:
     start: 2017
     end: 2018
     summary: |
+      - Desarrollé e implementé un currículo de español para estudiantes de secundaria, enseñando gramática, vocabulario y habilidades de comunicación.
       - Desarrollé e implementé un currículo de tecnología para estudiantes de secundaria, enseñando alfabetización digital, mecanografía básica y comportamiento responsable en línea.
   - role: Docente de Español y Tecnología en Preparatoria
     org: Saint Joseph's Academy
@@ -76,10 +77,11 @@ experience:
     start: 2014
     end: 2017
     summary: |
+      - Desarrollé e implementé un currículo de varios niveles de español para estudiantes de preparatoria, enseñando gramática, vocabulario y habilidades de comunicación.
       - Automaticé evaluaciones programando cuestionarios de gramática autocorregibles, mejorando la velocidad de retroalimentación y liberando tiempo de clase para el aprendizaje basado en proyectos.
       - Implementé talleres de incorporación para más de 250 estudiantes de primer año por año, guiando la configuración digital y la competencia en Microsoft Office y las plataformas escolares.
       - Aproveché la tecnología educativa para agilizar la entrega de lecciones, mejorar el compromiso estudiantil y modernizar los procesos de evaluación.
-      - Planifiqué y lideré múltiples programas internacionales de inmersión para más de 40 estudiantes, garantizando la seguridad, el intercambio cultural y la coordinación logística.
+      - Planifiqué y dirigí múltiples programas internacionales de inmersión para más de 40 estudiantes, garantizando la seguridad, el intercambio cultural y la coordinación logística.
       - Organicé conferencias estatales de español con más de 200 participantes anuales, fomentando el interés en el aprendizaje del español en las escuelas de Louisiana.
       - Moderé programas extracurriculares, ampliando las oportunidades de participación estudiantil y liderando equipos hasta competencias a nivel nacional.
   - role: Investigadora de Posgrado | Directora de Proyecto | Instructora de Español

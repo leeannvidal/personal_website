@@ -14,10 +14,10 @@ tags:
   - Covariation
 
 links:
-  - name: "Master's Thesis (2013)"
+  - name: "Tésis de Maestría (2013)"
     icon: 📘
     url: /es/publications/2013_vidal-covas_thesis/
-  - name: "Paper — ALFAL (2014)"
+  - name: "Artículo — ALFAL (2014)"
     icon: 📄
     url: /es/publications/2014_orozco_mendez-vallejo_vidal-covas_conference-paper/
 

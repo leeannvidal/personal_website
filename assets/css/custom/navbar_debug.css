@@ -87,7 +87,36 @@
     backdrop-filter: blur(55px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(55px) saturate(180%) !important;
     transition: transform .25s ease;
-    z-index: 1000 !important;
+    z-index: 900 !important;
     overflow-y: auto !important;
   }
+}
+
+/* ==========================================================================
+   LANGUAGE SWITCHER
+   ========================================================================== */
+
+
+/* wrapper containing BOTH button and dropdown */
+#site-header .flex.justify-items-start {
+  position: relative;
+}
+
+/* dropdown menu */
+#site-header [data-hb-language-chooser] + ul {
+  position: absolute !important;
+
+  top: calc(100% + 0.5rem) !important;
+  right: 0 !important;
+  left: auto !important;
+  bottom: auto !important;
+
+  transform: none !important;
+
+  z-index: 1200 !important;
+}
+
+/* ensure it appears when open */
+#site-header [data-hb-language-chooser][data-state="open"] + ul {
+  display: block !important;
 }

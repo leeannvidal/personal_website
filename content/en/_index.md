@@ -36,7 +36,7 @@ sections:
 
         For insights into my technical skills and data-driven projects, check out my [Portfolio](portfolio/) and [Coding Corner](/coding_corner/). Explore my [Research](/research/) page for details on my academic projects, publications, and presentations. My [Teaching & Training](teaching/) page showcases my experience in education, event management, and collaborative programs. 
         
-        For a comprehensive overview of my professional experience, visit my [CV & Resume](experience/) page.
+        For a comprehensive overview of my professional experience, visit my [CV & Résumé](experience/) page.
   
       # Show a call-to-action button under your biography? (optional)
       # button:

@@ -36,7 +36,7 @@ image:
 links:
   - name: "Conferencia Grabada"
     url: https://www.youtube.com/watch?v=TcwhBhFsgDA
-    icon: video
+    icon: 🎥
 
 featured: true
 draft: false

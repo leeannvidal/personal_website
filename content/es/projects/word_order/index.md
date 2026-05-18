@@ -19,10 +19,10 @@ tech_stack:
   - R
 
 links:
-  - name: "Paper — PLSA (2023)"
+  - name: "Artículo — PLSA (2023)"
     icon: 📄
     url: /es/publications/2023_vidal-covas_conference-paper/
-  - name: "Replication Materials"
+  - name: "Materiales para replicación"
     icon: 📂
     url: "https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf"
 

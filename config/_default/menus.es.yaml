@@ -14,7 +14,7 @@ main:
   - name: Enseñanza y Formación
     url: /teaching/
     weight: 30
-  - name: CV & Resume
+  - name: CV & Résumé
     url: experience/
     weight: 50
 

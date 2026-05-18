@@ -24,10 +24,10 @@ authors:
   - me
 
 links:
-  - name: Conference Program
+  - name: Programa de Conferencia
     url: https://leeannvidal.github.io/documents/Conferences/Programs/LSA_2024_Handbook.pdf
     icon: document
-  - name: Submitted Abstract
+  - name: Resumen Enviado
     url: LSA_2024_Salience_Submitted_Abstract.pdf
     icon: document
 

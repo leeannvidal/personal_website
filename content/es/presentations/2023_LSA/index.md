@@ -40,14 +40,14 @@ image:
   caption: "Póster"
 
 links:
-  - name: Conference Program
+  - name: Programa de Conferencia
     url: https://leeannvidal.github.io/documents/Conferences/Programs/LSA_2023_Handbook
     as_button: true
     style: "primary"
     size: "lg"
     rounded: "full"
     icon: document
-  - name: Submitted Abstract
+  - name: Resumen Enviado
     url: LSA_2023_Word_Order_Submitted_Abstract.pdf
     icon: document
   - type: poster

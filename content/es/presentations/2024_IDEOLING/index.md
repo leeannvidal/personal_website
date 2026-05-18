@@ -30,13 +30,13 @@ tags:
   - phonetics
 
 links:
-  - name: Conference Program
+  - name: Programa de Conferencia
     url: https://leeannvidal.github.io/documents/Conferences/Programs/IDEOLING_2024_Program.pdf
     icon: document
-  - name: Submitted Abstract
+  - name: Resumen Enviado
     url: IDEOLING_2024_Salience_Submitted_Abstract.pdf
     icon: document
-  - name: Certificate of Participation
+  - name: Certificado de Participación
     url: https://leeannvidal.github.io/documents/Conferences/Certificates/Vidal_Covas_IDEOLING_2024_Certificate.pdf
     icon: document
 

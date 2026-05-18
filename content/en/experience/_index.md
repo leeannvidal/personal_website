@@ -25,7 +25,7 @@ sections:
       cta_buttons:
         - text: View Academic CV
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
-        - text: View Resume
+        - text: View Résumé
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
     design:
       style: split

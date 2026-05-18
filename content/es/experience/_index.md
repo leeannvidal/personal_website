@@ -10,9 +10,9 @@ sections:
       username: me
       cta_buttons:
         - text: Ver CV Académico
-          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV.pdf"
-        - text: Ver Currículum
-          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume.pdf"
+          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV_es.pdf"
+        - text: Ver Résumé
+          url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_Resume_es.pdf"
     design:
       style: split
       avatar_shape: rounded
