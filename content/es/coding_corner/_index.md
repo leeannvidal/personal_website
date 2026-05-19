@@ -1,12 +1,12 @@
 ---
-title: "Código & Datos"
+title: "Rincón del Código"
 summary: "Herramientas, recursos y mi trayectoria de aprendizaje en R, Praat y LaTeX."
 date: 2026-04-20
 type: landing
 sections:
   - block: page-header
     content:
-      title: "Código y Flujos de Trabajo"
+      title: "Rincón del Código"
       subtitle: 
     design:
       background:
