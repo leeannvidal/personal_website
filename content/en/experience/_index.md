@@ -9,6 +9,7 @@ sections:
   - block: dev-hero
     content:
       username: me
+      # name_prefix: Dr.
       # show_status: true #add emoji
       # typewriter: ## for the message under the name
       #   enable: true
@@ -56,6 +57,7 @@ sections:
     design:
       spacing:
         padding: ["3rem", "0", "0", "0"]
+      columns: 3
   - block: resume-skills
     content:
       title: Research & Professional Skills

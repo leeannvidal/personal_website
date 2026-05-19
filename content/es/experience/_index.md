@@ -8,6 +8,7 @@ sections:
   - block: dev-hero
     content:
       username: me
+      # name_prefix: Dra.
       cta_buttons:
         - text: Ver CV Académico
           url: "https://leeannvidal.github.io/documents/CV_Resume/Vidal_Covas_CV_es.pdf"
