@@ -35,6 +35,7 @@ sections:
     design:
       spacing:
         padding: ["3rem", "0", "0", "0"]
+      columns: 3
   - block: resume-skills
     content:
       title: Habilidades de Investigación y Profesionales
