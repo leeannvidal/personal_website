@@ -1,4 +1,4 @@
-# Lee-Ann Vidal-Covas — Personal Academic Website
+# <img src="assets/media/logo.png" alt="Lee-Ann Vidal's logo" width="45" valign="middle"/> Lee-Ann Vidal-Covas — Personal Academic Website
 
 [![Code License: MIT](https://img.shields.io/github/license/leeannvidal/personal_website)](LICENSE)
 ![Last Updated](https://img.shields.io/github/last-commit/leeannvidal/personal_website)
