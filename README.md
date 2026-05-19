@@ -15,4 +15,4 @@ This site is a customized version of the [Academic CV template](https://github.c
 
 ## Contact
 
-For questions or collaborations, feel free to reach out via the contact form on my website.
+For questions or collaborations, feel free to reach out via the contact form on my [website](https://leeannvc.com).
