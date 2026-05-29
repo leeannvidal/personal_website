@@ -591,6 +591,24 @@
 - id: prerequisites
   translation: Prerequisites
 
+# Course cards block
+- id: course_institution
+  translation: Institution
+- id: course_role
+  translation: Role
+- id: course_lead
+  translation: Course Lead
+- id: course_years
+  translation: Year(s)
+- id: course_students
+  translation: Students
+- id: course_description
+  translation: Description
+- id: course_btn_syllabus
+  translation: Syllabus
+- id: course_btn_class_description
+  translation: Class Description
+
 # Card metadata
 - id: trending
   translation: Trending

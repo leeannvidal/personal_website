@@ -373,6 +373,24 @@
 - id: prerequisites
   translation: Requisitos previos
 
+# Course cards block
+- id: course_institution
+  translation: Institución
+- id: course_role
+  translation: Rol
+- id: course_lead
+  translation: Docente principal
+- id: course_years
+  translation: Año(s)
+- id: course_students
+  translation: Estudiantes
+- id: course_description
+  translation: Descripción
+- id: course_btn_syllabus
+  translation: Programa
+- id: course_btn_class_description
+  translation: Descripción del curso
+
 # Card metadata
 
 - id: trending
