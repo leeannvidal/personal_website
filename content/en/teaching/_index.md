@@ -35,8 +35,8 @@ sections:
           image: images/escritorio_plantas_cursos.png
           button:
             text: 'See all courses'
-            url: 'courses'
-            # url: '/en/courses'
+            # url: 'courses'
+            url: '/en/courses'
     design:
     #   css_class: "bg-white dark:bg-gray-800"
       spacing:
