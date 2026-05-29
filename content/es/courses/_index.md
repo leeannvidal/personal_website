@@ -27,6 +27,8 @@ sections:
           students: "~100"
           description: "Introducción a la variación sociolingüística: formación de dialectos, patrones comunitarios, discriminación y medios de comunicación."
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX_110-Say_what_Syllabus-Spring_2020-Boston_University.pdf"
+          extra_button_text: "Evaluaciones docentes" 
+          extra_button_url: "https://leeannvidal.github.io/documents/Teaching/Evaluations/Vidal_Covas_Teaching_Evaluations_BU_LX_110.pdf"
         - title: "CAS LX 120: Language and Music"
           institution: "Boston University"
           role: "Calificadora"
@@ -43,22 +45,26 @@ sections:
           students: "~25"
           description: "Fundamentos de fonética y fonología; transcripción práctica y análisis acústico."
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX301_Syllabus-F20.pdf"
-          extra_button_text: "Evaluación Docente"
+          extra_button_text: "Evaluación docente"
           extra_button_url: "https://leeannvidal.github.io/documents/Teaching/Evaluations/Vidal-Covas-F20-Teaching_Evaluation.pdf"
         - title: "Spanish 1101: Elementary Spanish I"
           institution: "Louisiana State University"
           role: "Instructora"
           years: "2012–2013"
-          students: "~25–30/sección"
+          students: "~15–25/sección"
           description: "Español básico: enfoque comunicativo en habilidades fundamentales."
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1101_Syllabus-LSU.pdf"
+          extra_button_text: "Evaluaciones docentes" 
+          extra_button_url: "https://leeannvidal.github.io/documents/Teaching/Evaluations/Vidal_Covas_Teaching_Evaluations_LSU_Span_1101.pdf"
         - title: "Spanish 1102: Elementary Spanish II"
           institution: "Louisiana State University"
           role: "Instructora"
-          years: "2012–2013"
-          students: "~25–30/sección"
+          years: "Otoño 2013"
+          students: "~25"
           description: "Continuación: comunicación funcional, narración en pasado y prácticas culturales."
           syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/SPAN_1102_Syllabus-LSU.pdf"
+          extra_button_text: "Evaluaciones docentes" 
+          extra_button_url: "https://leeannvidal.github.io/documents/Teaching/Evaluations/Vidal_Covas_Teaching_Evaluations_LSU_Span_1102.pdf"
     design:
       columns: 3
       spacing:
@@ -70,20 +76,22 @@ sections:
   - block: course-cards
     id: highschool-courses
     content:
-      title: "Cursos de Preparatoria"
+      title: "Cursos de Nivel Secundario (Bachillerato / Escuela Superior)"
       cards:
         - title: "Spanish I"
           institution: "Saint Joseph's Academy"
           role: "Instructora"
           years: "2014–2017"
-          students: "~25–30/sección"
-          description: "Vocabulario básico; habilidades fundamentales de expresión oral, lectura, escritura y comprensión auditiva."
+          students: "~25–30/sección · 6 secciones/día"
+          description: "Vocabulario básico; habilidades fundamentales de expresión oral, lectura, escritura y comprensión auditiva.<br> <br>
+          Mantuve una carga docente de seis secciones diarios entre Español I y Español II."
         - title: "Spanish II"
           institution: "Saint Joseph's Academy"
           role: "Instructora"
           years: "2014–2017"
-          students: "~25–30/sección"
-          description: "Nivel intermedio: comunicación extendida, gramática compleja y cultura."
+          students: "~25–30/sección · 6 grupos/día"
+          description: "Nivel intermedio: comunicación extendida, gramática compleja y cultura. <br> <br>
+          Mantuve una carga docente de seis secciones diarios entre Español I y Español II."
         - title: "Computer & Software Orientation"
           institution: "Saint Joseph's Academy"
           role: "Instructora"
@@ -102,19 +110,19 @@ sections:
   - block: course-cards
     id: middleschool-courses
     content:
-      title: "Cursos de Secundaria"
+      title: "Cursos de Educación Primaria y Secundaria"
       cards:
         - title: "Introductory Spanish"
           institution: "Academy of the Sacred Heart"
           role: "Instructora"
           years: "2017–2018"
-          students: "~10–15/sección"
+          students: "~10–15/sección · 8.º grado (13–14 años)"
           description: "Vocabulario básico; habilidades conversacionales y conciencia cultural."
         - title: "Basic Technology"
           institution: "Academy of the Sacred Heart"
           role: "Instructora"
           years: "2017–2018"
-          students: "~10–15/sección"
+          students: "~10–15/sección · 5.º grado (10–11 años)"
           description: "Fundamentos informáticos, prácticas seguras en línea y software básico."
     design:
       columns: 2
