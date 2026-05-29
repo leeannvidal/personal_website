@@ -27,7 +27,7 @@ sections:
           text: |
             One of my favorite courses to teach was *Say What? Accents, Dialects, and Society*, where students explored how language variation intersects with identity, class, and social perception. <br> <br>
 
-            The course encouraged students to see language not just as a system, but as a powerful tool for understanding society—an insight that translates across disciplines and real-world contexts.
+            The course encouraged students to see language not just as a system, but as a powerful tool for understanding society—an insight that translates across disciplines and real-world contexts. 
 
         # One of my favorite courses to teach was ‘*Say What? Accents, Dialects, and Society,*’ where students not only learned the intricacies of dialects but also discussed critical social issues like classism and racism.  <br> <br>
             
@@ -35,7 +35,8 @@ sections:
           image: images/escritorio_plantas_cursos.png
           button:
             text: 'See all courses'
-            url: '/courses'
+            url: 'courses'
+            # url: '/en/courses'
     design:
     #   css_class: "bg-white dark:bg-gray-800"
       spacing:

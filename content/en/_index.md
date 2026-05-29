@@ -34,7 +34,7 @@ sections:
         
         In industry, I've contributed to machine learning projects through speech data annotation, quality assurance, prompt engineering, and workflow optimization. My skills extend to data science, AI ethics, language learning, model training, team management, and training others—demonstrating my ability to adapt quickly, learn new tools, and apply interdisciplinary knowledge to diverse challenges.
 
-        For insights into my technical skills and data-driven projects, check out my [Portfolio](portfolio/) and [Coding Corner](/coding_corner/). Explore my [Research](/research/) page for details on my academic projects, publications, and presentations. My [Teaching & Training](teaching/) page showcases my experience in education, event management, and collaborative programs. 
+        For insights into my technical skills and data-driven projects, check out my [Portfolio](portfolio/) and [Coding Corner](coding_corner/). Explore my [Research](research/) page for details on my academic projects, publications, and presentations. My [Teaching & Training](teaching/) page showcases my experience in education, event management, and collaborative programs. 
         
         For a comprehensive overview of my professional experience, visit my [CV & Résumé](experience/) page.
   

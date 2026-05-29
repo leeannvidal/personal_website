@@ -31,7 +31,8 @@ sections:
           image: images/escritorio_plantas_cursos.png
           button:
             text: 'Ver todos los cursos'
-            url: '/es/courses'
+            url: 'courses'
+            # url: '/es/courses'
     design:
       spacing:
         padding: ["0", 0, "0", "0"]
