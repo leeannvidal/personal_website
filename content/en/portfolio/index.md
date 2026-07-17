@@ -270,6 +270,8 @@ sections:
               icon: brands/github
             - name: Bash / Terminal
               icon: brands/gnubash
+            - name: VS Code
+              icon: custom/vscode_logo
               # icon: devicon/bash
 
         - name: "Web & Documentation"

@@ -57,7 +57,7 @@ education:
     start: 
     end: 2025
     summary: |
-      Dissertation: [Covariation & Salience in Linguistic Contact: A Sociophonetic Study of Liquid Variation in Spanish in Boston](/publications/2025_vidal-covas_dissertation)
+      Dissertation: [Covariation & Salience in Linguistic Contact: A Sociophonetic Study of Liquid Variation in Spanish in Boston](/en/publications/2025_vidal-covas_dissertation)
     button:
       text: View Certified Electronic Diploma
       url: https://leeannvidal.github.io/documents/Diplomas/Vidal_Covas_BU_LX_PhD_Diploma.pdf
@@ -81,7 +81,7 @@ education:
     start: 
     end: 2013
     summary: |
-      Thesis: [El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico](/publications/2013_vidal-covas_thesis)
+      Thesis: [El uso variable de los pronombres sujetos en el castellano puertorriqueño hablado en Luisiana y Puerto Rico](/en/publications/2013_vidal-covas_thesis)
   - degree: BA in Hispanic Studies & Literatures
     institution: Louisiana State University
     icon: brands/LSU
@@ -185,6 +185,8 @@ skills:
       - label: Bash / Terminal
         # icon: brands/gnubash
         icon: devicon/bash
+      - label: VS Code
+        icon: custom/vscode_logo
   - name: Web & Documentation
     items:
       - label: HTML
