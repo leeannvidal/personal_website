@@ -21,6 +21,14 @@ sections:
     content:
       title: "University Level Courses" # This will be your h3 title
       cards:
+        - title: "GRS LX 795: Quantitative Methods in Linguistics"
+          institution: "Boston University"
+          role: "Course Facilitator"
+          primary_instructor: "Prof. Daniel Erker"
+          years: "Fall 2026"
+          students: "~20"
+          description: "Graduate course: statistical analysis of linguistic data in R, from data visualization & hypothesis testing to mixed-effects regression."
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX795_Syllabus_BU_F26.pdf"
         - title: "CAS LX 110: Accents, Dialects, & Society"
           institution: "Boston University"
           role: "Teaching Fellow"

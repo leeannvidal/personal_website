@@ -19,6 +19,14 @@ sections:
     content:
       title: "Cursos Universitarios"
       cards:
+        - title: "GRS LX 795: Quantitative Methods in Linguistics"
+          institution: "Boston University"
+          role: "Facilitadora de Curso"
+          primary_instructor: "Prof. Daniel Erker"
+          years: "Otoño 2026"
+          students: "~20"
+          description: "Curso de posgrado: análisis estadístico de datos lingüísticos en R, desde la visualización de datos y las pruebas de hipótesis hasta la regresión de efectos mixtos."
+          syllabus_url: "https://leeannvidal.github.io/documents/Teaching/Syllabi/LX795_Syllabus_BU_F26.pdf"
         - title: "CAS LX 110: Accents, Dialects, & Society"
           institution: "Boston University"
           role: "Asistente de Enseñanza"
