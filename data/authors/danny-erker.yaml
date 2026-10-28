@@ -24,12 +24,12 @@ organizations:
 
 # Social/contact links
 links:
-  - icon: at-symbol
-    link: mailto:danerker@bu.edu
+  # - icon: at-symbol
+  #   url: mailto:danerker@bu.edu
   - icon: globe-americas
-    link: dannyerker.com
+    url: https://blogs.bu.edu/danerker/  # dannyerker.com redirects here; its https certificate is broken
   # - icon: academicons/google-scholar
-  #   link: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com/citations%3Fuser%3Dg1hFhYMAAAAJ%26hl%3Den&ved=2ahUKEwjC08Du39mTAxVnU0EAHZoUAxoQFnoECAcQAQ&usg=AOvVaw0FvmXwM77SmwX0Ghv8fDH_
+  #   url: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com/citations%3Fuser%3Dg1hFhYMAAAAJ%26hl%3Den&ved=2ahUKEwjC08Du39mTAxVnU0EAHZoUAxoQFnoECAcQAQ&usg=AOvVaw0FvmXwM77SmwX0Ghv8fDH_
 
 # Education (optional)
 education:

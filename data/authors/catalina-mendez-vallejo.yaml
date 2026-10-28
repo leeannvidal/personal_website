@@ -16,10 +16,10 @@ organizations:
 
 # Social/contact links
 links:
-  - icon: at-symbol
-    link: mailto:dvallejo@princeton.edu
+  # - icon: at-symbol
+  #   url: mailto:dvallejo@princeton.edu
   - icon: globe-americas
-    link: https://dvallejo.scholar.princeton.edu/bio
+    url: https://dvallejo.scholar.princeton.edu/bio
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

@@ -16,14 +16,14 @@ organizations:
 
 # Social/contact links
 links:
-  - icon: at-symbol
-    link: mailto:Dmdionne00@gmail.com
+  # - icon: at-symbol
+  #   url: mailto:Dmdionne00@gmail.com
   # - icon: brands/twitter
-  #   link: https://twitter.com/DanielleMDionne
+  #   url: https://twitter.com/DanielleMDionne
   - icon: brands/linkedin
-    link: https://linkedin.com/in/dionnedanielle
+    url: https://linkedin.com/in/dionnedanielle
   - icon: globe-americas
-    link: https://danielle-dionne.weebly.com
+    url: https://danielle-dionne.weebly.com
 
 # Education (optional)
 education:

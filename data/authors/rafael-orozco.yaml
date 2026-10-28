@@ -15,10 +15,10 @@ organizations:
 
 # Social/contact links
 links:
-  - icon: at-symbol
-    link: mailto:rafael.orozco@nyu.edu
+  # - icon: at-symbol
+  #   url: mailto:rafael.orozco@nyu.edu
   - icon: globe-americas
-    link: https://faculty.lsu.edu/orozco/index.php
+    url: https://faculty.lsu.edu/orozco/index.php
 
 # Education (optional)
 education:
