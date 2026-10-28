@@ -24,17 +24,32 @@ skills:
         # icon: brands/python
       - label: Experiment Design
         icon: beaker
-      - label: Data Creation & Sampling
+      - label: Dataset Curation
         icon: table-cells
       - label: Data Cleaning
         icon: code-bracket-square #broom
       - label: Data Visualization
         icon: chart-bar
+      - label: Mixed-Effects Modeling
+        icon: variable
+      - label: Reproducible Pipelines
+        icon: arrow-path
+      - label: Workflow Automation
+        icon: cog-6-tooth
+        # icon: custom/code-branch
       # - label: Data Processing
       #   icon: cog
-      # - label: Workflow Automation
-      #   icon: cog
-        # icon: custom/code-branch
+
+  - name: Model Evaluation & Testing
+    items:
+      - label: LLM & ML Model Evaluation
+        icon: cpu-chip
+      - label: Prompt Engineering
+        icon: command-line
+      - label: Failure-Mode Testing
+        icon: bug-ant
+      - label: Fact Verification & Source Vetting
+        icon: shield-check
 
   - name: QA & Annotation
     items:
@@ -42,12 +57,14 @@ skills:
         icon: check-circle
       - label: Data Labeling
         icon: tag
+      - label: Annotation Scheme Design
+        icon: squares-plus
       - label: Guideline Creation
         icon: document-magnifying-glass #document-text
+      - label: Audio Annotation
+        icon: microphone
       - label: Linguistic Data Analysis
         icon: chat-bubble-left-right
-      - label: Automated Data Extraction
-        icon: cog
       # - label: Data Annotation
       #   icon: tag
 
@@ -55,14 +72,12 @@ skills:
     items:
       - label: Project & Team Management
         icon: clipboard-document-check
-      - label: Strategic Thinking
-        icon: clipboard-document-list #chess-rook
-      - label: Problem Solving
-        icon: light-bulb
       - label: Interdisciplinary Collaboration
         icon: user-group
       - label: Event Coordination
         icon: calendar-days
+      - label: Mentoring & Training
+        icon: academic-cap
       # - label: Team Management #(Long-term)
       #   icon: users
 
@@ -72,9 +87,11 @@ skills:
         icon: pencil
       - label: Conference Presentations
         icon: presentation-chart-bar #presentation-chart-line
-      - label: Grant Proposals
-        icon: pencil-square
       - label: Stakeholder Communication
         icon: chat-bubble-bottom-center-text
+      - label: Technical Documentation
+        icon: document-text
+      - label: Presenting to Non-Technical Audiences
+        icon: megaphone
 
 

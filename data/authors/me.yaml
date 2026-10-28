@@ -13,7 +13,7 @@ status:
   icon: "🦥"
 role: 
 bio: |
-  Scientist (PhD, Boston University) with expertise in sociolinguistic research, dataset curation, and applied data science.
+  Language Scientist (PhD, Boston University) bridging sociolinguistic research and AI, with expertise in model evaluation, dataset curation, and applied data science.
 
 affiliations:
   - name:
@@ -89,19 +89,44 @@ education:
     end: 2011
 
 experience:
+  - role: AI Training Expert
+    org: Micro1 Inc
+    icon: brands/micro1
+    start: 2026
+    end:
+    summary: |
+      - Designed knowledge-seeking question-answer evaluation tasks for frontier AI models, each anchored to a single, indisputable, source-verifiable fact.
+      - Iteratively engineered & tested prompts against live model outputs across multiple trials, refining questions until they reliably exposed genuine model failure modes.
+      - Vetted & cross-referenced niche, specialized sources against strict accessibility & reliability criteria, and wrote quote-supported justifications tying every claim to primary-source text.
+      - Produced tasks to shared evidentiary standards within a multi-stage peer quality-review workflow (initial review, independent verification, sign-off).
+  - role: Course Facilitator | Quantitative Methods in Linguistics (Graduate)
+    org: Boston University
+    icon: brands/BU
+    start: 2026
+    end:
+    summary: |
+      - Grade every homework assignment for a graduate course in Quantitative Methods in Linguistics (GRS LX 795) and give each student detailed written feedback on their statistical analysis in R and on their write-up of the results.
+      - Review students' R Markdown analyses of linguistic datasets, from descriptive statistics & hypothesis testing to regression & mixed-effects models, checking code, methodological choices, data visualization, and how clearly the findings are reported.
+  - role: Technology Consultant
+    org: Communications On Hold
+    icon: brands/coh
+    start: 2018
+    end:
+    summary: |
+      - Designed, built & deployed the [company website](https://communicationsonhold.com) with Hugo, GitHub & Netlify continuous deployment, including a custom audio-library component that makes a large catalogue of voice & music samples easy to browse on mobile & desktop.
+      - Provide ongoing IT support (software onboarding & troubleshooting, email issues, domain management) and write, voice & mix Spanish-language audio productions.
   - role: Doctoral Researcher | Project & Lab Manager
     org: Boston University
-    company_url: ''
-    icon: brands/BU #still need to fix this.
+    icon: brands/BU
     start: 2018
     end: 2025
     summary: |
-      - Trained 10+ student researchers and developed reusable R & Praat workflows that automated dataset updates, reduced manual processing, and improved data quality & workflow consistency across multiple speech datasets.
-      - Led all aspects of a multi-year research project on covariation & salience in linguistic contact; developed annotation guidelines to label the data for 12 properties and built reproducible R pipelines to clean & analyze 20k+ data points with mixed-effects modeling, resulting in 1 monograph, 1 paper, and 8 presentations.
-      - Developed and implemented an online experimental study on word order preference in Spanish; recruited participants via Prolific, hosted the study in Qualtrics, wrote design documents & guidelines, and analyzed results using linear & logistic mixed-effects models in R, resulting in 1 paper & 2 presentations.
+      - Trained 10+ student researchers and developed reusable R & Praat workflows that automated dataset updates, reduced manual processing, and improved data quality & reproducibility across multiple multilingual speech datasets.
+      - Led a multi-year research project on covariation & salience in linguistic contact; developed [annotation guidelines](https://leeannvidal.github.io/documents/Portfolio/Vidal_Covas_Liquids_Coding_Manual.pdf) & QA protocols to label & validate the data and built [reproducible R pipelines](https://github.com/leeannvidal/dissertation_data_analysis/tree/main) to clean & analyze it with mixed-effects modeling, resulting in 1 monograph, 2 papers & 8 presentations.
+      - Developed and implemented an online experimental study on word order preference in Spanish; recruited participants via Prolific, hosted the study in Qualtrics, wrote [design documents & guidelines](https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf), and analyzed results using linear & logistic mixed-effects models in R, resulting in 1 paper & 2 presentations.
       - Co-organized conference (~1,000 participants), successfully transitioning the international event to virtual format during COVID-19. Oversaw talk selection & programming. Supported publication of proceedings.
   - role: Data Annotator | Machine Learning Annotation
-    org: Cogito Corporation
+    org: Cogito Corporation (now part of Verint)
     icon: brands/cogito
     start: 2022
     end: 2023
@@ -135,6 +160,15 @@ experience:
       - Planned & led multiple international immersion programs for 40+ students, ensuring safety, cultural exchange, & logistical coordination.
       - Organized statewide Spanish conferences with 200+ participants annually, raising interest in Spanish learning across Louisiana schools.
       - Moderated extracurricular programs, expanding student engagement opportunities & leading teams to national-level competitions.
+  - role: Operations & Production Manager
+    org: Communications On Hold
+    icon: brands/coh
+    start: 2007
+    end: 2017
+    summary: |
+      - Managed end-to-end production of custom voice content (on-hold messaging, IVR & auto-attendant call-routing prompts, radio commercials): client brief, scriptwriting, editorial review, voice talent, music, mixing & delivery.
+      - Led the scriptwriting team & owned final editorial sign-off; coordinated production teams & voice talent across concurrent client projects.
+      - Managed client accounts from brief to delivery, and standardized & automated invoicing with branded templates & scheduled billing emails.
   - role: Graduate Researcher | Project Manager | Spanish Instructor
     org: Louisiana State University
     icon: brands/LSU
@@ -143,17 +177,6 @@ experience:
     summary: |
       -  Conducted sociolinguistic fieldwork in Puerto Rico & Louisiana, collecting & analyzing speech data to investigate variable subject pronoun use in Puerto Rican Spanish; resulting in 1 paper \& 8 presentations.
       -  Developed and taught multiple courses in Spanish; designed curricula, lecture notes, assignments, and assessments for >500 enrolled students.
-  - role: Administrative Coordinator | Office & Production Manager
-    org: Communications on Hold
-    # icon: brands/coh
-    start: 2007
-    end: 2017
-    summary: |
-      -  Oversaw daily office operations ensuring efficient workflows & project delivery.
-      -  Managed billing, AP/AR, & QuickBooks reporting, improving financial accuracy.
-      -  Copyedited client scripts for clarity & brand consistency before production.
-      -  Streamlined content delivery, cut turnaround time & boosted client retention.
-      -  Served as main client contact, building relationships & resolving issues promptly.
 
 skills:
   - name: Data & Analysis
@@ -174,8 +197,6 @@ skills:
         icon: custom/ELANlogo
       - label: LaTeX
         icon: devicon/latex
-      - label: Overleaf
-        icon: academicons/overleaf
   - name: Workflow & Version Control
     items:
       - label: Git
@@ -187,6 +208,8 @@ skills:
         icon: devicon/bash
       - label: VS Code
         icon: custom/vscode_logo
+      - label: Claude Code
+        icon: custom/claude_logo
   - name: Web & Documentation
     items:
       - label: HTML

@@ -1,5 +1,5 @@
 bio: |
-  Investigadora (PhD, Boston University) con experiencia en investigación sociolingüística, curación de conjuntos de datos y ciencia de datos aplicada.
+  Científica del lenguaje (PhD, Boston University) que une la investigación sociolingüística y la IA, con experiencia en evaluación de modelos, curación de conjuntos de datos y ciencia de datos aplicada.
 
 interests:
   - Lenguaje, Datos y Sociedad
@@ -43,18 +43,44 @@ education:
     end: 2011
 
 experience:
-  - role: Investigadora Doctoral | Directora de Proyecto y Laboratorio
+  - role: Experta en Entrenamiento de IA
+    org: Micro1 Inc
+    icon: brands/micro1
+    start: 2026
+    end:
+    summary: |
+      - Diseñé tareas de evaluación de preguntas y respuestas de búsqueda de conocimiento para modelos de IA de vanguardia, cada una anclada en un único hecho indiscutible y verificable en fuentes.
+      - Diseñé y probé prompts de forma iterativa contra las respuestas de modelos en vivo a lo largo de múltiples intentos, refinando las preguntas hasta que expusieran de forma fiable fallos reales de los modelos.
+      - Examiné y contrasté fuentes especializadas según estrictos criterios de accesibilidad y fiabilidad, y redacté justificaciones respaldadas por citas que vinculan cada afirmación con el texto de la fuente primaria.
+      - Produje tareas conforme a estándares probatorios compartidos dentro de un flujo de control de calidad por pares en varias etapas (revisión inicial, verificación independiente, aprobación final).
+  - role: Facilitadora de Curso | Métodos Cuantitativos en Lingüística (Posgrado)
+    org: Boston University
+    icon: brands/BU
+    start: 2026
+    end:
+    summary: |
+      - Califico todas las tareas de un curso de posgrado de Métodos Cuantitativos en Lingüística (GRS LX 795) y doy a cada estudiante retroalimentación escrita detallada sobre su análisis estadístico en R y sobre la redacción de sus resultados.
+      - Reviso los análisis en R Markdown de conjuntos de datos lingüísticos, desde estadística descriptiva y pruebas de hipótesis hasta regresión y modelos de efectos mixtos, evaluando el código, las decisiones metodológicas, la visualización de datos y la claridad con la que se presentan los resultados.
+  - role: Consultora Tecnológica
+    org: Communications On Hold
+    icon: brands/coh
+    start: 2018
+    end:
+    summary: |
+      - Diseñé, construí y desplegué el [sitio web de la empresa](https://communicationsonhold.com) con Hugo, GitHub y despliegue continuo en Netlify, incluido un componente de biblioteca de audio que facilita explorar un amplio catálogo de muestras de voz y música en móvil y escritorio.
+      - Brindo soporte informático continuo (incorporación y resolución de problemas de software, correo electrónico, gestión de dominios) y escribo, locuto y mezclo producciones de audio en español.
+  - role: Investigadora Doctoral | Gestora de Proyectos y Laboratorio
     org: Boston University
     icon: brands/BU
     start: 2018
     end: 2025
     summary: |
-      - Entrené a más de 10 investigadores estudiantes y desarrollé flujos de trabajo reutilizables en R y Praat que automatizaron las actualizaciones de conjuntos de datos, redujeron el procesamiento manual y mejoraron la calidad de los datos y la consistencia de los flujos de trabajo en múltiples conjuntos de datos de habla.
-      - Dirigí todos los aspectos de un proyecto de investigación plurianual sobre covariación y saliencia en el contacto lingüístico; desarrollé directrices de anotación para etiquetar los datos con 12 propiedades y construí pipelines reproducibles en R para limpiar y analizar más de 20,000 puntos de datos con modelos de efectos mixtos, resultando en 1 monografía, 1 artículo y 8 presentaciones.
-      - Desarrollé e implementé un estudio experimental en línea sobre la preferencia de orden de palabras en español; recluté participantes a través de Prolific, alojé el estudio en Qualtrics, redacté documentos de diseño y directrices, y analicé resultados usando modelos de efectos mixtos lineales y logísticos en R, resultando en 1 artículo y 2 presentaciones.
-      - Co-organicé una conferencia (~1,000 participantes), transitando con éxito el evento internacional a formato virtual durante el COVID-19. Supervisé la selección de ponencias y la programación. Apoyé la publicación de las actas.
+      - Entrené a más de 10 investigadores estudiantes y desarrollé flujos de trabajo reutilizables en R y Praat que automatizaron las actualizaciones de conjuntos de datos, redujeron el procesamiento manual y mejoraron la calidad y la reproducibilidad de múltiples conjuntos de datos de habla multilingües.
+      - Dirigí un proyecto de investigación plurianual sobre covariación y prominencia en el contacto lingüístico; desarrollé [guías de anotación](https://leeannvidal.github.io/documents/Portfolio/Vidal_Covas_Liquids_Coding_Manual.pdf) y protocolos de control de calidad para etiquetar y validar los datos, y construí [pipelines reproducibles en R](https://github.com/leeannvidal/dissertation_data_analysis/tree/main) para limpiarlos y analizarlos con modelos de efectos mixtos, resultando en 1 monografía, 2 artículos y 8 presentaciones.
+      - Desarrollé e implementé un estudio experimental en línea sobre la preferencia de orden de palabras en español; recluté participantes a través de Prolific, alojé el estudio en Qualtrics, redacté [documentos de diseño y guías](https://leeannvidal.github.io/documents/Portfolio/Vidal-Covas_Quantitative_Research_Spanish_Word_Order.pdf), y analicé los resultados con modelos de efectos mixtos lineales y logísticos en R, resultando en 1 artículo y 2 presentaciones.
+      - Co-organicé un congreso (~1.000 participantes), coordinando con éxito su transición a formato virtual durante la COVID-19. Supervisé la selección de ponencias y la programación. Apoyé la publicación de las actas.
   - role: Anotadora de Datos | Anotación para Aprendizaje Automático
-    org: Cogito Corporation
+    org: Cogito Corporation (ahora parte de Verint)
     icon: brands/cogito
     start: 2022
     end: 2023
@@ -84,6 +110,15 @@ experience:
       - Planifiqué y dirigí múltiples programas internacionales de inmersión para más de 40 estudiantes, garantizando la seguridad, el intercambio cultural y la coordinación logística.
       - Organicé conferencias estatales de español con más de 200 participantes anuales, fomentando el interés en el aprendizaje del español en las escuelas de Louisiana.
       - Moderé programas extracurriculares, ampliando las oportunidades de participación estudiantil y liderando equipos hasta competencias a nivel nacional.
+  - role: Gerente de Operaciones y Producción
+    org: Communications On Hold
+    icon: brands/coh
+    start: 2007
+    end: 2017
+    summary: |
+      - Gestioné la producción integral de contenido de voz personalizado (mensajes en espera, mensajes de IVR y de enrutamiento de llamadas, anuncios de radio): briefing del cliente, redacción de guiones, revisión editorial, locución, música, mezcla y entrega.
+      - Dirigí el equipo de redacción de guiones y tuve la aprobación editorial final; coordiné equipos de producción y locutores en proyectos simultáneos de distintos clientes.
+      - Gestioné cuentas de clientes desde el briefing hasta la entrega, y estandaricé y automaticé la facturación con plantillas de marca y correos de cobro programados.
   - role: Investigadora de Posgrado | Directora de Proyecto | Instructora de Español
     org: Louisiana State University
     icon: brands/LSU
@@ -92,16 +127,6 @@ experience:
     summary: |
       - Realicé trabajo de campo sociolingüístico en Puerto Rico y Louisiana, recopilando y analizando datos de habla para investigar el uso variable del pronombre sujeto en el español puertorriqueño; resultando en 1 artículo y 8 presentaciones.
       - Desarrollé e impartí múltiples cursos de español; diseñé currículos, apuntes de clase, tareas y evaluaciones para más de 500 estudiantes matriculados.
-  - role: Coordinadora Administrativa | Directora de Oficina y Producción
-    org: Communications on Hold
-    start: 2007
-    end: 2017
-    summary: |
-      - Supervisé las operaciones diarias de la oficina, garantizando flujos de trabajo eficientes y la entrega de proyectos.
-      - Gestioné facturación, cuentas por pagar/cobrar e informes en QuickBooks, mejorando la precisión financiera.
-      - Corregí guiones de clientes para mayor claridad y consistencia de marca antes de la producción.
-      - Optimicé la entrega de contenido, reduje los tiempos de entrega y aumenté la retención de clientes.
-      - Actué como contacto principal con los clientes, construyendo relaciones y resolviendo problemas con prontitud.
 
 languages:
   - name: Inglés
