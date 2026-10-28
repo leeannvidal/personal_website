@@ -2,6 +2,7 @@
 title: "Spanish in Boston: Sociolinguistic Dataset & Analysis"
 show_date: false
 reading_time: false
+weight: 5
 
 summary: "Designed, built, and analyzed a large-scale sociolinguistic dataset, including annotation frameworks, QA workflows, and statistical modeling."
 tags:
@@ -10,6 +11,7 @@ tags:
   - Linguistics
 tech_stack:
   - R
+  - Python
   - Praat & ELAN
   - Regex
 # links:
