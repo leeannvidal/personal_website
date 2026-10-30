@@ -13,6 +13,7 @@ tags:
 tech_stack:
   - Hugo & HugoBlox
   - HTML & CSS
+  - VS Code
   - GitHub
   - Netlify
 links:
